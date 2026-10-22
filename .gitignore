@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+trabalho/
+saida/
+partes/
+cfg/
+asr/node_modules/
+modelos/whisper/
+wheels/
+*.mp4
+*.mov
+*.wav
+*.f32
+*.2pass*
