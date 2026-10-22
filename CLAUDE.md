@@ -4,8 +4,8 @@ Programa de edição de vídeo do Geovani (fonoaudiólogo em Barreiras/BA) para 
 - @direitaxx: liderança política e social em Xique-Xique e no sertão da Bahia. Firme, com fonte.
 - Dr. Geovani Miranda: autoridade que acolhe, ensina e guia famílias. Calmo, educativo, sem susto.
 
-Quem usa: o "Editor do Estúdio" (tarefa agendada) e conversas com o Claude. Os pedidos chegam pelo app do
-Geovani (https://claude.ai/artifact/MUNdJL4BwN9ovWQeVdboHt): banco `pedidos`, `pautas` e `config/app`.
+Quem usa: o "Editor do Estúdio" (tarefa agendada) e conversas com o Claude. Os pedidos chegam pelo app privado do
+Geovani (o link vem no pedido da tarefa): banco `pedidos`, `pautas` e `config/app`.
 
 Antes de editar, leia LEIA-ME.md, modelo_video.py e exemplos/tela_dividida_educacao.py.
 
