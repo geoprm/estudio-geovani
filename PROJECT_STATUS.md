@@ -50,7 +50,7 @@ Atualizado em 10/11/2026. Estados: **verified** (com evidência), **partial**, *
 5. **Quatro grupos de imagem** — EP03 e EP06 sem reconstituição; EP05 sem foto ou filme real. Sem material verificado disponível, ficou como aviso, sem forçar.
 6. **Referência antiga** — `video_antigo_kwai_1202.mp4` e o zip V2 completo continuam ausentes do disco.
 7. **Provedores generativos** — bloqueados: Canva exige plano pago, Figma Weave não está vinculado e não há chave Veo/HeyGen/Runway. Gasto: R$ 0.
-8. **GitHub** — nada versionado: branch local `arquivo-oculto-v2` criada, sem commit nem push. O pedido de levar a versão atual e o link do app ao GitHub segue pendente; `README.md` já está pronto.
+8. **GitHub** — versão atual publicada em 10/11/2026 na branch `arquivo-oculto-v2` de `geoprm/estudio-geovani` (commit `95104cb`), com o link do app no `README.md`. A `main` continua em `53f5865` até o merge. Acervo privado, saídas de vídeo e `.env` ficaram fora (conferido no GitHub).
 
 ## Próxima ação necessária
 

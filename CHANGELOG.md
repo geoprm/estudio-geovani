@@ -11,6 +11,10 @@ Formato: data · o que mudou · arquivos · regressões e pendências. Sem commi
   - As prévias não mudaram: o hash é igual ao das que já estavam lá.
 - Com isso, EP01–EP06 V2 estão todos em Prontos. Ids e hashes em `arquivo_oculto/producao/v2/entregas_app.json`.
 - O EP03 público só pode ir ao ar depois de revisão: sem licença, as cartas viram IMAGEM RETIDA e sobram 14% de imagem de arquivo.
+- **GitHub** (pedido do Geovani): versão atual na branch `arquivo-oculto-v2` (commit `95104cb`, 117 arquivos), com o link do app no `README.md`.
+  - Antes do commit: varredura de segredos e caminhos privados, nada encontrado.
+  - Testes: V1 7/7, V2 17/17, editorial V3 5/5.
+  - A `main` só muda com o merge.
 
 ## 2026-11-10 — Corte narrativo de O Quadro 33 e assinatura do Arquivista
 
