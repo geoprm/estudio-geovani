@@ -1,0 +1,25 @@
+{
+  "episode_id": "AO-S01-E01",
+  "num": 1,
+  "manifesto_origem": "examples/EP01_o_jogo_que_parecia_prever_o_mundo.json",
+  "nota": "Narração = voiceover_script do manifesto, dividida por cena; acrescentado o gancho falado e o CTA do manifesto. Fatos checados: Illuminati (1982) e INWO (lançado em 16/12/1994) pela Steve Jackson Games.",
+  "cenas": [
+    {"scene_id": "S01", "fala": "Um jogo previu o futuro?", "tela": "UM JOGO PREVIU O FUTURO?",
+     "v": {"tipo": "arq", "close": true, "zoom": [1.0, 1.18], "surgir": 1.0}},
+    {"scene_id": "S02", "fala": "Em 1994, um jogo de cartas apresentou um mundo governado por conspirações.",
+     "tts": "Em mil novecentos e noventa e quatro, um jogo de cartas apresentou um mundo governado por conspirações.",
+     "tela": "1994", "selo": "ILUSTRAÇÃO", "v": {"tipo": "cartas", "n": 7}},
+    {"scene_id": "S03", "fala": "O nome? Illuminati: New World Order.", "tts": "O nome? Iluminati: Niú Uórld Órder.",
+     "tela": "", "selo": "DOCUMENTADO",
+     "v": {"tipo": "tipo", "linhas": ["ILLUMINATI:", "NEW WORLD ORDER"], "sub": "STEVE JACKSON GAMES · DEZ/1994", "fundo": "livros"}},
+    {"scene_id": "S04", "fala": "Anos depois, imagens desse baralho começaram a ser comparadas com tragédias e crises reais.",
+     "tela": "POLÍTICA · PODER · CRISES", "selo": "ILUSTRAÇÃO", "v": {"tipo": "dossies", "rotulos": ["POLÍTICA", "PODER", "CRISES"], "dur": 4.0}},
+    {"scene_id": "S05", "fala": "Algumas semelhanças impressionam.", "tela": "DÉCADAS DEPOIS...", "selo": "ILUSTRAÇÃO",
+     "v": {"tipo": "telas", "anos": [1994, 2026]}},
+    {"scene_id": "S06", "fala": "Mas há uma pergunta que quase ninguém faz: o que estava, de fato, impresso naquela época? E o que foi interpretado depois?",
+     "tela": "ANTES / DEPOIS", "v": {"tipo": "split", "a": ["IMPRESSO", "1994"], "b": ["INTERPRETADO", "DEPOIS"]}},
+    {"scene_id": "S07", "fala": "Eu sou o Arquivista.", "tela": "COINCIDÊNCIA OU PREVISÃO?", "v": {"tipo": "arq"}},
+    {"scene_id": "S08", "fala": "Este é o primeiro dossiê. Qual carta devemos investigar primeiro?", "tela": "QUAL CARTA PRIMEIRO?",
+     "v": {"tipo": "arq", "close": true, "zoom": [1.12, 1.02]}}
+  ]
+}

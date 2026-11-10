@@ -1,0 +1,274 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E07",
+ "versao": "v2.0-rascunho",
+ "num": 7,
+ "formato": "investigacao_90",
+ "duracao_estimada_s": 42.8,
+ "expandir_para_formato": true,
+ "titulo": "As capas da The Economist são profecias?",
+ "serie": "Capas Sob Análise",
+ "hook": "TODO FIM DE ANO, UMA REVISTA BRITÂNICA PUBLICA UMA CAPA SOBR",
+ "status_editorial": "rascunho_pendente_checagem",
+ "pendencias": [
+  "ler cada fonte e salvar snapshot com hash em acervo_privado/",
+  "classificar claims (documented/interpretation/allegation) e ligar às falas",
+  "trocar dossiês ilustrados por evidência autêntica quando houver direitos",
+  "expandir para investigacao_90 (85 s, 25–30 planos) se o tema sustentar",
+  "conferir cuidado editorial: The World Ahead é série editorial anual de tendências. Não reproduzir capas sem licença."
+ ],
+ "origem": {
+  "pauta_app": "ao-ep07",
+  "codigo": "AO-REEL-007",
+  "palavras": 83
+ },
+ "fontes": [
+  {
+   "id": "S-PAUTA-1",
+   "titulo": "economistgroup.com",
+   "url": "https://www.economistgroup.com/",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  }
+ ],
+ "claims": [],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Todo fim de ano, uma revista britânica publica uma capa sobre o ano que vem.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "ARQUIVO",
+      "linhas": [
+       "CAPAS DO FUTURO?"
+      ],
+      "rotulo": "CAPAS DO FUTURO?",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S01",
+     "peso": 1,
+     "tela": "CAPAS DO FUTURO?"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "inciting_question",
+   "fala": "A revista é a The Economist. A edição se chama The World Ahead.",
+   "tts": "A revista é a The Iconomist. A edição se chama The Uórld Arréd.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "aparicao",
+     "id": "S02",
+     "peso": 1,
+     "tela": "THE WORLD AHEAD"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "dated_evidence",
+   "fala": "Líderes, símbolos, enigmas. Na internet, cada detalhe vira código secreto.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "ANÁLISE DE CAPA",
+      "linhas": [
+       "EDIÇÃO: THE WORLD AHEAD",
+       "ELEMENTOS: LÍDERES, SÍMBOLOS",
+       "LEITURA: EM ANÁLISE"
+      ],
+      "rotulo": "CÓDIGO SECRETO?",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S03",
+     "peso": 1,
+     "tela": "CÓDIGO SECRETO?"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "Mas a própria revista diz o que é: uma aposta em tendências de política, economia e riscos.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "salto_datas",
+     "params": {
+      "de": "CAPA",
+      "ate": "BALANÇO",
+      "rot_de": "PUBLICAÇÃO",
+      "rot_ate": "ACERTOS E ERROS",
+      "gap": ""
+     },
+     "selo": "A VERIFICAR",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "salto_datas original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S04",
+     "peso": 1,
+     "tela": "TENDÊNCIAS, NÃO PROFECIAS"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "competing_interpretations",
+   "fala": "E quem conta os acertos precisa contar também os erros.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "leituras",
+     "params": {
+      "a": [
+       "ACERTOS",
+       "?"
+      ],
+      "b": [
+       "ERROS",
+       "?"
+      ],
+      "sync_b": 0.45
+     },
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "leituras original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S05",
+     "peso": 1,
+     "tela": "ACERTOS E ERROS"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "reversal_or_surprise",
+   "fala": "Análise de tendência pode errar. Profecia, por definição, não pode.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "caminha entre fichários",
+     "gesture": "passos com balanço",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: caminha entre fichários",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "corredor",
+     "id": "S06",
+     "peso": 1,
+     "tela": "ANÁLISE NÃO É PROFECIA"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Qual capa você quer que eu abra primeiro?",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "encerramento",
+     "id": "S07",
+     "peso": 1,
+     "tela": "QUAL CAPA ABRIMOS?"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 07",
+   "ARQUIVO OCULTO",
+   "CAPAS SOB ANÁLISE"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "As capas anuais da The Economist antecipam temas, não eventos secretos. Para medir acertos, também é preciso olhar os erros.\n\nQual capa você quer que a gente investigue?\n\nFonte: The Economist Group, The World Ahead\n\n#ArquivoOculto #TheEconomist #Simbolos #Futuro #misterio"
+}

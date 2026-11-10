@@ -1,0 +1,147 @@
+{
+  "aberturaA": "Primeiro de março de 1990. Agentes federais entram numa editora de jogos no Texas.",
+  "cenas": [
+    {
+      "fala": "Primeiro de março de 1990. Agentes federais entram numa editora de jogos no Texas.",
+      "selo": "DOCUMENTADO",
+      "tela": "01·03·1990",
+      "tts": "Primeiro de março de mil novecentos e noventa. Agentes federais entram numa editora de jogos no Texas.",
+      "v": {
+        "sub": "AUSTIN · TEXAS",
+        "texto": "01·03·1990",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "Levam computadores, discos e o manuscrito de um livro que ainda nem tinha saído.",
+      "tela": "APREENSÃO",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "A editora: Steve Jackson Games. A mesma do jogo Illuminati.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "STEVE JACKSON GAMES",
+      "tts": "A editora: Stív Djékson Gueims. A mesma do jogo Iluminati.",
+      "v": {
+        "cabecalho": "SERVIÇO SECRETO DOS EUA",
+        "carimbo": "APREENDIDO",
+        "linhas": [
+          "MANDADO DE BUSCA",
+          "ALVO: STEVE JACKSON GAMES",
+          "DATA: 01/03/1990"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "A internet adora dizer que foi por causa das cartas que previam o futuro. Só que o baralho saiu em 1994. Quatro anos depois.",
+      "tela": "4 ANOS DEPOIS",
+      "tts": "A internet adora dizer que foi por causa das cartas que previam o futuro. Só que o baralho saiu em mil novecentos e noventa e quatro. Quatro anos depois.",
+      "v": {
+        "a": [
+          "1990",
+          "A BUSCA"
+        ],
+        "b": [
+          "1994",
+          "AS CARTAS"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "A investigação era sobre um documento copiado de uma companhia telefônica. A editora processou o governo. E venceu.",
+      "selo": "DOCUMENTADO",
+      "tela": "A EDITORA VENCEU",
+      "v": {
+        "pontos": [
+          [
+            "1990",
+            "BUSCA"
+          ],
+          [
+            "1993",
+            "VITÓRIA NA JUSTIÇA"
+          ],
+          [
+            "1994",
+            "CARTAS INWO"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "A operação foi real. A explicação que viralizou, não.",
+      "tela": "O FATO NÃO É O VIRAL",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Quem te contou essa história... leu o processo?",
+      "tela": "QUEM LEU O PROCESSO?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-002",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Busca do Serviço Secreto (não FBI) em 01/03/1990, ligada ao caso do documento E911 da BellSouth; decisão favorável à editora em 1993; INWO em 1994.",
+  "data": "2026-11-03",
+  "fato": "Busca do Serviço Secreto (não FBI) em 01/03/1990, ligada ao caso do documento E911 da BellSouth; decisão favorável à editora em 1993; INWO em 1994.",
+  "fontes": [
+    {
+      "nome": "w2.eff.org",
+      "url": "https://w2.eff.org/effector/HTML/effect13.02.html"
+    },
+    {
+      "nome": "law.justia.com",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/"
+    },
+    {
+      "nome": "illuminati.game",
+      "url": "https://illuminati.game/faqs"
+    }
+  ],
+  "legenda": "Sim, houve uma busca federal na Steve Jackson Games, em 1990. Não, ela não aconteceu por causa das cartas do Illuminati, que só saíram em 1994. A editora processou o governo e venceu.\n\nSalve: esse detalhe muda toda a narrativa.\n\nFontes: EFF · Steve Jackson Games v. US Secret Service (816 F.Supp. 432, 1993) · illuminati.game/faqs\n\n#ArquivoOculto #SteveJacksonGames #Illuminati #historia #conspiracao",
+  "nota": 4,
+  "ordem": 2,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Primeiro de março de 1990. Agentes federais entram numa editora de jogos no Texas.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "Levam computadores, discos e o manuscrito de um livro que ainda nem tinha saído.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "A editora: Steve Jackson Games. A mesma do jogo Illuminati.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "A internet adora dizer que foi por causa das cartas que previam o futuro. Só que o baralho saiu em 1994. Quatro anos depois.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "A investigação era sobre um documento copiado de uma companhia telefônica. A editora processou o governo. E venceu.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "A operação foi real. A explicação que viralizou, não.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Quem te contou essa história... leu o processo?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Conspirações Documentadas",
+  "titulo": "A operação federal contra a editora"
+}

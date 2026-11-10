@@ -1,0 +1,273 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E10",
+ "versao": "v2.0-rascunho",
+ "num": 10,
+ "formato": "investigacao_90",
+ "duracao_estimada_s": 43.3,
+ "expandir_para_formato": true,
+ "titulo": "2027: por que essa data aparece tanto?",
+ "serie": "Tabuleiro Mundial",
+ "hook": "2027. POR QUE ESSA DATA APARECE EM TANTAS PREVISÕES?",
+ "status_editorial": "rascunho_pendente_checagem",
+ "pendencias": [
+  "ler cada fonte e salvar snapshot com hash em acervo_privado/",
+  "classificar claims (documented/interpretation/allegation) e ligar às falas",
+  "trocar dossiês ilustrados por evidência autêntica quando houver direitos",
+  "expandir para investigacao_90 (85 s, 25–30 planos) se o tema sustentar",
+  "conferir cuidado editorial: Cúpula dos ODS prevista para 2027; Exército de Libertação Popular fundado em 01/08/1927. Não alegar data de colapso."
+ ],
+ "origem": {
+  "pauta_app": "ao-ep10",
+  "codigo": "AO-REEL-010",
+  "palavras": 84
+ },
+ "fontes": [
+  {
+   "id": "S-PAUTA-1",
+   "titulo": "sdgs.un.org",
+   "url": "https://sdgs.un.org/2030agenda",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  }
+ ],
+ "claims": [],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "2027. Por que essa data aparece em tantas previsões?",
+   "tts": "Dois mil e vinte e sete. Por que essa data aparece em tantas previsões?",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "titulo_obra",
+     "params": {
+      "linhas": [
+       "2027"
+      ],
+      "sub": "POR QUE ESSA DATA?"
+     },
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "titulo_obra original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S01",
+     "peso": 1,
+     "tela": "2027"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "inciting_question",
+   "fala": "Comecemos pelo que é verificável.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "aparicao",
+     "id": "S02",
+     "peso": 1,
+     "tela": "O QUE É VERIFICÁVEL"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "dated_evidence",
+   "fala": "A ONU marcou para setembro de 2027 uma cúpula de líderes para revisar a Agenda 2030.",
+   "tts": "A ONU marcou para setembro de dois mil e vinte e sete uma cúpula de líderes para revisar a Agenda dois mil e trinta.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "salto_datas",
+     "params": {
+      "de": "2015",
+      "ate": "2027",
+      "rot_de": "AGENDA",
+      "rot_ate": "CÚPULA",
+      "gap": ""
+     },
+     "selo": "A VERIFICAR",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "salto_datas original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S03",
+     "peso": 1,
+     "tela": "CÚPULA DA ONU · SET/2027"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "No mesmo ano, o exército chinês completa cem anos. E analistas discutem Taiwan, tecnologia e economia.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "CALENDÁRIO 2027",
+      "linhas": [
+       "SET · CÚPULA DOS ODS NA ONU",
+       "AGO · 100 ANOS DO EXÉRCITO CHINÊS",
+       "EM DEBATE: TAIWAN, IA, ECONOMIA"
+      ],
+      "rotulo": "CENTENÁRIO DO EXÉRCITO C",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S04",
+     "peso": 1,
+     "tela": "CENTENÁRIO DO EXÉRCITO CHINÊS"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "competing_interpretations",
+   "fala": "Mas um calendário cheio não é profecia. Data marcada não é destino.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "leituras",
+     "params": {
+      "a": [
+       "CALENDÁRIO",
+       "FATO"
+      ],
+      "b": [
+       "PROFECIA",
+       "SEM PROVA"
+      ],
+      "sync_b": 0.45
+     },
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "leituras original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S05",
+     "peso": 1,
+     "tela": "CENÁRIO NÃO É DESTINO"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "reversal_or_surprise",
+   "fala": "Eu não aposto no pior. Observo os sinais e me preparo para vários cenários.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "caminha entre fichários",
+     "gesture": "passos com balanço",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: caminha entre fichários",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "corredor",
+     "id": "S06",
+     "peso": 1,
+     "tela": "PREPARAR, NÃO TEMER"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "O que você faria diferente, se soubesse o que vem em 2027?",
+   "tts": "O que você faria diferente, se soubesse o que vem em dois mil e vinte e sete?",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "encerramento",
+     "id": "S07",
+     "peso": 1,
+     "tela": "E VOCÊ?"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 10",
+   "ARQUIVO OCULTO",
+   "TABULEIRO MUNDIAL"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "Datas podem marcar decisões reais sem provar profecias. Em 2027 há uma cúpula da ONU sobre a Agenda 2030 e o centenário do exército chinês. O resto é cenário, não destino.\n\nSiga a série Laboratório do Futuro.\n\nFontes: sdgs.un.org\n\n#ArquivoOculto #2027 #Cenarios #geopolitica #futuro"
+}

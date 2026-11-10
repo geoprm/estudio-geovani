@@ -1,0 +1,281 @@
+{
+  "profile_id": "arquivo-oculto",
+  "profile_version": "2.0.0",
+  "project": "Estúdio Audiovisual GM",
+  "isolation": {
+    "tenant_brand": "arquivo-oculto",
+    "do_not_modify_other_brands": [
+      "direitaxx",
+      "dr-geovanimiranda"
+    ]
+  },
+  "character": {
+    "id": "arquivista-v2",
+    "name": "O Arquivista",
+    "canonical_appearance_reference": "referencias/arquivista_premium_referencia.png",
+    "legacy_motion_reference": "referencias/video_antigo_kwai_1202.mp4",
+    "comparison_reference": "referencias/video_estudio_ep02_1204.mp4",
+    "visual_description": "Figura ficcional encapuzada, capa preta pesada, máscara rígida marfim envelhecida com detalhes discretos dourados e fissuras finas, olhos escuros, luvas pretas, anatomia realista, ambiente de arquivo histórico; nunca mostrar pele/rosto.",
+    "identity_lock": true,
+    "mask_flexible_or_lipsync": false,
+    "acting": "performer-in-scene, not a static poster, gesture-synchronized narration, subtle head turns, eyes/face directed toward camera, walking, handling artifacts, no mouth motions",
+    "performance_shots": [
+      "walk_entrance",
+      "look_to_camera",
+      "turn_head",
+      "open_folder",
+      "flip_archive_pages",
+      "handle_card",
+      "place_evidence_on_table",
+      "point_to_date",
+      "walk_between_shelves",
+      "close_folder_exit"
+    ],
+    "character_screen_time_range_pct": [
+      12,
+      28
+    ],
+    "minimum_distinct_character_shots_per_60s": 3,
+    "static_character_shot_max_sec": 4
+  },
+  "voice": {
+    "profile_id": "arquivista-voz-v2",
+    "reference_media": "referencias/video_antigo_kwai_1202.mp4",
+    "language": "pt-BR",
+    "presentation": "masculine",
+    "style": "voz sintética sombria, grave-média, próxima, ressonante, magnética e ligeiramente rouca/metálica, com articulação clara, controle de intensidade e pausas expressivas; não robotizada artificialmente nem locutor publicitário",
+    "instruction": "Analyze the original reference voice and approximate its prosody without claiming an exact match; if reproduction needs voice cloning, check licensing/consent and provider capabilities. Lock same approved voice/model settings across episodes.",
+    "rate_wpm": {
+      "short": [
+        135,
+        155
+      ],
+      "long": [
+        125,
+        145
+      ]
+    },
+    "pause_after_reveal_ms": [
+      250,
+      650
+    ],
+    "tts_policy": "same approved voice ID and version for all renders; preview before final; no voice changes between scenes",
+    "voice_ducking_db": [
+      12,
+      18
+    ]
+  },
+  "look": {
+    "palette": {
+      "near_black": "#090B0E",
+      "charcoal": "#17191E",
+      "ivory": "#E7DCC8",
+      "brass_gold": "#C79D5D",
+      "signal_red": "#7D2329"
+    },
+    "visual_keywords": [
+      "noir de arquivo",
+      "35mm",
+      "amber rimlight",
+      "volumetric dust",
+      "texture of aged paper",
+      "cinematic contrast",
+      "period-correct imagery",
+      "editorial premium"
+    ],
+    "avoid": [
+      "slideshows",
+      "random stock footage",
+      "generic AI news",
+      "repeat image",
+      "unlicensed music",
+      "endless title cards",
+      "distorted hands",
+      "fake newspaper claimed genuine"
+    ]
+  },
+  "storytelling": {
+    "mode": "investigative-mystery",
+    "promise": "alto suspense, descoberta progressiva, perguntas intrigantes e lastro documental, sem afirmar que hipóteses são fatos",
+    "structure": [
+      "cold_open",
+      "inciting_question",
+      "dated_evidence",
+      "competing_interpretations",
+      "reversal_or_surprise",
+      "open_loop_or_next_dossier"
+    ],
+    "focus": "historical visuals and original sources; make documentary claims accurately; narrate interpretations as interpretations",
+    "on_screen_text_max_words": 8,
+    "min_verified_source_asset_per_major_claim": 1,
+    "archive_visuals_target_pct": [
+      40,
+      65
+    ],
+    "avoid_always_same_cut_rhythm": true,
+    "reveal_every_sec": {
+      "short": [
+        7,
+        13
+      ],
+      "long": [
+        20,
+        35
+      ]
+    },
+    "required_end": "final meaningful revelation and tease for next, not false cliffhanger"
+  },
+  "formats": {
+    "reel_30": {
+      "label": "Reel 30s",
+      "duration_seconds": [
+        25,
+        35
+      ],
+      "default_seconds": 30,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "shots_target": [
+        9,
+        14
+      ]
+    },
+    "investigacao_90": {
+      "label": "Investigação 90s",
+      "duration_seconds": [
+        60,
+        105
+      ],
+      "default_seconds": 85,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "shots_target": [
+        18,
+        32
+      ]
+    },
+    "reel_profundo": {
+      "label": "Reel Profundo 2min",
+      "duration_seconds": [
+        105,
+        180
+      ],
+      "default_seconds": 135,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "shots_target": [
+        26,
+        52
+      ]
+    },
+    "youtube_5min": {
+      "label": "YouTube 5min",
+      "duration_seconds": [
+        180,
+        480
+      ],
+      "default_seconds": 300,
+      "aspect_ratio": "16:9",
+      "resolution": "1920x1080",
+      "fps": 30,
+      "chapters": true,
+      "shots_target": [
+        48,
+        100
+      ]
+    },
+    "youtube_10min": {
+      "label": "YouTube 10min",
+      "duration_seconds": [
+        480,
+        900
+      ],
+      "default_seconds": 600,
+      "aspect_ratio": "16:9",
+      "resolution": "1920x1080",
+      "fps": 30,
+      "chapters": true,
+      "shots_target": [
+        90,
+        170
+      ]
+    },
+    "microdrama": {
+      "label": "Microdrama",
+      "duration_seconds": [
+        20,
+        180
+      ],
+      "default_seconds": 90,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "script_type": "fiction_with_on_screen_fiction_label"
+    }
+  },
+  "pipeline": {
+    "steps": [
+      "research_and_source_registry",
+      "screenplay_with_audio_cues",
+      "scene_manifest",
+      "asset_retrieval_or_generation",
+      "character_clip_generation",
+      "voice_TTS_and_timestamps",
+      "sound_design_and_music",
+      "assembly_with_timeline",
+      "caption_alignment",
+      "render_mp4",
+      "technical_and_editorial_QA",
+      "download_export"
+    ],
+    "provider_adapter_requirements": [
+      "capability_probe",
+      "credit_and_price_check",
+      "non_destructive",
+      "cache_assets",
+      "idempotent_jobs",
+      "resume_from_failed_step",
+      "scene_regeneration",
+      "local_fallback_if_no_AI_video_provider",
+      "no_fake_done_state"
+    ],
+    "output_files": [
+      "video.mp4",
+      "voice.wav",
+      "subtitles.srt",
+      "cover.png",
+      "timeline.json",
+      "sources.json",
+      "qa.json"
+    ],
+    "publication_requires_approval": true,
+    "paid_services_require_approval": true,
+    "no_payment_or_autopost": true
+  },
+  "compliance": {
+    "real_images": {
+      "provenance_required": true,
+      "rights_gate_public": true,
+      "archive_original_vs_reenactment_distinction": true
+    },
+    "conspiracy_topics": "Distinguish documented events, disputed interpretations, disproven claims; mysteries can be dramatized without fabricated proof.",
+    "depiction_labels": {
+      "reenactment": "RECONSTITUIÇÃO COM IA",
+      "fiction": "FICÇÃO"
+    },
+    "social_media": "Respect platform rules for AI generated depictions and disclosures"
+  },
+  "quality_gates": {
+    "character_motion_visible": true,
+    "no_generic_slideshow": true,
+    "voice_approved_and_consistent": true,
+    "specific_archival_visuals": true,
+    "no_fabricated_reproduction": true,
+    "caption_proofread": true,
+    "render_exists_and_ffprobe_verified": true,
+    "revisions_max_before_owner_review": 2
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E06",
+  "titulo": "Operação Northwoods: o plano que ficou no papel",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/AO-S01-E06.v2.json",
+  "proximo_episode_id": "AO-S01-E07",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 9,
+      "funcao": "abertura",
+      "fala": "Num memorando secreto, o Estado-Maior americano cogitou culpar Cuba pela explosão de um navio dos próprios Estados Unidos. Leia a linha inteira.",
+      "visual": "A imagem já começa no item 3a do anexo autêntico. A luz abre o restante da frase e o selo PROPOSTA MILITAR aparece desde o primeiro quadro. A margem da página permanece visível para situar a origem.",
+      "som": "Ponta de lápis arrasta no papel. Sem explosão nem áudio de combate.",
+      "classe_visual": "documental",
+      "selo": "PROPOSTA MILITAR",
+      "claims_base": ["C1", "C5"],
+      "referencias": ["S-NW-MEMO"]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 9,
+      "fim_s": 21,
+      "funcao": "pista",
+      "fala": "Em março de mil novecentos e sessenta e dois, o general Lemnitzer assina o memorando encaminhado ao secretário da Defesa.",
+      "visual": "O Arquivista atravessa o corredor em plano lateral, pousa a pasta na mesa e vira o documento para a câmera. Corte separado para a assinatura e a identificação no original. Sem rubrica refeita.",
+      "som": "Botas na madeira. A pasta interrompe a cadência dos passos.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C1", "C2"],
+      "referencias": ["S-NW-MEMO", "S-NSA-2001"]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 21,
+      "fim_s": 32,
+      "funcao": "pista",
+      "fala": "Northwoods. O cabeçalho dá o objetivo. Justificar uma intervenção em Cuba. Vire a página. A proposta explica como.",
+      "visual": "Corte da capa para o anexo. A luz muda de lado na virada de página. Deixe legível o cabeçalho original sobre pretextos, com tradução em legenda separada.",
+      "som": "Papel raspando no tampo. A trilha perde o grave no virar.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C1", "C3", "C4"],
+      "referencias": ["S-NW-MEMO", "S-NSA-2001"]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 32,
+      "fim_s": 46,
+      "funcao": "virada",
+      "fala": "Guantánamo aparece no item do navio. Mais adiante, sugerem simular um ataque cubano a um avião civil. Estavam escrevendo a versão que terceiros ouviriam.",
+      "visual": "Passe do mapa vetorial original de Cuba, com Guantánamo identificado, ao mapa cinza sem rotas. A seguir, corte para a proposta do avião na página original, com rótulo próprio no novo plano. Sem traçar itinerário inventado.",
+      "som": "Lápis bate duas vezes sobre o mapa. A segunda batida corta para o papel.",
+      "classe_visual": "ilustracao",
+      "selo": "MAPA ILUSTRATIVO",
+      "claims_base": ["C5", "C6"],
+      "referencias": ["S-NW-MEMO", "S-NSA-2001"]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 46,
+      "fim_s": 57,
+      "funcao": "virada",
+      "fala": "Volto ao aviso no anexo. Era uma proposta preliminar de planejamento. Aí acaba o que esse papel permite afirmar.",
+      "visual": "O foco recua do item para a nota de planejamento na primeira página do anexo. Segure para leitura no original e na tradução curta, com o número da página visível.",
+      "som": "Corta a trilha. Deixe o som da folha repousar.",
+      "classe_visual": "documental",
+      "selo": "PLANEJAMENTO PRELIMINAR",
+      "claims_base": ["C4", "C8"],
+      "referencias": ["S-NW-MEMO"]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 57,
+      "fim_s": 72,
+      "funcao": "pista",
+      "fala": "Na capa, outro carimbo. Em mil novecentos e oitenta e quatro, o sigilo foi mantido. Só em dois mil e um o Arquivo de Segurança Nacional publicou o memorando.",
+      "visual": "Abra no carimbo de revisão de 1984 da capa. Na sequência, entre pela data da página de publicação da instituição e mostre o link para o scan. Usar os dois documentos em planos distintos, com créditos próprios.",
+      "som": "Ressonância curta de metal quando o carimbo entra no foco. Nenhum efeito de carimbo batendo no documento.",
+      "classe_visual": "documental",
+      "selo": "REGISTROS DE ARQUIVO",
+      "claims_base": ["C9", "C10"],
+      "referencias": ["S-NW-MEMO", "S-NSA-2001"]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 72,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "O plano cabia numa pasta. Na próxima, o mistério ocupa uma capa inteira. O que muda quando a gente só a decifra depois do acontecimento?",
+      "visual": "O Arquivista recolhe o memorando e deixa uma revista em posição vertical, capa virada para a parede. A lente muda o foco da pasta para o dorso em branco, sem imitar a identidade visual de uma edição real.",
+      "som": "O toque leve da revista substitui a textura de papel pesado. Corte seco na última palavra.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [],
+      "referencias": []
+    }
+  ],
+  "fontes_adicionais": [],
+  "preproducao": [
+    "Conferir B01 no item 3a (PDF p. 11, numeração do visualizador), a nota de planejamento na abertura do anexo (PDF p. 10) e a assinatura e o carimbo de 1984 na folha de rosto (PDF p. 1). Usar o scan da instituição, não reconstruir papel assinado.",
+    "Checar a licença por reprodução do memorando e da página institucional. Se a imagem institucional ficar indisponível para o corte público, substituir esse plano por data em cartela própria com fonte.",
+    "A proposta do avião e o mapa entram com rótulos separados. Som, mapas e cortes não devem transformar propostas em ataques executados. Evitar justapor cinejornal da crise dos mísseis ao plano de forma a sugerir um vínculo causal.",
+    "A transição para The Economist é editorial e usa uma revista neutra sem imagem protegida. Preservar crédito e margens no corte vertical."
+  ]
+}

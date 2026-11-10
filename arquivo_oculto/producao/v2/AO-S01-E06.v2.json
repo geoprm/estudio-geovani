@@ -1,0 +1,928 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E06",
+ "versao": "v2.0",
+ "num": 6,
+ "formato": "investigacao_90",
+ "titulo": "Operação Northwoods: o plano que ficou no papel",
+ "serie": "Conspirações Documentadas",
+ "hook": "UM PLANO PARA CULPAR CUBA",
+ "status_editorial": "pronto_para_render",
+ "estrutura": [
+  "cold_open",
+  "inciting_question",
+  "dated_evidence",
+  "competing_interpretations",
+  "reversal_or_surprise",
+  "open_loop_or_next_dossier"
+ ],
+ "nota_editorial": "Fatos lidos no próprio memorando (scan) e na página do National Security Archive. Não se afirma rejeição nem data de liberação oficial (sem fonte nesta sessão). Virada: o papel prova a proposta, não a execução.",
+ "fontes": [
+  {
+   "id": "S-NW-MEMO",
+   "titulo": "Joint Chiefs of Staff — Justification for US Military Intervention in Cuba (13/03/1962), 15 pp.",
+   "editor": "Estado-Maior Conjunto dos EUA (cópia publicada pelo National Security Archive)",
+   "url": "https://nsarchive2.gwu.edu/news/20010430/northwoods.pdf",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/northwoods_1962-03-13.pdf",
+   "acessado_em": "2026-11-05",
+   "data_documento": "1962-03-13",
+   "verificacao": "lido nesta sessão (scan): capa p.0 (13 March 1962; Memorandum for the Secretary of Defense; assinatura L. L. Lemnitzer, Chairman, Joint Chiefs of Staff; carimbo \"Systematically reviewed by JCS on 21 May 84 — classification continued\"); p.9 anexo \"Pretexts to justify US military intervention in Cuba\" com nota \"preliminary submission suitable only for planning purposes\"; p.10 item 3a \"We could blow up a US ship in Guantanamo Bay and blame Cuba.\"",
+   "direitos": "documento do governo federal dos EUA: domínio público"
+  },
+  {
+   "id": "S-NSA-2001",
+   "titulo": "Pentagon Proposed Pretexts for Cuba Invasion in 1962 (30/04/2001)",
+   "editor": "National Security Archive (George Washington University)",
+   "url": "https://nsarchive2.gwu.edu/news/20010430/",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/nsarchive_northwoods_2001-04-30.html",
+   "acessado_em": "2026-11-05",
+   "verificacao": "lido: entregue a McNamara em 13/03/1962; codinome Operation Northwoods; pedido do chefe do Cuba Project (Lansdale); inclui falsa campanha de terror na região de Miami e simular ataque da força aérea cubana a avião civil"
+  },
+  {
+   "id": "S-NEWSREEL-1962",
+   "titulo": "Universal Newsreel — The Red Threat. President Orders Cuban Blockade (22/10/1962)",
+   "editor": "Universal-International News (NARA / Internet Archive)",
+   "url": "https://archive.org/details/1962-10-22_The_Red_Threat",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/newsreel_1962-10-22_The_Red_Threat.mp4",
+   "acessado_em": "2026-11-05",
+   "verificacao": "cartela e discurso de Kennedy sobre a \"quarantine\" de equipamento militar ofensivo para Cuba",
+   "direitos": "marcado como domínio público no Internet Archive"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "texto": "Em 13/03/1962 o Estado-Maior Conjunto enviou ao secretário de Defesa o memorando \"Justification for US Military Intervention in Cuba\"",
+   "status": "documented",
+   "fontes": [
+    "S-NW-MEMO",
+    "S-NSA-2001"
+   ]
+  },
+  {
+   "id": "C2",
+   "texto": "O memorando é assinado por L. L. Lemnitzer, presidente do Estado-Maior Conjunto",
+   "status": "documented",
+   "fontes": [
+    "S-NW-MEMO"
+   ]
+  },
+  {
+   "id": "C3",
+   "texto": "O conjunto de propostas ficou conhecido como Operation Northwoods",
+   "status": "documented",
+   "fontes": [
+    "S-NSA-2001"
+   ]
+  },
+  {
+   "id": "C4",
+   "texto": "O anexo se apresenta como submissão preliminar, só para planejamento",
+   "status": "documented",
+   "fontes": [
+    "S-NW-MEMO"
+   ]
+  },
+  {
+   "id": "C5",
+   "texto": "Um item propõe explodir um navio americano na baía de Guantánamo e culpar Cuba",
+   "status": "documented",
+   "fontes": [
+    "S-NW-MEMO",
+    "S-NSA-2001"
+   ]
+  },
+  {
+   "id": "C6",
+   "texto": "Outras propostas: falsa campanha de terror na região de Miami e simular ataque cubano a avião civil",
+   "status": "documented",
+   "fontes": [
+    "S-NSA-2001"
+   ]
+  },
+  {
+   "id": "C7",
+   "texto": "Em 22/10/1962 Kennedy anunciou a quarentena/bloqueio a Cuba",
+   "status": "documented",
+   "fontes": [
+    "S-NEWSREEL-1962"
+   ]
+  },
+  {
+   "id": "C8",
+   "texto": "O memorando prova a proposta por escrito; não prova a execução",
+   "status": "interpretation",
+   "fontes": []
+  },
+  {
+   "id": "C9",
+   "texto": "Em 21/05/1984 o Estado-Maior revisou o documento e manteve a classificação",
+   "status": "documented",
+   "fontes": [
+    "S-NW-MEMO"
+   ]
+  },
+  {
+   "id": "C10",
+   "texto": "Em 30/04/2001 o National Security Archive publicou o memorando completo",
+   "status": "documented",
+   "fontes": [
+    "S-NSA-2001"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  },
+  {
+   "id": "A-NW-MEMO",
+   "tipo": "documento_autentico",
+   "arquivo": "arquivo_oculto/acervo_dominio_publico/northwoods_1962-03-13.pdf",
+   "fonte": "S-NW-MEMO",
+   "rights_status": "public_domain",
+   "autenticidade": "scan do documento original (domínio público)",
+   "credito": "Memorando do Estado-Maior Conjunto, 13/03/1962 · cópia do National Security Archive · domínio público"
+  },
+  {
+   "id": "A-NEWSREEL-1962",
+   "tipo": "video_arquivo",
+   "arquivo": "arquivo_oculto/acervo_dominio_publico/newsreel_1962-10-22_The_Red_Threat.mp4",
+   "fonte": "S-NEWSREEL-1962",
+   "rights_status": "public_domain",
+   "autenticidade": "cinejornal original de 22/10/1962",
+   "credito": "Universal Newsreel, 22/10/1962 · Internet Archive · domínio público"
+  },
+  {
+   "id": "A-DATAS",
+   "tipo": "dado_documental",
+   "fonte": "S-NSA-2001",
+   "rights_status": "fact_citation",
+   "credito": "Fontes: memorando JCS (1962) · National Security Archive (2001)"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Março de 1962. Um memorando ultrassecreto chega ao secretário de Defesa americano.",
+   "pausa_ms": 340,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S01",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "do carimbo TOP SECRET à página inteira",
+     "sound_design": "papel, lápis",
+     "prompt": "página 0 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 0,
+      "foco": [
+       0.08,
+       0.0,
+       0.52,
+       0.06
+      ],
+      "circular": false,
+      "inverter": true
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S02",
+     "tipo": "escritorio_epoca",
+     "peso": 1.0,
+     "tela": "MARÇO DE 1962",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "escritorio_epoca",
+     "visual_source_type": "reconstituicao_ilustrada",
+     "movement": "a luminária acende; câmera se aproxima das pastas",
+     "sound_design": "clique do interruptor, papel",
+     "prompt": "gabinete de repartição de 1962: mesa, máquina de escrever, pastas",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados, monitor, computador",
+     "params": {
+      "acao": "luminaria",
+      "semente": 9
+     },
+     "selo": "RECONSTITUIÇÃO ILUSTRADA"
+    }
+   ],
+   "tts": "Março de mil novecentos e sessenta e dois. Um memorando ultrassecreto chega ao secretário de Defesa americano."
+  },
+  {
+   "id": "L02",
+   "beat": "cold_open",
+   "fala": "O assunto: justificar uma intervenção militar em Cuba.",
+   "pausa_ms": 420,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S03",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página 0 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 0,
+      "foco": [
+       0.14,
+       0.195,
+       0.9,
+       0.28
+      ],
+      "circular": true,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "inciting_question",
+   "fala": "Eu sou o Arquivista. E isto não é boato: é papel com assinatura.",
+   "pausa_ms": 360,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S04",
+     "tipo": "aparicao",
+     "peso": 1.0,
+     "tela": "PAPEL COM ASSINATURA",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe até a câmera",
+     "camera_motion": "dolly-in discreto",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in discreto",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    },
+    {
+     "id": "S05",
+     "tipo": "corredor",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "caminha entre fichários e para",
+     "gesture": "passos com balanço; vira para a lente",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: caminha entre fichários e para",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "direcao": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "Quem assina é o general L. L. Lemnitzer, presidente do Estado-Maior Conjunto.",
+   "pausa_ms": 300,
+   "claims": [
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S06",
+     "tipo": "pagina_documento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página 0 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 0,
+      "foco": [
+       0.42,
+       0.655,
+       0.9,
+       0.77
+      ],
+      "circular": true,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S06b",
+     "tipo": "virar_cabeca",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "reage ao documento girando a cabeça",
+     "gesture": "giro de cabeça e olhar baixo",
+     "camera_motion": "órbita lenta",
+     "emotional_beat": "suspeita",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "órbita lenta",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: reage ao documento girando a cabeça",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": -1
+     }
+    }
+   ],
+   "tts": "Quem assina é o general Lemnítzer, presidente do Estado-Maior Conjunto."
+  },
+  {
+   "id": "L05",
+   "beat": "dated_evidence",
+   "fala": "Os planos ficaram conhecidos como Operação Northwoods.",
+   "pausa_ms": 300,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S07",
+     "tipo": "titulo_obra",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-DATAS",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "dado_documental",
+     "movement": "luz revela o nome",
+     "sound_design": "varredura metálica",
+     "prompt": "nome da operação em tipografia própria",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "linhas": [
+       "OPERAÇÃO",
+       "NORTHWOODS"
+      ],
+      "sub": "ESTADO-MAIOR CONJUNTO · EUA · 1962"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    }
+   ],
+   "tts": "Os planos ficaram conhecidos como Operação Nórthuuds."
+  },
+  {
+   "id": "L06",
+   "beat": "dated_evidence",
+   "fala": "No anexo: pretextos para justificar a intervenção. Uma proposta preliminar, só para planejamento, avisa o texto.",
+   "pausa_ms": 340,
+   "claims": [
+    "C4"
+   ],
+   "shots": [
+    {
+     "id": "S08",
+     "tipo": "ombro",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "personagem": true,
+     "action": "examina a prova por cima do ombro",
+     "gesture": "cabeça inclinada sobre o papel",
+     "camera_motion": "over-the-shoulder com foco seletivo",
+     "emotional_beat": "investigação",
+     "shot_type": "over-the-shoulder",
+     "visual_source_type": "documento_autentico",
+     "movement": "over-the-shoulder com foco seletivo",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: examina a prova por cima do ombro",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": 1
+     },
+     "prova": {
+      "tipo": "pagina_documento",
+      "params": {
+       "pagina": 9,
+       "foco": [
+        0.14,
+        0.035,
+        0.86,
+        0.1
+       ],
+       "circular": false
+      }
+     },
+     "parcial": true,
+     "credito": true,
+     "selo": "DOCUMENTO ORIGINAL"
+    },
+    {
+     "id": "S08b",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página 9 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 9,
+      "foco": [
+       0.12,
+       0.105,
+       0.86,
+       0.165
+      ],
+      "circular": true,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "dated_evidence",
+   "fala": "E um dos itens diz, com todas as letras: poderíamos explodir um navio americano na baía de Guantánamo e culpar Cuba.",
+   "pausa_ms": 650,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S09",
+     "tipo": "pagina_documento",
+     "peso": 1.4,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página 10 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 10,
+      "foco": [
+       0.04,
+       0.41,
+       0.82,
+       0.5
+      ],
+      "circular": true,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S10",
+     "tipo": "silencio",
+     "peso": 0.6,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "rosto imóvel numa batida dramática",
+     "gesture": "nenhum, só respiração",
+     "camera_motion": "push-in micro",
+     "emotional_beat": "suspense",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "push-in micro",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: rosto imóvel numa batida dramática",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ],
+   "tts": "E um dos itens diz, com todas as letras: poderíamos explodir um navio americano na baía de Guantânamo... e culpar Cuba."
+  },
+  {
+   "id": "L08",
+   "beat": "dated_evidence",
+   "fala": "Outros falam em falso terror na região de Miami e em simular um ataque cubano a um avião civil.",
+   "pausa_ms": 400,
+   "claims": [
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S11",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "página do anexo; câmera desce",
+     "sound_design": "papel, lápis",
+     "prompt": "página 11 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 11,
+      "foco": [
+       0.05,
+       0.3,
+       0.95,
+       0.62
+      ],
+      "circular": false,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S12",
+     "tipo": "dossies",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossies",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pastas caindo",
+     "prompt": "pastas genéricas carimbadas PRETEXTO",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "rotulos": [
+       "PRETEXTO",
+       "PRETEXTO",
+       "PRETEXTO"
+      ],
+      "dur": 2.6
+     },
+     "selo": "ILUSTRAÇÃO"
+    }
+   ],
+   "tts": "Outros falam em falso terror na região de Maiâmi e em simular um ataque cubano a um avião civil."
+  },
+  {
+   "id": "L09",
+   "beat": "competing_interpretations",
+   "fala": "Sete meses depois, Kennedy anunciava o bloqueio a Cuba. Era a crise dos mísseis.",
+   "pausa_ms": 420,
+   "claims": [
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S13",
+     "tipo": "video_arquivo",
+     "peso": 0.8,
+     "tela": "",
+     "asset": "A-NEWSREEL-1962",
+     "shot_type": "video_arquivo",
+     "visual_source_type": "video_arquivo",
+     "movement": "cartela do cinejornal",
+     "sound_design": "chiado de película",
+     "prompt": "video_arquivo",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "inicio": 0.4
+     },
+     "selo": "CINEJORNAL DE 1962",
+     "credito": true
+    },
+    {
+     "id": "S14",
+     "tipo": "video_arquivo",
+     "peso": 1.2,
+     "tela": "",
+     "asset": "A-NEWSREEL-1962",
+     "shot_type": "video_arquivo",
+     "visual_source_type": "video_arquivo",
+     "movement": "discurso de Kennedy",
+     "sound_design": "chiado de película",
+     "prompt": "video_arquivo",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "inicio": 55.0
+     },
+     "selo": "CINEJORNAL DE 1962",
+     "credito": true
+    }
+   ],
+   "tts": "Sete meses depois, Quénedi anunciava o bloqueio a Cuba. Era a crise dos mísseis."
+  },
+  {
+   "id": "L10",
+   "beat": "reversal_or_surprise",
+   "fala": "Mas aqui está a linha que separa arquivo de teoria.",
+   "pausa_ms": 600,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S15",
+     "tipo": "debrucar",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "inclina-se sobre a mesa; a luz revela a prova",
+     "gesture": "tronco avança, cabeça baixa",
+     "camera_motion": "tilt para a mesa",
+     "emotional_beat": "nova pista",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "tilt para a mesa",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: inclina-se sobre a mesa; a luz revela a prova",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "beat": "reversal_or_surprise",
+   "fala": "O papel prova que os pretextos foram propostos. Não prova que foram executados.",
+   "pausa_ms": 520,
+   "claims": [
+    "C8"
+   ],
+   "shots": [
+    {
+     "id": "S16",
+     "tipo": "leituras",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "cada lado acende",
+     "sound_design": "dois pulsos graves",
+     "prompt": "proposto x executado",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "a": [
+       "PROPOSTO",
+       "prova: o memorando"
+      ],
+      "b": [
+       "EXECUTADO?",
+       "sem prova neste arquivo"
+      ],
+      "sync_b": 0.48,
+      "brilho_fundo": 0.5
+     },
+     "selo": "ANÁLISE"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "beat": "reversal_or_surprise",
+   "fala": "E um carimbo conta mais: em 1984, o Estado-Maior revisou o papel e manteve o sigilo.",
+   "pausa_ms": 400,
+   "claims": [
+    "C9"
+   ],
+   "shots": [
+    {
+     "id": "S17",
+     "tipo": "pagina_documento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página 0 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 0,
+      "foco": [
+       0.07,
+       0.635,
+       0.48,
+       0.725
+      ],
+      "circular": true,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S17b",
+     "tipo": "pagina_documento",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "a faixa TOP SECRET riscada",
+     "sound_design": "papel, lápis",
+     "prompt": "página 0 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 0,
+      "foco": [
+       0.06,
+       0.93,
+       0.94,
+       0.995
+      ],
+      "circular": false,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    }
+   ],
+   "tts": "E um carimbo conta mais: em mil novecentos e oitenta e quatro, o Estado-Maior revisou o papel e manteve o sigilo."
+  },
+  {
+   "id": "L13",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Em 2001, o Arquivo de Segurança Nacional, em Washington, publicou o memorando inteiro.",
+   "pausa_ms": 400,
+   "claims": [
+    "C10"
+   ],
+   "shots": [
+    {
+     "id": "S18",
+     "tipo": "salto_datas",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-DATAS",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "linha do tempo corre",
+     "sound_design": "relógio",
+     "prompt": "salto_datas",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "de": "13·03·1962",
+      "ate": "30·04·2001",
+      "rot_de": "MEMORANDO",
+      "rot_ate": "PUBLICADO NA ÍNTEGRA",
+      "gap": "39 ANOS"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    }
+   ],
+   "tts": "Em dois mil e um, o Arquivo de Segurança Nacional, em Uóchinton, publicou o memorando inteiro."
+  },
+  {
+   "id": "L14",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Conspiração real deixa papel. E papel pode ser conferido.",
+   "pausa_ms": 500,
+   "claims": [
+    "C8"
+   ],
+   "shots": [
+    {
+     "id": "S19a",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NW-MEMO",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "volta ao item do navio, sem lápis",
+     "sound_design": "papel, lápis",
+     "prompt": "página 10 do memorando original",
+     "negative_prompt": "documento recriado, texto inventado",
+     "params": {
+      "pagina": 10,
+      "foco": [
+       0.04,
+       0.41,
+       0.82,
+       0.5
+      ],
+      "circular": false,
+      "inverter": false
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S19",
+     "tipo": "olhar_camera",
+     "peso": 1.0,
+     "tela": "PAPEL PODE SER CONFERIDO",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "volta o olhar do documento para a lente",
+     "gesture": "giro até a câmera",
+     "camera_motion": "micro push-in",
+     "emotional_beat": "pergunta",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "micro push-in",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: volta o olhar do documento para a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "de_yaw": 12
+     }
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "No próximo arquivo: capas de revista que muita gente jura serem profecias.",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S20",
+     "tipo": "telas",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "telas",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "chiado",
+     "prompt": "monitores abstratos",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "anos": [
+       1988,
+       2026
+      ]
+     },
+     "selo": "ILUSTRAÇÃO"
+    },
+    {
+     "id": "S21",
+     "tipo": "encerramento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 06",
+   "PRÓXIMO ARQUIVO:",
+   "CAPAS QUE PARECEM PROFECIAS"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "Em 13/03/1962, o Estado-Maior Conjunto dos EUA mandou ao secretário de Defesa uma lista de pretextos para justificar uma invasão de Cuba — entre eles, explodir um navio americano em Guantánamo e culpar Cuba. O documento prova a proposta. Não prova a execução.\n\nFontes: memorando JCS de 13/03/1962 (cópia do National Security Archive) · Universal Newsreel, 22/10/1962 (domínio público).\nPersonagem fictício, voz sintética.\n\n#ArquivoOculto #Northwoods #GuerraFria #historia #documentos"
+}
