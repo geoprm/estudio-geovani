@@ -1,0 +1,275 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E08",
+ "versao": "v2.0-rascunho",
+ "num": 8,
+ "formato": "investigacao_90",
+ "duracao_estimada_s": 52.9,
+ "expandir_para_formato": true,
+ "titulo": "O mangá que assustou o Japão",
+ "serie": "Mangás e Previsões",
+ "hook": "UM MANGÁ DE 1999 FALAVA DE UM GRANDE DESASTRE EM MARÇO DE 20",
+ "status_editorial": "rascunho_pendente_checagem",
+ "pendencias": [
+  "ler cada fonte e salvar snapshot com hash em acervo_privado/",
+  "classificar claims (documented/interpretation/allegation) e ligar às falas",
+  "trocar dossiês ilustrados por evidência autêntica quando houver direitos",
+  "expandir para investigacao_90 (85 s, 25–30 planos) se o tema sustentar",
+  "conferir cuidado editorial: Edição de 1999 e ampliada de 2021 (Ryo Tatsuki). Não simular a tragédia de 2011."
+ ],
+ "origem": {
+  "pauta_app": "ao-ep08",
+  "codigo": "AO-REEL-008",
+  "palavras": 104
+ },
+ "fontes": [
+  {
+   "id": "S-PAUTA-1",
+   "titulo": "abc.net.au",
+   "url": "https://www.abc.net.au/news/2025-07-04/comics-disaster-prediction-rattling-japan-s-tourist-boom/105494580",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  }
+ ],
+ "claims": [],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Um mangá de 1999 falava de um grande desastre em março de 2011.",
+   "tts": "Um mangá de mil novecentos e noventa e nove falava de um grande desastre em março de dois mil e onze.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "titulo_obra",
+     "params": {
+      "linhas": [
+       "1999"
+      ],
+      "sub": "E MARÇO DE 2011"
+     },
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "titulo_obra original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S01",
+     "peso": 1,
+     "tela": "1999 E 2011"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "inciting_question",
+   "fala": "Em março de 2011, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+   "tts": "Em março de dois mil e onze, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "aparicao",
+     "id": "S02",
+     "peso": 1,
+     "tela": "MARÇO DE 2011"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "dated_evidence",
+   "fala": "O livro: The Future I Saw. A autora: Ryo Tatsuki, que desenhava os próprios sonhos.",
+   "tts": "O livro: The Fiutchur Ai Só. A autora: Riô Tatsuki, que desenhava os próprios sonhos.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "FICHA DA OBRA",
+      "linhas": [
+       "TÍTULO: THE FUTURE I SAW",
+       "AUTORA: RYO TATSUKI",
+       "1ª EDIÇÃO: 1999 · AMPLIADA: 2021"
+      ],
+      "rotulo": "THE FUTURE I SAW",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S03",
+     "peso": 1,
+     "tela": "THE FUTURE I SAW"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "Em 2021, uma edição ampliada citou julho de 2025. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+   "tts": "Em dois mil e vinte e um, uma edição ampliada citou julho de dois mil e vinte e cinco. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "salto_datas",
+     "params": {
+      "de": "1999",
+      "ate": "2025",
+      "rot_de": "MANGÁ",
+      "rot_ate": "O BOATO",
+      "gap": ""
+     },
+     "selo": "A VERIFICAR",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "salto_datas original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S04",
+     "peso": 1,
+     "tela": "JULHO DE 2025"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "competing_interpretations",
+   "fala": "Julho de 2025 passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+   "tts": "Julho de dois mil e vinte e cinco passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "leituras",
+     "params": {
+      "a": [
+       "BOATO",
+       "JULHO 2025"
+      ],
+      "b": [
+       "REALIDADE",
+       "NADA"
+      ],
+      "sync_b": 0.45
+     },
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "leituras original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S05",
+     "peso": 1,
+     "tela": "NÃO ACONTECEU"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "reversal_or_surprise",
+   "fala": "Uma previsão não precisa acertar para mudar o mundo. Basta alguém acreditar.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "caminha entre fichários",
+     "gesture": "passos com balanço",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: caminha entre fichários",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "corredor",
+     "id": "S06",
+     "peso": 1,
+     "tela": "BASTA ACREDITAR"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Você cancelaria uma viagem por causa de um sonho?",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "encerramento",
+     "id": "S07",
+     "peso": 1,
+     "tela": "VOCÊ CANCELARIA?"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 08",
+   "ARQUIVO OCULTO",
+   "MANGÁS E PREVISÕES"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "The Future I Saw virou fenômeno e mexeu com o turismo do Japão em 2025. Mas julho passou, a catástrofe não veio, e a autora negou ser profeta.\n\nParte 2: quer ver as datas originais?\n\nFonte: ABC News (Austrália), 04/07/2025\n\n#ArquivoOculto #Manga #Japao #Previsoes #misterio"
+}

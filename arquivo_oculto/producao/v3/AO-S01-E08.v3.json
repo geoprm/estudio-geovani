@@ -1,0 +1,154 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E08",
+  "titulo": "O mangá que assustou o Japão",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/rascunhos/AO-S01-E08.v2.rascunho.json",
+  "proximo_episode_id": "AO-S01-E09",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Quatro e dezoito. Antes de marcar a hora no calendário, eu quero achar a página de onde ela veio.",
+      "visual": "Quatro dígitos aparecem à medida que uma lâmina de luz passa sobre tipografia própria. A origem fica visível desde o primeiro quadro.",
+      "som": "Um tique. Depois, só o ruído da lâmpada.",
+      "classe_visual": "tipografia",
+      "selo": "HORÁRIO NO DIÁRIO · SEGUNDO A EDITORA",
+      "estado_evidencia": "documentado_e_pergunta",
+      "claims_base": [],
+      "referencias": [
+        "S-ASUKA-NOTA"
+      ]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 21,
+      "funcao": "pista",
+      "fala": "Começo pelo mangá de Ryo Tatsuki. Segundo a editora, a capa de noventa e nove já mencionava março de dois mil e onze.",
+      "visual": "O Arquivista sai do corredor, encaixa uma pasta sob o peso de vidro e vira o índice para a lente. Sem reproduzir a capa sem licença.",
+      "som": "O livro pousa com peso e a mão solta o papel.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "atribuido",
+      "claims_base": [],
+      "referencias": [
+        "S-ASUKA-LIVRO"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 21,
+      "fim_s": 33,
+      "funcao": "pista",
+      "fala": "Na ficha do terremoto de Tôhoku, o mês coincide. Em março de dois mil e onze, um terremoto e um tsunami atingiram o Japão.",
+      "visual": "Inserto da ficha autêntica do USGS e sua localização. Evitar imagens de vítimas ou cortes que liguem o livro ao desastre.",
+      "som": "O ambiente seca enquanto a data permanece no quadro.",
+      "classe_visual": "documental",
+      "selo": "USGS · TŌHOKU, 2011",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-USGS-TOHOKU",
+        "S-ASUKA-LIVRO"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 33,
+      "fim_s": 48,
+      "funcao": "virada",
+      "fala": "A editora separa as marcas. Julho de dois mil e vinte e cinco era o mês citado. Quatro e dezoito vinha do diário, quatro anos antes.",
+      "visual": "Passar pelo item 2 do comunicado original e revelar os dois anos em tarjas externas com tradução atribuída.",
+      "som": "Som de uma régua deslocada, seguido de silêncio curto.",
+      "classe_visual": "documental",
+      "selo": "EDITORA · NOTA DE 2025",
+      "estado_evidencia": "atribuido",
+      "claims_base": [],
+      "referencias": [
+        "S-ASUKA-NOTA"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 48,
+      "fim_s": 61,
+      "funcao": "pista",
+      "fala": "O rumor ganhou vida fora do livro. A agência meteorológica japonesa registrou a queda de visitantes de algumas regiões.",
+      "visual": "Dar foco ao parágrafo do relatório da agência. O segundo plano abre o crédito e o título da seção, sem fabricar métricas.",
+      "som": "Um som ambiente de terminal identificado como desenho sonoro.",
+      "classe_visual": "documental",
+      "selo": "AGÊNCIA METEOROLÓGICA DO JAPÃO",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-JMA-2026"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 61,
+      "fim_s": 73,
+      "funcao": "virada",
+      "fala": "A data mudou de página. E uma história sobre o futuro já tinha produzido efeitos no presente.",
+      "visual": "Sobre o ombro, o Arquivista descola a marca do calendário e a pousa ao lado do comunicado da editora.",
+      "som": "Fita solta com um estalo e o som do terminal desaparece.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "interpretacao",
+      "claims_base": [],
+      "referencias": [
+        "S-ASUKA-NOTA",
+        "S-JMA-2026"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 73,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Na próxima pasta, o ano está no título de uma resolução da ONU. Quem decide o que sai daquela página?",
+      "visual": "O Arquivista troca a pasta do mangá por uma etiqueta atual do estúdio, vira o corpo e apaga a luz atrás dele.",
+      "som": "Uma passada e queda de trilha.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "ponte_editorial",
+      "claims_base": [],
+      "referencias": []
+    }
+  ],
+  "fontes_adicionais": [
+    {
+      "id": "S-ASUKA-LIVRO",
+      "titulo": "Asuka Shinsha · ficha de Watashi ga Mita Mirai, edição completa",
+      "url": "https://www.asukashinsha.co.jp/bookinfo/9784864108515.php",
+      "localizador": "Ficha e apresentação. Registra a publicação de 1999, a menção a março de 2011 na capa original e a edição completa com o diário."
+    },
+    {
+      "id": "S-ASUKA-NOTA",
+      "titulo": "Asuka Shinsha · comunicado de 19 de abril de 2025",
+      "url": "https://www.asukashinsha.co.jp/info/archive/post-55.php",
+      "localizador": "Item 2. Distingue a indicação de julho de 2025 da hora no registro do sonho em julho de 2021."
+    },
+    {
+      "id": "S-USGS-TOHOKU",
+      "titulo": "USGS · terremoto de Tōhoku de 2011",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc0001xgp/impact",
+      "localizador": "Ficha do terremoto de 11 de março de 2011 e resumo dos efeitos do tsunami."
+    },
+    {
+      "id": "S-JMA-2026",
+      "titulo": "Agência Meteorológica do Japão · relatório de 2026",
+      "url": "https://www.jma.go.jp/jma/kishou/books/hakusho/2026/index8.html",
+      "localizador": "Capítulo IV-2, item 1. Descreve a difusão do rumor de julho de 2025 e o declínio de visitantes de algumas regiões."
+    }
+  ],
+  "preproducao": [
+    "A ficha da editora descreve a capa de 1999. Conferir o exemplar original e a tradução japonesa antes de reproduzir trechos, capa ou mangá; se os direitos não estiverem fechados, usar ficha tipográfica própria.",
+    "Não confundir a data do sonho no diário com uma hora alegadamente marcada para o desastre. O relatório da agência não autoriza atribuir todo o movimento do turismo ao rumor nem quantificar causalidade.",
+    "Conferir créditos dos recortes do USGS e da agência japonesa e manter traduções visivelmente atribuídas."
+  ]
+}

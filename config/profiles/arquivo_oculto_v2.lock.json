@@ -1,0 +1,52 @@
+{
+ "profile_id": "arquivo-oculto",
+ "profile_version": "2.0.0",
+ "lock_version": "2.0.0-local.2",
+ "criado_em": "2026-11-04",
+ "nota": "Decisões desta instância sobre o perfil V2. O JSON do pacote (arquivo_oculto_v2.json) permanece byte a byte igual ao recebido.",
+ "character": {
+  "id": "arquivista-v2",
+  "reference_image": "arquivo_oculto/assets/arquivista.png",
+  "reference_sha256": "b07f5c379a (pixel a pixel idêntica a arquivista_conceito_premium.png do pacote Video Factory V1)",
+  "alpha": "arquivo_oculto/assets/arq_alpha.png",
+  "landmarks": "arquivo_oculto/assets/arq_lmk106.json",
+  "mascara": "marfim_envelhecido_ouro",
+  "mascara_nota": "Máscara rígida marfim envelhecida com veios dourados preservados da referência premium. Boca da máscara NUNCA anima (mask_flexible_or_lipsync=false).",
+  "referencia_movimento": "AUSENTE: video_antigo_kwai_1202.mp4 não está no disco; gramática de planos do GUIA_DE_CENAS_E_MOVIMENTOS (A1–A8) usada no lugar",
+  "legado_privado": "arquivo_oculto/assets/referencias_privadas/arquivista_legado_referencia_privada.png (só referência interna, nunca publicar)",
+  "approved_look": true,
+  "aprovado_por": "Geovani Miranda",
+  "aprovado_em": "2026-11-04",
+  "aprovacao": "aparência marfim/ouro e atuação performance_2_5d aprovadas para a temporada 1 (mesma mensagem)"
+ },
+ "voice": {
+  "voice_id": "arquivista-v2-c",
+  "voice_model": "kokoro-v1.0.int8",
+  "provider": "kokoro-onnx (local, Apache-2.0, custo zero)",
+  "locale": "pt-BR",
+  "base": {
+   "pm_alex": 0.6,
+   "pm_santa": 0.4
+  },
+  "rate": 0.81,
+  "pitch": 0.85,
+  "style": "grave-média íntima, metal discreto (filtro de pente), leve aspereza (saturação), sala curta",
+  "version": "arquivista-v2-c@kokoro-v1.0.int8",
+  "approved": true,
+  "status": "aprovada",
+  "evidencia": "arquivo_oculto/saida_v2/amostras_voz/amostras_voz.json e comparativo_vozes.mp3",
+  "pendencia": "Comparação com a voz do vídeo antigo continua possível quando o arquivo chegar; não é mais bloqueio.",
+  "aprovado_por": "Geovani Miranda",
+  "aprovado_em": "2026-11-04",
+  "evidencia_aprovacao": "chat do Claude Code, 04/11/2026: \"Aprovo, siga\" em resposta a \"A voz C e o Arquivista atuando estão aprovados para a temporada?\""
+ },
+ "visual_mode": {
+  "atual": "performance_2_5d",
+  "descricao": "Arquivista atuando em camadas (fundo, personagem, objetos) com paralaxe real de câmera, giro rígido de cabeça, caminhada, contraluz, planos sobre o ombro e foco seletivo. Não é vídeo generativo.",
+  "provedores_ia_video": "bloqueados em 04/11/2026: Canva (vídeo exige plano pago), Figma Weave (conta não vinculada), sem credencial de Veo/HeyGen/Runway"
+ },
+ "render_modes": {
+  "private_preview": "permite private_research e quotation_excerpt, com selo PRÉVIA PRIVADA",
+  "public_release": "só verified_license, public_domain, owner_provided, original_production e fact_citation; o resto vira placeholder honesto"
+ }
+}

@@ -1,0 +1,110 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E05",
+  "titulo": "MKULTRA: quando o segredo foi confirmado",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/AO-S01-E05.v2.json",
+  "proximo_episode_id": "AO-S01-E06",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 9,
+      "funcao": "abertura",
+      "fala": "A CIA mandou destruir arquivos de um programa secreto. Quatro anos depois, apareceram sete caixas.",
+      "visual": "Uma fileira de caixas sem etiquetas emerge do escuro conforme a luz se desloca pela estante. Deixe claro que o plano encena a descoberta e não reproduz as caixas reais.",
+      "som": "Ressonância de depósito, uma caixa de papelão arrastada. Pausa antes de sete.",
+      "classe_visual": "reconstituicao",
+      "selo": "RECONSTITUIÇÃO",
+      "claims_base": ["C1"],
+      "referencias": ["S-SENATE-1977"]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 9,
+      "fim_s": 22,
+      "funcao": "pista",
+      "fala": "O diretor contou ao Senado onde as acharam. As caixas tinham ido para o depósito por outro caminho, com os registros do setor financeiro.",
+      "visual": "O Arquivista acompanha com a lanterna o trilho de fichários até a mesa. Corta para a transcrição de Turner, com pausa para ler a identificação da seção Budget and Fiscal. A cena do Arquivista e o documento ocupam planos separados.",
+      "som": "Chave de lanterna em primeiro plano; ambiente se abre quando a folha entra.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C5"],
+      "referencias": ["S-SENATE-1977"]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 22,
+      "fim_s": 33,
+      "funcao": "pista",
+      "fala": "O nome era MKUltra. Nos primeiros registros financeiros liberados, uma pista que ninguém esperaria encontrar num balanço.",
+      "visual": "O nome entra pela borda do memorando de 2 de agosto de 1977. Foco desliza do assunto para o parágrafo que descreve a primeira liberação, sem criar recibos ou linhas contábeis.",
+      "som": "Duas folhas deslizam; a segunda segura o corte.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C3"],
+      "referencias": ["S-CIA-1977"]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 33,
+      "fim_s": 46,
+      "funcao": "virada",
+      "fala": "Um memorando menciona um manual escrito por um mágico. Truques de mão para administrar drogas a pessoas que nem saberiam.",
+      "visual": "Abra o enquadramento no memorando e faça o foco descer até o item do manual. A linha original permanece legível e o título do plano fica na margem externa. Sem encenar a administração de drogas.",
+      "som": "Cessa o pulso. Só o ruído de uma unha sobre o papel.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C4"],
+      "referencias": ["S-CIA-1977"]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 46,
+      "fim_s": 59,
+      "funcao": "virada",
+      "fala": "Na audiência, o diretor relatou testes sem que os participantes soubessem. A pasta tem números de subprojeto. Quais pessoas ficaram sem nome nesses registros?",
+      "visual": "Por cima do ombro, o Arquivista segue com a mão enluvada a coluna de identificação dos subprojetos, na audiência autêntica. A luva para e sai do quadro antes da pergunta. Não mostrar rostos para representar participantes sem identificação.",
+      "som": "Ambiente do arquivo sem ruído de plateia; a respiração precede a pergunta.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C5", "C6"],
+      "referencias": ["S-SENATE-1977"]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 59,
+      "fim_s": 73,
+      "funcao": "hipotese",
+      "fala": "O subprojeto cento e dezenove propunha revisar estudos sobre sinais do corpo e comportamento à distância. A proposta sobreviveu. O resultado que a tornaria prova, não está aqui.",
+      "visual": "Do identificador 119, deslize até o trecho que descreve a revisão proposta. Na margem, sobre fundo sólido, mantenha PROPOSTA DE PESQUISA durante a leitura. Evitar ondas que atinjam cérebros ou simulem eficácia.",
+      "som": "Retorno discreto do pulso grave, sem efeito de transmissão.",
+      "classe_visual": "documental",
+      "selo": "PROPOSTA DE PESQUISA",
+      "claims_base": ["C7", "C8"],
+      "referencias": ["S-CIA-SP119"]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 73,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Essas caixas guardavam parte da história. Na próxima pasta, militares escrevem um plano para que o mundo acredite na versão errada.",
+      "visual": "O Arquivista recolhe uma caixa e deixa o espaço vazio respirar. No fundo da prateleira, acende a etiqueta contemporânea NORTHWOODS. Corte ao fim da fala, com a caixa ainda nas mãos.",
+      "som": "A música para no ruído de papelão; trava metálica no escuro.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": ["C1", "C5"],
+      "referencias": ["S-SENATE-1977"]
+    }
+  ],
+  "fontes_adicionais": [],
+  "preproducao": [
+    "Para as sete caixas e o depósito, conferir o relato de Stansfield Turner em S-SENATE-1977, páginas impressas 4 e 9 (PDF p. 8 e p. 13, numeração do visualizador). Para a destruição, PDF p. 7 e p. 72.",
+    "O manual é mencionado no memorando, que não comprova que cada técnica tenha sido aplicada. Usar o item b da cópia oficial de S-CIA-1977 (CIA-RDP81-00261R000300050017-0); conferir direitos, hash e recorte antes de usar.",
+    "O gancho militar remete ao memorando Northwoods do EP06. Usar etiqueta contemporânea do estúdio; sem sugerir que as caixas da CIA continham essa outra proposta.",
+    "Confirmar fonte e licença por plano, especialmente a reprodução S-CIA-SP119. Se não houver reprodução elegível, usar transcrição atribuída com selo, nunca simular um PDF de época.",
+    "O Arquivista atravessa o set canônico. O depósito da abertura é reconstituição com selo legível. Na montagem, escolher se o plano de caixa será encenado fisicamente ou traduzido em ilustração original com o selo correspondente."
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "aberturaA": "1977. O Senado americano ouve a CIA sobre um programa secreto.",
+  "cenas": [
+    {
+      "fala": "1977. O Senado americano ouve a CIA sobre um programa secreto.",
+      "selo": "DOCUMENTADO",
+      "tela": "1977",
+      "tts": "Mil novecentos e setenta e sete. O Senado americano ouve a CIA sobre um programa secreto.",
+      "v": {
+        "sub": "SENADO DOS EUA",
+        "texto": "1977",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "O nome: MKULTRA.",
+      "tela": "MKULTRA",
+      "tts": "O nome: em quei ultra.",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Na Guerra Fria, a agência financiou experiências com drogas como o LSD e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "SEM CONSENTIMENTO",
+      "tts": "Na Guerra Fria, a agência financiou experiências com drogas como o éle éssi dê e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+      "v": {
+        "cabecalho": "PROJETO MKULTRA",
+        "carimbo": "SECRETO",
+        "linhas": [
+          "SUBSTÂNCIAS: LSD",
+          "CONTROLE DO COMPORTAMENTO",
+          "CONSENTIMENTO: NÃO"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Em 1973, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+      "selo": "DOCUMENTADO",
+      "tela": "1973: QUEIMA DE ARQUIVO",
+      "tts": "Em mil novecentos e setenta e três, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+      "v": {
+        "pontos": [
+          [
+            "1953",
+            "INÍCIO"
+          ],
+          [
+            "1973",
+            "DESTRUIÇÃO"
+          ],
+          [
+            "1977",
+            "SENADO"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "É perturbador. E está documentado.",
+      "tela": "DOCUMENTADO",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Mas um caso real não prova qualquer outra teoria. Cada uma precisa da sua própria evidência.",
+      "tela": "CADA TEORIA, SUA PROVA",
+      "v": {
+        "a": [
+          "FATO",
+          "1977"
+        ],
+        "b": [
+          "EXTRAPOLAÇÃO",
+          "SEM PROVA"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Se queimaram os arquivos uma vez... o que mais sobrou?",
+      "tela": "O QUE SOBROU?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-005",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Programa de 1953; destruição ordenada por Richard Helms em 1973; documentos financeiros achados em 1977; audiência no Senado em 03/08/1977.",
+  "data": "2026-11-03",
+  "fato": "Programa de 1953; destruição ordenada por Richard Helms em 1973; documentos financeiros achados em 1977; audiência no Senado em 03/08/1977.",
+  "fontes": [
+    {
+      "nome": "cia.gov",
+      "url": "https://www.cia.gov/readingroom/"
+    }
+  ],
+  "legenda": "MKULTRA existiu e foi investigado oficialmente pelo Senado dos EUA em 1977. O rigor começa quando separamos documento de extrapolação.\n\nSiga para mais casos comprovados.\n\nFonte: audiência conjunta do Senado dos EUA, 03/08/1977 (Project MKULTRA, the CIA's Program of Research in Behavioral Modification)\n\n#ArquivoOculto #MKULTRA #CIA #historia #conspiracao",
+  "nota": 4,
+  "ordem": 5,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "1977. O Senado americano ouve a CIA sobre um programa secreto.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "O nome: MKULTRA.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "Na Guerra Fria, a agência financiou experiências com drogas como o LSD e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Em 1973, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "É perturbador. E está documentado.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Mas um caso real não prova qualquer outra teoria. Cada uma precisa da sua própria evidência.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Se queimaram os arquivos uma vez... o que mais sobrou?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Conspirações Documentadas",
+  "titulo": "MKULTRA: quando o segredo foi confirmado"
+}

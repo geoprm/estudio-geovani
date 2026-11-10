@@ -1,0 +1,301 @@
+{
+  "schema": "arquivo-oculto/episodio-v2",
+  "episode_id": "AO-IC-E03",
+  "num": 3,
+  "formato": "microdrama",
+  "versao": "v3.0-piloto.3",
+  "status_editorial": "pronto_para_render",
+  "titulo": "O Número na Margem",
+  "serie": "O Índice Cego",
+  "hook": "QUAL PORTA O NÚMERO ABRE?",
+  "mascara_falada": true,
+  "assinatura_abertura": {
+    "gancho": "Hoje eu vou te mostrar como um número abre a porta errada."
+  },
+  "outro": {
+    "duracao_s": 2.6,
+    "visual_source_type": "tipografia",
+    "rights_status": "original_production",
+    "linhas": [
+      "O ÍNDICE CEGO · EP. 03",
+      "AS SETE PORTAS",
+      "PRÓXIMO CAPÍTULO"
+    ],
+    "aviso": "FICÇÃO ORIGINAL · VOZ SINTÉTICA"
+  },
+  "nota_editorial": "Ficção original da cabine. A conta simbólica de Liber OZ é documentação; nenhum exemplar de carta ou manuscrito histórico é reproduzido.",
+  "fontes": [
+    {
+      "id": "S-OZ",
+      "titulo": "Liber OZ e Observations on Liber Oz — O.T.O. USA",
+      "url": "https://sabazius.oto-usa.org/writings/essays-and-commentaries/thelema/observations-on-liber-oz",
+      "verificacao": "Redação em 1941, citações de Liber AL e valor 77."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "status": "documented",
+      "texto": "O comentário do O.T.O. USA registra 77 como valor numérico de OZ na leitura cabalística do termo hebraico.",
+      "fontes": [
+        "S-OZ"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "A-ARQUIVISTA",
+      "tipo": "personagem",
+      "arquivo": "arquivo_oculto/assets/arquivista.png",
+      "rights_status": "owner_provided",
+      "credito": "O Arquivista — identidade aprovada"
+    },
+    {
+      "id": "A-FICCAO",
+      "tipo": "ficcao",
+      "rights_status": "original_production",
+      "credito": "Adereços e arte originais — O Índice Cego"
+    },
+    {
+      "id": "A-S-OZ",
+      "tipo": "dado_documental",
+      "fonte": "S-OZ",
+      "rights_status": "fact_citation",
+      "credito": "Liber OZ e Observations on Liber Oz — O.T.O. USA"
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "beat": "cold_open",
+      "fala": "Olá, criancinhas... Hoje eu vou te mostrar como um número abre a porta errada.",
+      "pausa_ms": 440,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S01",
+          "tipo": "aparicao",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "fixa o olhar no espectador",
+          "gesture": "inclina a cabeça e fala",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "aviso íntimo",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: fixa o olhar no espectador",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.52,
+          "params": {},
+          "mascara_falada": true
+        },
+        {
+          "id": "S02",
+          "tipo": "quadro_cinema",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "luz corta a porta",
+          "sound_design": "projeção e papel",
+          "prompt": "luz corta a porta",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "beat": "inciting_question",
+      "fala": "A lata tinha sumido. Voltei ao bilhete. Alguém escreveu setenta e sete na margem e circulou o número duas vezes.",
+      "pausa_ms": 330,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S03",
+          "tipo": "bilhete_indice",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "linhas": [
+              "77",
+              "OLHE A MARGEM"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe revela o nome",
+          "sound_design": "projeção e papel",
+          "prompt": "o feixe revela o nome",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "beat": "dated_evidence",
+      "fala": "No Liber OZ, encontrei uma conta. Setenta mais sete. O número era um jeito de ler aquelas letras. Eu tinha uma resposta. Só não tinha a porta.",
+      "tts": "No Líber Óz, encontrei uma conta. Setenta mais sete. O número era um jeito de ler aquelas letras. Eu tinha uma resposta. Só não tinha a porta.",
+      "pausa_ms": 350,
+      "claims": [
+        "C1"
+      ],
+      "shots": [
+        {
+          "id": "S04",
+          "tipo": "virar_cabeca",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "compara dois caminhos para o número",
+          "gesture": "vira da página para a porta",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "descoberta",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: interrompe o giro",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.38,
+          "params": {}
+        },
+        {
+          "id": "S05",
+          "tipo": "titulo_obra",
+          "asset": "A-S-OZ",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "70 + 7",
+              "LIBER OZ • 77"
+            ],
+            "sub": "Gematria · comentário do O.T.O. USA"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-EQUINOX",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "beat": "reversal_or_surprise",
+      "fala": "No corredor, as caixas estavam em ordem de entrada. Depois da setenta e seis, havia um espaço vazio. Atrás do suporte, a lata ainda estava quente.",
+      "pausa_ms": 350,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S06",
+          "tipo": "debrucar",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "se inclina para olhar atrás do suporte",
+          "gesture": "ergue a lata da prateleira",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "retorno da ameaça",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: se inclina sobre o bilhete",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.45,
+          "params": {}
+        },
+        {
+          "id": "S07",
+          "tipo": "lata_cinema",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "inscricao": "77"
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe revela o nome",
+          "sound_design": "projeção e papel",
+          "prompt": "o feixe revela o nome",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Abri a lata. Em vez da fita, achei sete fotografias de uma mesma porta. Na última, a porta estava aberta. A pessoa que segurava a câmera usava as minhas luvas.",
+      "pausa_ms": 450,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S08",
+          "tipo": "quadro_cinema",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "luz corta a porta",
+          "sound_design": "projeção e papel",
+          "prompt": "luz corta a porta",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        },
+        {
+          "id": "S09",
+          "tipo": "bilhete_indice",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "linhas": [
+              "FOTO 07",
+              "PORTA ABERTA"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe revela o nome",
+          "sound_design": "projeção e papel",
+          "prompt": "o feixe revela o nome",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        },
+        {
+          "id": "S10",
+          "tipo": "encerramento",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "recua para a sombra",
+          "gesture": "sustenta o último olhar",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "ameaça",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: recua para a sombra",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.5,
+          "params": {}
+        }
+      ]
+    }
+  ]
+}

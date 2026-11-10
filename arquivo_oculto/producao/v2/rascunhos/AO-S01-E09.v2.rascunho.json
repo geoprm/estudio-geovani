@@ -1,0 +1,273 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E09",
+ "versao": "v2.0-rascunho",
+ "num": 9,
+ "formato": "investigacao_90",
+ "duracao_estimada_s": 42.8,
+ "expandir_para_formato": true,
+ "titulo": "Agenda 2030: o que está escrito?",
+ "serie": "Tabuleiro Mundial",
+ "hook": "ELA É CITADA COMO PLANO SECRETO. MAS ESTÁ PUBLICADA PARA QUE",
+ "status_editorial": "rascunho_pendente_checagem",
+ "pendencias": [
+  "ler cada fonte e salvar snapshot com hash em acervo_privado/",
+  "classificar claims (documented/interpretation/allegation) e ligar às falas",
+  "trocar dossiês ilustrados por evidência autêntica quando houver direitos",
+  "expandir para investigacao_90 (85 s, 25–30 planos) se o tema sustentar",
+  "conferir cuidado editorial: ONU 2015, 17 ODS, 169 metas. Não apresentar plano secreto como fato."
+ ],
+ "origem": {
+  "pauta_app": "ao-ep09",
+  "codigo": "AO-REEL-009",
+  "palavras": 83
+ },
+ "fontes": [
+  {
+   "id": "S-PAUTA-1",
+   "titulo": "sdgs.un.org",
+   "url": "https://sdgs.un.org/2030agenda",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  }
+ ],
+ "claims": [],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Ela é citada como plano secreto. Mas está publicada para quem quiser ler.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "titulo_obra",
+     "params": {
+      "linhas": [
+       "2030"
+      ],
+      "sub": "AGENDA"
+     },
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "titulo_obra original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S01",
+     "peso": 1,
+     "tela": "AGENDA 2030"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "inciting_question",
+   "fala": "A Agenda 2030 foi aprovada na ONU em setembro de 2015.",
+   "tts": "A Agenda dois mil e trinta foi aprovada na ONU em setembro de dois mil e quinze.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "aparicao",
+     "id": "S02",
+     "peso": 1,
+     "tela": "ONU · 2015"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "dated_evidence",
+   "fala": "Dezessete objetivos. Cento e sessenta e nove metas.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "ARQUIVO",
+      "linhas": [
+       "17 OBJETIVOS · 169 METAS"
+      ],
+      "rotulo": "17 OBJETIVOS · 169 METAS",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S03",
+     "peso": 1,
+     "tela": "17 OBJETIVOS · 169 METAS"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "Pobreza, fome, saúde, educação, energia, clima. Está tudo no texto oficial.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "NAÇÕES UNIDAS · 2015",
+      "linhas": [
+       "TRANSFORMANDO NOSSO MUNDO",
+       "17 OBJETIVOS · 169 METAS",
+       "PRAZO: 2030"
+      ],
+      "rotulo": "O QUE ESTÁ ESCRITO",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S04",
+     "peso": 1,
+     "tela": "O QUE ESTÁ ESCRITO"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "competing_interpretations",
+   "fala": "O debate sério não é se ela existe. É o que cada governo faz com ela, e quem decide.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "leituras",
+     "params": {
+      "a": [
+       "TEXTO",
+       "OFICIAL"
+      ],
+      "b": [
+       "O QUE",
+       "DIZEM"
+      ],
+      "sync_b": 0.45
+     },
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "leituras original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S05",
+     "peso": 1,
+     "tela": "TEXTO × INTERPRETAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "reversal_or_surprise",
+   "fala": "Quem critica sem ler perde o argumento. Quem lê, ganha.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "caminha entre fichários",
+     "gesture": "passos com balanço",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: caminha entre fichários",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "corredor",
+     "id": "S06",
+     "peso": 1,
+     "tela": "LEIA A FONTE"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Você já leu a Agenda 2030... ou só ouviu falar dela?",
+   "tts": "Você já leu a Agenda dois mil e trinta... ou só ouviu falar dela?",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "encerramento",
+     "id": "S07",
+     "peso": 1,
+     "tela": "LEU OU OUVIU?"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 09",
+   "ARQUIVO OCULTO",
+   "TABULEIRO MUNDIAL"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "O texto da Agenda 2030 é público: ONU, 2015, 17 objetivos e 169 metas. Dá para discutir o impacto real sem confundir documento com interpretação.\n\nQuer a análise por capítulo? Comente 2030.\n\nFonte: sdgs.un.org/2030agenda\n\n#ArquivoOculto #Agenda2030 #ONU #geopolitica #misterio"
+}

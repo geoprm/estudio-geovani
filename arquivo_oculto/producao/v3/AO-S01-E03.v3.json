@@ -1,0 +1,160 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E03",
+  "titulo": "A carta associada a Trump",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/AO-S01-E03.v2.json",
+  "proximo_episode_id": "AO-S01-E04",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Um rosto na sombra. Uma frase sobre atiradores. Quem deu nome àquele rosto?",
+      "visual": "Na prévia privada, comece no olho da reprodução da carta e desça ao texto em itálico sem inventar nova arte. Na versão pública, use um cartão opaco com o título e o selo IMAGEM RETIDA. Preserve a pergunta nas duas versões.",
+      "som": "Passagem da luva pelo papel. Grave curto, sem tiro ou grito.",
+      "classe_visual": "documental",
+      "selo": "REPRODUÇÃO · PESQUISA PRIVADA",
+      "claims_base": [
+        "C4",
+        "C5"
+      ],
+      "referencias": [
+        "S-CGG-ENOUGH"
+      ]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 19,
+      "funcao": "pista",
+      "fala": "Abro o comunicado do FBI. Em julho de dois mil e vinte e quatro, um atentado contra Donald Trump em Butler.",
+      "visual": "Substitua o cartão pelo comunicado do FBI. Passe do cabeçalho ao trecho sobre a tentativa de assassinato no comício. Deixe o texto respirar sem imagens do momento do disparo.",
+      "som": "Corte seco para som de sala. Um leve toque de papel marca a passagem ao comunicado.",
+      "classe_visual": "documental",
+      "selo": "COMUNICADO · FBI",
+      "claims_base": [
+        "C1"
+      ],
+      "referencias": [
+        "S-FBI-BUTLER"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 19,
+      "fim_s": 31,
+      "funcao": "pista",
+      "fala": "Puxo a lista de Assassins. Enough is Enough já está ali em janeiro de noventa e seis.",
+      "visual": "O Arquivista caminha dois passos e puxa o fichário em até três segundos. Corte para a data da lista publicada por Steve Jackson. Desça até a linha da carta, com a data e a origem preservadas. Não fabrique postagem viral.",
+      "som": "O som de metal cede ao papel. Mantenha a fala seca no final.",
+      "classe_visual": "documental",
+      "selo": "LISTA OFICIAL · ASSASSINS",
+      "claims_base": [
+        "C3"
+      ],
+      "referencias": [
+        "S-ASSASSINS-1996"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 31,
+      "fim_s": 43,
+      "funcao": "pista",
+      "fala": "No itálico, uma ameaça de jogo. Mas há um segundo texto. Desço mais um bloco, até a regra.",
+      "visual": "Na prévia, faça o Arquivista se debruçar sobre a reprodução por até três segundos e passe o foco do itálico ao corpo de regras, sob o desenho. Na pública, repita o movimento entre dois blocos de paráfrase creditada, com a imagem retida.",
+      "som": "Segure meio segundo de silêncio na mudança de foco. Retome com um risco baixo de grafite.",
+      "classe_visual": "documental",
+      "selo": "REPRODUÇÃO · PESQUISA PRIVADA",
+      "claims_base": [
+        "C5"
+      ],
+      "referencias": [
+        "S-CGG-ENOUGH"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 43,
+      "fim_s": 55,
+      "funcao": "virada",
+      "fala": "A jogada remove efeitos como paralisia da estrutura de poder do jogador. A ameaça dá clima. A regra muda o tabuleiro.",
+      "visual": "Na prévia, destaque a passagem sobre remover efeitos com uma caixa de leitura externa à imagem. Na pública, use uma anotação de análise em tipografia própria, com crédito. Mostre as duas funções lado a lado e encerre a divisão com um corte de página.",
+      "som": "Dois sons distintos de papel, um abafado e um aberto. Sem pontuar com sons de arma.",
+      "classe_visual": "documental",
+      "selo": "PARÁFRASE IDENTIFICADA",
+      "claims_base": [
+        "C5"
+      ],
+      "referencias": [
+        "S-CGG-ENOUGH"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 55,
+      "fim_s": 66,
+      "funcao": "hipotese",
+      "fala": "A lista dá uma data. A semelhança pode explicar a associação. O nome de Trump vem de fora da carta.",
+      "visual": "Mantenha o título e a data da lista em campos próprios. Na prévia, isole a área da arte em seu contexto. Na pública, deixe o cartão opaco. Use o selo de interpretação no momento da comparação e evite superpor o rosto da carta ao de Trump.",
+      "som": "Grave discreto que perde força. Faça a última frase sobre o ruído de sala.",
+      "classe_visual": "tipografia",
+      "selo": "INTERPRETAÇÃO",
+      "claims_base": [
+        "C3",
+        "C4",
+        "C7"
+      ],
+      "referencias": [
+        "S-ASSASSINS-1996",
+        "S-CGG-ENOUGH"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 66,
+      "fim_s": 75,
+      "funcao": "pista",
+      "fala": "Falta encontrar o primeiro registro que pôs a carta e o comício lado a lado.",
+      "visual": "O Arquivista abre uma ficha de trabalho original com o campo ‘primeiro registro’. A ponta da caneta para acima da linha vazia e ele vira para a lente. Ficha com estética editorial contemporânea, sem selo oficial.",
+      "som": "Arranhe a ponta da caneta e preserve o silêncio.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [
+        "C2"
+      ],
+      "referencias": []
+    },
+    {
+      "id": "B08",
+      "inicio_s": 75,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Na próxima pasta, uma porta arrombada. Os papéis que saem dali revelam uma operação que o próprio FBI reconhece.",
+      "visual": "Encerre no Arquivista deslizando outra pasta sob o foco. Corte para a retrospectiva oficial do FBI com a palavra COINTELPRO e a origem legível. Não use imagens do atentado nessa transição.",
+      "som": "Guia de gaveta, papel e motivo de saída do perfil.",
+      "classe_visual": "documental",
+      "selo": "PRÓXIMO ARQUIVO · COINTELPRO",
+      "claims_base": [],
+      "referencias": [
+        "S-FBI-HIST"
+      ]
+    }
+  ],
+  "fontes_adicionais": [
+    {
+      "id": "S-FBI-HIST",
+      "titulo": "FBI — And Justice for All, 1954–1971",
+      "url": "https://www.fbi.gov/history/history-of-the-fbi/and-justice-for-all",
+      "localizador": "Parágrafos sobre COINTELPRO: arrombamento do escritório em Media, Pensilvânia, em 1971 e vazamento de informações para a imprensa e o Congresso. Referência usada apenas na transição ao EP04."
+    }
+  ],
+  "preproducao": [
+    "Reprodução de vendedor consultada no acervo privado. O vendedor informa que as imagens são fotos de estoque e podem divergir da edição física. Não usar a reprodução para autenticar variante ou impressão.",
+    "Retirar a reprodução da carta da versão pública sem autorização. Usar tipografia própria, paráfrase creditada e selo IMAGEM RETIDA. A permissão para copiar a lista oficial de Assassins não se estende à imagem da carta.",
+    "Não simular o atentado nem atribuir o desenho a Trump, os atos do atirador à editora ou conhecimento prévio a pessoas reais. A primeira associação pública permanece sem registro localizado."
+  ]
+}

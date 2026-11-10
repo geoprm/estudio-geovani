@@ -1,0 +1,278 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E04",
+ "versao": "v2.0-rascunho",
+ "num": 4,
+ "formato": "investigacao_90",
+ "duracao_estimada_s": 40.4,
+ "expandir_para_formato": true,
+ "titulo": "COINTELPRO: uma conspiração comprovada",
+ "serie": "Conspirações Documentadas",
+ "hook": "ISTO NÃO É TEORIA. ESTÁ NO SITE DO PRÓPRIO FBI.",
+ "status_editorial": "rascunho_pendente_checagem",
+ "pendencias": [
+  "ler cada fonte e salvar snapshot com hash em acervo_privado/",
+  "classificar claims (documented/interpretation/allegation) e ligar às falas",
+  "trocar dossiês ilustrados por evidência autêntica quando houver direitos",
+  "expandir para investigacao_90 (85 s, 25–30 planos) se o tema sustentar",
+  "conferir cuidado editorial: Programa de 1956 a 1971; vazamento de Media (PA) em 1971; Comitê Church (1975-76). Não extrapolar para acusações atuais."
+ ],
+ "origem": {
+  "pauta_app": "ao-ep04",
+  "codigo": "AO-REEL-004",
+  "palavras": 78
+ },
+ "fontes": [
+  {
+   "id": "S-PAUTA-1",
+   "titulo": "vault.fbi.gov",
+   "url": "https://vault.fbi.gov/cointel-pro",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  },
+  {
+   "id": "S-PAUTA-2",
+   "titulo": "fbi.gov",
+   "url": "https://www.fbi.gov/history/history-of-the-fbi/and-justice-for-all",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  }
+ ],
+ "claims": [],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Isto não é teoria. Está no site do próprio FBI.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "titulo_obra",
+     "params": {
+      "linhas": [
+       "FBI"
+      ],
+      "sub": "ARQUIVO OFICIAL"
+     },
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "titulo_obra original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S01",
+     "peso": 1,
+     "tela": "ERA REAL"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "inciting_question",
+   "fala": "De 1956 a 1971, o FBI manteve um programa secreto chamado COINTELPRO.",
+   "tts": "De mil novecentos e cinquenta e seis a mil novecentos e setenta e um, o éfe bi ai manteve um programa secreto chamado Cointelpro.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "aparicao",
+     "id": "S02",
+     "peso": 1,
+     "tela": "1956–1971"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "dated_evidence",
+   "fala": "O alvo: grupos políticos dentro dos Estados Unidos. O método: infiltrar, vigiar, desacreditar.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "COINTELPRO",
+      "linhas": [
+       "PROGRAMA DE CONTRAINTELIGÊNCIA",
+       "ALVOS: GRUPOS POLÍTICOS",
+       "1956 – 1971"
+      ],
+      "rotulo": "INFILTRAR · VIGIAR · DES",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S03",
+     "peso": 1,
+     "tela": "INFILTRAR · VIGIAR · DESACREDITAR"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "Em 1971, ativistas invadiram um escritório do FBI na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+   "tts": "Em mil novecentos e setenta e um, ativistas invadiram um escritório do éfe bi ai na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "salto_datas",
+     "params": {
+      "de": "1956",
+      "ate": "1975",
+      "rot_de": "INÍCIO",
+      "rot_ate": "CONGRESSO",
+      "gap": ""
+     },
+     "selo": "A VERIFICAR",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "salto_datas original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S04",
+     "peso": 1,
+     "tela": "1971: O VAZAMENTO"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "competing_interpretations",
+   "fala": "Depois, o Congresso investigou. E o programa virou história oficial.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "leituras",
+     "params": {
+      "a": [
+       "SEGREDO",
+       "1956"
+      ],
+      "b": [
+       "PÚBLICO",
+       "1971"
+      ],
+      "sync_b": 0.45
+     },
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "leituras original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S05",
+     "peso": 1,
+     "tela": "INVESTIGADO"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "reversal_or_surprise",
+   "fala": "Conspirações reais deixam rastro. Papel, data, assinatura.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "caminha entre fichários",
+     "gesture": "passos com balanço",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: caminha entre fichários",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "corredor",
+     "id": "S06",
+     "peso": 1,
+     "tela": "PAPEL · DATA · ASSINATURA"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Quantos arquivos ainda estão fechados?",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "encerramento",
+     "id": "S07",
+     "peso": 1,
+     "tela": "O QUE AINDA ESTÁ FECHADO?"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 04",
+   "ARQUIVO OCULTO",
+   "CONSPIRAÇÕES DOCUMENTADAS"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "COINTELPRO é o exemplo clássico de operação clandestina que deixou rastro documental: o próprio FBI registra essa história.\n\nQuer a parte 2 com os documentos? Escreva ARQUIVOS.\n\nFontes: fbi.gov (history) · vault.fbi.gov/cointel-pro\n\n#ArquivoOculto #COINTELPRO #FBI #historia #conspiracao"
+}

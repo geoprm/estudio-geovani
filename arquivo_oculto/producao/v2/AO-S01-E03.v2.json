@@ -1,0 +1,928 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E03",
+ "versao": "v2.0",
+ "num": 3,
+ "formato": "investigacao_90",
+ "titulo": "A carta associada a Trump",
+ "serie": "Cartas do Futuro",
+ "hook": "UMA CARTA DE 1996 PREVIU?",
+ "status_editorial": "pronto_para_render",
+ "estrutura": [
+  "cold_open",
+  "inciting_question",
+  "dated_evidence",
+  "competing_interpretations",
+  "reversal_or_surprise",
+  "open_loop_or_next_dossier"
+ ],
+ "nota_editorial": "Sem imagens do atentado e sem simulação de pessoa real. A carta é mostrada só na prévia privada (reprodução de vendedor); no modo público vira IMAGEM RETIDA. A identificação do rosto não é afirmada. A primeira circulação da associação não foi rastreada e isso é dito.",
+ "fontes": [
+  {
+   "id": "S-FBI-BUTLER",
+   "titulo": "FBI — Butler Investigation Updates (comunicados de 13 e 14/07/2024)",
+   "editor": "FBI (fbi.gov)",
+   "url": "https://www.fbi.gov/news/press-releases/butler-investigation-updates",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/fbi_butler_investigation_updates.html",
+   "acessado_em": "2026-11-05",
+   "verificacao": "lido: o FBI investiga o tiroteio no comício de 13 de julho em Butler, Pensilvânia, como tentativa de assassinato do ex-presidente Donald Trump",
+   "direitos": "texto do governo federal dos EUA: domínio público"
+  },
+  {
+   "id": "S-ASSASSINS-1996",
+   "titulo": "Steve Jackson — lista oficial de Assassins (Usenet, jan/1996)",
+   "editor": "Steve Jackson Games (rec.games.trading-cards.announce)",
+   "url": "https://groups.google.com/g/rec.games.trading-cards.announce/c/aRuYIKEv8Zc",
+   "verificacao": "conferido pelo site v0.6/v0.8 (dossiê enough): Enough is Enough consta como Plot / Paralysis, Common; não relido nesta sessão"
+  },
+  {
+   "id": "S-LIST-1995",
+   "titulo": "The Official INWO Card List - April 18, 1995",
+   "editor": "Steve Jackson Games",
+   "url": "https://www.sjgames.com/inwo/lists/ill.html",
+   "snapshot": "arquivo_oculto/acervo_privado/sjgames_inwo_lists_ill_1995-04-18.html",
+   "acessado_em": "2026-11-04",
+   "verificacao": "lido: 5 cartas do tipo Ass.: Car Bomb (C, Dan/Derek), Hit and Run (C, Gary/Derek), Poison (C, Shea/Derek), Sniper (U, Dan/Rick), Withering Curse (R, Shea/Jeff)"
+  },
+  {
+   "id": "S-CGG-ENOUGH",
+   "titulo": "CardGameGeek — reprodução de Enough is Enough",
+   "editor": "CardGameGeek (vendedor)",
+   "url": "https://shop.cardgamegeek.com/shop/product/enough-is-enough",
+   "snapshot": "arquivo_oculto/acervo_privado/cartas/enough_is_enough.png",
+   "acessado_em": "2026-11-05",
+   "verificacao": "frente lida nesta sessão: título, arte com rosto em tons escuros e roxos, texto de ambientação \"At any time, at any place, our snipers can drop you. Have a nice day.\" e regra sobre remover Zap, Paralysis ou Attribute Freeze da própria Power Structure (\"house-cleaning\")",
+   "direitos": "reprodução de vendedor; titularidade Steve Jackson Games; só pesquisa privada"
+  },
+  {
+   "id": "S-CGG-BRIEF",
+   "titulo": "CardGameGeek — reprodução de A Brief Attack of Conscience",
+   "editor": "CardGameGeek (vendedor)",
+   "url": "https://shop.cardgamegeek.com/",
+   "snapshot": "arquivo_oculto/acervo_privado/cartas/a_brief_attack_of_conscience.png",
+   "acessado_em": "2026-11-05",
+   "verificacao": "frente lida: carta Zap; \"The target Illuminati cannot use Assassinations or Discounts\"",
+   "direitos": "reprodução de vendedor; só pesquisa privada"
+  },
+  {
+   "id": "S-CGG-SNIPER",
+   "titulo": "CardGameGeek — reprodução de Sniper",
+   "editor": "CardGameGeek (vendedor)",
+   "url": "https://shop.cardgamegeek.com/",
+   "snapshot": "arquivo_oculto/acervo_privado/cartas/sniper.jpg",
+   "acessado_em": "2026-11-05",
+   "direitos": "reprodução de vendedor; só pesquisa privada"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "texto": "Em 13/07/2024 houve uma tentativa de assassinato de Donald Trump num comício em Butler, Pensilvânia",
+   "status": "documented",
+   "fontes": [
+    "S-FBI-BUTLER"
+   ]
+  },
+  {
+   "id": "C2",
+   "texto": "Depois do atentado, a carta Enough is Enough circulou como \"prova\" de conhecimento prévio",
+   "status": "allegation",
+   "fontes": [],
+   "nota": "primeira circulação não rastreada"
+  },
+  {
+   "id": "C3",
+   "texto": "Enough is Enough consta da lista oficial de Assassins (jan/1996)",
+   "status": "documented",
+   "fontes": [
+    "S-ASSASSINS-1996"
+   ]
+  },
+  {
+   "id": "C4",
+   "texto": "A arte mostra um rosto em tons escuros e roxos; a identificação com uma pessoa real não foi demonstrada",
+   "status": "interpretation",
+   "fontes": [],
+   "nota": "site: hipótese em investigação"
+  },
+  {
+   "id": "C5",
+   "texto": "O texto de ambientação fala em atiradores; a regra trata de remover efeitos da própria estrutura de poder",
+   "status": "documented",
+   "fontes": [
+    "S-CGG-ENOUGH"
+   ]
+  },
+  {
+   "id": "C6",
+   "texto": "A lista de 1995 tem 5 cartas do tipo Assassination, entre elas Sniper",
+   "status": "documented",
+   "fontes": [
+    "S-LIST-1995"
+   ]
+  },
+  {
+   "id": "C7",
+   "texto": "Previsão exigiria data anterior e alvo identificável; há data, não há alvo identificado",
+   "status": "interpretation",
+   "fontes": []
+  }
+ ],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  },
+  {
+   "id": "A-FBI-BUTLER",
+   "tipo": "documento_autentico",
+   "fonte": "S-FBI-BUTLER",
+   "rights_status": "public_domain",
+   "credito": "FBI · Butler Investigation Updates (fbi.gov) · domínio público"
+  },
+  {
+   "id": "A-CARTA-ENOUGH",
+   "tipo": "arte_autentica",
+   "arquivo": "arquivo_oculto/acervo_privado/cartas/enough_is_enough.png",
+   "fonte": "S-CGG-ENOUGH",
+   "rights_status": "private_research",
+   "fallback": "placeholder",
+   "credito": "Carta Enough is Enough · © Steve Jackson Games · reprodução CardGameGeek"
+  },
+  {
+   "id": "A-CARTA-BRIEF",
+   "tipo": "arte_autentica",
+   "arquivo": "arquivo_oculto/acervo_privado/cartas/a_brief_attack_of_conscience.png",
+   "fonte": "S-CGG-BRIEF",
+   "rights_status": "private_research",
+   "fallback": "placeholder",
+   "credito": "Carta A Brief Attack of Conscience · © Steve Jackson Games · reprodução CardGameGeek"
+  },
+  {
+   "id": "A-CARTA-SNIPER",
+   "tipo": "arte_autentica",
+   "arquivo": "arquivo_oculto/acervo_privado/cartas/sniper.jpg",
+   "fonte": "S-CGG-SNIPER",
+   "rights_status": "private_research",
+   "fallback": "placeholder",
+   "credito": "Carta Sniper · © Steve Jackson Games · reprodução CardGameGeek"
+  },
+  {
+   "id": "A-ASSASSINS",
+   "tipo": "dado_documental",
+   "fonte": "S-ASSASSINS-1996",
+   "rights_status": "fact_citation",
+   "credito": "Fonte: lista oficial de Assassins, Steve Jackson Games, jan/1996"
+  },
+  {
+   "id": "A-LISTA-DADOS",
+   "tipo": "dado_documental",
+   "fonte": "S-LIST-1995",
+   "rights_status": "fact_citation",
+   "credito": "Fonte: lista oficial INWO, Steve Jackson Games, 18/04/1995"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "13 de julho de 2024. Um atentado contra Donald Trump, num comício em Butler, na Pensilvânia.",
+   "pausa_ms": 360,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S01",
+     "tipo": "trecho_documento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-FBI-BUTLER",
+     "shot_type": "trecho_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "lápis marca data e lugar",
+     "sound_design": "papel",
+     "prompt": "trecho_documento",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "publico": {
+       "cabecalho": "FBI · 14/07/2024",
+       "texto": "The FBI continues to investigate the shooting incident at the July 13 rally in Butler, Pennsylvania, as an assassination attempt on former President Donald Trump.",
+       "destaque": "July 13 rally in Butler",
+       "rodape": "TRANSCRIÇÃO · fbi.gov · domínio público"
+      }
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    },
+    {
+     "id": "S02",
+     "tipo": "telas",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "telas",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "chiado",
+     "prompt": "monitores abstratos",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "anos": [
+       1996,
+       2024
+      ]
+     },
+     "selo": "ILUSTRAÇÃO"
+    }
+   ],
+   "tts": "Treze de julho de dois mil e vinte e quatro. Um atentado contra Donald Trâmp, num comício em Bâtler, na Pensilvânia."
+  },
+  {
+   "id": "L02",
+   "beat": "cold_open",
+   "fala": "Depois disso, uma carta de baralho passou a circular como prova de que alguém sabia.",
+   "pausa_ms": 400,
+   "claims": [
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S03",
+     "tipo": "cartas_caem",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "cartas_caem",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "cartas",
+     "prompt": "versos genéricos AO",
+     "negative_prompt": "arte de INWO",
+     "params": {
+      "n": 8,
+      "semente": 21
+     },
+     "selo": "ILUSTRAÇÃO"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "inciting_question",
+   "fala": "Eu sou o Arquivista. Vamos ler a carta, não o boato.",
+   "pausa_ms": 360,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S04",
+     "tipo": "aparicao",
+     "peso": 1.0,
+     "tela": "LER A CARTA, NÃO O BOATO",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe até a câmera",
+     "camera_motion": "dolly-in discreto",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in discreto",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    },
+    {
+     "id": "S05",
+     "tipo": "corredor",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "caminha entre fichários e para",
+     "gesture": "passos com balanço; vira para a lente",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: caminha entre fichários e para",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "direcao": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "O nome dela é Enough is Enough. Em português: basta.",
+   "pausa_ms": 360,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S06",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-ENOUGH",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "câmera vai ao detalhe da carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta original",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "foco": [
+       0.06,
+       0.0,
+       0.94,
+       0.1
+      ],
+      "largura": 600,
+      "inclinacao": -2.0
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    }
+   ],
+   "tts": "O nome dela é Inâf is Inâf. Em português: basta."
+  },
+  {
+   "id": "L05",
+   "beat": "dated_evidence",
+   "fala": "Ela consta da lista oficial da expansão Assassins, divulgada em janeiro de 1996.",
+   "pausa_ms": 360,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S07",
+     "tipo": "titulo_obra",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-ASSASSINS",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "varredura",
+     "prompt": "nome e data",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "linhas": [
+       "ENOUGH",
+       "IS ENOUGH"
+      ],
+      "sub": "ASSASSINS · LISTA OFICIAL · JAN/1996"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    },
+    {
+     "id": "S08",
+     "tipo": "virar_cabeca",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "reage ao documento girando a cabeça",
+     "gesture": "giro de cabeça e olhar baixo",
+     "camera_motion": "órbita lenta",
+     "emotional_beat": "suspeita",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "órbita lenta",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: reage ao documento girando a cabeça",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": -1
+     }
+    }
+   ],
+   "tts": "Ela consta da lista oficial da expansão Assassins, divulgada em janeiro de mil novecentos e noventa e seis."
+  },
+  {
+   "id": "L06",
+   "beat": "competing_interpretations",
+   "fala": "Na arte, um rosto em tons escuros e roxos. De quem? A carta não diz.",
+   "pausa_ms": 500,
+   "claims": [
+    "C4"
+   ],
+   "shots": [
+    {
+     "id": "S09",
+     "tipo": "imagem_arquivo",
+     "peso": 1.2,
+     "tela": "",
+     "asset": "A-CARTA-ENOUGH",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "câmera vai ao detalhe da carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta original",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "foco": [
+       0.05,
+       0.1,
+       0.95,
+       0.56
+      ],
+      "largura": 600,
+      "inclinacao": -2.0
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S10",
+     "tipo": "silencio",
+     "peso": 0.7,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "rosto imóvel numa batida dramática",
+     "gesture": "nenhum, só respiração",
+     "camera_motion": "push-in micro",
+     "emotional_beat": "suspense",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "push-in micro",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: rosto imóvel numa batida dramática",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "dated_evidence",
+   "fala": "Em itálico, uma frase de ambientação: nossos atiradores podem te derrubar a qualquer hora, em qualquer lugar.",
+   "pausa_ms": 400,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S11",
+     "tipo": "imagem_arquivo",
+     "peso": 1.3,
+     "tela": "",
+     "asset": "A-CARTA-ENOUGH",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "câmera vai ao detalhe da carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta original",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "foco": [
+       0.06,
+       0.69,
+       0.94,
+       0.75
+      ],
+      "largura": 600,
+      "inclinacao": -2.0
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S11b",
+     "tipo": "silencio",
+     "peso": 0.7,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "rosto imóvel numa batida dramática",
+     "gesture": "nenhum, só respiração",
+     "camera_motion": "push-in micro",
+     "emotional_beat": "suspense",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "push-in micro",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: rosto imóvel numa batida dramática",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "beat": "reversal_or_surprise",
+   "fala": "Mas a regra da carta não fala em atentado. Fala em faxina: remover efeitos de paralisia da sua própria estrutura de poder.",
+   "pausa_ms": 600,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S12",
+     "tipo": "ombro",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-ENOUGH",
+     "personagem": true,
+     "action": "examina a prova por cima do ombro",
+     "gesture": "cabeça inclinada sobre o papel",
+     "camera_motion": "over-the-shoulder com foco seletivo",
+     "emotional_beat": "investigação",
+     "shot_type": "over-the-shoulder",
+     "visual_source_type": "arte_autentica",
+     "movement": "over-the-shoulder com foco seletivo",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: examina a prova por cima do ombro",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": 1
+     },
+     "prova": {
+      "tipo": "imagem_arquivo",
+      "params": {
+       "moldura": "carta",
+       "foco": [
+        0.06,
+        0.76,
+        0.94,
+        0.9
+       ],
+       "largura": 600
+      }
+     },
+     "parcial": true,
+     "credito": true,
+     "selo": "CARTA ORIGINAL"
+    },
+    {
+     "id": "S13",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-ENOUGH",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "câmera vai ao detalhe da carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta original",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "foco": [
+       0.06,
+       0.76,
+       0.94,
+       0.9
+      ],
+      "largura": 600,
+      "inclinacao": -2.0
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "beat": "dated_evidence",
+   "fala": "E a lista do jogo de 1995 já tinha cinco cartas do tipo assassinato. Uma delas: Sniper.",
+   "pausa_ms": 400,
+   "claims": [
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S14",
+     "tipo": "lista_oficial",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-LISTA-DADOS",
+     "shot_type": "lista_oficial",
+     "visual_source_type": "dado_documental",
+     "movement": "lápis circula Sniper",
+     "sound_design": "lápis",
+     "prompt": "lista_oficial",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "lista": "ep03",
+      "sync": [
+       0.62
+      ],
+      "camera": "geral"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    },
+    {
+     "id": "S15",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-SNIPER",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "push-in na carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta Sniper",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "largura": 640,
+      "inclinacao": 2.5
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    }
+   ],
+   "tts": "E a lista do jogo de mil novecentos e noventa e cinco já tinha cinco cartas do tipo assassinato. Uma delas: Snáiper."
+  },
+  {
+   "id": "L10",
+   "beat": "reversal_or_surprise",
+   "fala": "E uma expansão inteira se chama Assassins. Quando o tema é atentado, alguma carta vai parecer familiar.",
+   "pausa_ms": 460,
+   "claims": [
+    "C6",
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S16",
+     "tipo": "dossies",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossies",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pastas",
+     "prompt": "pastas genéricas",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "rotulos": [
+       "ASSASSINS",
+       "ASSASSINS",
+       "ASSASSINS"
+      ],
+      "dur": 2.6
+     },
+     "selo": "ANÁLISE"
+    },
+    {
+     "id": "S16b",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-BRIEF",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "push-in na carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta A Brief Attack of Conscience",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "largura": 600,
+      "inclinacao": -2.5
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "beat": "competing_interpretations",
+   "fala": "Previsão exige data antes do fato e um alvo identificável. Aqui existe a data. O alvo, não.",
+   "pausa_ms": 500,
+   "claims": [
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S17",
+     "tipo": "leituras",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pulso",
+     "prompt": "data",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "a": [
+       "DATA",
+       "jan/1996: documentada"
+      ],
+      "b": [
+       "ALVO?",
+       "não identificado"
+      ],
+      "sync_b": 2.0,
+      "brilho_fundo": 0.5
+     },
+     "selo": "ANÁLISE"
+    },
+    {
+     "id": "S17b",
+     "tipo": "leituras",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pulso",
+     "prompt": "alvo",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "a": [
+       "DATA",
+       "jan/1996: documentada"
+      ],
+      "b": [
+       "ALVO?",
+       "não identificado"
+      ],
+      "sync_b": 0.0,
+      "brilho_fundo": 0.5
+     },
+     "selo": "ANÁLISE"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "E quem ligou esta carta a Trump pela primeira vez? Este arquivo ainda não encontrou a origem.",
+   "pausa_ms": 500,
+   "claims": [
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S18a",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-ENOUGH",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "arte_autentica",
+     "movement": "câmera vai ao detalhe da carta",
+     "sound_design": "carta na mesa",
+     "prompt": "reprodução da carta original",
+     "negative_prompt": "carta redesenhada",
+     "params": {
+      "moldura": "carta",
+      "foco": [
+       0.05,
+       0.1,
+       0.95,
+       0.56
+      ],
+      "largura": 600,
+      "inclinacao": -2.0
+     },
+     "selo": "CARTA ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S18",
+     "tipo": "debrucar",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "inclina-se sobre a mesa; a luz revela a prova",
+     "gesture": "tronco avança, cabeça baixa",
+     "camera_motion": "tilt para a mesa",
+     "emotional_beat": "nova pista",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "tilt para a mesa",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: inclina-se sobre a mesa; a luz revela a prova",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ],
+   "tts": "E quem ligou esta carta a Trâmp pela primeira vez? Este arquivo ainda não encontrou a origem."
+  },
+  {
+   "id": "L13",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "No próximo arquivo: uma conspiração que o próprio FBI reconhece.",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S19",
+     "tipo": "olhar_camera",
+     "peso": 0.9,
+     "tela": "O FBI RECONHECE",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "volta o olhar do documento para a lente",
+     "gesture": "giro até a câmera",
+     "camera_motion": "micro push-in",
+     "emotional_beat": "pergunta",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "micro push-in",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: volta o olhar do documento para a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "de_yaw": -12
+     }
+    },
+    {
+     "id": "S20",
+     "tipo": "encerramento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ],
+   "tts": "No próximo arquivo: uma conspiração que o próprio efe-bê-i reconhece."
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 03",
+   "PRÓXIMO ARQUIVO:",
+   "UMA CONSPIRAÇÃO QUE O FBI RECONHECE"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {
+  "ep03": [
+   [
+    "Car Bomb",
+    "C",
+    "Ass.",
+    "Dan / Derek"
+   ],
+   [
+    "Hit and Run",
+    "C",
+    "Ass.",
+    "Gary / Derek"
+   ],
+   [
+    "Poison",
+    "C",
+    "Ass.",
+    "Shea / Derek"
+   ],
+   [
+    "Sniper",
+    "U",
+    "Ass.",
+    "Dan / Rick",
+    1
+   ],
+   [
+    "Withering Curse",
+    "R",
+    "Ass.",
+    "Shea / Jeff"
+   ]
+  ]
+ },
+ "legenda_post": "Depois do atentado de 13/07/2024 em Butler, a carta \"Enough is Enough\" (Assassins, 1996) virou \"prova\" de que alguém sabia. O Arquivista leu a carta: a regra fala em \"faxina\" na própria estrutura de poder, e o rosto não é identificado. O jogo de 1995 já tinha 5 cartas de assassinato.\n\nFontes: FBI (Butler Investigation Updates) · lista oficial INWO (1995) · lista oficial de Assassins (1996).\nPersonagem fictício, voz sintética.\n\n#ArquivoOculto #INWO #Illuminati #misterio #checagem"
+}

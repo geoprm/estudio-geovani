@@ -1,0 +1,968 @@
+[
+ {
+  "num": 1,
+  "id": "AO-REEL-001",
+  "titulo": "O jogo que parecia prever o mundo",
+  "serie": "Cartas do Futuro",
+  "cenas": [
+   {
+    "fala": "Um jogo de cartas de 1994 parece ter visto o futuro.",
+    "tela": "UM JOGO PREVIU?",
+    "v": {
+     "tipo": "crop",
+     "alvo": "mesa"
+    }
+   },
+   {
+    "fala": "Eu guardo o que foi impresso. Não o que foi contado depois.",
+    "tela": "O ARQUIVISTA",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "Illuminati: New World Order. Lançado em 1994, como uma sátira.",
+    "tts": "Iluminati, Niú Uórld Órder. Lançado em mil novecentos e noventa e quatro, como uma sátira.",
+    "tela": "1994",
+    "v": {
+     "tipo": "data",
+     "texto": "1994",
+     "sub": "ILLUMINATI: NEW WORLD ORDER"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "Torres em chamas. Epidemias. Ataques ao poder. As imagens parecem familiares demais.",
+    "tela": "COINCIDÊNCIA?",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "FICHA DE CARTAS",
+     "linhas": [
+      "CATÁLOGO · 1994",
+      "TEMAS: ATENTADOS, EPIDEMIAS, PODER",
+      "STATUS: SOB ANÁLISE"
+     ],
+     "carimbo": "EM ANÁLISE"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Mas este arquivo tem uma regra: primeiro a data da carta. Depois, a interpretação.",
+    "tela": "DATA ANTES DA TEORIA",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "IMPRESSO",
+      "1994"
+     ],
+     "b": [
+      "INTERPRETADO",
+      "DEPOIS"
+     ]
+    }
+   },
+   {
+    "fala": "Nos próximos arquivos, vamos abrir carta por carta.",
+    "tela": "CARTA POR CARTA",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Previsão... ou nós encaixando o passado no presente?",
+    "tela": "PREVISÃO OU ENCAIXE?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "Um jogo de 1994 virou combustível para centenas de teorias. A parte mais interessante não é acreditar: é conferir o que estava impresso antes do fato.\n\nComente CARTAS para acompanhar a série.\n\nFontes: illuminati.game/faqs · ccgtrader.net/games/illuminati-nwo-ccg\n\n#ArquivoOculto #Illuminati #INWO #misterio #conspiracao",
+  "fontes": [
+   "https://illuminati.game/faqs",
+   "https://www.ccgtrader.net/games/illuminati-nwo-ccg"
+  ],
+  "checagem": "Jogo lançado em 1994 (Steve Jackson Games). Semelhanças visuais não comprovam previsão."
+ },
+ {
+  "num": 2,
+  "id": "AO-REEL-002",
+  "titulo": "A operação federal contra a editora",
+  "serie": "Conspirações Documentadas",
+  "cenas": [
+   {
+    "fala": "Primeiro de março de 1990. Agentes federais entram numa editora de jogos no Texas.",
+    "tts": "Primeiro de março de mil novecentos e noventa. Agentes federais entram numa editora de jogos no Texas.",
+    "tela": "01·03·1990",
+    "v": {
+     "tipo": "data",
+     "texto": "01·03·1990",
+     "sub": "AUSTIN · TEXAS"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "Levam computadores, discos e o manuscrito de um livro que ainda nem tinha saído.",
+    "tela": "APREENSÃO",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "A editora: Steve Jackson Games. A mesma do jogo Illuminati.",
+    "tts": "A editora: Stív Djékson Gueims. A mesma do jogo Iluminati.",
+    "tela": "STEVE JACKSON GAMES",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "SERVIÇO SECRETO DOS EUA",
+     "linhas": [
+      "MANDADO DE BUSCA",
+      "ALVO: STEVE JACKSON GAMES",
+      "DATA: 01/03/1990"
+     ],
+     "carimbo": "APREENDIDO"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "A internet adora dizer que foi por causa das cartas que previam o futuro. Só que o baralho saiu em 1994. Quatro anos depois.",
+    "tts": "A internet adora dizer que foi por causa das cartas que previam o futuro. Só que o baralho saiu em mil novecentos e noventa e quatro. Quatro anos depois.",
+    "tela": "4 ANOS DEPOIS",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "1990",
+      "A BUSCA"
+     ],
+     "b": [
+      "1994",
+      "AS CARTAS"
+     ]
+    }
+   },
+   {
+    "fala": "A investigação era sobre um documento copiado de uma companhia telefônica. A editora processou o governo. E venceu.",
+    "tela": "A EDITORA VENCEU",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "1990",
+       "BUSCA"
+      ],
+      [
+       "1993",
+       "VITÓRIA NA JUSTIÇA"
+      ],
+      [
+       "1994",
+       "CARTAS INWO"
+      ]
+     ]
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "A operação foi real. A explicação que viralizou, não.",
+    "tela": "O FATO NÃO É O VIRAL",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Quem te contou essa história... leu o processo?",
+    "tela": "QUEM LEU O PROCESSO?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "Sim, houve uma busca federal na Steve Jackson Games, em 1990. Não, ela não aconteceu por causa das cartas do Illuminati, que só saíram em 1994. A editora processou o governo e venceu.\n\nSalve: esse detalhe muda toda a narrativa.\n\nFontes: EFF · Steve Jackson Games v. US Secret Service (816 F.Supp. 432, 1993) · illuminati.game/faqs\n\n#ArquivoOculto #SteveJacksonGames #Illuminati #historia #conspiracao",
+  "fontes": [
+   "https://w2.eff.org/effector/HTML/effect13.02.html",
+   "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/",
+   "https://illuminati.game/faqs"
+  ],
+  "checagem": "Busca do Serviço Secreto (não FBI) em 01/03/1990, ligada ao caso do documento E911 da BellSouth; decisão favorável à editora em 1993; INWO em 1994."
+ },
+ {
+  "num": 3,
+  "id": "AO-REEL-003",
+  "titulo": "A carta associada a Trump",
+  "serie": "Cartas do Futuro",
+  "cenas": [
+   {
+    "fala": "Uma carta de 1995 voltou a circular em julho de 2024.",
+    "tts": "Uma carta de mil novecentos e noventa e cinco voltou a circular em julho de dois mil e vinte e quatro.",
+    "tela": "DE 1995 A 2024",
+    "v": {
+     "tipo": "crop",
+     "alvo": "mesa"
+    }
+   },
+   {
+    "fala": "Depois do atentado contra Donald Trump, milhões de pessoas viram nela um aviso.",
+    "tela": "UM AVISO?",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "O nome da carta: Enough Is Enough. Expansão Assassins, do jogo Illuminati.",
+    "tts": "O nome da carta: Inâf is inâf. Expansão Assassins, do jogo Iluminati.",
+    "tela": "ENOUGH IS ENOUGH",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "FICHA DA CARTA",
+     "linhas": [
+      "TÍTULO: ENOUGH IS ENOUGH",
+      "EXPANSÃO: ASSASSINS",
+      "ANO: 1995"
+     ],
+     "carimbo": "INTERPRETAÇÃO"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Mas a ligação com Trump já circulava em 2017. E a carta não cita nome, data nem lugar.",
+    "tts": "Mas a ligação com Trump já circulava em dois mil e dezessete. E a carta não cita nome, data nem lugar.",
+    "tela": "SEM NOME. SEM DATA.",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "1995",
+       "CARTA"
+      ],
+      [
+       "2017",
+       "TEORIA"
+      ],
+      [
+       "2024",
+       "ATENTADO"
+      ]
+     ]
+    }
+   },
+   {
+    "fala": "Uma imagem parecida não é previsão. É interpretação.",
+    "tela": "IMAGEM NÃO É PREVISÃO",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "PARECE",
+      "IMAGEM"
+     ],
+     "b": [
+      "PROVA",
+      "NENHUMA"
+     ]
+    }
+   },
+   {
+    "fala": "E interpretação, neste arquivo, ganha selo.",
+    "tela": "SELO: INTERPRETAÇÃO",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Você viu a carta original... ou só o print?",
+    "tela": "ORIGINAL OU PRINT?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "Antes de chamar algo de previsão, confira a carta original e quando a interpretação surgiu. A associação com Trump já circulava em 2017 e a carta não cita nome, data nem lugar.\n\nQuer o comparativo completo? Comente DOSSIÊ.\n\nFontes: ccgtrader.net · illuminati.game/faqs\n\n#ArquivoOculto #INWO #Previsoes #Trump #misterio",
+  "fontes": [
+   "https://www.ccgtrader.net/games/illuminati-nwo-ccg",
+   "https://illuminati.game/faqs"
+  ],
+  "checagem": "Associação é interpretação, não previsão explícita. Não reproduzir a arte da carta sem licença; não simular o atentado."
+ },
+ {
+  "num": 4,
+  "id": "AO-REEL-004",
+  "titulo": "COINTELPRO: uma conspiração comprovada",
+  "serie": "Conspirações Documentadas",
+  "cenas": [
+   {
+    "fala": "Isto não é teoria. Está no site do próprio FBI.",
+    "tela": "ERA REAL",
+    "v": {
+     "tipo": "data",
+     "texto": "FBI",
+     "sub": "ARQUIVO OFICIAL"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "De 1956 a 1971, o FBI manteve um programa secreto chamado COINTELPRO.",
+    "tts": "De mil novecentos e cinquenta e seis a mil novecentos e setenta e um, o éfe bi ai manteve um programa secreto chamado Cointelpro.",
+    "tela": "1956–1971",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "O alvo: grupos políticos dentro dos Estados Unidos. O método: infiltrar, vigiar, desacreditar.",
+    "tela": "INFILTRAR · VIGIAR · DESACREDITAR",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "COINTELPRO",
+     "linhas": [
+      "PROGRAMA DE CONTRAINTELIGÊNCIA",
+      "ALVOS: GRUPOS POLÍTICOS",
+      "1956 – 1971"
+     ],
+     "carimbo": "CONFIDENCIAL"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Em 1971, ativistas invadiram um escritório do FBI na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+    "tts": "Em mil novecentos e setenta e um, ativistas invadiram um escritório do éfe bi ai na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+    "tela": "1971: O VAZAMENTO",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "1956",
+       "INÍCIO"
+      ],
+      [
+       "1971",
+       "VAZAMENTO"
+      ],
+      [
+       "1975",
+       "CONGRESSO"
+      ]
+     ]
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "Depois, o Congresso investigou. E o programa virou história oficial.",
+    "tela": "INVESTIGADO",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "SEGREDO",
+      "1956"
+     ],
+     "b": [
+      "PÚBLICO",
+      "1971"
+     ]
+    }
+   },
+   {
+    "fala": "Conspirações reais deixam rastro. Papel, data, assinatura.",
+    "tela": "PAPEL · DATA · ASSINATURA",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Quantos arquivos ainda estão fechados?",
+    "tela": "O QUE AINDA ESTÁ FECHADO?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "COINTELPRO é o exemplo clássico de operação clandestina que deixou rastro documental: o próprio FBI registra essa história.\n\nQuer a parte 2 com os documentos? Escreva ARQUIVOS.\n\nFontes: fbi.gov (history) · vault.fbi.gov/cointel-pro\n\n#ArquivoOculto #COINTELPRO #FBI #historia #conspiracao",
+  "fontes": [
+   "https://vault.fbi.gov/cointel-pro",
+   "https://www.fbi.gov/history/history-of-the-fbi/and-justice-for-all"
+  ],
+  "checagem": "Programa de 1956 a 1971; vazamento de Media (PA) em 1971; Comitê Church (1975-76). Não extrapolar para acusações atuais."
+ },
+ {
+  "num": 5,
+  "id": "AO-REEL-005",
+  "titulo": "MKULTRA: quando o segredo foi confirmado",
+  "serie": "Conspirações Documentadas",
+  "cenas": [
+   {
+    "fala": "1977. O Senado americano ouve a CIA sobre um programa secreto.",
+    "tts": "Mil novecentos e setenta e sete. O Senado americano ouve a CIA sobre um programa secreto.",
+    "tela": "1977",
+    "v": {
+     "tipo": "data",
+     "texto": "1977",
+     "sub": "SENADO DOS EUA"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "O nome: MKULTRA.",
+    "tts": "O nome: em quei ultra.",
+    "tela": "MKULTRA",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "Na Guerra Fria, a agência financiou experiências com drogas como o LSD e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+    "tts": "Na Guerra Fria, a agência financiou experiências com drogas como o éle éssi dê e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+    "tela": "SEM CONSENTIMENTO",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "PROJETO MKULTRA",
+     "linhas": [
+      "SUBSTÂNCIAS: LSD",
+      "CONTROLE DO COMPORTAMENTO",
+      "CONSENTIMENTO: NÃO"
+     ],
+     "carimbo": "SECRETO"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Em 1973, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+    "tts": "Em mil novecentos e setenta e três, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+    "tela": "1973: QUEIMA DE ARQUIVO",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "1953",
+       "INÍCIO"
+      ],
+      [
+       "1973",
+       "DESTRUIÇÃO"
+      ],
+      [
+       "1977",
+       "SENADO"
+      ]
+     ]
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "É perturbador. E está documentado.",
+    "tela": "DOCUMENTADO",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Mas um caso real não prova qualquer outra teoria. Cada uma precisa da sua própria evidência.",
+    "tela": "CADA TEORIA, SUA PROVA",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "FATO",
+      "1977"
+     ],
+     "b": [
+      "EXTRAPOLAÇÃO",
+      "SEM PROVA"
+     ]
+    }
+   },
+   {
+    "fala": "Se queimaram os arquivos uma vez... o que mais sobrou?",
+    "tela": "O QUE SOBROU?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "MKULTRA existiu e foi investigado oficialmente pelo Senado dos EUA em 1977. O rigor começa quando separamos documento de extrapolação.\n\nSiga para mais casos comprovados.\n\nFonte: audiência conjunta do Senado dos EUA, 03/08/1977 (Project MKULTRA, the CIA's Program of Research in Behavioral Modification)\n\n#ArquivoOculto #MKULTRA #CIA #historia #conspiracao",
+  "fontes": [
+   "https://www.cia.gov/readingroom/"
+  ],
+  "checagem": "Programa de 1953; destruição ordenada por Richard Helms em 1973; documentos financeiros achados em 1977; audiência no Senado em 03/08/1977."
+ },
+ {
+  "num": 6,
+  "id": "AO-REEL-006",
+  "titulo": "Operação Northwoods: o plano que não aconteceu",
+  "serie": "Conspirações Documentadas",
+  "cenas": [
+   {
+    "fala": "Março de 1962. Um memorando chega à mesa do secretário de Defesa dos Estados Unidos.",
+    "tts": "Março de mil novecentos e sessenta e dois. Um memorando chega à mesa do secretário de Defesa dos Estados Unidos.",
+    "tela": "13·03·1962",
+    "v": {
+     "tipo": "data",
+     "texto": "13·03·1962",
+     "sub": "PENTÁGONO"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "Assinado pela cúpula militar. Codinome: Operação Northwoods.",
+    "tts": "Assinado pela cúpula militar. Codinome: Operação Nórtiuds.",
+    "tela": "NORTHWOODS",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "A proposta: fabricar falsos ataques e culpar Cuba, para justificar uma guerra.",
+    "tela": "PRETEXTO PARA UMA GUERRA",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "ESTADO-MAIOR CONJUNTO",
+     "linhas": [
+      "OPERAÇÃO NORTHWOODS",
+      "PRETEXTOS PARA INTERVIR EM CUBA",
+      "13 DE MARÇO DE 1962"
+     ],
+     "carimbo": "TOP SECRET"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "O governo Kennedy rejeitou o plano. Ele nunca foi executado.",
+    "tela": "PLANEJADO NÃO É EXECUTADO",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "PLANEJADO",
+      "SIM"
+     ],
+     "b": [
+      "EXECUTADO",
+      "NÃO"
+     ],
+     "riscar": "b"
+    }
+   },
+   {
+    "fala": "O documento ficou em segredo por décadas. Só foi liberado em 1997.",
+    "tts": "O documento ficou em segredo por décadas. Só foi liberado em mil novecentos e noventa e sete.",
+    "tela": "LIBERADO EM 1997",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "1962",
+       "PROPOSTA"
+      ],
+      [
+       "1962",
+       "REJEITADA"
+      ],
+      [
+       "1997",
+       "LIBERADA"
+      ]
+     ]
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "O que assusta não é o que aconteceu. É o que chegou a ser escrito.",
+    "tela": "CHEGOU A SER ESCRITO",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Você leu o memorando... ou a versão aumentada?",
+    "tela": "LEU O DOCUMENTO?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "O memorando da Operação Northwoods existe e foi liberado em 1997. Mas era uma proposta: foi rejeitada e nunca executada.\n\nComente NORTHWOODS para a análise completa.\n\nFonte: National Security Archive (GWU)\n\n#ArquivoOculto #Northwoods #GuerraFria #historia #conspiracao",
+  "fontes": [
+   "https://nsarchive2.gwu.edu/news/20010430/"
+  ],
+  "checagem": "Memorando do Estado-Maior Conjunto a McNamara, 13/03/1962; rejeitado; liberado em 1997 pelo JFK Assassination Records Review Board."
+ },
+ {
+  "num": 7,
+  "id": "AO-REEL-007",
+  "titulo": "As capas da The Economist são profecias?",
+  "serie": "Capas Sob Análise",
+  "cenas": [
+   {
+    "fala": "Todo fim de ano, uma revista britânica publica uma capa sobre o ano que vem.",
+    "tela": "CAPAS DO FUTURO?",
+    "v": {
+     "tipo": "crop",
+     "alvo": "mesa"
+    }
+   },
+   {
+    "fala": "A revista é a The Economist. A edição se chama The World Ahead.",
+    "tts": "A revista é a The Iconomist. A edição se chama The Uórld Arréd.",
+    "tela": "THE WORLD AHEAD",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "Líderes, símbolos, enigmas. Na internet, cada detalhe vira código secreto.",
+    "tela": "CÓDIGO SECRETO?",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "ANÁLISE DE CAPA",
+     "linhas": [
+      "EDIÇÃO: THE WORLD AHEAD",
+      "ELEMENTOS: LÍDERES, SÍMBOLOS",
+      "LEITURA: EM ANÁLISE"
+     ],
+     "carimbo": "INTERPRETAÇÃO"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Mas a própria revista diz o que é: uma aposta em tendências de política, economia e riscos.",
+    "tela": "TENDÊNCIAS, NÃO PROFECIAS",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "CAPA",
+       "PUBLICAÇÃO"
+      ],
+      [
+       "ANO",
+       "EVENTOS"
+      ],
+      [
+       "BALANÇO",
+       "ACERTOS E ERROS"
+      ]
+     ]
+    }
+   },
+   {
+    "fala": "E quem conta os acertos precisa contar também os erros.",
+    "tela": "ACERTOS E ERROS",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "ACERTOS",
+      "?"
+     ],
+     "b": [
+      "ERROS",
+      "?"
+     ]
+    }
+   },
+   {
+    "fala": "Análise de tendência pode errar. Profecia, por definição, não pode.",
+    "tela": "ANÁLISE NÃO É PROFECIA",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Qual capa você quer que eu abra primeiro?",
+    "tela": "QUAL CAPA ABRIMOS?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "As capas anuais da The Economist antecipam temas, não eventos secretos. Para medir acertos, também é preciso olhar os erros.\n\nQual capa você quer que a gente investigue?\n\nFonte: The Economist Group, The World Ahead\n\n#ArquivoOculto #TheEconomist #Simbolos #Futuro #misterio",
+  "fontes": [
+   "https://www.economistgroup.com/"
+  ],
+  "checagem": "The World Ahead é série editorial anual de tendências. Não reproduzir capas sem licença."
+ },
+ {
+  "num": 8,
+  "id": "AO-REEL-008",
+  "titulo": "O mangá que assustou o Japão",
+  "serie": "Mangás e Previsões",
+  "cenas": [
+   {
+    "fala": "Um mangá de 1999 falava de um grande desastre em março de 2011.",
+    "tts": "Um mangá de mil novecentos e noventa e nove falava de um grande desastre em março de dois mil e onze.",
+    "tela": "1999 E 2011",
+    "v": {
+     "tipo": "data",
+     "texto": "1999",
+     "sub": "E MARÇO DE 2011"
+    }
+   },
+   {
+    "fala": "Em março de 2011, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+    "tts": "Em março de dois mil e onze, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+    "tela": "MARÇO DE 2011",
+    "v": {
+     "tipo": "arq"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "O livro: The Future I Saw. A autora: Ryo Tatsuki, que desenhava os próprios sonhos.",
+    "tts": "O livro: The Fiutchur Ai Só. A autora: Riô Tatsuki, que desenhava os próprios sonhos.",
+    "tela": "THE FUTURE I SAW",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "FICHA DA OBRA",
+     "linhas": [
+      "TÍTULO: THE FUTURE I SAW",
+      "AUTORA: RYO TATSUKI",
+      "1ª EDIÇÃO: 1999 · AMPLIADA: 2021"
+     ],
+     "carimbo": "EM ANÁLISE"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Em 2021, uma edição ampliada citou julho de 2025. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+    "tts": "Em dois mil e vinte e um, uma edição ampliada citou julho de dois mil e vinte e cinco. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+    "tela": "JULHO DE 2025",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "1999",
+       "MANGÁ"
+      ],
+      [
+       "2021",
+       "EDIÇÃO NOVA"
+      ],
+      [
+       "2025",
+       "O BOATO"
+      ]
+     ]
+    }
+   },
+   {
+    "fala": "Julho de 2025 passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+    "tts": "Julho de dois mil e vinte e cinco passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+    "tela": "NÃO ACONTECEU",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "BOATO",
+      "JULHO 2025"
+     ],
+     "b": [
+      "REALIDADE",
+      "NADA"
+     ]
+    }
+   },
+   {
+    "fala": "Uma previsão não precisa acertar para mudar o mundo. Basta alguém acreditar.",
+    "tela": "BASTA ACREDITAR",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Você cancelaria uma viagem por causa de um sonho?",
+    "tela": "VOCÊ CANCELARIA?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "The Future I Saw virou fenômeno e mexeu com o turismo do Japão em 2025. Mas julho passou, a catástrofe não veio, e a autora negou ser profeta.\n\nParte 2: quer ver as datas originais?\n\nFonte: ABC News (Austrália), 04/07/2025\n\n#ArquivoOculto #Manga #Japao #Previsoes #misterio",
+  "fontes": [
+   "https://www.abc.net.au/news/2025-07-04/comics-disaster-prediction-rattling-japan-s-tourist-boom/105494580"
+  ],
+  "checagem": "Edição de 1999 e ampliada de 2021 (Ryo Tatsuki). Não simular a tragédia de 2011."
+ },
+ {
+  "num": 9,
+  "id": "AO-REEL-009",
+  "titulo": "Agenda 2030: o que está escrito?",
+  "serie": "Tabuleiro Mundial",
+  "cenas": [
+   {
+    "fala": "Ela é citada como plano secreto. Mas está publicada para quem quiser ler.",
+    "tela": "AGENDA 2030",
+    "v": {
+     "tipo": "data",
+     "texto": "2030",
+     "sub": "AGENDA"
+    }
+   },
+   {
+    "fala": "A Agenda 2030 foi aprovada na ONU em setembro de 2015.",
+    "tts": "A Agenda dois mil e trinta foi aprovada na ONU em setembro de dois mil e quinze.",
+    "tela": "ONU · 2015",
+    "v": {
+     "tipo": "arq"
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "Dezessete objetivos. Cento e sessenta e nove metas.",
+    "tela": "17 OBJETIVOS · 169 METAS",
+    "v": {
+     "tipo": "grade"
+    }
+   },
+   {
+    "fala": "Pobreza, fome, saúde, educação, energia, clima. Está tudo no texto oficial.",
+    "tela": "O QUE ESTÁ ESCRITO",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "NAÇÕES UNIDAS · 2015",
+     "linhas": [
+      "TRANSFORMANDO NOSSO MUNDO",
+      "17 OBJETIVOS · 169 METAS",
+      "PRAZO: 2030"
+     ],
+     "carimbo": "PÚBLICO"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "O debate sério não é se ela existe. É o que cada governo faz com ela, e quem decide.",
+    "tela": "TEXTO × INTERPRETAÇÃO",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "TEXTO",
+      "OFICIAL"
+     ],
+     "b": [
+      "O QUE",
+      "DIZEM"
+     ]
+    }
+   },
+   {
+    "fala": "Quem critica sem ler perde o argumento. Quem lê, ganha.",
+    "tela": "LEIA A FONTE",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "Você já leu a Agenda 2030... ou só ouviu falar dela?",
+    "tts": "Você já leu a Agenda dois mil e trinta... ou só ouviu falar dela?",
+    "tela": "LEU OU OUVIU?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "O texto da Agenda 2030 é público: ONU, 2015, 17 objetivos e 169 metas. Dá para discutir o impacto real sem confundir documento com interpretação.\n\nQuer a análise por capítulo? Comente 2030.\n\nFonte: sdgs.un.org/2030agenda\n\n#ArquivoOculto #Agenda2030 #ONU #geopolitica #misterio",
+  "fontes": [
+   "https://sdgs.un.org/2030agenda"
+  ],
+  "checagem": "ONU 2015, 17 ODS, 169 metas. Não apresentar plano secreto como fato."
+ },
+ {
+  "num": 10,
+  "id": "AO-REEL-010",
+  "titulo": "2027: por que essa data aparece tanto?",
+  "serie": "Tabuleiro Mundial",
+  "cenas": [
+   {
+    "fala": "2027. Por que essa data aparece em tantas previsões?",
+    "tts": "Dois mil e vinte e sete. Por que essa data aparece em tantas previsões?",
+    "tela": "2027",
+    "v": {
+     "tipo": "data",
+     "texto": "2027",
+     "sub": "POR QUE ESSA DATA?"
+    }
+   },
+   {
+    "fala": "Comecemos pelo que é verificável.",
+    "tela": "O QUE É VERIFICÁVEL",
+    "v": {
+     "tipo": "arq"
+    }
+   },
+   {
+    "fala": "A ONU marcou para setembro de 2027 uma cúpula de líderes para revisar a Agenda 2030.",
+    "tts": "A ONU marcou para setembro de dois mil e vinte e sete uma cúpula de líderes para revisar a Agenda dois mil e trinta.",
+    "tela": "CÚPULA DA ONU · SET/2027",
+    "v": {
+     "tipo": "timeline",
+     "pontos": [
+      [
+       "2015",
+       "AGENDA"
+      ],
+      [
+       "2023",
+       "REVISÃO"
+      ],
+      [
+       "2027",
+       "CÚPULA"
+      ]
+     ]
+    },
+    "selo": "DOCUMENTADO"
+   },
+   {
+    "fala": "No mesmo ano, o exército chinês completa cem anos. E analistas discutem Taiwan, tecnologia e economia.",
+    "tela": "CENTENÁRIO DO EXÉRCITO CHINÊS",
+    "v": {
+     "tipo": "doc",
+     "cabecalho": "CALENDÁRIO 2027",
+     "linhas": [
+      "SET · CÚPULA DOS ODS NA ONU",
+      "AGO · 100 ANOS DO EXÉRCITO CHINÊS",
+      "EM DEBATE: TAIWAN, IA, ECONOMIA"
+     ],
+     "carimbo": "CENÁRIOS"
+    },
+    "selo": "ILUSTRAÇÃO"
+   },
+   {
+    "fala": "Mas um calendário cheio não é profecia. Data marcada não é destino.",
+    "tela": "CENÁRIO NÃO É DESTINO",
+    "v": {
+     "tipo": "split",
+     "a": [
+      "CALENDÁRIO",
+      "FATO"
+     ],
+     "b": [
+      "PROFECIA",
+      "SEM PROVA"
+     ]
+    }
+   },
+   {
+    "fala": "Eu não aposto no pior. Observo os sinais e me preparo para vários cenários.",
+    "tela": "PREPARAR, NÃO TEMER",
+    "v": {
+     "tipo": "arq",
+     "close": true
+    }
+   },
+   {
+    "fala": "O que você faria diferente, se soubesse o que vem em 2027?",
+    "tts": "O que você faria diferente, se soubesse o que vem em dois mil e vinte e sete?",
+    "tela": "E VOCÊ?",
+    "v": {
+     "tipo": "pergunta"
+    }
+   }
+  ],
+  "legenda": "Datas podem marcar decisões reais sem provar profecias. Em 2027 há uma cúpula da ONU sobre a Agenda 2030 e o centenário do exército chinês. O resto é cenário, não destino.\n\nSiga a série Laboratório do Futuro.\n\nFontes: sdgs.un.org\n\n#ArquivoOculto #2027 #Cenarios #geopolitica #futuro",
+  "fontes": [
+   "https://sdgs.un.org/2030agenda"
+  ],
+  "checagem": "Cúpula dos ODS prevista para 2027; Exército de Libertação Popular fundado em 01/08/1927. Não alegar data de colapso."
+ }
+]

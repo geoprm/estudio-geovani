@@ -1,0 +1,1115 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Estúdio Geovani</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@600;700&family=Nunito:wght@600;700;800;900&family=Playfair+Display:wght@700;900&display=swap">
+<style>
+/* Layout: uma coluna de celular (máx. 520 px), cabeçalho fixo no topo, barra de abas fixa embaixo.
+   Dois mundos visuais, um por perfil: @direitaxx (tinta + amarelo-girassol, Anton) e
+   Dr. Geovani (azul-marinho + dourado, Playfair). O perfil troca as variáveis abaixo. */
+:root {
+  --bg: #0D0E10;
+  --surface: #17191D;
+  --surface2: #21242B;
+  --line: #2D313A;
+  --fg: #F4F2EC;
+  --muted: #9BA1AC;
+  --accent: #FFD400;
+  --accent-ink: #191400;
+  --accent-deep: #B89A00;
+  --ok: #27C97A;
+  --ok-deep: #178A52;
+  --ok-ink: #04200F;
+  --warn: #FF9F1A;
+  --alert: #F2464B;
+  --flame: #FF8A00;
+  --display: 'Anton', Impact, 'Arial Narrow', sans-serif;
+  --display-case: uppercase;
+  --display-track: .01em;
+  --body: 'Nunito', ui-rounded, 'SF Pro Rounded', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --r: 20px;
+  color-scheme: dark;
+}
+:root[data-perfil="drgeovani"] {
+  --bg: #030B1E;
+  --surface: #0B1734;
+  --surface2: #12224A;
+  --line: #1F3262;
+  --fg: #F1F3F8;
+  --muted: #98A4C1;
+  --accent: #E5A93C;
+  --accent-ink: #1F1404;
+  --accent-deep: #A47426;
+  --display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --display-case: none;
+  --display-track: 0;
+}
+:root[data-perfil="arquivo"] {
+  --bg: #070608;
+  --surface: #121013;
+  --surface2: #1D1920;
+  --line: #2F2830;
+  --fg: #EFE7D6;
+  --muted: #A69C8B;
+  --accent: #D6A854;
+  --accent-ink: #1A1206;
+  --accent-deep: #8C6A2C;
+  --flame: #C8892E;
+  --display: 'Cinzel', Georgia, 'Times New Roman', serif;
+  --display-case: uppercase;
+  --display-track: .03em;
+}
+html, body { height: 100%; background: var(--bg); }
+body { margin: 0; color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.45;
+  -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 12px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+.app { max-width: 520px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 calc(104px + env(safe-area-inset-bottom, 0px)); }
+
+/* ---------- topo */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-block: 12px 10px; }
+.seg { display: flex; background: var(--surface); border: 2px solid var(--line); border-radius: 999px; padding: 4px; min-width: 0; }
+.seg button { border: 0; background: transparent; color: var(--muted); font-weight: 900; font-size: 12.5px;
+  padding: 8px 10px; border-radius: 999px; cursor: pointer; white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.stats { display: flex; gap: 12px; align-items: center; font-weight: 900; font-variant-numeric: tabular-nums; }
+.stat { display: flex; align-items: center; gap: 4px; font-size: 15px; }
+.stat svg { width: 22px; height: 22px; }
+.stat.flame { color: var(--flame); }
+.stat.xp { color: var(--accent); }
+
+/* ---------- tipografia */
+.disp { font-family: var(--display); text-transform: var(--display-case); letter-spacing: var(--display-track);
+  font-weight: 900; line-height: 1.05; margin: 0; text-wrap: balance; }
+h1.disp { font-size: 34px; }
+h2.disp { font-size: 24px; }
+.eyebrow { font-size: 12px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.muted { color: var(--muted); }
+p { margin: 0; }
+.stack { display: grid; gap: 16px; }
+.stack-s { display: grid; gap: 8px; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.between { justify-content: space-between; }
+section.view { display: grid; gap: 20px; padding-top: 6px; }
+.hello { display: grid; gap: 4px; }
+
+/* ---------- cartões e botões */
+.card { background: var(--surface); border: 2px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 14px; min-width: 0; }
+.card.hero { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); border-bottom-width: 6px; }
+.btn { appearance: none; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 900; font-size: 15px;
+  letter-spacing: .05em; text-transform: uppercase; background: var(--accent); color: var(--accent-ink);
+  box-shadow: 0 5px 0 var(--accent-deep); cursor: pointer; transition: transform .06s, box-shadow .06s;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; }
+.btn:active { transform: translateY(5px); box-shadow: 0 0 0 var(--accent-deep); }
+.btn.ghost { background: var(--surface2); color: var(--fg); box-shadow: 0 5px 0 var(--line); }
+.btn.ghost:active { box-shadow: 0 0 0 var(--line); }
+.btn.ok { background: var(--ok); color: var(--ok-ink); box-shadow: 0 5px 0 var(--ok-deep); }
+.btn.danger { background: var(--alert); color: #fff; box-shadow: 0 5px 0 color-mix(in srgb, var(--alert) 60%, #000); }
+.btn.small { padding: 10px 14px; font-size: 13px; border-radius: 13px; }
+.btn.block { width: 100%; }
+.btn svg { width: 20px; height: 20px; flex: none; }
+.btn:disabled { opacity: .45; pointer-events: none; }
+.link { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 800; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 900; letter-spacing: .06em;
+  text-transform: uppercase; padding: 5px 10px; border-radius: 999px; background: var(--surface2); color: var(--muted); }
+.chip.accent { background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+.chip.ok { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+.chip.warn { background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
+.chip.err { background: color-mix(in srgb, var(--alert) 20%, transparent); color: var(--alert); }
+
+/* ---------- pautas */
+.nota { display: inline-flex; gap: 3px; }
+.nota i { width: 10px; height: 18px; border-radius: 4px; background: var(--surface2); display: block; }
+.nota i.on { background: var(--flame); }
+.gancho { font-size: 21px; font-weight: 900; line-height: 1.25; margin: 0; }
+.gancho::before { content: "“"; color: var(--accent); }
+.gancho::after { content: "”"; color: var(--accent); }
+.fala-list { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.fala-list li { display: grid; grid-template-columns: 64px 1fr; gap: 10px; align-items: start; }
+.tempo { font-size: 12px; font-weight: 900; color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 8px; padding: 4px 6px; text-align: center; font-variant-numeric: tabular-nums; }
+.box { background: var(--surface2); border-radius: 14px; padding: 12px; display: grid; gap: 8px; min-width: 0; }
+.box p { white-space: pre-wrap; overflow-wrap: anywhere; }
+.fontes a { color: var(--accent); font-weight: 800; overflow-wrap: anywhere; }
+.older { display: grid; gap: 8px; }
+.card.rec { gap: 10px; border-style: solid; }
+.check { display: flex; gap: 12px; align-items: flex-start; background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 12px; cursor: pointer; }
+.check input { width: 22px; height: 22px; accent-color: var(--accent); flex: none; margin: 1px 0 0; }
+.check span { display: grid; gap: 2px; }
+h3.disp { font-size: 19px; }
+.gancho.sm { font-size: 17px; }
+.porque { margin: 0; font-size: 14px; line-height: 1.4; padding-left: 10px; border-left: 3px solid var(--ok); color: var(--fg); }
+.porque.atemp { border-left-color: var(--accent); }
+.porque b { color: var(--ok); }
+.porque.atemp b { color: var(--accent); }
+.older button { text-align: left; background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 12px 14px;
+  cursor: pointer; display: grid; gap: 2px; }
+
+/* ---------- teleprompter */
+.prompter { background: var(--surface); border: 2px solid var(--line); border-radius: 24px; padding: 20px;
+  display: grid; gap: 18px; min-height: 52vh; align-content: space-between; }
+.prompter .fala { font-size: clamp(26px, 7.4vw, 40px); line-height: 1.2; font-weight: 900; text-wrap: pretty; }
+.dots { display: flex; gap: 6px; }
+.dots i { height: 8px; flex: 1; border-radius: 999px; background: var(--surface2); }
+.dots i.on { background: var(--accent); }
+.ring { position: relative; width: 84px; height: 84px; flex: none; }
+.ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ring b { position: absolute; inset: 0; display: grid; place-items: center; font-size: 22px; font-weight: 900; font-variant-numeric: tabular-nums; }
+.tips { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.tips li { display: flex; gap: 10px; align-items: flex-start; }
+.tips svg { width: 22px; height: 22px; flex: none; color: var(--ok); margin-top: 1px; }
+
+/* ---------- enviar */
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.tile { border: 2px solid var(--line); border-bottom-width: 6px; border-radius: 18px; background: var(--surface);
+  padding: 12px; text-align: left; display: grid; gap: 8px; cursor: pointer; min-width: 0; }
+.tile[aria-pressed="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
+.tile svg { width: 100%; height: auto; max-width: 100%; display: block; }
+.tile b { font-size: 15px; }
+.tile span { font-size: 13px; color: var(--muted); line-height: 1.3; }
+.field { display: grid; gap: 6px; }
+.field label, .field .lbl { font-weight: 900; font-size: 14px; }
+select, textarea, input[type="number"] { background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 12px; width: 100%; box-sizing: border-box; }
+textarea { min-height: 84px; resize: vertical; }
+.drop { display: grid; place-items: center; gap: 8px; border: 2px dashed var(--line); border-radius: 18px; padding: 22px 14px;
+  text-align: center; cursor: pointer; background: var(--surface); }
+.drop svg { width: 42px; height: 42px; color: var(--accent); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.bar { height: 18px; border-radius: 999px; background: var(--surface2); overflow: hidden; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--ok); border-radius: 999px;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .18), inset 0 5px 0 rgba(255, 255, 255, .22); transition: width .3s; }
+.bar.indet > i { width: 35%; animation: indet 1.3s ease-in-out infinite; background: var(--warn); }
+@keyframes indet { 0% { transform: translateX(-100%); } 100% { transform: translateX(300%); } }
+
+/* ---------- prontos */
+.player { width: 100%; max-width: 100%; aspect-ratio: 9 / 16; border-radius: 16px; background: #000; display: block; max-height: 70vh; object-fit: contain; }
+.ab { display: inline-flex; background: var(--surface2); border-radius: 999px; padding: 4px; }
+.ab button { border: 0; background: none; padding: 6px 14px; border-radius: 999px; font-weight: 900; color: var(--muted); cursor: pointer; }
+.ab button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.metric { display: grid; gap: 4px; }
+.metric label { font-size: 12px; font-weight: 800; color: var(--muted); }
+
+/* ---------- metas */
+.streak { display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: center; }
+.streak svg { width: 72px; height: 72px; color: var(--flame); }
+.big { font-family: var(--display); font-size: 56px; line-height: 1; font-variant-numeric: tabular-nums; }
+.week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; text-align: center; }
+.week div { display: grid; gap: 4px; justify-items: center; font-size: 12px; font-weight: 900; color: var(--muted); }
+.week i { width: 30px; height: 30px; border-radius: 50%; background: var(--surface2); display: grid; place-items: center; }
+.week i.on { background: var(--flame); }
+.week i svg { width: 18px; height: 18px; color: #fff; }
+.week i.today { outline: 2px solid var(--fg); outline-offset: 2px; }
+.lvl { display: grid; gap: 8px; }
+.metas { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.metas li { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; }
+.metas small { grid-column: 1 / -1; color: var(--muted); }
+.badges { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.badge { display: grid; justify-items: center; gap: 6px; text-align: center; font-size: 12px; font-weight: 800; color: var(--muted); }
+.badge i { width: 58px; height: 58px; border-radius: 18px; display: grid; place-items: center; background: var(--surface2);
+  border-bottom: 5px solid var(--line); }
+.badge i svg { width: 30px; height: 30px; }
+.badge.on { color: var(--fg); }
+.badge.on i { background: var(--accent); color: var(--accent-ink); border-bottom-color: var(--accent-deep); }
+
+/* ---------- abas */
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--surface); border-top: 2px solid var(--line);
+  padding: 8px max(10px, env(safe-area-inset-right, 0px)) calc(8px + env(safe-area-inset-bottom, 0px)) max(10px, env(safe-area-inset-left, 0px)); }
+.tabs-in { max-width: 520px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; }
+.tab { display: grid; justify-items: center; gap: 2px; border: 2px solid transparent; border-radius: 14px; background: none;
+  color: var(--muted); font-weight: 900; font-size: 11px; letter-spacing: .02em; padding: 6px 0; cursor: pointer; }
+.tab svg { width: 26px; height: 26px; }
+.tab[aria-current="page"] { color: var(--accent); border-color: var(--line); background: var(--surface2); }
+.tab .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--alert); position: absolute; margin: -2px 0 0 22px; }
+
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(96px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+  background: var(--fg); color: var(--bg); font-weight: 900; padding: 12px 18px; border-radius: 14px; max-width: min(90vw, 460px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .4); text-align: center; }
+.empty { text-align: center; display: grid; gap: 10px; justify-items: center; padding: 22px 10px; }
+.empty svg { width: 64px; height: 64px; color: var(--muted); }
+.note { font-size: 13px; color: var(--muted); }
+
+/* ---------- Arquivo Oculto */
+.arq-hero { position: relative; overflow: hidden; padding: 0; border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.arq-hero img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 22%; }
+.arq-hero .arq-txt { position: absolute; inset: auto 0 0 0; padding: 60px 16px 16px; display: grid; gap: 4px;
+  background: linear-gradient(transparent, rgba(7, 6, 8, .92) 55%); }
+.arq-hero .arq-txt .disp { font-size: 28px; color: var(--accent); }
+.ep-num { font-family: var(--display); color: var(--accent); font-size: 13px; letter-spacing: .12em; }
+.cena-list { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.cena-list li { display: grid; gap: 4px; padding-left: 12px; border-left: 3px solid var(--line); }
+.cena-list li b { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.selo { font-size: 11px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="seg" role="group" aria-label="Perfil">
+      <button type="button" id="p-direitaxx" data-perfil="direitaxx">@direitaxx</button>
+      <button type="button" id="p-drgeovani" data-perfil="drgeovani">Dr. Geovani</button>
+      <button type="button" id="p-arquivo" data-perfil="arquivo">Arquivo</button>
+    </div>
+    <div class="stats">
+      <span class="stat flame" title="Dias seguidos postando"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 3-1.4 4.6-2.8 6.3C7.8 10 6.5 11.7 6.5 14.2 6.5 18 9 21 12 21s5.5-2.6 5.5-6.3c0-2.7-1.4-4.4-2.4-5.6-.2 1.6-1 2.8-2.2 3.2.7-3.6-.2-7.2-.9-10.3z"/></svg><span id="st-streak">0</span></span>
+      <span class="stat xp" title="Pontos"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.3 6.9 1-5 4.8 1.2 6.9L12 17.8 5.9 21l1.2-6.9-5-4.8 6.9-1z"/></svg><span id="st-xp">0</span></span>
+    </div>
+  </header>
+  <main id="main" aria-live="polite"></main>
+</div>
+
+<nav class="tabs" aria-label="Seções">
+  <div class="tabs-in" id="tabs"></div>
+</nav>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(() => {
+  'use strict';
+  const TZ = 'America/Bahia';
+  const CHUNK = 19 * 1024 * 1024;
+  const PERFIS = {
+    direitaxx: { nome: '@direitaxx', meta: 4, tema: 'Liderança no sertão' },
+    drgeovani: { nome: 'Dr. Geovani', meta: 3, tema: 'Fala, linguagem e desenvolvimento' },
+    arquivo: { nome: 'Arquivo Oculto', meta: 3, tema: 'O Arquivista' }
+  };
+  // Arquivo Oculto: vídeos 100% gerados (roteiro, voz do Arquivista, cenas e montagem) pelo editor; sem Gravar nem Enviar.
+  const SO_IA = { arquivo: true };
+  const SERIES = ['Conspirações Documentadas', 'Cartas do Futuro', 'Capas Sob Análise', 'Mangás e Previsões', 'Tabuleiro Mundial',
+    'Laboratório do Futuro', 'Lendas do Sertão', 'Arquivos Revelados', 'Projetos Secretos', 'Símbolos e Sociedades'];
+  const TABS = [
+    { id: 'hoje', nome: 'Hoje', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>' },
+    { id: 'gravar', nome: 'Gravar', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></svg>' },
+    { id: 'enviar', nome: 'Enviar', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16V8M8.5 11.5L12 8l3.5 3.5"/></svg>' },
+    { id: 'prontos', nome: 'Prontos', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M10.5 9.5v5l4-2.5z" fill="currentColor"/></svg>' },
+    { id: 'metas', nome: 'Metas', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg>' }
+  ];
+  const ICON = {
+    check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    up: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>',
+    film: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M10.5 9.5v5l4-2.5z"/></svg>',
+    news: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>',
+    flame: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c.6 3-1.4 4.6-2.8 6.3C7.8 10 6.5 11.7 6.5 14.2 6.5 18 9 21 12 21s5.5-2.6 5.5-6.3c0-2.7-1.4-4.4-2.4-5.6-.2 1.6-1 2.8-2.2 3.2.7-3.6-.2-7.2-.9-10.3z"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 6.3 6.9 1-5 4.8 1.2 6.9L12 17.8 5.9 21l1.2-6.9-5-4.8 6.9-1z"/></svg>',
+    send: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6M6 11l6-6 6 6"/></svg>',
+    trophy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/></svg>',
+    ten: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 7l2-1v12M13 9a3 3 0 0 1 6 0v6a3 3 0 0 1-6 0z"/></svg>'
+  };
+  const TILE_SVG = {
+    dividida: '<svg viewBox="0 0 90 120" aria-hidden="true"><rect x="1" y="1" width="88" height="118" rx="10" fill="var(--surface2)" stroke="var(--line)" stroke-width="2"/><rect x="10" y="10" width="70" height="38" rx="5" fill="var(--bg)"/><rect x="16" y="18" width="46" height="5" rx="2" fill="var(--accent)"/><rect x="16" y="28" width="58" height="4" rx="2" fill="var(--muted)"/><rect x="16" y="36" width="40" height="4" rx="2" fill="var(--muted)"/><rect x="1" y="55" width="88" height="3" fill="var(--accent)"/><circle cx="45" cy="80" r="11" fill="var(--muted)"/><path d="M24 118c0-14 9-22 21-22s21 8 21 22z" fill="var(--muted)"/></svg>',
+    depoimento: '<svg viewBox="0 0 90 120" aria-hidden="true"><rect x="1" y="1" width="88" height="118" rx="10" fill="var(--surface2)" stroke="var(--line)" stroke-width="2"/><text x="45" y="40" text-anchor="middle" font-family="Anton, Impact, sans-serif" font-size="20" textLength="72" lengthAdjust="spacingAndGlyphs" fill="var(--alert)">ABSURDO</text><circle cx="45" cy="50" r="15" fill="var(--muted)"/><path d="M16 118c0-22 12-38 29-38s29 16 29 38z" fill="var(--muted)"/><rect x="22" y="94" width="46" height="5" rx="2" fill="var(--fg)"/></svg>'
+  };
+  const DIAS = ['S', 'T', 'Q', 'Q', 'S', 'S', 'D'];
+
+  // ------------------------------------------------------------ util
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* sem armazenamento local */ } }
+  function h(tag, props, ...kids) {
+    const el = document.createElement(tag);
+    if (props) {
+      for (const [k, v] of Object.entries(props)) {
+        if (v == null || v === false) continue;
+        if (k === 'class') el.className = v;
+        else if (k === 'text') el.textContent = v;
+        else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+        else el.setAttribute(k, v === true ? (k.startsWith('aria-') ? 'true' : '') : v);
+      }
+    }
+    for (const c of kids.flat(Infinity)) {
+      if (c == null || c === false) continue;
+      el.append(c.nodeType ? c : document.createTextNode(String(c)));
+    }
+    return el;
+  }
+  function icon(markup) {   // apenas para ícones escritos neste arquivo
+    const t = document.createElement('template');
+    t.innerHTML = markup.trim();
+    return t.content.firstElementChild;
+  }
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  function hojeISO(d) { return (d || new Date()).toLocaleDateString('sv-SE', { timeZone: TZ }); }
+  function dataLonga(iso) {
+    const d = new Date(iso + 'T12:00:00');
+    return d.toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long' });
+  }
+  function saudacao() {
+    const hh = Number(new Date().toLocaleTimeString('en-GB', { timeZone: TZ, hour: '2-digit', hour12: false }).slice(0, 2));
+    return hh < 12 ? 'Bom dia' : hh < 18 ? 'Boa tarde' : 'Boa noite';
+  }
+  function haQuanto(iso) {
+    if (!iso) return '';
+    const m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (m < 1) return 'agora';
+    if (m < 60) return `há ${m} min`;
+    const hr = Math.round(m / 60);
+    if (hr < 24) return `há ${hr} h`;
+    const d = Math.round(hr / 24);
+    return d === 1 ? 'ontem' : `há ${d} dias`;
+  }
+  function mb(n) { return (n / 1048576).toFixed(n > 10485760 ? 0 : 1).replace('.', ',') + ' MB'; }
+  function safeUrl(u) { return typeof u === 'string' && /^https:\/\//i.test(u) ? u : null; }
+  function txt(v) { return typeof v === 'string' ? v : v == null ? '' : String(v); }
+  function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.hidden = false;
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => { t.hidden = true; }, 2600);
+  }
+  async function copiar(texto, el) {
+    try { await navigator.clipboard.writeText(texto); toast('Copiado'); }
+    catch (e) {
+      if (el) { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+      toast('Selecionei o texto: use Copiar do celular');
+    }
+  }
+
+  // ------------------------------------------------------------ estado
+  const S = {
+    perfil: PERFIS[lsGet('perfil')] ? lsGet('perfil') : 'direitaxx',
+    tab: 'hoje',
+    pautas: [], pedidos: [], config: {},
+    carregou: false, semDb: false, erroDb: '',
+    db: null, assets: null, mcp: null, downloads: null,
+    abertos: new Set(), anteriores: false,
+    envio: { formato: 'dividida', pautaId: '', arquivo: null, dur: 0, obs: '', retoque: true, enviando: false, prog: 0, etapa: '' },
+    pr: { pautaId: '', passo: 0, t0: 0, rodando: false, raf: 0, lock: null },
+    versao: {}, confirmar: {}, metAberto: new Set(),
+    pendente: false,
+    ia: { tema: '', serie: SERIES[0], gerando: '' }
+  };
+  const doPerfil = arr => arr.filter(x => x.perfil === S.perfil);
+
+  // ------------------------------------------------------------ cálculos de metas
+  function diaDe(iso) { return iso ? hojeISO(new Date(iso)) : ''; }
+  function calcular() {
+    const todos = S.pedidos;
+    const dias = new Set(todos.filter(p => p.postadoEm).map(p => diaDe(p.postadoEm)));
+    let streak = 0;
+    const d = new Date();
+    if (!dias.has(hojeISO(d))) d.setDate(d.getDate() - 1);
+    while (dias.has(hojeISO(d))) { streak++; d.setDate(d.getDate() - 1); }
+    let xp = 0;
+    for (const p of todos) {
+      if (p.status && p.status !== 'enviando') xp += 50;
+      if (p.postadoEm) xp += 100;
+      if (p.metricas) xp += 30;
+    }
+    const hoje = new Date();
+    const dow = (hoje.getDay() + 6) % 7;
+    const seg = new Date(hoje); seg.setDate(hoje.getDate() - dow);
+    const semana = [];
+    for (let i = 0; i < 7; i++) { const x = new Date(seg); x.setDate(seg.getDate() + i); semana.push(hojeISO(x)); }
+    const postSemana = doPerfil(todos).filter(p => p.postadoEm && semana.includes(diaDe(p.postadoEm))).length;
+    return { streak, xp, dias, semana, postSemana, nivel: 1 + Math.floor(xp / 500), resto: xp % 500 };
+  }
+
+  // ------------------------------------------------------------ render
+  function podeRender() {
+    const a = document.activeElement;
+    if (a && a.closest && a.closest('#main') && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)) return false;
+    for (const v of document.querySelectorAll('#main video')) if (!v.paused && !v.ended) return false;
+    return true;
+  }
+  function render(forcar) {
+    if (!forcar && !podeRender()) { S.pendente = true; return; }
+    S.pendente = false;
+    document.documentElement.dataset.perfil = S.perfil;
+    for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.perfil === S.perfil);
+    const c = calcular();
+    document.getElementById('st-streak').textContent = c.streak;
+    document.getElementById('st-xp').textContent = c.xp;
+    renderTabs();
+    const main = document.getElementById('main');
+    if (SO_IA[S.perfil] && S.tab === 'gravar') S.tab = 'hoje';
+    const view = { hoje: SO_IA[S.perfil] ? vArquivo : vHoje, gravar: vGravar, enviar: vEnviar, prontos: vProntos, metas: vMetas }[S.tab](c);
+    main.replaceChildren(view);
+  }
+  document.addEventListener('focusout', () => setTimeout(() => { if (S.pendente) render(); }, 50));
+  document.addEventListener('pause', () => { if (S.pendente) render(); }, true);
+  document.addEventListener('ended', () => { if (S.pendente) render(); }, true);
+
+  function renderTabs() {
+    const box = document.getElementById('tabs');
+    const prontosNovos = doPerfil(S.pedidos).some(p => p.status === 'pronto' && !p.postadoEm);
+    const abas = SO_IA[S.perfil] ? TABS.filter(t => t.id !== 'gravar') : TABS;
+    box.style.gridTemplateColumns = `repeat(${abas.length}, 1fr)`;
+    box.replaceChildren(...abas.map(t => {
+      const b = h('button', { class: 'tab', type: 'button', 'aria-current': S.tab === t.id ? 'page' : null, onclick: () => ir(t.id) },
+        icon(t.icon), h('span', { text: t.nome }));
+      if (t.id === 'prontos' && prontosNovos) b.append(h('i', { class: 'dot', 'aria-label': 'vídeo pronto' }));
+      return b;
+    }));
+  }
+  function ir(tab) {
+    if (S.tab === 'gravar' && tab !== 'gravar') pararTimer();
+    S.tab = tab;
+    try { history.replaceState(null, '', '#' + tab); } catch (e) { /* ok */ }
+    render(true);
+    window.scrollTo({ top: 0 });
+  }
+
+  function estado(texto) {
+    return h('div', { class: 'card empty' }, icon(ICON.news), h('p', { class: 'muted', text: texto }));
+  }
+  function aviso() {
+    if (S.semDb) return h('div', { class: 'card' }, h('p', { class: 'note', text: 'Abra este app pelo Claude, com sua conta, para ver suas pautas e vídeos.' }));
+    if (S.erroDb) return h('div', { class: 'card' }, h('p', { class: 'note', text: 'Não consegui ler os dados agora. Recarregue a página.' }));
+    return null;
+  }
+
+  // ---------- pautas
+  function diasAte(d) {
+    const a = new Date(txt(d) + 'T12:00:00'), b = new Date(hojeISO() + 'T12:00:00');
+    return Math.round((b - a) / 864e5);
+  }
+  function quando(d) {
+    const n = diasAte(d);
+    return n === 0 ? 'Hoje' : n === 1 ? 'Ontem' : n === 2 ? 'Anteontem' : new Date(txt(d) + 'T12:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+  }
+  function pautasUsadas() { return new Set(S.pedidos.map(p => p.pautaId).filter(Boolean)); }
+  // Hoje: as 3 do dia. Ainda dá para gravar: as dos 2 dias anteriores (no Dr. Geovani, as atemporais
+  // das semanas anteriores) que ainda não viraram vídeo e não venceram. O resto fica em "anteriores".
+  function pautasAtuais() {
+    const ps = doPerfil(S.pautas);
+    if (!ps.length) return { data: '', lista: [], recomendadas: [], antigas: [] };
+    const data = ps.reduce((m, p) => (txt(p.data) > m ? txt(p.data) : m), '');
+    const lista = ps.filter(p => p.data === data).sort((a, b) => (a.ordem || 9) - (b.ordem || 9));
+    const usadas = pautasUsadas();
+    const janela = S.perfil === 'drgeovani' ? 56 : 2;
+    const vale = p => (p.reaproveitar && p.reaproveitar.status === 'vale' ? 1 : 0);
+    const recomendadas = ps.filter(p => p.data !== data && !usadas.has(p.id) && diasAte(p.data) <= janela
+      && !(p.reaproveitar && p.reaproveitar.status === 'vencida'))
+      .sort((a, b) => vale(b) - vale(a) || (Number(b.nota) || 0) - (Number(a.nota) || 0) || txt(b.data).localeCompare(txt(a.data)))
+      .slice(0, 4);
+    const rec = new Set(recomendadas.map(p => p.id));
+    const antigas = ps.filter(p => p.data !== data && !rec.has(p.id)).sort((a, b) => (txt(b.data)).localeCompare(txt(a.data)));
+    return { data, lista, recomendadas, antigas };
+  }
+  function notaEl(n) {
+    const v = Math.max(0, Math.min(5, Number(n) || 0));
+    return h('span', { class: 'nota', 'aria-label': `chance de viralizar ${v} de 5` }, [1, 2, 3, 4, 5].map(i => h('i', { class: i <= v ? 'on' : '' })));
+  }
+  function detalhesPauta(p) {
+    const fontes = Array.isArray(p.fontes) ? p.fontes : [];
+    const rot = Array.isArray(p.roteiro) ? p.roteiro : [];
+    const leg = h('p', { text: txt(p.legenda) });
+    return h('div', { class: 'stack' },
+      rot.length ? h('ol', { class: 'fala-list' }, rot.map(r => h('li', null, h('span', { class: 'tempo', text: txt(r.tempo) }), h('span', { text: txt(r.fala) })))) : null,
+      p.aberturaB ? h('div', { class: 'box' }, h('p', { class: 'eyebrow', text: 'Abertura B' }), h('p', { text: txt(p.aberturaB) })) : null,
+      p.prova ? h('div', { class: 'box' }, h('p', { class: 'eyebrow', text: 'Prova no topo' }), h('p', { text: txt(p.prova) })) : null,
+      p.cuidado ? h('div', { class: 'box' }, h('p', { class: 'eyebrow', text: 'Cuidado' }), h('p', { text: txt(p.cuidado) })) : null,
+      p.legenda ? h('div', { class: 'box' },
+        h('div', { class: 'row between' }, h('p', { class: 'eyebrow', text: 'Legenda do post' }),
+          h('button', { class: 'btn small ghost', type: 'button', onclick: () => copiar(txt(p.legenda), leg) }, 'Copiar')), leg) : null,
+      fontes.length ? h('div', { class: 'box fontes' }, h('p', { class: 'eyebrow', text: 'Fontes' }),
+        fontes.map(f => safeUrl(f.url) ? h('a', { href: safeUrl(f.url), target: '_blank', rel: 'noopener', text: txt(f.nome) || 'abrir' }) : h('span', { text: txt(f.nome) }))) : null
+    );
+  }
+  function botoesPauta(p, aberto) {
+    return h('div', { class: 'row' },
+      h('button', { class: 'btn', type: 'button', onclick: () => { S.pr.pautaId = p.id; S.pr.passo = 0; ir('gravar'); } }, 'Gravar esta'),
+      h('button', { class: 'btn ghost', type: 'button', 'aria-expanded': aberto, onclick: () => { aberto ? S.abertos.delete(p.id) : S.abertos.add(p.id); render(true); } }, aberto ? 'Fechar' : 'Roteiro'));
+  }
+  function cartaoPauta(p, i) {
+    const aberto = S.abertos.has(p.id);
+    return h('article', { class: 'card' + (i === 0 ? ' hero' : '') },
+      h('div', { class: 'row between' },
+        h('span', { class: 'chip accent', text: i === 0 ? 'Melhor aposta' : `Pauta ${i + 1}` }), notaEl(p.nota)),
+      h('h2', { class: 'disp', text: txt(p.titulo) }),
+      p.aberturaA ? h('p', { class: 'gancho', text: txt(p.aberturaA) }) : null,
+      p.fato ? h('p', { class: 'muted', text: txt(p.fato) }) : null,
+      botoesPauta(p, aberto),
+      aberto ? detalhesPauta(p) : null
+    );
+  }
+  function resumo(t, n) {
+    t = txt(t).replace(/\s+/g, ' ').trim();
+    if (t.length <= n) return t;
+    const c = t.slice(0, n);
+    return c.slice(0, Math.max(c.lastIndexOf(' '), n - 20)).replace(/[,;:.\s]+$/, '') + '…';
+  }
+  function cartaoRecomendada(p) {
+    const aberto = S.abertos.has(p.id);
+    const r = p.reaproveitar || {};
+    const atemporal = S.perfil === 'drgeovani';
+    const abertura = txt(r.abertura) || txt(p.aberturaA);
+    const porque = txt(r.texto);
+    return h('article', { class: 'card rec' },
+      h('div', { class: 'row between' },
+        h('div', { class: 'row' },
+          r.status === 'vale' ? h('span', { class: 'chip ok', text: 'Ainda vale' }) : atemporal ? h('span', { class: 'chip accent', text: 'Atemporal' }) : null,
+          h('span', { class: 'chip', text: quando(p.data) })),
+        notaEl(p.nota)),
+      h('h3', { class: 'disp', text: txt(p.titulo) }),
+      abertura ? h('p', { class: 'gancho sm', text: abertura }) : null,
+      porque ? h('p', { class: 'porque' }, h('b', { text: 'Por que ainda vale: ' }), document.createTextNode(porque))
+        : atemporal ? h('p', { class: 'porque atemp' }, h('b', { text: 'Atemporal: ' }), document.createTextNode(resumo(p.fato, 150) || 'continua valendo para as famílias.'))
+          : p.fato ? h('p', { class: 'muted', text: resumo(p.fato, 170) }) : null,
+      botoesPauta(p, aberto),
+      aberto ? detalhesPauta(p) : null
+    );
+  }
+
+  function proximoPasso() {
+    const meus = doPerfil(S.pedidos);
+    const pronto = meus.find(p => p.status === 'pronto' && !p.postadoEm);
+    if (pronto) return { titulo: 'Seu vídeo está pronto', texto: `“${txt(pronto.pautaTitulo)}” saiu da edição. Confira as versões A e B e poste.`, botao: 'Ver e postar', acao: () => ir('prontos') };
+    const andando = meus.find(p => ['enviando', 'na_fila', 'editando'].includes(p.status));
+    if (andando) return { titulo: 'Editando seu vídeo', texto: txt(andando.etapa) || 'Na fila da edição.', botao: 'Acompanhar', acao: () => ir('prontos'), indet: true };
+    const { lista } = pautasAtuais();
+    if (lista.length) return { titulo: 'Grave a melhor pauta', texto: txt(lista[0].titulo), botao: 'Abrir teleprompter', acao: () => { S.pr.pautaId = lista[0].id; S.pr.passo = 0; ir('gravar'); } };
+    return { titulo: 'Tema livre hoje', texto: 'Sem pauta nova. Grave sobre o que está no ar e mande para edição.', botao: 'Enviar vídeo', acao: () => ir('enviar') };
+  }
+
+  function vHoje(c) {
+    const { data, lista, recomendadas, antigas } = pautasAtuais();
+    const nx = proximoPasso();
+    const usadas = pautasUsadas();
+    const sem = S.perfil === 'drgeovani';
+    return h('section', { class: 'view', id: 'hoje' },
+      h('div', { class: 'hello' },
+        h('p', { class: 'eyebrow', text: dataLonga(hojeISO()) }),
+        h('h1', { class: 'disp', text: `${saudacao()}, Geovani` })),
+      aviso(),
+      h('div', { class: 'card hero' },
+        h('p', { class: 'eyebrow', text: 'Próximo passo' }),
+        h('h2', { class: 'disp', text: nx.titulo }),
+        h('p', { class: 'muted', text: nx.texto }),
+        nx.indet ? h('div', { class: 'bar indet' }, h('i')) : null,
+        h('button', { class: 'btn block', type: 'button', onclick: nx.acao }, nx.botao),
+        h('div', { class: 'row between' },
+          h('span', { class: 'note', text: `Meta da semana: ${c.postSemana} de ${PERFIS[S.perfil].meta} vídeos postados` }),
+          h('div', { class: 'bar', style: 'flex:1;min-width:90px;max-width:140px' }, h('i', { style: `width:${Math.min(100, c.postSemana / PERFIS[S.perfil].meta * 100)}%` })))),
+      h('div', { class: 'stack' },
+        h('div', { class: 'row between' },
+          h('h2', { class: 'disp', text: !data ? 'Pautas' : sem ? 'Pautas da semana' : data === hojeISO() ? 'Pautas de hoje' : 'Últimas pautas' }),
+          data ? h('span', { class: 'chip', text: new Date(data + 'T12:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) }) : null),
+        !S.carregou && !S.semDb ? estado('Carregando suas pautas…')
+          : lista.length ? lista.map(cartaoPauta)
+            : estado(sem ? 'As pautas do Dr. Geovani chegam toda segunda às 6h14.' : 'As pautas chegam todo dia às 6h14.'),
+        recomendadas.length ? h('div', { class: 'stack' },
+          h('div', { class: 'stack-s' },
+            h('h2', { class: 'disp', text: 'Ainda dá para gravar' }),
+            h('p', { class: 'note', text: sem ? 'Temas atemporais das semanas anteriores que ainda não viraram vídeo.' : 'Pautas dos últimos dois dias que ainda não viraram vídeo.' })),
+          recomendadas.map(cartaoRecomendada)) : null,
+        antigas.length ? h('div', { class: 'stack-s' },
+          h('button', { class: 'link', type: 'button', onclick: () => { S.anteriores = !S.anteriores; render(true); } }, S.anteriores ? 'Esconder pautas anteriores' : `Ver pautas anteriores (${antigas.length})`),
+          S.anteriores ? h('div', { class: 'older' }, antigas.slice(0, 30).map(p => h('button', { type: 'button', onclick: () => { S.abertos.add(p.id); S.pr.pautaId = p.id; S.pr.passo = 0; ir('gravar'); } },
+            h('span', { class: 'note', text: new Date(txt(p.data) + 'T12:00:00').toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) + ' · nota ' + (p.nota || '–')
+              + (usadas.has(p.id) ? ' · já gravada' : p.reaproveitar && p.reaproveitar.status === 'vencida' ? ' · passou' : '') }),
+            h('b', { text: txt(p.titulo) })))) : null) : null)
+    );
+  }
+
+  // ---------- Arquivo Oculto (vídeos gerados por IA)
+  function pedidosDaPauta(id) { return S.pedidos.filter(p => p.pautaId === id); }
+  async function pedirIA(pauta, tema, serie) {
+    if (!S.db) { toast('Abra pelo app do Claude para gerar.'); return; }
+    const agora = new Date().toISOString();
+    const id = 'a' + Date.now().toString(36);
+    S.ia.gerando = pauta ? pauta.id : 'livre';
+    render(true);
+    try {
+      await S.db.collection('pedidos').doc(id).set({
+        perfil: S.perfil, formato: 'ia', tipo: 'ia', pautaId: pauta ? pauta.id : '',
+        pautaTitulo: pauta ? txt(pauta.titulo) : txt(tema).slice(0, 120), serie: pauta ? txt(pauta.serie) : txt(serie),
+        obs: pauta ? '' : txt(tema).slice(0, 2000), status: 'na_fila', etapa: 'Na fila da produção', criadoEm: agora, atualizadoEm: agora
+      });
+      const ok = await acionarEditor(id);
+      if (!pauta) S.ia.tema = '';
+      toast(ok ? 'Pedido feito! O Arquivista já começou.' : 'Pedido feito! Entra na próxima rodada da produção.');
+      S.ia.gerando = '';
+      ir('prontos');
+    } catch (e) {
+      S.ia.gerando = '';
+      toast('Não consegui pedir agora. Tente de novo.');
+      render(true);
+    }
+  }
+  async function recolocarIA(p) {
+    try {
+      await S.db.collection('pedidos').doc(p.id).update({ status: 'na_fila', etapa: 'Na fila da produção', erro: '', atualizadoEm: new Date().toISOString() });
+      const ok = await acionarEditor(p.id);
+      toast(ok ? 'A produção recomeçou.' : 'Voltou para a fila.');
+    } catch (e) { toast('Não consegui. Tente de novo.'); }
+  }
+  function detalhesEpisodio(p) {
+    const cenas = Array.isArray(p.cenas) ? p.cenas : [];
+    const fontes = Array.isArray(p.fontes) ? p.fontes : [];
+    const leg = h('p', { text: txt(p.legenda) });
+    return h('div', { class: 'stack' },
+      cenas.length ? h('ol', { class: 'cena-list' }, cenas.map((c, k) => h('li', null,
+        h('b', { text: `Cena ${k + 1} · ${txt(c.tela)}` }), h('span', { text: txt(c.fala) }),
+        c.selo ? h('span', { class: 'selo', text: txt(c.selo) }) : null))) : null,
+      p.cuidado ? h('div', { class: 'box' }, h('p', { class: 'eyebrow', text: 'Checagem' }), h('p', { text: txt(p.cuidado) })) : null,
+      p.legenda ? h('div', { class: 'box' },
+        h('div', { class: 'row between' }, h('p', { class: 'eyebrow', text: 'Legenda do post' }),
+          h('button', { class: 'btn small ghost', type: 'button', onclick: () => copiar(txt(p.legenda), leg) }, 'Copiar')), leg) : null,
+      fontes.length ? h('div', { class: 'box fontes' }, h('p', { class: 'eyebrow', text: 'Fontes' }),
+        fontes.map(f => safeUrl(f.url) ? h('a', { href: safeUrl(f.url), target: '_blank', rel: 'noopener', text: txt(f.nome) || 'abrir' }) : h('span', { text: txt(f.nome) }))) : null);
+  }
+  function cartaoEpisodio(p) {
+    const aberto = S.abertos.has(p.id);
+    const peds = pedidosDaPauta(p.id);
+    const pronto = peds.find(x => x.status === 'pronto');
+    const andando = peds.find(x => ['na_fila', 'editando'].includes(x.status));
+    const erro = !pronto && !andando && peds.find(x => x.status === 'erro');
+    const postado = peds.some(x => x.postadoEm);
+    return h('article', { class: 'card' },
+      h('div', { class: 'row between' },
+        h('span', { class: 'ep-num', text: `Nº ${String(p.ordem || '').padStart(2, '0')} · ${txt(p.serie)}` }),
+        postado ? h('span', { class: 'chip ok', text: 'Postado' }) : pronto ? h('span', { class: 'chip ok', text: 'Pronto' })
+          : andando ? h('span', { class: 'chip warn', text: 'Gerando' }) : erro ? h('span', { class: 'chip err', text: 'Atenção' }) : h('span', { class: 'chip', text: 'Roteiro pronto' })),
+      h('h2', { class: 'disp', text: txt(p.titulo) }),
+      p.aberturaA ? h('p', { class: 'gancho sm', text: txt(p.aberturaA) }) : null,
+      andando ? [h('div', { class: 'bar indet' }, h('i')), h('p', { class: 'note', text: txt(andando.etapa) })] : null,
+      h('div', { class: 'row' },
+        pronto ? h('button', { class: 'btn', type: 'button', onclick: () => ir('prontos') }, 'Ver vídeo')
+          : andando ? null
+            : h('button', { class: 'btn', type: 'button', disabled: S.ia.gerando === p.id, onclick: () => pedirIA(p) }, S.ia.gerando === p.id ? 'Pedindo…' : 'Gerar vídeo'),
+        h('button', { class: 'btn ghost', type: 'button', 'aria-expanded': aberto, onclick: () => { aberto ? S.abertos.delete(p.id) : S.abertos.add(p.id); render(true); } }, aberto ? 'Fechar' : 'Roteiro'),
+        pronto && !andando ? h('button', { class: 'link', type: 'button', onclick: () => pedirIA(p) }, 'Gerar de novo') : null),
+      aberto ? detalhesEpisodio(p) : null);
+  }
+  function vArquivo() {
+    const eps = doPerfil(S.pautas).slice().sort((a, b) => (Number(a.ordem) || 99) - (Number(b.ordem) || 99));
+    const meus = doPerfil(S.pedidos);
+    const andando = meus.filter(p => ['na_fila', 'editando'].includes(p.status));
+    const prontos = meus.filter(p => p.status === 'pronto' && !p.postadoEm).length;
+    const proximo = eps.find(p => !pedidosDaPauta(p.id).length);
+    return h('section', { class: 'view', id: 'hoje' },
+      h('div', { class: 'card arq-hero' },
+        h('img', { src: 'arquivo/arquivista.jpg', alt: 'O Arquivista: figura de capuz preto e máscara de porcelana rachada, mãos de luvas entrelaçadas, numa biblioteca antiga.' }),
+        h('div', { class: 'arq-txt' },
+          h('p', { class: 'eyebrow', text: 'Arquivo Oculto' }),
+          h('h1', { class: 'disp', text: 'O Arquivista' }),
+          h('p', { class: 'muted', text: 'O passado deixa pistas. O futuro exige estratégia.' }))),
+      aviso(),
+      h('div', { class: 'card hero' },
+        h('p', { class: 'eyebrow', text: 'Próximo passo' }),
+        andando.length ? [h('h2', { class: 'disp', text: 'Gerando seu episódio' }), h('p', { class: 'muted', text: txt(andando[0].pautaTitulo) + ' · ' + (txt(andando[0].etapa) || 'Na fila') }), h('div', { class: 'bar indet' }, h('i'))]
+          : prontos ? [h('h2', { class: 'disp', text: prontos === 1 ? '1 episódio pronto' : `${prontos} episódios prontos` }), h('p', { class: 'muted', text: 'Confira, baixe e poste. Lembre de marcar o rótulo de conteúdo gerado por IA na rede.' }),
+            h('button', { class: 'btn block', type: 'button', onclick: () => ir('prontos') }, 'Ver prontos')]
+            : proximo ? [h('h2', { class: 'disp', text: 'Gere o próximo episódio' }), h('p', { class: 'muted', text: txt(proximo.titulo) }),
+              h('button', { class: 'btn block', type: 'button', onclick: () => pedirIA(proximo) }, 'Gerar vídeo')]
+              : [h('h2', { class: 'disp', text: 'Temporada completa' }), h('p', { class: 'muted', text: 'Peça um caso novo logo abaixo.' })]),
+      h('div', { class: 'stack' },
+        h('div', { class: 'row between' }, h('h2', { class: 'disp', text: 'Temporada 1' }), h('span', { class: 'chip', text: `${eps.length} episódios` })),
+        !S.carregou && !S.semDb ? estado('Abrindo o arquivo…') : eps.length ? eps.map(cartaoEpisodio) : estado('Os episódios aparecem aqui.')),
+      h('div', { class: 'card' },
+        h('h2', { class: 'disp', text: 'O Arquivista em você' }),
+        h('p', { class: 'note', text: 'Grave um vídeo seu e a edição põe a máscara e o capuz do Arquivista no seu rosto, com o cenário dele ao fundo.' }),
+        h('button', { class: 'btn ghost block', type: 'button', onclick: () => ir('enviar') }, 'Enviar meu vídeo')),
+      h('div', { class: 'card' },
+        h('h2', { class: 'disp', text: 'Caso novo' }),
+        h('p', { class: 'note', text: 'Escreva o tema. O Arquivista pesquisa em fontes abertas, escreve o roteiro separando fato, interpretação e lenda, narra e monta o vídeo.' }),
+        h('div', { class: 'field' }, h('label', { for: 'ia-serie', text: 'Série' }),
+          h('select', { id: 'ia-serie', onchange: e => { S.ia.serie = e.target.value; } },
+            SERIES.map(x => { const o = h('option', { value: x, text: x }); if (x === S.ia.serie) o.selected = true; return o; }))),
+        h('div', { class: 'field' }, h('label', { for: 'ia-tema', text: 'Tema do caso' }),
+          h('textarea', { id: 'ia-tema', placeholder: 'Ex.: O ET de Varginha: o que dizem os documentos de 1996?', oninput: e => { S.ia.tema = e.target.value; } }, S.ia.tema)),
+        h('button', { class: 'btn block', type: 'button', disabled: S.ia.gerando === 'livre', onclick: () => { if (txt(S.ia.tema).trim().length < 4) { toast('Escreva o tema do caso.'); return; } pedirIA(null, S.ia.tema, S.ia.serie); } },
+          S.ia.gerando === 'livre' ? 'Pedindo…' : 'Pedir roteiro e vídeo'),
+        h('p', { class: 'note', text: 'Leva de 15 a 40 minutos. O vídeo chega em Prontos com capa e legenda.' }))
+    );
+  }
+
+  // ---------- gravar (teleprompter)
+  function pautaDoPrompter() {
+    const ps = doPerfil(S.pautas);
+    return ps.find(p => p.id === S.pr.pautaId) || pautasAtuais().lista[0] || null;
+  }
+  function pararTimer() {
+    S.pr.rodando = false;
+    cancelAnimationFrame(S.pr.raf);
+    if (S.pr.lock) { S.pr.lock.release().catch(() => {}); S.pr.lock = null; }
+  }
+  async function iniciarTimer() {
+    S.pr.rodando = true;
+    S.pr.t0 = performance.now();
+    try { if (navigator.wakeLock) S.pr.lock = await navigator.wakeLock.request('screen'); } catch (e) { S.pr.lock = null; }
+    const tick = () => {
+      if (!S.pr.rodando) return;
+      const s = (performance.now() - S.pr.t0) / 1000;
+      const ring = document.getElementById('ring-fill');
+      const num = document.getElementById('ring-num');
+      if (ring && num) {
+        const frac = Math.min(1, s / 30);
+        ring.setAttribute('stroke-dashoffset', String(251.3 * (1 - frac)));
+        ring.setAttribute('stroke', s > 30 ? 'var(--alert)' : 'var(--accent)');
+        num.textContent = String(Math.floor(s));
+      }
+      S.pr.raf = requestAnimationFrame(tick);
+    };
+    tick();
+  }
+  function vGravar() {
+    const p = pautaDoPrompter();
+    const ps = doPerfil(S.pautas).slice().sort((a, b) => txt(b.data).localeCompare(txt(a.data)) || (a.ordem || 9) - (b.ordem || 9));
+    const dicas = ['Celular na vertical, na altura dos olhos. Câmera em 1080p e 30 fps: envia mais rápido e o resultado é o mesmo.', 'Olhe na lente, não na tela.', 'Luz de frente, nunca contra a luz.',
+      'Uma frase, um segundo de pausa, a próxima. Errou? Repita a frase inteira.', 'A primeira palavra já é o gancho. Grave o gancho 3 vezes.',
+      S.perfil === 'direitaxx' ? 'No fim: "Aqui é o sertão falando." três vezes.' : 'Tom calmo, de quem acolhe e explica.'];
+    if (!p) {
+      return h('section', { class: 'view', id: 'gravar' }, h('h1', { class: 'disp', text: 'Teleprompter' }), aviso(),
+        estado('Quando chegar uma pauta, o roteiro aparece aqui em tópicos, um de cada vez.'),
+        h('div', { class: 'card' }, h('p', { class: 'eyebrow', text: 'Antes de gravar' }), h('ul', { class: 'tips' }, dicas.map(d => h('li', null, icon(ICON.check), h('span', { text: d }))))));
+    }
+    let passos = (Array.isArray(p.roteiro) && p.roteiro.length ? p.roteiro : [{ tempo: '0–3 s', fala: txt(p.aberturaA) }]);
+    const novaAbertura = p.reaproveitar && txt(p.reaproveitar.abertura);
+    if (novaAbertura) passos = [{ tempo: passos[0].tempo, fala: novaAbertura }].concat(passos.slice(1));
+    const i = Math.min(S.pr.passo, passos.length - 1);
+    const passo = passos[i];
+    return h('section', { class: 'view', id: 'gravar' },
+      h('div', { class: 'stack-s' },
+        h('label', { class: 'eyebrow', for: 'sel-pauta', text: 'Pauta' }),
+        h('select', { id: 'sel-pauta', onchange: e => { S.pr.pautaId = e.target.value; S.pr.passo = 0; pararTimer(); render(true); } },
+          ps.map(x => { const o = h('option', { value: x.id, text: `${txt(x.titulo)} · nota ${x.nota || '–'}` }); if (x.id === p.id) o.selected = true; return o; }))),
+      h('div', { class: 'prompter' },
+        h('div', { class: 'stack-s' },
+          h('div', { class: 'dots' }, passos.map((_, k) => h('i', { class: k <= i ? 'on' : '' }))),
+          h('div', { class: 'row between' }, h('span', { class: 'chip accent', text: txt(passo.tempo) || `Parte ${i + 1}` }), h('span', { class: 'note', text: `${i + 1} de ${passos.length}` }))),
+        h('p', { class: 'fala', text: txt(passo.fala) }),
+        h('div', { class: 'row between' },
+          h('div', { class: 'ring', 'aria-label': 'cronômetro de 30 segundos' },
+            icon('<svg viewBox="0 0 90 90"><circle cx="45" cy="45" r="40" fill="none" stroke="var(--surface2)" stroke-width="9"/><circle id="ring-fill" cx="45" cy="45" r="40" fill="none" stroke="var(--accent)" stroke-width="9" stroke-linecap="round" stroke-dasharray="251.3" stroke-dashoffset="251.3"/></svg>'),
+            h('b', { id: 'ring-num', text: '0' })),
+          h('button', { class: 'btn ghost', type: 'button', onclick: () => { if (S.pr.rodando) { pararTimer(); render(true); } else { iniciarTimer(); render(true); } } }, S.pr.rodando ? 'Parar' : 'Cronômetro'))),
+      h('div', { class: 'grid2' },
+        h('button', { class: 'btn ghost', type: 'button', disabled: i === 0, onclick: () => { S.pr.passo = Math.max(0, i - 1); render(true); } }, 'Voltar'),
+        i < passos.length - 1
+          ? h('button', { class: 'btn', type: 'button', onclick: () => { S.pr.passo = i + 1; render(true); } }, 'Próxima')
+          : h('button', { class: 'btn ok', type: 'button', onclick: () => { pararTimer(); S.envio.pautaId = p.id; ir('enviar'); } }, 'Gravei! Enviar')),
+      h('div', { class: 'card' }, h('p', { class: 'eyebrow', text: 'Antes de gravar' }), h('ul', { class: 'tips' }, dicas.map(d => h('li', null, icon(ICON.check), h('span', { text: d })))))
+    );
+  }
+
+  // ---------- enviar
+  function vEnviar() {
+    const E = S.envio;
+    const arq = S.perfil === 'arquivo';
+    if (arq) E.formato = 'filtro'; else if (E.formato === 'filtro') E.formato = 'dividida';
+    const ps = doPerfil(S.pautas).slice().sort((a, b) => txt(b.data).localeCompare(txt(a.data)) || (a.ordem || 9) - (b.ordem || 9)).slice(0, 15);
+    const semUpload = !S.assets && S.carregou;
+    const fileIn = h('input', { type: 'file', id: 'arquivo', accept: 'video/*', class: 'vh', onchange: e => escolher(e.target.files && e.target.files[0]) });
+    const grande = E.arquivo && E.arquivo.size > 150 * 1048576;
+    return h('section', { class: 'view', id: 'enviar' },
+      h('div', { class: 'hello' }, h('p', { class: 'eyebrow', text: PERFIS[S.perfil].nome }), h('h1', { class: 'disp', text: arq ? 'O Arquivista em você' : 'Mandar para edição' })),
+      aviso(),
+      arq ? h('div', { class: 'card' },
+        h('p', { class: 'eyebrow', text: '1. Como fica' }),
+        h('p', { text: 'Grave você falando, de frente para a câmera. A edição põe a máscara e o capuz do Arquivista no seu rosto, troca o fundo pela biblioteca dele, escurece a voz e acompanha sua boca e sua cabeça.' }),
+        h('p', { class: 'note', text: 'Funciona melhor com o rosto inteiro na tela, luz de frente e fundo simples.' })) :
+      h('div', { class: 'field' }, h('span', { class: 'lbl', text: '1. Formato' }),
+        h('div', { class: 'tiles' },
+          [['dividida', 'Tela dividida', 'Prova em cima, você embaixo. Para fato com manchete ou número.'],
+            ['depoimento', 'Depoimento', 'Você em tela cheia e a palavra-carimbo atrás. Para opinião.']].map(([id, nome, desc]) =>
+            h('button', { type: 'button', class: 'tile', 'aria-pressed': E.formato === id, onclick: () => { E.formato = id; render(true); } },
+              icon(TILE_SVG[id]), h('b', { text: nome }), h('span', { text: desc }))))),
+      h('div', { class: 'field' }, h('label', { for: 'env-pauta', text: '2. Pauta' }),
+        h('select', { id: 'env-pauta', onchange: e => { E.pautaId = e.target.value; } },
+          h('option', { value: '', text: 'Tema livre (sem pauta)' }),
+          ps.map(x => { const o = h('option', { value: x.id, text: txt(x.titulo) }); if (x.id === E.pautaId) o.selected = true; return o; }))),
+      h('div', { class: 'field' }, h('span', { class: 'lbl', text: '3. Vídeo' }),
+        h('label', { class: 'drop', for: 'arquivo' }, icon(ICON.up),
+          E.arquivo ? [h('b', { text: E.arquivo.name }), h('span', { class: 'note', text: `${mb(E.arquivo.size)}${E.dur ? ' · ' + Math.round(E.dur) + ' s' : ''} · toque para trocar` })]
+            : [h('b', { text: 'Escolher vídeo da galeria' }), h('span', { class: 'note', text: 'Vertical, de preferência em 1080p' })]),
+        fileIn,
+        grande ? h('p', { class: 'note', text: 'Arquivo grande: no 4G pode demorar. Se puder, use o Wi-Fi ou grave em 1080p.' }) : null),
+      arq ? null : h('label', { class: 'check', for: 'env-retoque' },
+        h('input', { type: 'checkbox', id: 'env-retoque', checked: E.retoque, onchange: e => { E.retoque = e.target.checked; } }),
+        h('span', null, h('b', { text: 'Retoque leve' }), h('span', { class: 'note', text: 'Pele mais uniforme e aparelho dos dentes disfarçado. Desligue se quiser o vídeo sem nenhum ajuste no rosto.' }))),
+      h('div', { class: 'field' }, h('label', { for: 'env-obs', text: '4. Recado para o editor (opcional)' }),
+        h('textarea', { id: 'env-obs', placeholder: 'Ex.: usa a segunda vez que eu falo o gancho; põe a manchete do G1 no topo.', oninput: e => { E.obs = e.target.value; } }, E.obs)),
+      E.enviando ? h('div', { class: 'card' },
+        h('p', { class: 'eyebrow', text: 'Enviando' }), h('div', { class: 'bar' }, h('i', { id: 'env-bar', style: `width:${Math.round(E.prog * 100)}%` })),
+        h('p', { class: 'note', id: 'env-etapa', text: E.etapa }))
+        : h('button', { class: 'btn block', type: 'button', disabled: !E.arquivo || semUpload || !S.db, onclick: enviar }, icon(ICON.send), 'Enviar para edição'),
+      semUpload ? h('p', { class: 'note', text: 'Só quem pode editar este app consegue enviar vídeos.' }) : null,
+      h('p', { class: 'note', text: 'O editor recebe o vídeo, monta as versões A e B, a capa e a legenda, e devolve na aba Prontos. Leva cerca de 40 minutos.' })
+    );
+  }
+  function escolher(f) {
+    if (!f) return;
+    S.envio.arquivo = f;
+    S.envio.dur = 0;
+    try {
+      const v = document.createElement('video');
+      v.preload = 'metadata';
+      v.onloadedmetadata = () => { S.envio.dur = v.duration || 0; URL.revokeObjectURL(v.src); render(true); };
+      v.src = URL.createObjectURL(f);
+    } catch (e) { /* duração é opcional */ }
+    render(true);
+  }
+  function atualizaEnvio() {
+    const bar = document.getElementById('env-bar');
+    const et = document.getElementById('env-etapa');
+    if (bar) bar.style.width = Math.round(S.envio.prog * 100) + '%';
+    if (et) et.textContent = S.envio.etapa;
+  }
+  async function enviar() {
+    const E = S.envio;
+    const f = E.arquivo;
+    if (!f || !S.assets || !S.db || E.enviando) return;
+    E.enviando = true; E.prog = 0; E.etapa = 'Preparando…';
+    render(true);
+    let lock = null;
+    try { if (navigator.wakeLock) lock = await navigator.wakeLock.request('screen'); } catch (e) { lock = null; }
+    const agora = new Date().toISOString();
+    const id = 'v' + Date.now().toString(36);
+    const ref = S.db.collection('pedidos').doc(id);
+    const pauta = S.pautas.find(p => p.id === E.pautaId);
+    const tipo = f.type === 'video/webm' ? 'video/webm' : 'video/mp4';
+    try {
+      await ref.set({
+        perfil: S.perfil, formato: E.formato, pautaId: pauta ? pauta.id : '', pautaTitulo: pauta ? txt(pauta.titulo) : 'Tema livre',
+        obs: txt(E.obs).slice(0, 2000), retoque: E.retoque !== false, arquivo: { nome: f.name.slice(0, 200), tamanho: f.size, tipo: f.type || '', partes: [] },
+        status: 'enviando', etapa: 'Enviando o vídeo', criadoEm: agora, atualizadoEm: agora
+      });
+      const n = Math.max(1, Math.ceil(f.size / CHUNK));
+      const partes = [];
+      for (let i = 0; i < n; i++) {
+        E.etapa = n > 1 ? `Enviando parte ${i + 1} de ${n}` : 'Enviando o vídeo';
+        atualizaEnvio();
+        const blob = f.slice(i * CHUNK, Math.min(f.size, (i + 1) * CHUNK));
+        let r;
+        try { r = await S.assets.upload(blob, { type: tipo }); }
+        catch (e) {
+          if (e && e.code === 'store_unavailable') { await sleep(1800); r = await S.assets.upload(blob, { type: tipo }); }
+          else throw e;
+        }
+        partes.push(r.id);
+        E.prog = (i + 1) / n;
+        atualizaEnvio();
+      }
+      await ref.update({ arquivo: { partes }, status: 'na_fila', etapa: 'Na fila da edição', atualizadoEm: new Date().toISOString() });
+      E.etapa = 'Chamando o editor…';
+      atualizaEnvio();
+      const acionou = await acionarEditor(id);
+      E.arquivo = null; E.obs = ''; E.dur = 0;
+      toast(acionou ? 'Recebido! O editor já começou.' : 'Recebido! Está na fila da edição.');
+      E.enviando = false;
+      ir('prontos');
+    } catch (e) {
+      E.enviando = false;
+      const code = e && e.code;
+      const msg = code === 'quota_or_state' ? 'O espaço do app encheu. Apague vídeos antigos em Prontos e tente de novo.'
+        : code === 'rate_limited' ? 'Muitos envios seguidos. Espere um minuto e tente de novo.'
+          : code === 'unsupported_type' ? 'Esse arquivo não é aceito. Envie um vídeo MP4 ou MOV.'
+            : 'O envio parou no meio. Confira a internet e toque em Enviar de novo.';
+      toast(msg);
+      try { await ref.update({ status: 'erro', etapa: 'Envio interrompido', erro: msg, atualizadoEm: new Date().toISOString() }); } catch (e2) { /* o pedido pode nem existir */ }
+      render(true);
+    } finally {
+      if (lock) lock.release().catch(() => {});
+    }
+  }
+  async function acionarEditor(id) {
+    const trig = S.config && S.config.editorTrigger;
+    if (!S.mcp || !trig) return false;
+    try {
+      await S.mcp.callTool('Claude Code Remote', 'fire_trigger', { trigger_id: trig, text: `Pedido ${id} chegou pelo app.` }, { cache: false });
+      try { await S.db.collection('pedidos').doc(id).update({ acionadoEm: new Date().toISOString() }); } catch (e) { /* só registro */ }
+      return true;
+    } catch (e) {
+      if (e && e.code === 'approval_required') toast('Para o editor começar na hora, permita o acesso quando o Claude perguntar.');
+      return false;
+    }
+  }
+
+  // ---------- prontos
+  const STATUS = {
+    enviando: ['Enviando', 'warn'], na_fila: ['Na fila', ''], editando: ['Editando', 'warn'],
+    pronto: ['Pronto', 'ok'], erro: ['Precisa de atenção', 'err']
+  };
+  async function baixar(assetId, nome, btn) {
+    if (!S.downloads) { toast('Abra pelo app do Claude para baixar.'); return; }
+    try {
+      if (btn) btn.disabled = true;
+      const r = await fetch('/_blob/' + assetId);
+      if (!r.ok) throw new Error('fetch');
+      const blob = await r.blob();
+      await S.downloads.save({ filename: nome, data: blob });
+      toast('Salvo');
+    } catch (e) {
+      if (!(e && e.code === 'declined')) toast('Não consegui baixar agora. Tente de novo.');
+    } finally { if (btn) btn.disabled = false; }
+  }
+  async function marcarPostado(p) {
+    try { await S.db.collection('pedidos').doc(p.id).update({ postadoEm: new Date().toISOString() }); toast('+100 pontos. Boa!'); }
+    catch (e) { toast('Não salvei. Tente de novo.'); }
+  }
+  async function tentarDeNovo(p) {
+    if (p.etapa === 'Envio interrompido') {
+      // o vídeo não chegou inteiro: precisa mandar de novo
+      S.envio.formato = p.formato || S.envio.formato; S.envio.pautaId = p.pautaId || '';
+      toast('O vídeo não chegou inteiro. Escolha de novo e envie.');
+      ir('enviar');
+      return;
+    }
+    try {
+      await S.db.collection('pedidos').doc(p.id).update({ status: 'na_fila', etapa: 'Na fila da edição', erro: '', atualizadoEm: new Date().toISOString() });
+      const ok = await acionarEditor(p.id);
+      toast(ok ? 'O editor recomeçou.' : 'Voltou para a fila.');
+    } catch (e) { toast('Não consegui. Tente de novo.'); }
+  }
+  async function apagar(p) {
+    const ids = [...((p.arquivo && p.arquivo.partes) || []), ...['a', 'b', 'capa'].map(k => p.resultado && p.resultado[k]).filter(Boolean)];
+    try {
+      if (S.assets) for (const id of ids) { try { await S.assets.delete(id); } catch (e) { /* segue */ } }
+      await S.db.collection('pedidos').doc(p.id).delete();
+      toast('Apagado');
+    } catch (e) { toast('Não consegui apagar agora.'); }
+  }
+  async function salvarMetricas(p, form) {
+    const num = k => { const v = form.querySelector(`[name="${k}"]`).value; return v === '' ? null : Number(String(v).replace(',', '.')); };
+    const m = { views: num('views'), alcance: num('alcance'), tempoMedio: num('tempoMedio'), compart: num('compart'), naoSeg: num('naoSeg'), seguidores: num('seguidores') };
+    try { await S.db.collection('pedidos').doc(p.id).update({ metricas: m }); S.metAberto.delete(p.id); toast('+30 pontos. Resultado salvo.'); render(true); }
+    catch (e) { toast('Não salvei. Tente de novo.'); }
+  }
+  function cartaoPedido(p) {
+    const [rot, cls] = STATUS[p.status] || ['—', ''];
+    const res = p.resultado || {};
+    const ver = S.versao[p.id] || 'a';
+    const vid = ver === 'b' && res.b ? res.b : res.a;
+    const andamento = ['enviando', 'na_fila', 'editando'].includes(p.status);
+    const leg = h('p', { text: txt(res.legenda) });
+    const m = p.metricas || {};
+    const form = h('form', { class: 'stack', onsubmit: e => { e.preventDefault(); salvarMetricas(p, e.target); } },
+      h('div', { class: 'grid2' }, [['views', 'Visualizações'], ['alcance', 'Pessoas alcançadas'], ['tempoMedio', 'Tempo médio (s)'],
+        ['compart', 'Compartilhamentos'], ['naoSeg', '% não seguidores'], ['seguidores', 'Seguidores ganhos']].map(([k, l]) =>
+        h('div', { class: 'metric' }, h('label', { for: `m-${p.id}-${k}`, text: l }),
+          h('input', { type: 'number', inputmode: 'decimal', min: '0', step: 'any', id: `m-${p.id}-${k}`, name: k, value: m[k] != null ? String(m[k]) : null })))),
+      h('button', { class: 'btn ok block', type: 'submit' }, 'Salvar resultado'));
+    const conf = S.confirmar[p.id];
+    return h('article', { class: 'card' },
+      h('div', { class: 'row between' },
+        h('span', { class: `chip ${cls}`, text: rot }),
+        h('span', { class: 'note', text: haQuanto(p.atualizadoEm || p.criadoEm) })),
+      h('h2', { class: 'disp', text: txt(p.pautaTitulo) || 'Tema livre' }),
+      h('div', { class: 'row' }, h('span', { class: 'chip', text: p.formato === 'ia' ? 'Gerado por IA' : p.formato === 'filtro' ? 'Arquivista no rosto' : p.formato === 'depoimento' ? 'Depoimento' : 'Tela dividida' }),
+        p.postadoEm ? h('span', { class: 'chip ok', text: 'Postado' }) : null),
+      andamento ? [h('div', { class: 'bar indet' }, h('i')), h('p', { class: 'note', text: txt(p.etapa) })] : null,
+      p.status === 'erro' ? [h('p', { class: 'muted', text: txt(p.erro) || 'Algo deu errado na edição.' }),
+        h('button', { class: 'btn ghost', type: 'button', onclick: () => (p.formato === 'ia' ? recolocarIA(p) : tentarDeNovo(p)) }, 'Tentar de novo')] : null,
+      p.status === 'pronto' && vid ? [
+        res.b ? h('div', { class: 'ab', role: 'group', 'aria-label': 'Versão' },
+          ['a', 'b'].map(k => h('button', { type: 'button', 'aria-pressed': ver === k, onclick: () => { S.versao[p.id] = k; render(true); } }, k === 'a' ? 'Versão A' : 'Versão B'))) : null,
+        h('video', { class: 'player', src: '/_blob/' + vid, poster: res.capa ? '/_blob/' + res.capa : null, controls: true, playsinline: true, preload: 'metadata' }),
+        h('div', { class: 'grid2' },
+          h('button', { class: 'btn ghost small', type: 'button', onclick: e => baixar(vid, `${S.perfil}_${p.id}_${ver.toUpperCase()}.mp4`, e.currentTarget) }, 'Baixar vídeo'),
+          res.capa ? h('button', { class: 'btn ghost small', type: 'button', onclick: e => baixar(res.capa, `${S.perfil}_${p.id}_capa.jpg`, e.currentTarget) }, 'Baixar capa') : h('span')),
+        res.legenda ? h('div', { class: 'box' },
+          h('div', { class: 'row between' }, h('p', { class: 'eyebrow', text: 'Legenda' }),
+            h('button', { class: 'btn small ghost', type: 'button', onclick: () => copiar(txt(res.legenda), leg) }, 'Copiar')), leg) : null,
+        res.nota ? h('p', { class: 'note', text: txt(res.nota) }) : null,
+        !p.postadoEm ? h('button', { class: 'btn ok block', type: 'button', onclick: () => marcarPostado(p) }, 'Postei!')
+          : h('div', { class: 'stack-s' },
+            h('button', { class: 'link', type: 'button', onclick: () => { S.metAberto.has(p.id) ? S.metAberto.delete(p.id) : S.metAberto.add(p.id); render(true); } },
+              p.metricas ? 'Editar resultado de 24 h' : 'Registrar resultado de 24 h'),
+            S.metAberto.has(p.id) ? form : null)
+      ] : null,
+      h('div', { class: 'row' },
+        conf ? [h('button', { class: 'btn danger small', type: 'button', onclick: () => { delete S.confirmar[p.id]; apagar(p); } }, 'Apagar de vez'),
+          h('button', { class: 'btn ghost small', type: 'button', onclick: () => { delete S.confirmar[p.id]; render(true); } }, 'Cancelar')]
+          : h('button', { class: 'link', type: 'button', onclick: () => { S.confirmar[p.id] = true; render(true); } }, 'Apagar este vídeo'))
+    );
+  }
+  function vProntos() {
+    const meus = doPerfil(S.pedidos);
+    return h('section', { class: 'view', id: 'prontos' },
+      h('div', { class: 'hello' }, h('p', { class: 'eyebrow', text: PERFIS[S.perfil].nome }), h('h1', { class: 'disp', text: 'Seus vídeos' })),
+      aviso(),
+      !S.carregou && !S.semDb ? estado('Carregando…')
+        : meus.length ? meus.map(cartaoPedido)
+          : SO_IA[S.perfil] ? h('div', { class: 'card empty' }, icon(ICON.film), h('p', { class: 'muted', text: 'Nenhum episódio gerado ainda. Escolha um episódio e toque em Gerar vídeo.' }),
+            h('button', { class: 'btn', type: 'button', onclick: () => ir('hoje') }, 'Ver episódios'))
+          : h('div', { class: 'card empty' }, icon(ICON.film), h('p', { class: 'muted', text: 'Nenhum vídeo ainda. Grave uma pauta e mande para edição.' }),
+            h('button', { class: 'btn', type: 'button', onclick: () => ir('enviar') }, 'Enviar vídeo'))
+    );
+  }
+
+  // ---------- metas
+  function media(arr) { const v = arr.filter(x => x != null && !isNaN(x)); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; }
+  function vMetas(c) {
+    const meus = doPerfil(S.pedidos);
+    const com = meus.filter(p => p.metricas).slice(0, 5).map(p => p.metricas);
+    const tempo = media(com.map(m => m.tempoMedio));
+    const comp = media(com.map(m => (m.compart != null && m.alcance) ? m.compart / m.alcance * 100 : null));
+    const nao = media(com.map(m => m.naoSeg));
+    const seg = media(com.map(m => m.seguidores));
+    const fmt = (v, suf, d = 0) => v == null ? '—' : v.toFixed(d).replace('.', ',') + suf;
+    const linhas = [
+      ['Tempo médio assistido', fmt(tempo, ' s', 1), tempo != null && tempo >= 6, 'Meta: 6 a 8 s. Hoje a página tem 2 a 3 s.'],
+      ['Compartilhamentos por pessoa', fmt(comp, '%', 1), comp != null && comp >= 5, 'Meta: 5% ou mais.'],
+      ['Views de não seguidores', fmt(nao, '%'), nao != null && nao >= 50, 'Meta: 50% ou mais.'],
+      ['Seguidores por vídeo', fmt(seg, ''), seg != null && seg >= 10, 'Meta: 10 ou mais.']
+    ];
+    const postados = S.pedidos.filter(p => p.postadoEm).length;
+    const badges = [
+      ['Primeiro envio', S.pedidos.some(p => p.status && p.status !== 'enviando'), ICON.send],
+      ['Primeiro post', postados >= 1, ICON.film],
+      ['3 dias seguidos', c.streak >= 3, ICON.flame],
+      ['7 dias seguidos', c.streak >= 7, ICON.flame],
+      ['10 vídeos', postados >= 10, ICON.ten],
+      ['Meta da semana', c.postSemana >= PERFIS[S.perfil].meta, ICON.trophy]
+    ];
+    const hoje = hojeISO();
+    return h('section', { class: 'view', id: 'metas' },
+      h('h1', { class: 'disp', text: 'Suas metas' }),
+      aviso(),
+      h('div', { class: 'card hero' },
+        h('div', { class: 'streak' }, icon(ICON.flame),
+          h('div', null, h('div', { class: 'big', text: String(c.streak) }), h('p', { class: 'muted', text: c.streak === 1 ? 'dia seguido postando' : 'dias seguidos postando' }))),
+        h('div', { class: 'week' }, c.semana.map((d, k) => h('div', null, h('span', { text: DIAS[k] }),
+          h('i', { class: (c.dias.has(d) ? 'on ' : '') + (d === hoje ? 'today' : '') }, c.dias.has(d) ? icon(ICON.check) : null))))),
+      h('div', { class: 'card lvl' },
+        h('div', { class: 'row between' }, h('h2', { class: 'disp', text: `Nível ${c.nivel}` }), h('span', { class: 'chip accent', text: `${c.xp} pontos` })),
+        h('div', { class: 'bar' }, h('i', { style: `width:${c.resto / 5}%` })),
+        h('p', { class: 'note', text: `Faltam ${500 - c.resto} pontos para o nível ${c.nivel + 1}. Enviar vale 50, postar vale 100, registrar o resultado vale 30.` })),
+      h('div', { class: 'card' },
+        h('div', { class: 'row between' }, h('h2', { class: 'disp', text: 'Metas de 24 h' }), h('span', { class: 'chip', text: com.length ? `média de ${com.length}` : 'sem dados' })),
+        h('ul', { class: 'metas' }, linhas.map(([nome, valor, bateu, dica]) => h('li', null,
+          h('b', { text: nome }), h('span', { class: 'chip ' + (valor === '—' ? '' : bateu ? 'ok' : 'warn'), text: valor }), h('small', { text: dica })))),
+        !com.length ? h('p', { class: 'note', text: 'Depois de postar, registre os números de 24 h do Instagram em Prontos.' }) : null),
+      h('div', { class: 'card' },
+        h('h2', { class: 'disp', text: 'Conquistas' }),
+        h('div', { class: 'badges' }, badges.map(([nome, on, ic]) => h('div', { class: 'badge' + (on ? ' on' : '') }, h('i', null, icon(ic)), h('span', { text: nome })))))
+    );
+  }
+
+  // ------------------------------------------------------------ início
+  for (const b of document.querySelectorAll('.seg button')) {
+    b.addEventListener('click', () => { S.perfil = b.dataset.perfil; lsSet('perfil', S.perfil); S.pr.pautaId = ''; S.pr.passo = 0; pararTimer(); render(true); });
+  }
+  const tabHash = (location.hash || '').slice(1);
+  if (TABS.some(t => t.id === tabHash)) S.tab = tabHash;
+  render(true);
+
+  async function iniciar() {
+    if (!window.claude || !window.claude.use) { S.semDb = true; S.carregou = true; render(); return; }
+    const pegar = n => window.claude.use(n).catch(() => null);
+    const [db, assets, mcp, downloads] = await Promise.all([pegar('db'), pegar('assets'), pegar('mcp'), pegar('downloads')]);
+    Object.assign(S, { db, assets, mcp, downloads });
+    if (!db) { S.semDb = true; S.carregou = true; render(); return; }
+    const falha = e => { S.erroDb = (e && e.code) || 'erro'; S.carregou = true; render(); };
+    db.collection('pautas').orderBy('data', 'desc').limit(150).onSnapshot(s => {
+      S.pautas = s.docs.map(d => Object.assign({ id: d.id }, d.data()));
+      S.carregou = true; render();
+    }, falha);
+    db.collection('pedidos').orderBy('criadoEm', 'desc').limit(200).onSnapshot(s => {
+      S.pedidos = s.docs.map(d => Object.assign({ id: d.id }, d.data()));
+      render();
+    }, falha);
+    db.doc('config/app').onSnapshot(s => { S.config = s.exists ? s.data() : {}; }, () => {});
+  }
+  iniciar();
+})();
+</script>
+
+</body></html>

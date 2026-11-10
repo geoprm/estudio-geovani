@@ -1,0 +1,873 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E02",
+ "versao": "v2.0",
+ "num": 2,
+ "formato": "investigacao_90",
+ "titulo": "A operação contra a editora",
+ "serie": "Conspirações Documentadas",
+ "hook": "POR CAUSA DAS CARTAS?",
+ "status_editorial": "pronto_para_render",
+ "proximo": "PRÓXIMO ARQUIVO: A CARTA LIGADA A UM PRESIDENTE",
+ "estrutura": [
+  "cold_open",
+  "inciting_question",
+  "dated_evidence",
+  "competing_interpretations",
+  "reversal_or_surprise",
+  "open_loop_or_next_dossier"
+ ],
+ "nota_editorial": "Remontagem V2 do EP02. Revelação documental: a palavra Illuminati estava na busca de 1990 — era o nome do BBS da editora (fonte: página da própria editora), não o baralho de 1994. Número de computadores apreendidos NÃO é dito: a editora informa quatro; o relatório V1 registrava três pela decisão judicial (não relida nesta sessão).",
+ "fontes": [
+  {
+   "id": "S-SJG-SS",
+   "titulo": "SJ Games vs. the Secret Service",
+   "editor": "Steve Jackson Games",
+   "url": "https://www.sjgames.com/SS/",
+   "acessado_em": "2026-11-04",
+   "snapshot": "arquivo_oculto/acervo_privado/sjgames_SS_raid_page_acessada_2026-11-04.html",
+   "verificacao": "lida nesta sessão: busca de 01/03/1990 pelo U.S. Secret Service em Austin, Texas, numa investigação nacional de pirataria de dados; casa do autor de GURPS Cyberpunk também revistada; apreendidos quatro computadores, duas impressoras a laser, discos rígidos avulsos e equipamentos; um dos computadores rodava o Illuminati BBS; só foram levados computadores com arquivos de GURPS Cyberpunk; julgamento no início de 1993, vitória da editora",
+   "direitos": "texto da editora (protegido); usar dados e citação curta"
+  },
+  {
+   "id": "S-JUDGMENT-1993",
+   "titulo": "Steve Jackson Games, Inc. v. United States Secret Service, 816 F. Supp. 432 (W.D. Tex. 1993)",
+   "editor": "U.S. District Court, W.D. Texas",
+   "url": "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/",
+   "data_documento": "1993-03-12",
+   "verificacao": "registrada no grafo do site v0.8 e no relatório V1; Justia respondeu 403 nesta sessão",
+   "direitos": "decisão judicial federal dos EUA: domínio público"
+  },
+  {
+   "id": "S-LIST-1995",
+   "titulo": "The Official INWO Card List - April 18, 1995",
+   "editor": "Steve Jackson Games",
+   "url": "https://www.sjgames.com/inwo/lists/ill.html",
+   "acessado_em": "2026-11-04",
+   "snapshot": "arquivo_oculto/acervo_privado/sjgames_inwo_lists_ill_1995-04-18.html",
+   "verificacao": "informa o lançamento de 16/12 (1994)"
+  },
+  {
+   "id": "S-ART-GALLERY",
+   "titulo": "INWO Artwork — galeria oficial",
+   "editor": "Steve Jackson Games",
+   "url": "https://www.sjgames.com/inwo/artwork/",
+   "arquivo": "https://www.sjgames.com/inwo/artwork/img/bavaria.gif",
+   "acessado_em": "2026-11-04",
+   "verificacao": "baixado nesta sessão; crédito Jeff Koke (registro do site v0.2)"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "texto": "Em 01/03/1990 o U.S. Secret Service fez busca na Steve Jackson Games, em Austin, Texas",
+   "status": "documented",
+   "fontes": [
+    "S-SJG-SS",
+    "S-JUDGMENT-1993"
+   ]
+  },
+  {
+   "id": "C2",
+   "texto": "Segundo a editora, a busca fazia parte de uma investigação nacional sobre pirataria de dados",
+   "status": "documented",
+   "fontes": [
+    "S-SJG-SS"
+   ]
+  },
+  {
+   "id": "C3",
+   "texto": "Foram levados computadores, impressoras a laser e discos rígidos",
+   "status": "documented",
+   "fontes": [
+    "S-SJG-SS"
+   ],
+   "nota": "quantidade de computadores diverge entre fontes (4 x 3): não citar número"
+  },
+  {
+   "id": "C4",
+   "texto": "Só foram levados os computadores com arquivos de GURPS Cyberpunk",
+   "status": "documented",
+   "fontes": [
+    "S-SJG-SS"
+   ]
+  },
+  {
+   "id": "C5",
+   "texto": "Um dos computadores apreendidos rodava o Illuminati BBS",
+   "status": "documented",
+   "fontes": [
+    "S-SJG-SS"
+   ]
+  },
+  {
+   "id": "C6",
+   "texto": "Circula a versão de que a busca aconteceu por causa de cartas que previam o futuro",
+   "status": "allegation",
+   "fontes": []
+  },
+  {
+   "id": "C7",
+   "texto": "INWO chegou às lojas em 16/12/1994, 4 anos e 9 meses depois da busca",
+   "status": "documented",
+   "fontes": [
+    "S-LIST-1995",
+    "S-SJG-SS"
+   ]
+  },
+  {
+   "id": "C8",
+   "texto": "Em 1993 a Justiça deu razão à editora contra o Serviço Secreto",
+   "status": "documented",
+   "fontes": [
+    "S-SJG-SS",
+    "S-JUDGMENT-1993"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-SJG-TRECHO",
+   "tipo": "documento_autentico",
+   "fonte": "S-SJG-SS",
+   "rights_status": "quotation_excerpt",
+   "autenticidade": "transcrição literal de trecho curto",
+   "credito": "Trecho: \"SJ Games vs. the Secret Service\", sjgames.com/SS",
+   "fallback": "A-SJG-PARAFRASE"
+  },
+  {
+   "id": "A-SJG-PARAFRASE",
+   "tipo": "documento_autentico",
+   "fonte": "S-SJG-SS",
+   "rights_status": "fact_citation",
+   "autenticidade": "paráfrase em português com fonte",
+   "credito": "Fonte: Steve Jackson Games, sjgames.com/SS"
+  },
+  {
+   "id": "A-DECISAO-1993",
+   "tipo": "dado_documental",
+   "fonte": "S-JUDGMENT-1993",
+   "rights_status": "public_domain",
+   "autenticidade": "citação da decisão (domínio público)",
+   "credito": "816 F. Supp. 432 (W.D. Tex. 1993)"
+  },
+  {
+   "id": "A-DATAS-1990-1994",
+   "tipo": "dado_documental",
+   "fonte": "S-SJG-SS",
+   "rights_status": "fact_citation",
+   "credito": "Fontes: sjgames.com/SS · lista oficial INWO (1995)"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "autenticidade": "desenhado por código; nunca imita documento, foto ou tela real",
+   "credito": "Ilustração original · Arquivo Oculto"
+  },
+  {
+   "id": "A-ART-BAVARIA",
+   "tipo": "arte_autentica",
+   "arquivo": "arquivo_oculto/acervo_privado/bavaria.gif",
+   "fonte": "S-ART-GALLERY",
+   "rights_status": "private_research",
+   "autenticidade": "verified_artwork (recorte oficial, não a carta completa)",
+   "credito": "Arte: Jeff Koke · © Steve Jackson Games · galeria oficial",
+   "fallback": "placeholder"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Primeiro de março de 1990. Agentes armados entram numa editora de jogos no Texas.",
+   "tts": "Primeiro de março de mil novecentos e noventa. Agentes armados entram numa editora de jogos no Téxas.",
+   "pausa_ms": 360,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S01",
+     "tipo": "escritorio",
+     "peso": 1.1,
+     "tela": "01·03·1990",
+     "selo": "RECONSTITUIÇÃO ILUSTRADA",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "escritório à noite",
+     "visual_source_type": "reconstituicao_ilustrada",
+     "movement": "lanterna varre as mesas",
+     "sound_design": "porta, passos, rádio",
+     "prompt": "escritório genérico de 1990 com lanterna",
+     "negative_prompt": "pessoas reais, agentes identificáveis, logotipos"
+    },
+    {
+     "id": "S02",
+     "tipo": "salto_datas",
+     "peso": 0.9,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-DATAS-1990-1994",
+     "credito": true,
+     "params": {
+      "de": "01·03·1990",
+      "ate": "?",
+      "rot_de": "BUSCA FEDERAL NA EDITORA",
+      "rot_ate": "",
+      "gap": ""
+     },
+     "shot_type": "data",
+     "visual_source_type": "dado_documental",
+     "movement": "linha começa a correr",
+     "sound_design": "relógio",
+     "prompt": "data da busca com fonte",
+     "negative_prompt": "data sem fonte"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "cold_open",
+   "fala": "Há quem conte que foi por causa de cartas que previam o futuro.",
+   "pausa_ms": 450,
+   "claims": [
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S03",
+     "tipo": "aparicao",
+     "peso": 1,
+     "tela": "POR CAUSA DAS CARTAS?",
+     "selo": "ALEGAÇÃO",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "surge à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "boato apresentado",
+     "shot_type": "plano médio fechado",
+     "visual_source_type": "personagem",
+     "movement": "silhueta acende",
+     "sound_design": "sopro grave",
+     "prompt": "Arquivista surgindo da sombra",
+     "negative_prompt": "boca mexendo"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "inciting_question",
+   "fala": "Eu sou o Arquivista. Vamos abrir o processo, não o boato.",
+   "pausa_ms": 360,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S04",
+     "tipo": "corredor",
+     "peso": 1.2,
+     "tela": "O PROCESSO, NÃO O BOATO",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "direcao": -1
+     },
+     "action": "caminha entre fichários",
+     "gesture": "passos; vira para a lente",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "método",
+     "shot_type": "plano médio",
+     "visual_source_type": "personagem",
+     "movement": "paralaxe de estantes",
+     "sound_design": "passos",
+     "prompt": "Arquivista no corredor",
+     "negative_prompt": "mãos deformadas"
+    },
+    {
+     "id": "S05",
+     "tipo": "dossie_abre",
+     "peso": 0.8,
+     "tela": "",
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "rotulo": "SJ GAMES × SECRET SERVICE",
+      "cabecalho": "ARQUIVO Nº 02 · O PROCESSO",
+      "linhas": [
+       "Steve Jackson Games",
+       "Austin, Texas",
+       "1990 — 1993"
+      ],
+      "data": ""
+     },
+     "shot_type": "dossiê abrindo",
+     "visual_source_type": "ilustracao",
+     "movement": "capa gira",
+     "sound_design": "pasta abrindo",
+     "prompt": "dossiê do Arquivista",
+     "negative_prompt": "documento oficial falso"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "A busca foi feita pelo Serviço Secreto dos Estados Unidos, na Steve Jackson Games, em Austin.",
+   "tts": "A busca foi feita pelo Serviço Secreto dos Estados Unidos, na Stív Djéquisson Gueims, em Óstin.",
+   "pausa_ms": 260,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S06",
+     "tipo": "trecho_documento",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-SJG-TRECHO",
+     "credito": true,
+     "params": {
+      "privado": {
+       "cabecalho": "SJ Games vs. the Secret Service",
+       "texto": "On March 1, 1990, the offices of Steve Jackson Games, in Austin, Texas, were raided by the U.S. Secret Service as part of a nationwide investigation of data piracy.",
+       "destaque": "U.S. Secret Service",
+       "rodape": "TRANSCRIÇÃO DE TRECHO · sjgames.com/SS"
+      },
+      "publico": {
+       "cabecalho": "A PRÓPRIA EDITORA REGISTRA",
+       "texto": "Em primeiro de março de 1990, os escritórios da Steve Jackson Games, em Austin, Texas, foram alvo de busca do Serviço Secreto dos EUA.",
+       "destaque": "Serviço Secreto dos EUA",
+       "rodape": "PARÁFRASE COM FONTE · sjgames.com/SS"
+      },
+      "data": "01 · 03 · 1990"
+     },
+     "shot_type": "macro de documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "feixe de luz; lápis circula",
+     "sound_design": "papel, lápis",
+     "prompt": "trecho da página da editora sobre a busca",
+     "negative_prompt": "fac-símile falso, brasões"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "dated_evidence",
+   "fala": "Segundo a própria editora, fazia parte de uma investigação nacional sobre pirataria de dados.",
+   "pausa_ms": 300,
+   "claims": [
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S07",
+     "tipo": "ombro",
+     "peso": 1.0,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-SJG-TRECHO",
+     "personagem": true,
+     "parcial": true,
+     "credito": true,
+     "prova": {
+      "tipo": "trecho_documento",
+      "params": {
+       "privado": {
+        "cabecalho": "SJ Games vs. the Secret Service",
+        "texto": "...as part of a nationwide investigation of data piracy.",
+        "destaque": "data piracy",
+        "rodape": "TRANSCRIÇÃO DE TRECHO · sjgames.com/SS"
+       },
+       "publico": {
+        "cabecalho": "SEGUNDO A EDITORA",
+        "texto": "A busca fazia parte de uma investigação nacional sobre pirataria de dados.",
+        "destaque": "pirataria de dados",
+        "rodape": "PARÁFRASE COM FONTE · sjgames.com/SS"
+       }
+      }
+     },
+     "params": {
+      "lado": 1
+     },
+     "action": "lê o trecho por cima do ombro",
+     "gesture": "cabeça inclinada",
+     "camera_motion": "over-shoulder, foco seletivo",
+     "emotional_beat": "investigação",
+     "shot_type": "over-the-shoulder",
+     "visual_source_type": "documento_autentico",
+     "movement": "rack focus",
+     "sound_design": "papel",
+     "prompt": "trecho do documento, Arquivista em primeiro plano",
+     "negative_prompt": "fac-símile falso"
+    },
+    {
+     "id": "S07b",
+     "tipo": "trecho_documento",
+     "peso": 1.0,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-SJG-TRECHO",
+     "credito": true,
+     "params": {
+      "privado": {
+       "cabecalho": "SJ Games vs. the Secret Service",
+       "texto": "...as part of a nationwide investigation of data piracy.",
+       "destaque": "data piracy",
+       "rodape": "TRANSCRIÇÃO DE TRECHO · sjgames.com/SS"
+      },
+      "publico": {
+       "cabecalho": "SEGUNDO A EDITORA",
+       "texto": "A busca fazia parte de uma investigação nacional sobre pirataria de dados.",
+       "destaque": "pirataria de dados",
+       "rodape": "PARÁFRASE COM FONTE · sjgames.com/SS"
+      }
+     },
+     "shot_type": "macro de documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "feixe de luz; lápis circula",
+     "sound_design": "lápis",
+     "prompt": "trecho da página da editora",
+     "negative_prompt": "fac-símile falso"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "dated_evidence",
+   "fala": "Levaram computadores, impressoras a laser e discos.",
+   "pausa_ms": 300,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S08",
+     "tipo": "escritorio",
+     "peso": 1,
+     "tela": "COMPUTADORES · IMPRESSORAS · DISCOS",
+     "selo": "RECONSTITUIÇÃO ILUSTRADA",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "semente": 9
+     },
+     "shot_type": "escritório",
+     "visual_source_type": "reconstituicao_ilustrada",
+     "movement": "lanterna sobre as mesas",
+     "sound_design": "cabos, caixas",
+     "prompt": "mesas com computadores bege",
+     "negative_prompt": "pessoas, logotipos"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "dated_evidence",
+   "fala": "Só foram levadas as máquinas com arquivos de um livro de RPG: GURPS Cyberpunk.",
+   "tts": "Só foram levadas as máquinas com arquivos de um livro de érre pê gê: Gúrps Saibérpank.",
+   "pausa_ms": 360,
+   "claims": [
+    "C4"
+   ],
+   "shots": [
+    {
+     "id": "S09",
+     "tipo": "titulo_obra",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-SJG-PARAFRASE",
+     "credito": true,
+     "params": {
+      "linhas": [
+       "GURPS",
+       "CYBERPUNK"
+      ],
+      "sub": "LIVRO DE RPG DA EDITORA · 1990"
+     },
+     "shot_type": "tipografia",
+     "visual_source_type": "dado_documental",
+     "movement": "luz revela o título",
+     "sound_design": "varredura",
+     "prompt": "nome do livro em tipografia própria",
+     "negative_prompt": "capa do livro"
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "beat": "reversal_or_surprise",
+   "fala": "E aqui está o detalhe que o boato apagou.",
+   "pausa_ms": 620,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S10",
+     "tipo": "silencio",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "rosto imóvel antes da revelação",
+     "gesture": "nenhum",
+     "camera_motion": "push-in micro",
+     "emotional_beat": "suspense",
+     "shot_type": "close extremo",
+     "visual_source_type": "personagem",
+     "movement": "push-in; lanterna",
+     "sound_design": "tique de relógio",
+     "prompt": "close da máscara",
+     "negative_prompt": "boca mexendo"
+    },
+    {
+     "id": "S10b",
+     "tipo": "titulo_obra",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "linhas": [
+       "O DETALHE"
+      ],
+      "sub": "QUE O BOATO APAGOU"
+     },
+     "shot_type": "tipografia",
+     "visual_source_type": "tipografia",
+     "movement": "luz revela a frase",
+     "sound_design": "grave sustentado",
+     "prompt": "frase-tema",
+     "negative_prompt": "afirmação sem fonte"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "beat": "reversal_or_surprise",
+   "fala": "Um dos computadores levados rodava o sistema online da editora. O nome dele era Illuminati.",
+   "tts": "Um dos computadores levados rodava o sistema online da editora. O nome dele era... Iluminati.",
+   "pausa_ms": 650,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S11",
+     "tipo": "terminal",
+     "peso": 1,
+     "tela": "",
+     "selo": "RECONSTITUIÇÃO ILUSTRADA",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "linhas": [
+       "ATDT ...",
+       "CONNECT 2400",
+       "",
+       "BBS DA EDITORA",
+       "AUSTIN, TEXAS · 1990",
+       "",
+       "> ILLUMINATI_"
+      ],
+      "cps": 30
+     },
+     "shot_type": "tela de terminal",
+     "visual_source_type": "reconstituicao_ilustrada",
+     "movement": "texto digitado; brilho de fósforo",
+     "sound_design": "modem, teclado",
+     "prompt": "terminal genérico de BBS (reconstituição, não a tela real)",
+     "negative_prompt": "captura falsa da tela real"
+    },
+    {
+     "id": "S12",
+     "tipo": "trecho_documento",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-SJG-TRECHO",
+     "credito": true,
+     "params": {
+      "privado": {
+       "cabecalho": "SJ Games vs. the Secret Service",
+       "texto": "One of the computers was the one running the Illuminati BBS.",
+       "destaque": "Illuminati BBS",
+       "rodape": "TRANSCRIÇÃO DE TRECHO · sjgames.com/SS"
+      },
+      "publico": {
+       "cabecalho": "SEGUNDO A EDITORA",
+       "texto": "Um dos computadores apreendidos era o que rodava o Illuminati BBS.",
+       "destaque": "Illuminati BBS",
+       "rodape": "PARÁFRASE COM FONTE · sjgames.com/SS"
+      }
+     },
+     "shot_type": "macro de documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "lápis circula Illuminati BBS",
+     "sound_design": "lápis",
+     "prompt": "trecho da página da editora",
+     "negative_prompt": "fac-símile falso"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "beat": "competing_interpretations",
+   "fala": "O nome estava lá, sim. Mas era um BBS. Não um baralho.",
+   "pausa_ms": 420,
+   "claims": [
+    "C5",
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S13",
+     "tipo": "leituras",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "a": [
+       "O BARALHO?",
+       "versão do boato"
+      ],
+      "b": [
+       "O BBS",
+       "o que o documento diz"
+      ],
+      "sync_b": 0.45
+     },
+     "shot_type": "tela dividida",
+     "visual_source_type": "tipografia",
+     "movement": "lados acendem",
+     "sound_design": "dois pulsos",
+     "prompt": "boato x documento",
+     "negative_prompt": "afirmação sem fonte"
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "beat": "competing_interpretations",
+   "fala": "O baralho Illuminati: New World Order só chegou às lojas em dezembro de 1994. Quatro anos e nove meses depois da busca.",
+   "tts": "O baralho Iluminati: Niú Uórld Órder só chegou às lojas em dezembro de mil novecentos e noventa e quatro. Quatro anos e nove meses depois da busca.",
+   "pausa_ms": 400,
+   "claims": [
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S14",
+     "tipo": "salto_datas",
+     "peso": 1.2,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-DATAS-1990-1994",
+     "credito": true,
+     "params": {
+      "de": "01·03·1990",
+      "ate": "16·12·1994",
+      "rot_de": "BUSCA FEDERAL",
+      "rot_ate": "INWO NAS LOJAS",
+      "gap": "4 ANOS E 9 MESES"
+     },
+     "shot_type": "linha do tempo",
+     "visual_source_type": "dado_documental",
+     "movement": "linha corre",
+     "sound_design": "relógio acelerando",
+     "prompt": "linha do tempo com fontes",
+     "negative_prompt": "data sem fonte"
+    },
+    {
+     "id": "S15",
+     "tipo": "arte_original",
+     "peso": 0.8,
+     "tela": "",
+     "selo": "ARTE ORIGINAL",
+     "asset": "A-ART-BAVARIA",
+     "credito": true,
+     "params": {
+      "titulo": "Bavarian Illuminati (arte da carta, INWO 1994)"
+     },
+     "shot_type": "macro da arte",
+     "visual_source_type": "arte_autentica",
+     "movement": "push-in, foco puxado, luz",
+     "sound_design": "clique de clipe",
+     "prompt": "recorte oficial da arte com crédito",
+     "negative_prompt": "carta inventada"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "beat": "reversal_or_surprise",
+   "fala": "Em 1993, a Justiça deu razão à editora contra o Serviço Secreto.",
+   "tts": "Em mil novecentos e noventa e três, a Justiça deu razão à editora contra o Serviço Secreto.",
+   "pausa_ms": 400,
+   "claims": [
+    "C8"
+   ],
+   "shots": [
+    {
+     "id": "S16",
+     "tipo": "virar_cabeca",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "lado": 1
+     },
+     "action": "vira o rosto para a decisão",
+     "gesture": "giro de cabeça",
+     "camera_motion": "órbita",
+     "emotional_beat": "desfecho",
+     "shot_type": "plano médio",
+     "visual_source_type": "personagem",
+     "movement": "cabeça gira",
+     "sound_design": "tecido",
+     "prompt": "Arquivista olhando a decisão",
+     "negative_prompt": "boca mexendo"
+    },
+    {
+     "id": "S17",
+     "tipo": "trecho_documento",
+     "peso": 1.1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-DECISAO-1993",
+     "credito": true,
+     "params": {
+      "publico": {
+       "cabecalho": "DECISÃO DE 1993",
+       "texto": "Steve Jackson Games, Inc. v. United States Secret Service. 816 F. Supp. 432. Tribunal Federal do Distrito Oeste do Texas.",
+       "destaque": "816 F. Supp. 432",
+       "rodape": "CITAÇÃO DA DECISÃO (DOMÍNIO PÚBLICO)"
+      },
+      "data": "12 · 03 · 1993"
+     },
+     "shot_type": "documento",
+     "visual_source_type": "dado_documental",
+     "movement": "lápis circula a citação",
+     "sound_design": "martelo grave",
+     "prompt": "citação da decisão",
+     "negative_prompt": "fac-símile falso"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "A operação foi real. A profecia, não.",
+   "pausa_ms": 500,
+   "claims": [
+    "C1",
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S18",
+     "tipo": "debrucar",
+     "peso": 1,
+     "tela": "A OPERAÇÃO FOI REAL",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "inclina-se sobre o dossiê",
+     "gesture": "tronco avança",
+     "camera_motion": "tilt para a mesa",
+     "emotional_beat": "conclusão",
+     "shot_type": "plano médio",
+     "visual_source_type": "personagem",
+     "movement": "corpo inclina; spot",
+     "sound_design": "cadeira, papel",
+     "prompt": "Arquivista sobre a mesa",
+     "negative_prompt": "mãos deformadas"
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Mas há uma carta desse baralho que muita gente liga a um presidente americano. Esse é o próximo arquivo.",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S19a",
+     "tipo": "cartas_caem",
+     "peso": 1.0,
+     "tela": "",
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "n": 8,
+      "semente": 12
+     },
+     "shot_type": "plongée",
+     "visual_source_type": "ilustracao",
+     "movement": "cartas caem",
+     "sound_design": "cartas",
+     "prompt": "versos genéricos AO",
+     "negative_prompt": "arte de INWO"
+    },
+    {
+     "id": "S19",
+     "tipo": "olhar_camera",
+     "peso": 0.6,
+     "tela": "PRÓXIMO ARQUIVO",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "de_yaw": 12
+     },
+     "action": "volta-se para a lente",
+     "gesture": "giro de cabeça",
+     "camera_motion": "push-in",
+     "emotional_beat": "convite",
+     "shot_type": "close",
+     "visual_source_type": "personagem",
+     "movement": "giro de cabeça",
+     "sound_design": "sting",
+     "prompt": "Arquivista encarando a lente",
+     "negative_prompt": "boca mexendo"
+    },
+    {
+     "id": "S20",
+     "tipo": "encerramento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "recua para a sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "plano médio",
+     "visual_source_type": "personagem",
+     "movement": "luz apaga",
+     "sound_design": "clique de lâmpada",
+     "prompt": "Arquivista sumindo",
+     "negative_prompt": "corte seco"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 02",
+   "PRÓXIMO ARQUIVO:",
+   "A CARTA LIGADA A UM PRESIDENTE"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "A busca de 1990 na Steve Jackson Games foi real. A versão de que foi por causa de cartas que 'previam o futuro', não: o baralho só saiu em dezembro de 1994. Mas a palavra Illuminati estava lá — era o nome do BBS da editora.\n\nFontes: Steve Jackson Games (sjgames.com/SS) · Steve Jackson Games v. U.S. Secret Service, 816 F.Supp. 432 (1993) · lista oficial INWO (1995).\nPersonagem fictício, voz sintética.\n\n#ArquivoOculto #INWO #Illuminati #historia #misterio"
+}
