@@ -335,4 +335,10 @@ def registrar_orientacao(m, destino):
                     'exceto regra do perfil em config/perfis/ (essa só muda com decisão do Geovani).\n')
         f.write(f"\n## {m['titulo']}\n\n*{agora_iso()} · de {m['origem']['agente']} · pacote `{comum.rel(destino)}`*\n\n"
                 f"{m['orientacoes'].strip()}\n")
+        # documentos anexados (roteiro e extras de texto): o resumo acima não substitui a leitura deles
+        arqs = m.get('arquivos') or {}
+        docs = [d for d in [arqs.get('roteiro')] + list(arqs.get('extras') or []) if d and d.lower().endswith(('.md', '.txt'))]
+        for d in docs:
+            alvo = os.path.relpath(os.path.join(destino, d), comum.ORIENTACOES).replace('\\', '/')
+            f.write(f"\n**Documento completo:** [{d}]({alvo})\n")
     return arq

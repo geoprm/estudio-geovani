@@ -53,6 +53,9 @@ ffmpeg -i in.mp4 -loop 1 -t 5 -i lower.png -filter_complex \
 ffmpeg -i in.mp4 -filter_complex "color=c=0xFFD400:s=1080x10[bar];[0:v][bar]overlay=x='-w+w*t/60':y=200:shortest=1" <padrão> barra.mp4
 ```
 
+**Sempre passe `fontfile=` no `drawtext`.** No FFmpeg desta máquina (9.0.2, Windows) não há configuração de fontes do
+sistema: `drawtext` sem `fontfile` falha com "Fontconfig error" e o processo cai (conferido em 12/11/2026).
+
 Escape no `drawtext`: dois-pontos vira `\:`, apóstrofo é problema (troque por ’), vírgula dentro de `enable` exige aspas
 simples em volta da expressão. Texto longo ou com acento delicado: gere um PNG com o texto (ver abaixo) e use `overlay`.
 

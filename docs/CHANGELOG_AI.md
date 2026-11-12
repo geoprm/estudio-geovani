@@ -1,5 +1,24 @@
 # CHANGELOG_AI — Central do Estúdio Geovani
 
+## 12/11/2026 — Primeiras entregas reais e ajustes (Claude Code, Opus 5.5)
+
+- **Formato do app conferido contra o banco real** (leitura de `pedidos/v2-ao-s01-e01` e de 6 pautas):
+  - o pedido da Central usa os mesmos campos que o app lê;
+  - nas pautas faltavam `ordem` e `criadoEm`, e o app ordena as pautas do dia por `ordem`. Agora as duas vão em toda
+    pauta (padrão 9), e o pacote pode trazer `pauta.ordem` e `pauta.porque`.
+- **Primeiras entregas recebidas**, todas da sessão do Claude Code do motor:
+  - a orientação "Passagem do Arquivo Oculto para o Estúdio";
+  - os Dossiês T01 (Illuminati, 106,6 s) e T02 (Olho na nota de 1 dólar, 97,6 s), com QA `pass_with_warnings` e
+    revisão por quadros feita.
+- **Orientação com documento anexado:** o registro em `orientacoes/<perfil>.md` passa a linkar o documento completo
+  (`arquivos.roteiro` e extras .md/.txt), não só o resumo.
+- **`receber --app-depois` + `estudio.py app <id>`:** recebe na hora e adia a recodificação da versão do app quando a
+  memória está no limite. Hoje havia ~300 MB livres com a fila de render do motor rodando.
+- **Skill de grafismos:** o FFmpeg desta máquina derruba o `drawtext` sem `fontfile` (sem config de fontes do sistema).
+- **Perfil `arquivo`:** bloco `passagem_2026_11_12` com séries ativas, regras reforçadas e a linha Creator Search
+  Insights.
+- **Testes:** 17 casos, com o novo `test_17_app_depois`.
+
 ## 11/11/2026, 21h17 — Ligações aplicadas (Claude Code, Opus 5.5)
 
 - Bloco da Central acrescentado no fim de `~/.codex/AGENTS.md` (estava vazio), de `ARQUIVO OCULTO\AGENTS.md` e de

@@ -48,7 +48,8 @@ aquele perfil e têm precedência sobre as skills gerais quando houver conflito.
 
 ```bash
 python ferramentas/estudio.py status
-python ferramentas/estudio.py receber --tudo
+python ferramentas/estudio.py receber --tudo          # --app-depois quando a memória estiver no limite
+python ferramentas/estudio.py app <id>                # versão do app que o --app-depois adiou
 python ferramentas/estudio.py assets <id> a=<asset> capa=<asset>
 python ferramentas/estudio.py publicado <id>
 python ferramentas/estudio.py qa <video>

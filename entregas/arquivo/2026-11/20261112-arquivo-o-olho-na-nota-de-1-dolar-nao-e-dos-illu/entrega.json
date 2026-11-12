@@ -1,0 +1,56 @@
+{
+  "pacote": "estudio-geovani/entrega@1",
+  "perfil": "arquivo",
+  "tipo": "video_pronto",
+  "titulo": "O olho na nota de 1 dólar não é dos Illuminati",
+  "serie": "Dossiê (Top 25)",
+  "origem": {
+    "agente": "claude-code",
+    "projeto": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm",
+    "sessao": "",
+    "criado_em": "2026-11-12T18:43:22-03:00"
+  },
+  "arquivos": {
+    "video": "video.mp4",
+    "capa": "capa.png",
+    "legendas": "video.srt",
+    "roteiro": "roteiro.md",
+    "extras": []
+  },
+  "post": {
+    "legenda": "Uma pirâmide inacabada, um olho que tudo vê e o ano de 1776. Na nota de 1 dólar. Os Illuminati nasceram em 1776. Coincidência? O arquivo abriu a ata do Congresso. 👁️\n\nDossiê 02 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #illuminati #olhoquetudove #dolar #misterio",
+    "hashtags": [
+      "#arquivooculto",
+      "#illuminati",
+      "#olhoquetudove",
+      "#dolar",
+      "#misterio"
+    ],
+    "plataformas": [
+      "tiktok",
+      "youtube"
+    ],
+    "rotulo_ia": true
+  },
+  "orientacoes": "TikTok: 2026-11-14 18:30 (Metricool 424835336). YouTube Shorts pelo Studio no mesmo horário. Arquivista em atuação 2,5D (biblioteca de planos).",
+  "gerado_por_ia": true,
+  "formato": "dossie_90",
+  "fontes": [
+    {
+      "nome": "Fontes: Diários do Congresso Continental (04/07/1776 e 20/06/1782); Departamento de Estado dos EUA, The Great Seal (1976); Departamento do Tesouro (nota de 1 dólar, série 1935). Imagens: Wikimedia Commons, domínio público.",
+      "url": "",
+      "acessado_em": "2026-11-11"
+    }
+  ],
+  "checagem": {
+    "fatos": "conferidos",
+    "direitos": "liberado",
+    "pessoas_identificaveis": "autorizadas",
+    "observacoes": "Figuras históricas ou públicas; imagens de domínio público ou licença livre, com crédito na tela (D-111, publicação autorizada pelo Geovani em 11/11/2026)."
+  },
+  "qa": {
+    "status": "pass_with_warnings",
+    "relatorio": "Duração 97.567 s (acima dos 60–75 s ideais). Folha de quadros conferida."
+  },
+  "id": "20261112-arquivo-o-olho-na-nota-de-1-dolar-nao-e-dos-illu"
+}

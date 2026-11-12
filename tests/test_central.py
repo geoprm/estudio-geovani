@@ -137,8 +137,10 @@ class Central(unittest.TestCase):
         bom = os.path.join(TMP, 'entrada', 'do-chatgpt.zip')
         m = pacote.modelo('dr-geovani', 'orientacao', 'Tom das legendas', 'chatgpt')
         m['orientacoes'] = 'Legendas mais curtas.'
+        m['arquivos'] = {'roteiro': 'orientacao.md'}
         with zipfile.ZipFile(bom, 'w') as z:
             z.writestr('pacote/entrega.json', json.dumps(m))
+            z.writestr('pacote/orientacao.md', '# Tom das legendas\n\nDetalhe completo.\n')
         destino = pacote.abrir_zip(bom)
         self.assertTrue(os.path.exists(os.path.join(destino, 'entrega.json')))
         eid = estudio.receber_um(destino)
@@ -146,6 +148,7 @@ class Central(unittest.TestCase):
         with open(os.path.join(TMP, 'orientacoes', 'drgeovani.md'), encoding='utf-8') as f:
             texto = f.read()
         self.assertIn('Legendas mais curtas.', texto)
+        self.assertIn('**Documento completo:** [orientacao.md](../entregas/drgeovani/', texto)
 
     def test_09_arquivos_soltos_viram_rascunho(self):
         gerar_video(os.path.join(TMP, 'entrada', 'meu_video.mp4'), dur=2)
@@ -214,6 +217,19 @@ class Central(unittest.TestCase):
         comum.gravar_json(os.path.join(pasta, 'entrega.json'), m)
         eid = estudio.receber_um(pasta)
         self.assertEqual(comum.estado_atual()[eid]['estado'], 'na_central')
+
+    def test_17_app_depois(self):
+        """Pouca memória: recebe sem a versão do app e gera depois com `app <id>`."""
+        pasta, m = pacote_video('direitaxx', 'Versao do app adiada')
+        eid = estudio.receber_um(pasta, app_depois=True)
+        est = comum.estado_atual()[eid]
+        self.assertEqual(est['estado'], 'aguardando_versao_app')
+        destino = os.path.join(TMP, est['caminho'])
+        self.assertFalse(os.path.exists(os.path.join(destino, '_app')))
+        estudio.main(['app', eid])
+        self.assertEqual(comum.estado_atual()[eid]['estado'], 'aguardando_upload')
+        self.assertTrue(os.path.exists(os.path.join(destino, '_app', 'video_app.mp4')))
+        self.assertTrue(os.path.exists(os.path.join(destino, '_app', 'doc_app.json')))
 
     def test_16_skills_do_repositorio(self):
         """As 16 skills do repositório real: frontmatter, links locais e espelho do Codex idêntico."""

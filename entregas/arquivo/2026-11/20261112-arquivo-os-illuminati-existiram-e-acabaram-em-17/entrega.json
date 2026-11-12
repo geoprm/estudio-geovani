@@ -1,0 +1,56 @@
+{
+  "pacote": "estudio-geovani/entrega@1",
+  "perfil": "arquivo",
+  "tipo": "video_pronto",
+  "titulo": "Os Illuminati existiram. E acabaram em 1785.",
+  "serie": "Dossiê (Top 25)",
+  "origem": {
+    "agente": "claude-code",
+    "projeto": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm",
+    "sessao": "",
+    "criado_em": "2026-11-12T18:42:58-03:00"
+  },
+  "arquivos": {
+    "video": "video.mp4",
+    "capa": "capa.png",
+    "legendas": "video.srt",
+    "roteiro": "roteiro.md",
+    "extras": []
+  },
+  "post": {
+    "legenda": "Os Illuminati existiram de verdade. Tinham data, cidade, fundador e codinome. E foram proibidos em 1785. Então de onde veio o resto? 🦉\n\nDossiê 01 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #illuminati #sociedadesecreta #historia #misterio",
+    "hashtags": [
+      "#arquivooculto",
+      "#illuminati",
+      "#sociedadesecreta",
+      "#historia",
+      "#misterio"
+    ],
+    "plataformas": [
+      "tiktok",
+      "youtube"
+    ],
+    "rotulo_ia": true
+  },
+  "orientacoes": "TikTok: 2026-11-14 10:30 (Metricool 424818524). YouTube Shorts pelo Studio no mesmo horário. Arquivista em atuação 2,5D (biblioteca de planos).",
+  "gerado_por_ia": true,
+  "formato": "dossie_90",
+  "fontes": [
+    {
+      "nome": "Fontes: Einige Originalschriften des Illuminatenordens (Munique, 1787); editos do eleitor Karl Theodor (1784–1785); Barruel, Mémoires (1797); Robison, Proofs of a Conspiracy (1797). Imagens: Wikimedia Commons.",
+      "url": "",
+      "acessado_em": "2026-11-11"
+    }
+  ],
+  "checagem": {
+    "fatos": "conferidos",
+    "direitos": "liberado",
+    "pessoas_identificaveis": "autorizadas",
+    "observacoes": "Figuras históricas ou públicas; imagens de domínio público ou licença livre, com crédito na tela (D-111, publicação autorizada pelo Geovani em 11/11/2026)."
+  },
+  "qa": {
+    "status": "pass_with_warnings",
+    "relatorio": "Duração 106.533 s (acima dos 60–75 s ideais). Folha de quadros conferida."
+  },
+  "id": "20261112-arquivo-os-illuminati-existiram-e-acabaram-em-17"
+}

@@ -56,9 +56,27 @@ Com o OK do Geovani ("Sim, aplique"), o bloco da Central entrou no fim de três 
 
 O conteúdo anterior foi preservado byte a byte. Cópias em `ligacoes/antes_2026-11-11/`.
 
+## C-007 · 12/11/2026 · Produção do Arquivo Oculto passa pela Central
+
+A sessão do Claude Code do motor entregou a orientação "Passagem do Arquivo Oculto para o Estúdio", atribuída a pedido do
+Geovani nesta data. A partir dela:
+
+- os vídeos do perfil chegam à Central como pacote;
+- a sessão do motor fica com o site e conclui antes os 25 Dossiês, em lotes.
+
+Registrado em `orientacoes/arquivo.md` e no perfil (`passagem_2026_11_12`). A confirmação direta do Geovani está pendente.
+Os posts já agendados por aquela sessão (TikTok e YouTube) seguem sob a autorização registrada no ECOSSISTEMA
+(D-110 a D-112). A regra desta Central não muda: nenhum post novo sem pedido explícito do Geovani.
+
+## C-008 · 12/11/2026 · O repositório do GitHub `geoprm/estudio-geovani` é do motor, não da Central
+
+Ele é **público** e a rotina "Editor do Estúdio" depende dele. A Central guarda o código do app privado, orientações
+internas e, no futuro, material da Princesa Melinda. Por isso não vai para esse repositório sem decisão do Geovani. O
+privado `geoprm/CentralEditorialGM` é outro projeto (app administrativo de pautas em Next.js) e também não serve.
+
 ## Pendentes (decisão do Geovani)
 
-1. Commit inicial e remoto privado para a Central.
+1. Onde fica o remoto da Central: repositório novo e privado (recomendado) ou dentro do `geoprm/estudio-geovani` (público).
 2. Confirmar quem trabalha cada perfil no ChatGPT e no Claude chat (campos "a confirmar" em `config/perfis/`).
 3. Colar `modelos/INSTRUCOES_PARA_CHATS.md` nas instruções dos projetos do ChatGPT e do claude.ai.
 4. Recepção automática (tarefa agendada local) ou só sob pedido.

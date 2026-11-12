@@ -3,7 +3,8 @@
   python ferramentas/estudio.py status                         # caixa de entrada e entregas em andamento
   python ferramentas/estudio.py novo --perfil direitaxx --tipo video_pronto --titulo "..." --agente codex
   python ferramentas/estudio.py validar <pasta-do-pacote>      # confere sem mover nada
-  python ferramentas/estudio.py receber [--tudo | <pasta>]     # valida, QA, move para entregas/, prepara o app
+  python ferramentas/estudio.py receber [--tudo | <pasta>] [--app-depois]   # valida, QA, move para entregas/, prepara o app
+  python ferramentas/estudio.py app <id>                       # gera a versão do app que o --app-depois adiou
   python ferramentas/estudio.py assets <id> a=<asset> capa=<asset> [b=<asset>]   # ids devolvidos pelo upload
   python ferramentas/estudio.py publicado <id>                 # marca como gravado no app
   python ferramentas/estudio.py qa <video> [--horizontal] [--max 90]
@@ -82,7 +83,9 @@ def _escrever_recusa(pasta, rel):
         f.write('\n'.join(linhas) + '\n')
 
 
-def receber_um(pasta):
+def receber_um(pasta, app_depois=False):
+    """Recebe um pacote. app_depois=True adia a versão do app (recodificação pesada) para `estudio.py app <id>`:
+    útil quando outro agente está renderizando e a memória da máquina está no limite."""
     nome = os.path.basename(pasta)
     m, rel, info = pacote.validar(pasta)
     if not rel.ok:
@@ -118,8 +121,11 @@ def receber_um(pasta):
 
     estado, app = 'na_central', None
     if m['tipo'] == 'video_pronto':
-        app = app_docs.preparar_video(m, destino, qa)
-        estado = 'aguardando_upload' if app else 'na_central'
+        if app_depois and comum.perfis()[m['perfil']].get('id_app'):
+            estado = 'aguardando_versao_app'
+        else:
+            app = app_docs.preparar_video(m, destino, qa)
+            estado = 'aguardando_upload' if app else 'na_central'
     elif m['tipo'] == 'pauta':
         app = app_docs.preparar_pauta(m, destino)
         estado = 'pronto_para_app' if app else 'na_central'
@@ -134,6 +140,8 @@ def receber_um(pasta):
                             'doc_app': f"{app['colecao']}/{app['doc_id']}" if app else None})
     _imprimir_relatorio(nome, rel)
     print(f'  -> {comum.rel(destino)} [{estado}]' + (f" · QA técnico {qa['status']}" if qa else ''))
+    if estado == 'aguardando_versao_app':
+        print(f"  Versão do app adiada: quando houver memória livre, rode: python ferramentas/estudio.py app {m['id']}")
     if app and app['arquivos']:
         print('  Para o app (Claude Code): suba ' + ', '.join(f'{k}={v}' for k, v in app['arquivos'].items()) +
               f" e depois: python ferramentas/estudio.py assets {m['id']} a=<id> capa=<id>")
@@ -158,8 +166,25 @@ def cmd_receber(a):
     alvos = pacote.pacotes_na_entrada() if a.tudo or not a.pasta else [os.path.abspath(a.pasta)]
     if not alvos:
         print('Caixa de entrada vazia.')
-    recebidos = [eid for eid in (receber_um(p) for p in alvos) if eid]
+    recebidos = [eid for eid in (receber_um(p, a.app_depois) for p in alvos) if eid]
     print(f'\n{len(recebidos)} de {len(alvos)} pacote(s) recebido(s).')
+
+
+def cmd_app(a):
+    """Gera a versão do app de um vídeo já recebido (o que `receber --app-depois` adiou)."""
+    destino = comum.localizar_entrega(a.id)
+    m = comum.ler_json(os.path.join(destino, pacote.MANIFESTO))
+    if m['tipo'] != 'video_pronto':
+        sys.exit(f'{a.id} não é vídeo pronto.')
+    qa_p = os.path.join(destino, 'qa_estudio.json')
+    qa = comum.ler_json(qa_p) if os.path.exists(qa_p) else midia.qa_tecnico(os.path.join(destino, m['arquivos']['video']))
+    app = app_docs.preparar_video(m, destino, qa)
+    if not app:
+        sys.exit(f"O perfil {m['perfil']} não existe no app: a entrega fica na Central.")
+    comum.registrar_evento({'id': a.id, 'estado': 'aguardando_upload', 'doc_app': f"{app['colecao']}/{app['doc_id']}"})
+    print(f"{a.id}: versão do app pronta ({app['bytes']['a'] / 1048576:.1f} MiB). Suba "
+          + ', '.join(f'{k}={v}' for k, v in app['arquivos'].items())
+          + f" e depois: python ferramentas/estudio.py assets {a.id} a=<id> capa=<id>")
 
 
 def cmd_assets(a):
@@ -260,7 +285,11 @@ def main(argv=None):
     s = sub.add_parser('receber')
     s.add_argument('pasta', nargs='?')
     s.add_argument('--tudo', action='store_true')
+    s.add_argument('--app-depois', action='store_true', help='adia a versão do app (pouca memória livre)')
     s.set_defaults(f=cmd_receber)
+    s = sub.add_parser('app')
+    s.add_argument('id')
+    s.set_defaults(f=cmd_app)
     s = sub.add_parser('assets')
     s.add_argument('id')
     s.add_argument('pares', nargs='+')

@@ -49,6 +49,20 @@
       {"agente": "claude-code", "papel": "Fábrica V2, O Arquivo Responde, Arquivo Morto, acervo de cartas, agendamentos no Metricool", "verificado": true},
       {"agente": "chatgpt", "papel": "a confirmar", "verificado": false},
       {"agente": "claude-chat", "papel": "a confirmar", "verificado": false}
-    ]
+    ],
+    "passagem_2026_11_12": {
+      "o_que": "Os próximos vídeos do perfil passam a sair pelo Estúdio. A sessão do Claude Code da pasta ARQUIVO OCULTO fica com o site e conclui antes a re-renderização dos 25 Dossiês.",
+      "origem": "Orientação entregue pela sessão do motor, que a atribui a pedido do Geovani em 12/11/2026. Confirmação direta do Geovani: pendente.",
+      "documento": "orientacoes/arquivo.md → entregas/arquivo/2026-11/20261112-arquivo-passagem-do-arquivo-oculto-para-o-estudi/orientacao.md",
+      "series_ativas": ["Temporada V2", "O Índice Cego (Codex)", "O Arquivo Responde", "Arquivo Morto", "Dossiê (Top 25)"],
+      "proxima_serie": "Daniel Mastral (coordenar com producao/pesquisa/mastral do Codex)",
+      "linha_nova": "Creator Search Insights do TikTok como segunda fonte de pauta (buscas em lacuna no nicho)",
+      "regras_reforcadas": [
+        "Abertura 'Olá, criancinhas...' seguida de complemento que começa com 'Hoje' e muda a cada vídeo.",
+        "Placar 'O ARQUIVO JULGA' no fim; carimbos DOCUMENTADO, SEM PROVA, INTERPRETAÇÃO e FALSO por alegação.",
+        "O Arquivista nunca parado: aparições de até 4 s, saindo da sombra na abertura e sumindo nela no fim.",
+        "Legenda do post diz 'O Arquivista é um personagem criado por IA'; rótulo de IA ligado; não é conteúdo para crianças."
+      ]
+    }
   }
 }

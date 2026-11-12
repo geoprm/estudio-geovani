@@ -61,7 +61,8 @@
         "cuidado": {"type": "string"},
         "roteiro": {"type": "array", "items": {"type": "object", "required": ["fala"], "properties": {"tempo": {"type": "string"}, "fala": {"type": "string"}}}},
         "nota": {"type": "number", "minimum": 0, "maximum": 5},
-        "ordem": {"type": "integer"},
+        "porque": {"type": "string", "description": "Por que a pauta vale a pena (o app guarda junto da pauta)."},
+        "ordem": {"type": "integer", "description": "Posição entre as pautas do dia (o app ordena por ela; sem ela, 9, depois das pautas diárias)."},
         "cenas": {"type": "array", "description": "Arquivo Oculto: cenas no formato do motor V1 (app/arquivo/LEIA-ME.md)."}
       }
     },

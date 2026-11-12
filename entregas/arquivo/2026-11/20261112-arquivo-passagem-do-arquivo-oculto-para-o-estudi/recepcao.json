@@ -1,0 +1,13 @@
+{
+  "recebido_em": "2026-11-12T18:39:50-03:00",
+  "validacao": {
+    "ok": true,
+    "erros": [],
+    "avisos": []
+  },
+  "midia": {},
+  "sha256": {
+    "entrega.json": "9e90bfbdcd03a9af978d421eb7df19f9e22b7c1ad8f168304dd3ccfc95bb537f",
+    "orientacao.md": "624df5f7082eebd0b1f401301bd66a6c38593bb4977b1ea069a947f243d88ef3"
+  }
+}

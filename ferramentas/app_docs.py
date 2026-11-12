@@ -104,7 +104,11 @@ def preparar_pauta(m, destino):
         'roteiro': [{'tempo': r.get('tempo', ''), 'fala': r['fala']} for r in pa.get('roteiro') or []],
         'legenda': legenda_post(m), 'fontes': [{'nome': f['nome'], 'url': f.get('url', '')} for f in m.get('fontes') or []],
         'nota': pa.get('nota', 3), 'formato': m.get('formato', ''), 'origem': m['origem']['agente'], 'entregaId': m['id'],
+        # O app ordena as pautas do dia por `ordem` (sem ela, vale 9: depois das três pautas diárias da rotina).
+        'ordem': pa.get('ordem', 9), 'criadoEm': agora_iso(),
     }
+    if (pa.get('porque') or '').strip():
+        doc['porque'] = pa['porque']
     if pid == 'arquivo':
         doc.update({'ordem': pa.get('ordem', 200), 'serie': m.get('serie', ''), 'cenas': pa['cenas']})
     pasta_app = os.path.join(destino, '_app')

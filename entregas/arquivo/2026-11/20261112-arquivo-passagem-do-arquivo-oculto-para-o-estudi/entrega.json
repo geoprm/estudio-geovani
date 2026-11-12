@@ -1,0 +1,54 @@
+{
+  "pacote": "estudio-geovani/entrega@1",
+  "perfil": "arquivo",
+  "tipo": "orientacao",
+  "titulo": "Passagem do Arquivo Oculto para o Estúdio: séries, regras, Creator Search Insights e Studios nativos",
+  "serie": "Arquivo Oculto (todas)",
+  "origem": {
+    "agente": "claude-code",
+    "projeto": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm",
+    "sessao": "",
+    "criado_em": "2026-11-12T11:52:58-03:00"
+  },
+  "arquivos": {
+    "roteiro": "orientacao.md",
+    "extras": []
+  },
+  "post": {
+    "legenda": "",
+    "hashtags": [],
+    "plataformas": [],
+    "rotulo_ia": true
+  },
+  "orientacoes": "Próximos vídeos do perfil Arquivo Oculto passam ao Estúdio (pedido do Geovani, 12/11/2026). Postar pelo Studio nativo de cada plataforma sempre que possível. Abrir a linha Creator Search Insights do TikTok no nicho. Detalhes, séries, regras, ferramentas e pendências em orientacao.md.",
+  "gerado_por_ia": true,
+  "formato": "",
+  "fontes": [
+    {
+      "nome": "ECOSSISTEMA.md: decisões D-110, D-111 e D-112 (Arquivo Oculto)",
+      "url": "C:\\Users\\geopr\\ECOSSISTEMA.md",
+      "acessado_em": "2026-11-12"
+    },
+    {
+      "nome": "Registros de publicação do canal (TikTok, YouTube, Top 25)",
+      "url": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\producao",
+      "acessado_em": "2026-11-12"
+    },
+    {
+      "nome": "Plano Top 50 / Top 25",
+      "url": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\producao\\top50\\PLANO_TOP25.md",
+      "acessado_em": "2026-11-12"
+    }
+  ],
+  "checagem": {
+    "fatos": "conferidos",
+    "direitos": "liberado",
+    "pessoas_identificaveis": "nenhuma",
+    "observacoes": "Documento de orientação; sem mídia. Imagens reais nos vídeos seguem D-111 (crédito na tela)."
+  },
+  "qa": {
+    "status": "pass",
+    "relatorio": ""
+  },
+  "id": "20261112-arquivo-passagem-do-arquivo-oculto-para-o-estudi"
+}

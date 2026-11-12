@@ -1,0 +1,38 @@
+{
+  "recebido_em": "2026-11-12T18:54:22-03:00",
+  "validacao": {
+    "ok": true,
+    "erros": [],
+    "avisos": []
+  },
+  "midia": {
+    "video": {
+      "duracao_s": 106.567,
+      "bytes": 42104708,
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "bitrate": 3160816,
+      "video": {
+        "codec": "h264",
+        "largura": 1080,
+        "altura": 1920,
+        "fps": 30.0,
+        "pix_fmt": "yuvj420p",
+        "perfil": "High",
+        "rotacao": 0
+      },
+      "audio": {
+        "codec": "aac",
+        "taxa": 48000,
+        "canais": 2
+      }
+    }
+  },
+  "sha256": {
+    "capa.png": "4186ce566b4aa6c32bc61357bac920c19a927f3bc40db18e18ea47e26853d63e",
+    "entrega.json": "5734da81c4abc3475a0664e576d663ff636d9b00897cf85808f9efb248c40929",
+    "roteiro.md": "c7a5b2046ac60eef16ae2d7fcee2e40cac1b241a7ab0f293b5186afd7cc6dad9",
+    "video.mp4": "90be8b36711dd003fe6480c574074b4b3cc5467cb2ca6c89e78b2ceb1867ba34",
+    "video.srt": "82c4406316a2e4ffc8d7cebca6a59fe2554349d89f2594dc859c064721fb8590"
+  },
+  "qa_tecnico": "pass_with_warnings"
+}

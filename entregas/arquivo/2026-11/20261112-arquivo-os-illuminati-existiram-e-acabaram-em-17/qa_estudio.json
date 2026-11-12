@@ -1,0 +1,132 @@
+{
+  "status": "pass_with_warnings",
+  "checks": [
+    {
+      "check": "tem_video",
+      "ok": true,
+      "nivel": "erro",
+      "info": "faixa de vídeo presente"
+    },
+    {
+      "check": "duracao",
+      "ok": true,
+      "nivel": "erro",
+      "info": "106.567 s"
+    },
+    {
+      "check": "tem_audio",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "aac 48000 Hz 2 canais"
+    },
+    {
+      "check": "codec_video",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "h264 (h264 toca em todo navegador e rede)"
+    },
+    {
+      "check": "pix_fmt",
+      "ok": false,
+      "nivel": "aviso",
+      "info": "yuvj420p (yuv420p é o compatível)"
+    },
+    {
+      "check": "codec_audio",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "aac"
+    },
+    {
+      "check": "proporcao_9x16",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "1080x1920"
+    },
+    {
+      "check": "resolucao",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "1080x1920 (alvo 1080x1920)"
+    },
+    {
+      "check": "fps",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "30.0 fps"
+    },
+    {
+      "check": "faststart",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "moov no início"
+    },
+    {
+      "check": "tela_preta",
+      "ok": true,
+      "nivel": "erro",
+      "info": "0.0 s de tela preta no total"
+    },
+    {
+      "check": "preto_no_inicio",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "abre com imagem"
+    },
+    {
+      "check": "trechos_pretos",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "0 trecho(s), 0.0 s"
+    },
+    {
+      "check": "imagem_congelada",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "sem trecho parado >= 3 s"
+    },
+    {
+      "check": "silencio",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "sem silêncio >= 1,5 s"
+    },
+    {
+      "check": "loudness",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "-15.3 LUFS (alvo -14, faixa -17 a -11)"
+    },
+    {
+      "check": "true_peak",
+      "ok": true,
+      "nivel": "aviso",
+      "info": "-2.6 dBTP (máximo -1)"
+    }
+  ],
+  "medido": {
+    "duracao_s": 106.567,
+    "bytes": 42104708,
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "bitrate": 3160816,
+    "video": {
+      "codec": "h264",
+      "largura": 1080,
+      "altura": 1920,
+      "fps": 30.0,
+      "pix_fmt": "yuvj420p",
+      "perfil": "High",
+      "rotacao": 0
+    },
+    "audio": {
+      "codec": "aac",
+      "taxa": 48000,
+      "canais": 2
+    },
+    "pretos": [],
+    "congelados_s": [],
+    "silencios_s": [],
+    "lufs_integrado": -15.3,
+    "true_peak_dbtp": -2.6
+  }
+}
