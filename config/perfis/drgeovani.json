@@ -1,0 +1,49 @@
+{
+  "id": "drgeovani",
+  "id_app": "drgeovani",
+  "apelidos": ["dr-geovani", "dr-geovani-miranda", "drgeovanimiranda", "fono"],
+  "nome": "Dr. Geovani Miranda",
+  "nome_completo": "Dr. Geovani Miranda, fonoaudiólogo (CRFa 4-12208)",
+  "status": "ativo",
+  "missao": "Autoridade que acolhe, ensina e guia famílias em fala, linguagem e desenvolvimento.",
+  "tom": "Calmo, educativo, sem susto. Explica como quem senta ao lado da família.",
+  "assinatura": "",
+  "assinatura_regra": "A definir pelo Geovani.",
+  "meta_semanal_app": 3,
+  "cadencia_pautas": "Pautas novas toda segunda às 6h14, no app. Temas atemporais podem ser reaproveitados.",
+  "plataformas_conhecidas": ["instagram", "tiktok", "youtube"],
+  "plataformas_nota": "TikTok antigo com posts sobre autismo e o canal do YouTube conectado no Metricool são da marca Dr. Geovani (ECOSSISTEMA.md, D-110 e D-111).",
+  "formatos_app": ["dividida", "depoimento"],
+  "formato_padrao": "9:16, 30 a 90 s",
+  "visual": {
+    "destaque": "#E5A93C",
+    "marinho": "#030B1E",
+    "fonte_gancho": "Playfair Display Black",
+    "fonte_legenda": "Montserrat Bold",
+    "fonte_carimbo": "Playfair Display Bold Italic",
+    "fundo": "azul-marinho com brilho dourado suave",
+    "lower_third": ["Dr. Geovani Miranda", "Fonoaudiólogo • CRFa 4-12208"],
+    "fonte_da_verdade": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\perfis.py (chave 'drgeovani')"
+  },
+  "regras": [
+    "Nunca expor paciente: nem rosto, nem nome, nem voz, nem caso reconhecível. Criança de terceiros só com autorização escrita dos responsáveis.",
+    "Nada de diagnóstico pelo vídeo e nenhuma promessa de cura ou de prazo.",
+    "Nunca inventar ponto de corte, dado, validação ou prognóstico. Número clínico só com fonte citável.",
+    "Sinal de alerta vem com orientação de procurar avaliação profissional, sem alarmar.",
+    "Material clínico só vai ao ar depois da revisão humana do Geovani.",
+    "Ética profissional da Fonoaudiologia: sem sensacionalismo, sem antes-e-depois de paciente, sem garantia de resultado."
+  ],
+  "trabalho": {
+    "motor": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm",
+    "como_edita": "Mesmo fluxo do @direitaxx, com o perfil 'drgeovani'.",
+    "repositorio": "https://github.com/geoprm/estudio-geovani (público, branch main)",
+    "pastas": ["C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm"],
+    "agentes": [
+      {"agente": "claude-code", "papel": "Rotina 'Editor do Estúdio' na nuvem: edita os vídeos que o Geovani envia pelo app", "verificado": true},
+      {"agente": "codex", "papel": "a confirmar", "verificado": false},
+      {"agente": "chatgpt", "papel": "a confirmar", "verificado": false},
+      {"agente": "claude-chat", "papel": "a confirmar", "verificado": false}
+    ],
+    "relacionados": "O site e os produtos da marca vivem em ~/Downloads/nova (ecossistema Dr. Geovani, produção). Não é a pasta de vídeo."
+  }
+}

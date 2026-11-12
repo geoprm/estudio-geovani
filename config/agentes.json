@@ -1,0 +1,40 @@
+{
+  "nota": "Quem produz para o estúdio e como cada um entrega. O disco é o único estado compartilhado: nenhum agente lê a conversa de outro.",
+  "caixa_de_entrada": "C:\\Projetos\\Estúdio Geovani\\entrada",
+  "agentes": {
+    "claude-code": {
+      "nome": "Claude Code (desktop/CLI)",
+      "le_disco": true,
+      "publica_no_app": true,
+      "como_entrega": "Cria o pacote com `python ferramentas/estudio.py novo`, coloca os arquivos e roda `receber`. É o único que sobe vídeo e grava documento no app (ferramentas Artifact e ArtifactData).",
+      "contrato": "CLAUDE.md"
+    },
+    "codex": {
+      "nome": "Codex (ChatGPT)",
+      "le_disco": true,
+      "publica_no_app": false,
+      "como_entrega": "Cria a pasta do pacote em `entrada/` (ou roda `python ferramentas/estudio.py novo`), coloca os arquivos e roda `validar`. Não tenta publicar no app: o Claude Code recebe e publica.",
+      "contrato": "AGENTS.md"
+    },
+    "chatgpt": {
+      "nome": "ChatGPT (chat)",
+      "le_disco": false,
+      "publica_no_app": false,
+      "como_entrega": "Gera um .zip com `entrega.json` e os arquivos, seguindo `modelos/INSTRUCOES_PARA_CHATS.md`. O Geovani baixa e solta o .zip em `entrada/`.",
+      "contrato": "modelos/INSTRUCOES_PARA_CHATS.md"
+    },
+    "claude-chat": {
+      "nome": "Claude (chat convencional, claude.ai)",
+      "le_disco": false,
+      "publica_no_app": false,
+      "como_entrega": "Igual ao ChatGPT: .zip com `entrega.json`. As skills desta Central podem ser enviadas ao claude.ai como .zip (`python ferramentas/estudio.py skills`, saída em `dist/skills/`).",
+      "contrato": "modelos/INSTRUCOES_PARA_CHATS.md"
+    },
+    "geovani": {
+      "nome": "Geovani (manual)",
+      "le_disco": true,
+      "publica_no_app": false,
+      "como_entrega": "Solta arquivos soltos ou .zip em `entrada/`. A recepção cria um rascunho de pacote e pede o que faltar (perfil, tipo, título)."
+    }
+  }
+}

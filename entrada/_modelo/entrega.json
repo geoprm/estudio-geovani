@@ -1,0 +1,47 @@
+{
+  "pacote": "estudio-geovani/entrega@1",
+  "id": "20261111-drgeovani-quando-a-fala-atrasa",
+  "perfil": "drgeovani",
+  "tipo": "video_pronto",
+  "titulo": "Quando a fala atrasa: três sinais para observar",
+  "serie": "Fala em casa",
+  "origem": {
+    "agente": "codex",
+    "projeto": "C:\\caminho\\do\\projeto ou nome do chat",
+    "sessao": "",
+    "criado_em": "2026-11-11T14:30:00-03:00"
+  },
+  "arquivos": {
+    "video": "video.mp4",
+    "video_b": "",
+    "rotulo_a": "",
+    "rotulo_b": "",
+    "capa": "capa.jpg",
+    "legendas": "video.srt",
+    "roteiro": "roteiro.md",
+    "extras": []
+  },
+  "post": {
+    "legenda": "Seu filho fala pouco para a idade? Observe estes três sinais e converse com um fonoaudiólogo.",
+    "hashtags": ["#fonoaudiologia", "#desenvolvimentoinfantil"],
+    "plataformas": ["instagram", "tiktok"],
+    "rotulo_ia": false
+  },
+  "orientacoes": "Revisar a fala aos 0:42. Postar de manhã. Fixar comentário com o link do agendamento.",
+  "gerado_por_ia": false,
+  "formato": "reel_60",
+  "formato_app": "depoimento",
+  "fontes": [
+    {"nome": "Nome da fonte (órgão, artigo, veículo e data)", "url": "https://...", "acessado_em": "2026-11-10"}
+  ],
+  "checagem": {
+    "fatos": "conferidos",
+    "direitos": "liberado",
+    "pessoas_identificaveis": "nenhuma",
+    "observacoes": "Sem paciente na tela. Música da biblioteca livre, licença anexada."
+  },
+  "qa": {
+    "status": "pass_with_warnings",
+    "relatorio": ""
+  }
+}

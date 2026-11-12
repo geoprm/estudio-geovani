@@ -1,0 +1,30 @@
+{
+  "nome": "Estúdio Geovani",
+  "artifact_url": "https://claude.ai/artifact/MUNdJL4BwN9ovWQeVdboHt",
+  "versao_publicada": "1793893451-76de",
+  "versao_app": 8,
+  "index_sha256": "b3b5684500d015aadb6206d5dbeb0efc5195d507bb81b1d09d8a0d639159798b",
+  "conferido_em": "2026-11-11",
+  "nota": "O app é um Artifact privado do Claude. Só o Claude Code (ferramentas Artifact e ArtifactData) escreve nele. Codex, ChatGPT e Claude chat entregam na caixa de entrada desta Central.",
+  "colecoes": {
+    "pautas": "Orientações de gravação por perfil (aba Hoje). Campos: perfil, data AAAA-MM-DD, titulo, aberturaA, aberturaB, fato, prova, cuidado, roteiro [{tempo, fala}], legenda, fontes [{nome, url}], nota 0-5. Arquivo Oculto: ordem, serie, cenas.",
+    "pedidos": "Pedidos de edição e vídeos prontos (aba Prontos). Campos: perfil, formato (ia|dividida|depoimento|filtro), pautaId, pautaTitulo, serie, status (enviando|na_fila|editando|pronto|erro), etapa, obs, criadoEm, atualizadoEm, resultado {a, b, capa, legenda, nota, rotulos {a, b}}, postadoEm, metricas.",
+    "config/app": "Configuração do app. editorTrigger aciona a rotina Editor do Estúdio."
+  },
+  "perfis_no_app": ["direitaxx", "drgeovani", "arquivo"],
+  "formatos_app": ["ia", "dividida", "depoimento", "filtro"],
+  "limite_video_app_bytes": 19922944,
+  "limite_video_app_nota": "19 MiB. Uploads de 18,9 MB como asset funcionaram em 05/11 e 10/11/2026 (entregas do Arquivo Oculto V2). Acima disso, não testado.",
+  "rotina_editor": {
+    "nome": "Editor do Estúdio",
+    "trigger_id": "trig_014YcZcx198rd5ZxMXJzXNz4",
+    "horarios": "11h44, 16h44, 20h44",
+    "onde_roda": "nuvem (Claude Code remoto); não enxerga esta pasta"
+  },
+  "motor_atual": {
+    "caminho": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm",
+    "github": "https://github.com/geoprm/estudio-geovani",
+    "visibilidade": "público",
+    "nota": "Motor de edição dos perfis @direitaxx e Dr. Geovani e fábrica do Arquivo Oculto. Fica onde está: Codex e Claude Code trabalham nele."
+  }
+}

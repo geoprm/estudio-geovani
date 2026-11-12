@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "estudio-geovani/entrega@1",
+  "title": "Pacote de entrega do Estúdio Geovani",
+  "description": "Manifesto que todo agente (Codex, ChatGPT, Claude chat, Claude Code) põe na raiz do pacote como entrega.json. A validação real está em ferramentas/pacote.py; este arquivo documenta o contrato.",
+  "type": "object",
+  "required": ["pacote", "perfil", "tipo", "titulo", "origem"],
+  "properties": {
+    "pacote": {"const": "estudio-geovani/entrega@1"},
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,79}$", "description": "Opcional. Se faltar, a recepção gera AAAAMMDD-perfil-titulo."},
+    "perfil": {"type": "string", "description": "direitaxx | drgeovani | arquivo | melinda (apelidos aceitos: arquivo-oculto, dr-geovani, princesa-melinda...)"},
+    "tipo": {"enum": ["video_pronto", "pauta", "material_bruto", "orientacao"]},
+    "titulo": {"type": "string", "minLength": 3, "maxLength": 140},
+    "serie": {"type": "string"},
+    "origem": {
+      "type": "object",
+      "required": ["agente"],
+      "properties": {
+        "agente": {"enum": ["claude-code", "codex", "chatgpt", "claude-chat", "geovani", "outro"]},
+        "projeto": {"type": "string", "description": "Pasta ou nome do chat onde foi produzido."},
+        "sessao": {"type": "string"},
+        "criado_em": {"type": "string", "format": "date-time"}
+      }
+    },
+    "arquivos": {
+      "type": "object",
+      "description": "Caminhos relativos à pasta do pacote. Nada de caminho absoluto ou '..'.",
+      "properties": {
+        "video": {"type": "string"},
+        "video_b": {"type": "string"},
+        "rotulo_a": {"type": "string"},
+        "rotulo_b": {"type": "string"},
+        "capa": {"type": "string"},
+        "legendas": {"type": "string"},
+        "roteiro": {"type": "string"},
+        "extras": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "post": {
+      "type": "object",
+      "properties": {
+        "legenda": {"type": "string", "maxLength": 2200},
+        "hashtags": {"type": "array", "items": {"type": "string"}},
+        "plataformas": {"type": "array", "items": {"enum": ["instagram", "tiktok", "youtube", "youtube_shorts", "kwai", "facebook", "outra"]}},
+        "rotulo_ia": {"type": "boolean"}
+      }
+    },
+    "orientacoes": {"type": "string", "description": "O que o Geovani precisa saber: o que revisar, como e quando postar."},
+    "gerado_por_ia": {"type": "boolean"},
+    "formato": {"type": "string", "description": "Livre: reel_30, investigacao_90, youtube_5min..."},
+    "formato_app": {"enum": ["ia", "dividida", "depoimento", "filtro"]},
+    "pauta": {
+      "type": "object",
+      "description": "Só no tipo pauta.",
+      "properties": {
+        "data": {"type": "string", "format": "date"},
+        "abertura_a": {"type": "string"},
+        "abertura_b": {"type": "string"},
+        "fato": {"type": "string"},
+        "prova": {"type": "string"},
+        "cuidado": {"type": "string"},
+        "roteiro": {"type": "array", "items": {"type": "object", "required": ["fala"], "properties": {"tempo": {"type": "string"}, "fala": {"type": "string"}}}},
+        "nota": {"type": "number", "minimum": 0, "maximum": 5},
+        "ordem": {"type": "integer"},
+        "cenas": {"type": "array", "description": "Arquivo Oculto: cenas no formato do motor V1 (app/arquivo/LEIA-ME.md)."}
+      }
+    },
+    "fontes": {
+      "type": "array",
+      "items": {"type": "object", "required": ["nome"], "properties": {"nome": {"type": "string"}, "url": {"type": "string"}, "acessado_em": {"type": "string"}}}
+    },
+    "checagem": {
+      "type": "object",
+      "properties": {
+        "fatos": {"enum": ["conferidos", "sem_fatos", "pendente"]},
+        "direitos": {"enum": ["liberado", "pendente", "so_privado"]},
+        "pessoas_identificaveis": {"enum": ["nenhuma", "autorizadas", "pendente"]},
+        "observacoes": {"type": "string"}
+      }
+    },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "status": {"enum": ["pass", "pass_with_warnings", "fail", "nao_rodado"]},
+        "relatorio": {"type": "string"}
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "melinda",
+  "id_app": null,
+  "apelidos": ["princesa-melinda", "princesa_melinda", "princesa"],
+  "nome": "Princesa Melinda",
+  "nome_completo": "Princesa Melinda, canal infantil do YouTube",
+  "status": "planejado",
+  "missao": "Historinhas animadas estreladas por uma personagem desenhada inspirada na filha do Geovani.",
+  "tom": "Afetuoso, curioso e seguro. Cada história ensina uma coisa pequena sem sermão.",
+  "publico": "Crianças pequenas e as famílias que assistem junto. Faixa etária exata: a definir pelo Geovani.",
+  "gerado_por_ia": true,
+  "plataformas_conhecidas": ["youtube"],
+  "plataformas_nota": "Canal do YouTube a criar. Precisa ser marcado como 'conteúdo para crianças' no YouTube Studio (exigência da plataforma por causa da COPPA).",
+  "formatos_app": [],
+  "formatos_planejados": ["historia_3a8min_16x9", "short_9x16_ate_60s", "musica_curta"],
+  "visual": {
+    "estilo": "a definir na bíblia visual (skill video-animacao-infantil)",
+    "personagem": "princesa-melinda-v1: ficha de personagem a criar a partir de referência privada",
+    "fonte_da_verdade": "config/perfis/melinda.json até existir a bíblia em config/perfis/melinda/BIBLIA.md"
+  },
+  "regras": [
+    "Proteção da criança acima de qualquer meta de audiência.",
+    "A personagem é desenho estilizado. Nunca fotorrealista, nunca a voz real da criança sem decisão expressa do Geovani.",
+    "Fotos e vídeos reais da filha usados como referência ficam fora do Git e de qualquer pasta pública: só em referencias_privadas/ (ignorada).",
+    "Nenhum dado pessoal da criança no vídeo, na descrição ou nos metadados: escola, cidade, rotina, data de nascimento, sobrenome.",
+    "Conteúdo marcado como 'para crianças' no YouTube. Sem chamada para comentar, sem link externo, sem promoção de produto dentro da história.",
+    "Nada de medo, violência, perigo imitável ou estereótipo. Revisão humana do Geovani antes de qualquer publicação."
+  ],
+  "trabalho": {
+    "motor": null,
+    "como_edita": "Ainda não existe. Ver skill video-animacao-infantil para o pipeline proposto.",
+    "repositorio": null,
+    "pastas": [],
+    "agentes": [],
+    "pendente_para_ativar": [
+      "Geovani decide nome público, faixa etária e se a voz é TTS, dele ou de dubladora.",
+      "Criar a ficha de personagem (model sheet) e a bíblia visual.",
+      "Acrescentar o perfil 'melinda' no app (PERFIS e tema visual) com autorização para republicar o Artifact.",
+      "Criar o canal no YouTube (ato do Geovani)."
+    ]
+  }
+}

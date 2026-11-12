@@ -1,0 +1,45 @@
+# Central do Estúdio Geovani — o que NUNCA entra no Git
+# Mídia é pesada e pode ter direitos ou imagem de terceiros: fica só no disco.
+
+# caixa de entrada: só o LEIA-ME e o modelo são versionados
+entrada/*
+!entrada/LEIA-ME.md
+!entrada/_modelo/
+!entrada/_modelo/**
+
+# entregas: versiona manifestos e relatórios, não a mídia
+entregas/**/*.mp4
+entregas/**/*.mov
+entregas/**/*.m4v
+entregas/**/*.mkv
+entregas/**/*.webm
+entregas/**/*.wav
+entregas/**/*.mp3
+entregas/**/*.m4a
+entregas/**/*.aac
+entregas/**/*.flac
+entregas/**/*.jpg
+entregas/**/*.jpeg
+entregas/**/*.png
+entregas/**/*.webp
+entregas/**/*.zip
+
+# referências privadas (rosto real, criança, paciente): nunca
+referencias_privadas/
+**/referencias_privadas/
+
+# gerados
+dist/
+__pycache__/
+*.pyc
+*.tmp
+ffmpeg2pass*
+*.log
+
+# segredos
+.env
+.env.*
+!.env.example
+
+# o zip original do app fica no disco como cópia de segurança (o conteúdo está em app/)
+/Estúdio Geovani.zip

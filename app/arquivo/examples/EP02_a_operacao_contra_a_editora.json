@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "brand_id": "arquivo-oculto",
+  "character_id": "arquivista-classico-v1",
+  "format": "conspiracao_documentada",
+  "locale": "pt-BR",
+  "aspect_ratio": "9:16",
+  "delivery": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "container": "mp4",
+    "captions": "burned_and_srt",
+    "cover": "png",
+    "requires_download_link": true
+  },
+  "voice": {
+    "profile_id": "arquivista-voz-01",
+    "gender_presentation": "masculine",
+    "language": "pt-BR",
+    "tone": "grave_sintetico_sombrio_claro",
+    "rate_wpm_target": 145,
+    "provider_voice_id": null
+  },
+  "character_reference": "assets/arquivista_legado_referencia_privada.png",
+  "rights": {
+    "third_party_archive_reuse": "requires_review",
+    "ai_reenactment_label": "RECONSTITUIÇÃO IA",
+    "publication_approved": false
+  },
+  "qa_required": true,
+  "status": "planned",
+  "episode_id": "AO-S01-E02",
+  "title": "A operação federal contra a editora",
+  "target_duration_sec": 42,
+  "hook": "O GOVERNO INVADIU A EDITORA POR CAUSA DAS CARTAS?",
+  "voiceover_script": "Dizem que agentes federais invadiram a editora de Illuminati porque o jogo revelava segredos do futuro. A operação existiu. Em primeiro de março de 1990, o Serviço Secreto dos Estados Unidos apreendeu computadores e documentos da Steve Jackson Games, numa investigação sobre sistemas eletrônicos. Só que o baralho Illuminati: New World Order seria lançado em dezembro de 1994. Ou seja: o acontecimento é real. A explicação viral ignora a cronologia. No Arquivo Oculto, cada detalhe importa.",
+  "cta": "Você já tinha ouvido essa versão da história?",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Agentes do Serviço Secreto realizaram busca e apreensão em 1º de março de 1990 na Steve Jackson Games",
+      "status": "documented",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/"
+      ]
+    },
+    {
+      "id": "C2",
+      "text": "Busca relacionava-se a investigação sobre computadores/sistemas, não ao lançamento futuro do INWO",
+      "status": "documented",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/",
+        "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48"
+      ]
+    },
+    {
+      "id": "C3",
+      "text": "INWO foi lançado em 16 de dezembro de 1994",
+      "status": "documented",
+      "sources": [
+        "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48"
+      ]
+    },
+    {
+      "id": "C4",
+      "text": "Uma narrativa popular atribui operação às cartas INWO",
+      "status": "allegation",
+      "sources": [],
+      "note": "A introdução reporta uma alegação sem endossar; não atribuir a um grupo específico sem fonte"
+    }
+  ],
+  "source_urls": [
+    "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48",
+    "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/"
+  ],
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "start_sec": 0,
+      "end_sec": 3,
+      "location": "arquivo_oculto",
+      "asset_class": "character_clip",
+      "visual_prompt": "Canonical Archivist emerges from shadows in an archival bunker, white porcelain mask and black hood, taps folder labelled HISTÓRIA.",
+      "motion": "crash zoom then still",
+      "subtitle_bite": "UMA INVASÃO POR CAUSA DAS CARTAS?",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S02",
+      "start_sec": 3,
+      "end_sec": 8,
+      "location": "investigacao_1990",
+      "asset_class": "ai_reenactment",
+      "visual_prompt": "Cinematic reenactment 1990 office at night with beige CRT monitors, floppy disks and document boxes, investigators shown only as generic silhouettes; display RECONSTITUIÇÃO IA.",
+      "motion": "handheld glide",
+      "subtitle_bite": "1º MARÇO 1990",
+      "source_assets": [],
+      "reconstruction_label_required": true
+    },
+    {
+      "scene_id": "S03",
+      "start_sec": 8,
+      "end_sec": 13,
+      "location": "documento_corte",
+      "asset_class": "kinetic_typography",
+      "visual_prompt": "Authentic US court legal text excerpt to be sourced or animated typographic claim as ORIGINAL LEGAL SOURCE; do not fabricate actual document image.",
+      "motion": "slow macro tracking",
+      "subtitle_bite": "SERVIÇO SECRETO · 1990",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S04",
+      "start_sec": 13,
+      "end_sec": 18,
+      "location": "sala_computadores",
+      "asset_class": "ai_reenactment",
+      "visual_prompt": "90s bulletin board screen, terminal green light and dial-up modem, AI reenactment labelled.",
+      "motion": "dolly sideways",
+      "subtitle_bite": "INVESTIGAÇÃO DE COMPUTADORES",
+      "source_assets": [],
+      "reconstruction_label_required": true
+    },
+    {
+      "scene_id": "S05",
+      "start_sec": 18,
+      "end_sec": 23,
+      "location": "arquivo_textos",
+      "asset_class": "kinetic_typography",
+      "visual_prompt": "Big year 1990 shatters as a timeline extends to 1994, with true temporal gap highlighted.",
+      "motion": "timeline animation",
+      "subtitle_bite": "1990 → 1994",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S06",
+      "start_sec": 23,
+      "end_sec": 28,
+      "location": "mesa_cartas",
+      "asset_class": "ai_reenactment",
+      "visual_prompt": "1994 collectible card bundle represented with licensed verified true art if available, otherwise original abstract illustrations clearly not actual INWO card.",
+      "motion": "side lighting",
+      "subtitle_bite": "INWO SÓ SAIU DEPOIS",
+      "source_assets": [],
+      "reconstruction_label_required": true
+    },
+    {
+      "scene_id": "S07",
+      "start_sec": 28,
+      "end_sec": 34,
+      "location": "mesa_de_analise",
+      "asset_class": "character_clip",
+      "visual_prompt": "Archivist flips dated documents side by side, 1990 operation and December 1994 release; masks, gloves unchanged.",
+      "motion": "top down to portrait",
+      "subtitle_bite": "FATO X VERSÃO VIRAL",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S08",
+      "start_sec": 34,
+      "end_sec": 38,
+      "location": "arquivo_oculto",
+      "asset_class": "ai_reenactment",
+      "visual_prompt": "Macro of clock and file drawer as narration reveals dates; silence for half a second after reveal.",
+      "motion": "match cut",
+      "subtitle_bite": "AS DATAS NÃO BATEM",
+      "source_assets": [],
+      "reconstruction_label_required": true
+    },
+    {
+      "scene_id": "S09",
+      "start_sec": 38,
+      "end_sec": 42,
+      "location": "biblioteca_oculta",
+      "asset_class": "character_clip",
+      "visual_prompt": "Archivist in silhouette closes the file and gold logo appears, cinematic deep tone sting.",
+      "motion": "slow retreat",
+      "subtitle_bite": "ARQUIVO OCULTO — EP. 02",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "direitaxx",
+  "id_app": "direitaxx",
+  "apelidos": ["direita-xique-xique", "direitaxique", "dxx"],
+  "nome": "@direitaxx",
+  "nome_completo": "Direita Xique-Xique",
+  "status": "ativo",
+  "missao": "Liderança política e social em Xique-Xique e no sertão da Bahia.",
+  "tom": "Firme, direto e com fonte. Fala de quem é do lugar, sem gritaria e sem exagero.",
+  "assinatura": "Aqui é o sertão falando.",
+  "assinatura_regra": "No fim do vídeo, a frase três vezes (regra do app).",
+  "meta_semanal_app": 4,
+  "cadencia_pautas": "Pautas novas todo dia às 6h14, no app.",
+  "plataformas_conhecidas": ["instagram"],
+  "plataformas_nota": "O app pede as métricas de 24 h do Instagram. Outras redes do perfil: a confirmar com o Geovani.",
+  "formatos_app": ["dividida", "depoimento"],
+  "formato_padrao": "9:16, 30 a 90 s",
+  "visual": {
+    "destaque": "#FFD400",
+    "moldura": "#ECBE5A",
+    "alerta": "#E3262B",
+    "fonte_gancho": "Montserrat Black",
+    "fonte_legenda": "Montserrat ExtraBold",
+    "fonte_carimbo": "Anton",
+    "fundo": "bandeira em LED, ou o cenário real gravado",
+    "lower_third": ["GEOVANI MIRANDA", "Xique-Xique • Sertão da Bahia"],
+    "fonte_da_verdade": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\perfis.py (chave 'direitaxx')"
+  },
+  "regras": [
+    "Fato só com fonte aberta e confiável; o selo mostra veículo e data.",
+    "Gancho fiel ao dado: 46,8% é 'quase metade', não 'a maioria'.",
+    "Nenhum corte ou montagem que mude o sentido do que alguém disse. Legenda corrigida contra a fala real.",
+    "Período eleitoral: conteúdo alterado ou gerado por IA leva rótulo (Res. TSE 23.610/2019, art. 9º-B). Deepfake de candidato é proibido.",
+    "Retoque leve vem ligado pelo perfil; desligar quando o pedido disser retoque = false.",
+    "O Geovani posta. Nenhum agente publica em rede social por ele sem pedido explícito."
+  ],
+  "trabalho": {
+    "motor": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm",
+    "como_edita": "preparar.py → ritmo.py → videos/<id>.py (copiado de modelo_video.py) → prévia → finalizar.py",
+    "repositorio": "https://github.com/geoprm/estudio-geovani (público, branch main)",
+    "pastas": ["C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm"],
+    "agentes": [
+      {"agente": "claude-code", "papel": "Rotina 'Editor do Estúdio' na nuvem: edita os vídeos que o Geovani envia pelo app", "verificado": true},
+      {"agente": "codex", "papel": "a confirmar", "verificado": false},
+      {"agente": "chatgpt", "papel": "a confirmar", "verificado": false},
+      {"agente": "claude-chat", "papel": "a confirmar", "verificado": false}
+    ],
+    "fora_do_escopo": "O app cívico Direita Xique-Xique Conecta (~/DireitaXX) é outro projeto: não é este perfil de vídeo."
+  }
+}

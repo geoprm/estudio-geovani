@@ -1,0 +1,54 @@
+{
+  "id": "arquivo",
+  "id_app": "arquivo",
+  "apelidos": ["arquivo-oculto", "arquivo_oculto", "ao", "arquivista", "o-arquivista-oculto"],
+  "nome": "Arquivo Oculto",
+  "nome_completo": "Arquivo Oculto, narrado pelo personagem fictício O Arquivista",
+  "status": "ativo",
+  "missao": "Investigação documental de conspirações e mistérios: o que é fato, o que não tem prova e o que é falso.",
+  "tom": "Sóbrio, intrigante, chamativo sem mentir. Abertura do canal: 'Olá, criancinhas...'.",
+  "assinatura": "Olá, criancinhas...",
+  "assinatura_regra": "Abertura obrigatória da temporada V2 (ECOSSISTEMA.md, D-110).",
+  "meta_semanal_app": 3,
+  "gerado_por_ia": true,
+  "plataformas_conhecidas": ["tiktok", "youtube"],
+  "plataformas_nota": "TikTok @oarquivista.oculto (renomeado em 10/11/2026). YouTube: o antigo canal 'Mistérios e Mitos' virou O Arquivista Oculto (@oarquivista.oculto); Shorts agendados pelo Geovani no YouTube Studio; limite diário de envios até ele verificar o canal por telefone (ECOSSISTEMA.md, D-112).",
+  "formatos_app": ["ia", "filtro"],
+  "formatos_v2": ["reel_30", "investigacao_90", "reel_profundo", "youtube_5min", "youtube_10min", "microdrama"],
+  "formato_padrao": "investigacao_90 (9:16, 60 a 105 s)",
+  "series": {
+    "O Arquivo Responde": "Claude Code. A Chegada (2009) parte por parte, com tese encenada e julgamento por documentos (D-110).",
+    "Arquivo Morto": "Claude Code. Microdramas de terror rural brasileiro (D-111).",
+    "O Índice Cego": "Codex. Ficção original em microdrama."
+  },
+  "visual": {
+    "destaque": "#D6A854",
+    "alerta": "#B22A26",
+    "texto": "#F1E9D6",
+    "fonte_gancho": "Anton",
+    "fonte_legenda": "Montserrat ExtraBold",
+    "personagem": "arquivista-v2: máscara rígida marfim com veios dourados, capuz e luvas pretas, biblioteca de arquivo",
+    "voz": "arquivista-v2-c (Kokoro local), aprovada em 04/11/2026",
+    "fonte_da_verdade": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\config\\profiles\\arquivo_oculto_v2.json + .lock.json"
+  },
+  "regras": [
+    "Rótulo de conteúdo gerado por IA em todo post.",
+    "Separar fato documentado, alegação, interpretação, coincidência e incerteza. Selos: DOCUMENTADO, SEM PROVA, INTERPRETAÇÃO, FALSO, RECONSTITUIÇÃO IA, ILUSTRAÇÃO.",
+    "Nenhuma acusação a pessoa identificável sem fonte sólida. Pessoas reais só de costas ou em silhueta, sem fala inventada.",
+    "Imagens reais de cartas, documentos e fotos podem entrar na versão pública com crédito de origem na tela (D-111, risco assumido pelo Geovani). Nunca o áudio original de terceiros.",
+    "Religiões tratadas com respeito; nada de prometer evento futuro.",
+    "A versão 'Prévia privada' nunca é publicada."
+  ],
+  "trabalho": {
+    "motor": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto",
+    "como_edita": "Fábrica V2 (python -m arquivo_oculto.v2.fabrica_v2) e motor leve v2/reel_leve.py. Skills próprias em estudio-gm/.claude/skills/arquivo-oculto-*.",
+    "repositorio": "https://github.com/geoprm/estudio-geovani (público, branch arquivo-oculto-v2); acervo privado fora do Git",
+    "pastas": ["C:\\Projetos\\ARQUIVO OCULTO", "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto"],
+    "agentes": [
+      {"agente": "codex", "papel": "Site e leitor do Arquivo Oculto (AGENTS.md na raiz); série O Índice Cego", "verificado": true},
+      {"agente": "claude-code", "papel": "Fábrica V2, O Arquivo Responde, Arquivo Morto, acervo de cartas, agendamentos no Metricool", "verificado": true},
+      {"agente": "chatgpt", "papel": "a confirmar", "verificado": false},
+      {"agente": "claude-chat", "papel": "a confirmar", "verificado": false}
+    ]
+  }
+}
