@@ -1,0 +1,7 @@
+# Fim de linha LF em qualquer sistema (mesma regra do motor estudio-gm).
+# As ferramentas e as skills escrevem LF; sem esta linha, o core.autocrlf=true desta máquina troca tudo por CRLF.
+* text=auto eol=lf
+
+# Cópias de contratos de outros projetos, guardadas antes de editá-los: o Git guarda os bytes exatos.
+# (O AGENTS.md do Arquivo Oculto mistura CRLF e LF; normalizar estragaria a cópia que serve para desfazer a ligação.)
+ligacoes/antes_*/** -text
