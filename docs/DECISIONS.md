@@ -64,7 +64,8 @@ Geovani nesta data. A partir dela:
 - os vídeos do perfil chegam à Central como pacote;
 - a sessão do motor fica com o site e conclui antes os 25 Dossiês, em lotes.
 
-Registrado em `orientacoes/arquivo.md` e no perfil (`passagem_2026_11_12`). A confirmação direta do Geovani está pendente.
+Registrado em `orientacoes/arquivo.md` e no perfil (`passagem_2026_11_12`). O pedido do Geovani, com as falas dele, está
+na D-114 do `ECOSSISTEMA.md`.
 Os posts já agendados por aquela sessão (TikTok e YouTube) seguem sob a autorização registrada no ECOSSISTEMA
 (D-110 a D-112). A regra desta Central não muda: nenhum post novo sem pedido explícito do Geovani.
 
