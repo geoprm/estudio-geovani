@@ -21,6 +21,9 @@ aqui; daqui vai para o app **Estúdio Geovani**.
 
 O app: https://claude.ai/artifact/MUNdJL4BwN9ovWQeVdboHt (privado; só abre na sua conta).
 
+No GitHub, a Central é a branch `central` do repositório **público** `geoprm/estudio-geovani`; a `main` dele é o motor.
+Mídia, caixa de entrada, referências privadas e o material da Princesa Melinda ficam fora do Git.
+
 ## Como usar (agentes)
 
 - Claude Code: [`CLAUDE.md`](CLAUDE.md).

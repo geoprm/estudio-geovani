@@ -26,7 +26,7 @@ A personagem é inspirada numa criança real, filha do Geovani. Regras que nenhu
 
 ## 1. Bíblia do canal (fazer uma vez, antes do episódio 1)
 
-Crie `config/perfis/melinda/BIBLIA.md` com:
+Crie `config/perfis/melinda/BIBLIA.md` (fora do Git: o repositório é público) com:
 - **Público:** faixa etária **[Geovani]**. Sugestão: 3 a 6 anos, com pais assistindo junto.
 - **Promessa do canal:** em uma frase (ex.: "toda história, uma pequena coragem nova").
 - **Personagem principal:** personalidade (curiosa, gentil, às vezes teimosa), o que ela quer, o que a faz rir, o
@@ -39,7 +39,7 @@ Crie `config/perfis/melinda/BIBLIA.md` com:
 
 ## 2. Ficha de personagem (consistência visual)
 
-Sem ficha, a personagem muda de rosto a cada cena, e criança percebe. Monte `config/perfis/melinda/personagem/`:
+Sem ficha, a personagem muda de rosto a cada cena, e criança percebe. Monte `config/perfis/melinda/personagem/` (fora do Git):
 - **Turnaround:** frente, 3/4, perfil, costas, na mesma escala.
 - **Expressões:** alegre, surpresa, triste, brava, pensativa, com sono, rindo.
 - **Bocas (visemas):** fechada, A/E aberta, O/U arredondada, M/B/P fechada pressionada, F/V. Bastam 5 a 6 para leitura labial

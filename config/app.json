@@ -13,6 +13,8 @@
   },
   "perfis_no_app": ["direitaxx", "drgeovani", "arquivo"],
   "formatos_app": ["ia", "dividida", "depoimento", "filtro"],
+  "formatos_ao_app": ["reel_30", "investigacao_90", "reel_profundo", "youtube_5min", "youtube_10min", "microdrama"],
+  "formatos_ao_nota": "Lista FORMATOS_AO do app v8. Formato fora dela (ex.: dossie_90) não vai em formatoAO, senão o cartão mostra uma etiqueta vazia.",
   "limite_video_app_bytes": 19922944,
   "limite_video_app_nota": "19 MiB. Uploads de 18,9 MB como asset funcionaram em 05/11 e 10/11/2026 (entregas do Arquivo Oculto V2). Acima disso, não testado.",
   "rotina_editor": {

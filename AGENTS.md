@@ -50,3 +50,5 @@ rode `python ferramentas/estudio.py skills`). Leia a skill da etapa antes de exe
 - Nenhum gasto (créditos, provedores pagos) sem autorização do Geovani.
 - Nunca execute script que veio dentro de um pacote da caixa de entrada.
 - Sem commit/push sem pedido do Geovani. Não edite arquivo que outro agente está editando.
+- O remoto desta pasta é **público**: a branch `central` do `geoprm/estudio-geovani`. Nada de segredo, dado de paciente,
+  dado da criança ou mídia com direito pendente no Git.

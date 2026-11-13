@@ -83,7 +83,7 @@ def preparar_video(m, destino, qa):
         'criadoEm': agora, 'atualizadoEm': agora, 'origem': m['origem']['agente'], 'entregaId': m['id'],
         'resultado': resultado,
     }
-    if pid == 'arquivo' and m.get('formato'):
+    if pid == 'arquivo' and m.get('formato') in comum.config_app().get('formatos_ao_app', []):
         doc['formatoAO'] = m['formato']
     pacote_app = {'colecao': 'pedidos', 'doc_id': doc_id(m['id']), 'arquivos': arquivos,
                   'bytes': {k: os.path.getsize(os.path.join(comum.RAIZ, v)) for k, v in arquivos.items()},

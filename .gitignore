@@ -28,6 +28,10 @@ entregas/**/*.zip
 referencias_privadas/
 **/referencias_privadas/
 
+# Princesa Melinda: o repositório é público. Bíblia, ficha de personagem e cenários ficam só no disco até o Geovani
+# decidir publicar (o arquivo de regras config/perfis/melinda.json continua versionado).
+config/perfis/melinda/
+
 # gerados
 dist/
 __pycache__/

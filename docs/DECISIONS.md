@@ -75,9 +75,30 @@ Ele é **público** e a rotina "Editor do Estúdio" depende dele. A Central guar
 internas e, no futuro, material da Princesa Melinda. Por isso não vai para esse repositório sem decisão do Geovani. O
 privado `geoprm/CentralEditorialGM` é outro projeto (app administrativo de pautas em Next.js) e também não serve.
 
+## C-009 · 12/11/2026 · A Central vai para o `geoprm/estudio-geovani`, branch `central`
+
+Decisão do Geovani ("No estudio-geovani"), depois de saber que o repositório é público e que a rotina da nuvem depende
+dele. A recomendação era um repositório privado novo; fica registrada, mas a decisão é dele.
+
+- **Branch própria `central`**, com o histórico da Central. A `main` (motor, rotina da nuvem) e a `arquivo-oculto-v2` não
+  foram tocadas. Juntar a Central à `main` como pasta é outra decisão, ainda não tomada.
+- **Conferido antes do envio:**
+  - nenhum segredo nos arquivos versionados;
+  - o e-mail de autor já era público nos commits do motor;
+  - dos arquivos do app, só o LEIA-ME da rotina e a imagem do Arquivista V1 eram novos. A imagem é a que aparece nos
+    vídeos, não a referência privada, que segue fora do Git.
+- **Fica fora do Git** por ser público: mídia, caixa de entrada, `referencias_privadas/`, `.env` e
+  `config/perfis/melinda/` (bíblia, ficha de personagem, cenários). As regras da Melinda (`melinda.json`) continuam
+  versionadas.
+- **Vai junto e passa a ser público:**
+  - o código do app (quase todo já estava público no motor);
+  - as orientações recebidas;
+  - os manifestos das entregas;
+  - a cópia do `AGENTS.md` do Arquivo Oculto em `ligacoes/antes_2026-11-11/`.
+
 ## Pendentes (decisão do Geovani)
 
-1. Onde fica o remoto da Central: repositório novo e privado (recomendado) ou dentro do `geoprm/estudio-geovani` (público).
+1. Juntar a Central à `main` do `geoprm/estudio-geovani` (como pasta) ou manter na branch `central`.
 2. Confirmar quem trabalha cada perfil no ChatGPT e no Claude chat (campos "a confirmar" em `config/perfis/`).
 3. Colar `modelos/INSTRUCOES_PARA_CHATS.md` nas instruções dos projetos do ChatGPT e do claude.ai.
 4. Recepção automática (tarefa agendada local) ou só sob pedido.
