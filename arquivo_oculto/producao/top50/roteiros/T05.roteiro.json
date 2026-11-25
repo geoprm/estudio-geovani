@@ -1,0 +1,192 @@
+{
+ "id": "TOP-T05",
+ "num": 5,
+ "serie": "DOSSIÊ 05 · PASSO DYATLOV",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\01_dyatlov_pass_incident_02_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "CORTADA POR DENTRO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: AnonymousUnknown author / Soviet investigators · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje vamos subir uma montanha que os povos de lá chamam de Montanha Morta.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Fevereiro de 1959, Montes Urais. Nove estudantes e montanhistas experientes. O líder se chamava Igor Dyatlov.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\04_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "FEVEREIRO DE 1959",
+   "pausa": 0.3,
+   "credito": "Imagem: autor indicado na página do arquivo · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Na noite de primeiro para dois de fevereiro, eles montam a barraca na encosta. E algo os faz sair correndo.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\10_dyatlov_pass_incident_fancy_map_1_svg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: JAXA ASTER, USGS EarthExplorer · CC BY-SA 2.5 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Quando as equipes de busca chegam, a barraca está meio enterrada na neve. E rasgada... por dentro.",
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\01_dyatlov_pass_incident_02_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 2.6,
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6,
+   "credito": "Imagem: AnonymousUnknown author / Soviet investigators · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os primeiros corpos estão a mais de um quilômetro, perto de um pinheiro. Descalços. De meias. Num frio de quase trinta graus negativos.",
+   "visual": {
+    "mov": "out",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\10_dyatlov_pass_incident_fancy_map_1_svg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: JAXA ASTER, USGS EarthExplorer · CC BY-SA 2.5 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em maio, com o degelo, aparecem os últimos quatro, num barranco. Crânio fraturado. Costelas quebradas. E uma das jovens... sem a língua.",
+   "visual": {
+    "tipo": "preto"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.0
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O processo soviético foi encerrado com uma frase: uma força natural irresistível.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "\"UMA FORÇA NATURAL",
+     "IRRESISTÍVEL\""
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: processo criminal de 1959, encerrado em maio de 1959",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Foi o que bastou. Teste de míssil. Arma secreta. O abominável homem das neves. Até alienígenas.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "MÍSSIL?",
+     "YETI?",
+     "ALIENÍGENAS?"
+    ]
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 2021, dois pesquisadores na Suíça simularam a encosta. Um bloco de neve compacta, uma avalanche de placa, pode ter esmagado a barraca no escuro.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\10_dyatlov_pass_incident_fancy_map_1_svg.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Gaume e Puzrin, Communications Earth & Environment, 2021",
+   "carimbo": "INTERPRETAÇÃO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Eles fugiram para salvar a vida. E a noite fez o resto.",
+   "visual": {
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T05\\03_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.6,
+   "credito": "Imagem: autor indicado na página do arquivo · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "INTERPRETAÇÃO",
+      1
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO JULGA"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A avalanche explica a barraca, criancinhas. Ainda não explica tudo. Se você subisse lá hoje... dormiria de botas?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "VOCÊ DORMIRIA LÁ?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "9 mortos na neve. A barraca foi cortada por dentro.",
+  "fontes_texto": "Fontes: processo criminal de 1959 (arquivo de Sverdlovsk); Procuradoria da Rússia, conclusão de 2020; Gaume e Puzrin, Communications Earth & Environment (28/01/2021). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Fevereiro de 1959. Nove jovens experientes saem da barraca no meio da noite, a menos de trinta graus, quase sem roupa. O processo soviético chamou de 'força irresistível'. 🏔️\n\nDossiê 05 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #dyatlov #misterio #historia #casosreais"
+ }
+}

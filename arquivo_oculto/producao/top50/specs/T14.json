@@ -1,0 +1,20 @@
+{
+ "titulo": "A noite em que um mascarado invadiu a TV de Chicago",
+ "serie": "DOSSIÊ 14 · A INVASÃO DE 1987",
+ "fontes_texto": "Fontes: Comissão Federal de Comunicações dos EUA (FCC), investigação de 1987; Chicago Tribune (23/11/1987); registros da WGN-TV e da WTTW. Sem imagens da transmissão: cena reconstituída. Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "22 de novembro de 1987, Chicago. Duas emissoras de TV têm o sinal sequestrado por um homem com máscara de borracha. A polícia e a FCC investigaram. Até hoje, ninguém sabe quem era. 📺\n\nDossiê 14 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #maxheadroom #misterio #tv #casosreais",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"tipo": "crt"}, "selo": "RECONSTITUIÇÃO", "tela": "O SINAL FOI SEQUESTRADO", "sfx": ["chiado"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu conto a noite em que um desconhecido entrou na sala de milhares de pessoas. Pela televisão.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Vinte e dois de novembro de 1987, Chicago. Nove e quatorze da noite. O jornal da WGN está mostrando os resultados do esporte.", "img": "02", "visual": {"mov": "pan"}, "tela": "22 DE NOVEMBRO DE 1987", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "De repente, a tela fica preta. E surge um homem com uma máscara de borracha sorridente, balançando na frente de uma chapa de metal que gira. Só um zumbido.", "img": "01", "visual": {"tipo": "crt"}, "selo": "RECONSTITUIÇÃO", "sfx": ["chiado"], "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Os técnicos mudam a frequência. A imagem some. Vinte e cinco segundos.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Duas horas depois, outro canal, a WTTW, exibe uma série de ficção científica. E ele volta.", "img": "03", "visual": {"mov": "in"}, "sfx": ["batida"], "batida_em": 3.8, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Agora com voz distorcida. Ri, cantarola, faz piadas sem sentido, ataca um apresentador. Por noventa segundos, ninguém consegue tirar ele do ar.", "img": "01", "visual": {"tipo": "crt"}, "selo": "RECONSTITUIÇÃO", "sfx": ["chiado"], "pausa": 0.6},
+  {"voz": "arquivista", "fala": "A cena termina de um jeito tão bizarro que a emissora nunca a reprisou. E a tela volta ao normal como se nada tivesse acontecido.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "A comissão de comunicações dos Estados Unidos investiga. Era preciso equipamento e conhecimento técnico. Ninguém foi identificado.", "img": "02", "visual": {"mov": "out"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Suspeitos foram apontados na internet ao longo dos anos. Nenhum foi confirmado.", "visual": {"tipo": "cartao", "linhas": ["QUEM ERA?"]}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Ele entrou nas casas, criancinhas, e saiu sem deixar nome. Da próxima vez que a sua tela piscar sozinha... não desligue rápido demais.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "NÃO DESLIGUE RÁPIDO DEMAIS", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "TOP-T14",
+ "num": 14,
+ "serie": "DOSSIÊ 14 · A INVASÃO DE 1987",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "tipo": "crt",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\20_reconstituicao_mascara.jpg"
+   },
+   "selo": "RECONSTITUIÇÃO",
+   "tela": "O SINAL FOI SEQUESTRADO",
+   "sfx": [
+    "chiado"
+   ],
+   "credito": "Reconstituição ilustrada: nenhuma imagem da transmissão de 1987 foi usada"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu conto a noite em que um desconhecido entrou na sala de milhares de pessoas. Pela televisão.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Vinte e dois de novembro de 1987, Chicago. Nove e quatorze da noite. O jornal da WGN está mostrando os resultados do esporte.",
+   "visual": {
+    "mov": "pan",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\09_wgn_tv_sign_11606843705_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "22 DE NOVEMBRO DE 1987",
+   "pausa": 0.3,
+   "credito": "Imagem: Arvell Dorsey Jr. from Chicago, IL, United State · CC BY 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "De repente, a tela fica preta. E surge um homem com uma máscara de borracha sorridente, balançando na frente de uma chapa de metal que gira. Só um zumbido.",
+   "visual": {
+    "tipo": "crt",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\20_reconstituicao_mascara.jpg"
+   },
+   "selo": "RECONSTITUIÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6,
+   "credito": "Reconstituição ilustrada: nenhuma imagem da transmissão de 1987 foi usada"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os técnicos mudam a frequência. A imagem some. Vinte e cinco segundos.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\09_wgn_tv_sign_11606843705_jpg.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8,
+   "credito": "Imagem: Arvell Dorsey Jr. from Chicago, IL, United State · CC BY 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Duas horas depois, outro canal, a WTTW, exibe uma série de ficção científica. E ele volta.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\01_john_hancock_center_june_6_08_sunlight_j.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 3.8,
+   "pausa": 0.5,
+   "credito": "Imagem: Golbez · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Agora com voz distorcida. Ri, cantarola, faz piadas sem sentido, ataca um apresentador. Por noventa segundos, ninguém consegue tirar ele do ar.",
+   "visual": {
+    "tipo": "crt",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\20_reconstituicao_mascara.jpg"
+   },
+   "selo": "RECONSTITUIÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.6,
+   "credito": "Reconstituição ilustrada: nenhuma imagem da transmissão de 1987 foi usada"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A cena termina de um jeito tão bizarro que a emissora nunca a reprisou. E a tela volta ao normal como se nada tivesse acontecido.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\01_john_hancock_center_june_6_08_sunlight_j.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8,
+   "credito": "Imagem: Golbez · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A comissão de comunicações dos Estados Unidos investiga. Era preciso equipamento e conhecimento técnico. Ninguém foi identificado.",
+   "visual": {
+    "mov": "out",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T14\\10_john_hancock_center_july_2017_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: TheFrog001 · CC0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Suspeitos foram apontados na internet ao longo dos anos. Nenhum foi confirmado.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "QUEM ERA?"
+    ]
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Nunca acharam o homem da máscara, criancinhas. Nem o equipamento, nem o motivo. Quem tinha poder para invadir duas emissoras na mesma noite... e sumir sem deixar rastro?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "QUEM TINHA ESSE PODER?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "A noite em que um mascarado invadiu a TV de Chicago",
+  "fontes_texto": "Fontes: Comissão Federal de Comunicações dos EUA (FCC), investigação de 1987; Chicago Tribune (23/11/1987); registros da WGN-TV e da WTTW. Sem imagens da transmissão: cena reconstituída. Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "22 de novembro de 1987, Chicago. Duas emissoras de TV têm o sinal sequestrado por um homem com máscara de borracha. A polícia e a FCC investigaram. Até hoje, ninguém sabe quem era. 📺\n\nDossiê 14 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #maxheadroom #misterio #tv #casosreais"
+ }
+}

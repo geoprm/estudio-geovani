@@ -1,0 +1,196 @@
+{
+ "id": "TOP-T12",
+ "num": 12,
+ "serie": "DOSSIÊ 12 · JOHN TITOR",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T12\\05_ibm_5100_mfk_bern_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "EU VENHO DE 2036",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Sandstein · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu abro a pasta de um viajante do tempo. Ou do maior mentiroso que a internet já teve.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Novembro de 2000. Num fórum da internet, alguém começa a escrever. Diz que é um soldado americano. E que vem do ano de 2036.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "NOVEMBRO DE 2000",
+     "\"VENHO DE 2036\""
+    ],
+    "papel": true
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A missão dele: voltar a 1975 e buscar um computador antigo, o IBM 5100.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T12\\05_ibm_5100_mfk_bern_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: Sandstein · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele explicou que a máquina tinha uma função escondida, que quase ninguém conhecia. E um engenheiro da IBM confirmou depois: a função existia.",
+   "visual": {
+    "mov": "pan",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T12\\05_ibm_5100_mfk_bern_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: Sandstein · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele respondia perguntas, desenhava a máquina do tempo, mostrava fotos. E fazia previsões.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "DESENHOS",
+     "FOTOS",
+     "PREVISÕES"
+    ]
+   },
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Uma guerra civil nos Estados Unidos começando por volta de 2004. Uma guerra nuclear em 2015, com bilhões de mortos.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "2004: GUERRA CIVIL",
+     "2015: GUERRA NUCLEAR"
+    ]
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 4.0,
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em março de 2001, ele se despediu. E sumiu.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T12\\05_ibm_5100_mfk_bern_jpg.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.0,
+   "credito": "Imagem: Sandstein · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "2004 passou. 2015 passou. Nenhuma das duas guerras aconteceu.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "2004: NÃO",
+     "2015: NÃO"
+    ]
+   },
+   "carimbo": "FALSO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os fãs respondem: a simples presença dele teria mudado a nossa linha do tempo. Uma desculpa que nenhum fato pode derrubar.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T12\\05_ibm_5100_mfk_bern_jpg.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5,
+   "credito": "Imagem: Sandstein · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Quem escreveu aquilo nunca foi identificado com certeza.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "QUEM ESCREVEU?"
+    ],
+    "papel": true
+   },
+   "pausa": 0.5
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      1
+     ],
+     [
+      "FALSO",
+      1
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele errou as datas, criancinhas... ou foi a nossa linha do tempo que mudou depois que ele passou por aqui? Faltam dez anos para 2036.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "FALTAM 10 ANOS PARA 2036",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "Em 2000, um homem disse que veio de 2036",
+  "fontes_texto": "Fontes: publicações de 'TimeTravel_0' e 'John Titor' em fóruns (novembro de 2000 a março de 2001), compiladas em John Titor: A Time Traveler's Tale (2003); IBM 5100 (1975). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Novembro de 2000. Um homem entra num fórum e diz que é um soldado de 2036. Veio buscar um computador de 1975. E deixou previsões com data marcada. O arquivo conferiu cada uma. ⏳\n\nDossiê 12 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #johntitor #viagemnotempo #misterio #internet"
+ }
+}

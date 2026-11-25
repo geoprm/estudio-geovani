@@ -1,0 +1,244 @@
+{
+ "id": "OAR-E01",
+ "num": 1,
+ "serie": "O ARQUIVO RESPONDE · FITA 01",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": "fita",
+   "fala": "Ele chamava a si mesmo de A Besta. E esta fita diz que ele seria avô de um presidente americano.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 104
+   },
+   "selo": "ALEGAÇÃO",
+   "credito": "Trecho: A Chegada, parte 1 · Spirit TV Online, 2009",
+   "tela": "AVÔ DE UM PRESIDENTE?",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje vou te contar a história do homem mais maligno do mundo.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "tela": "O HOMEM MAIS MALIGNO DO MUNDO",
+   "sfx": [
+    "batida"
+   ],
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Aleister Crowley. Em 1898, ele entra numa ordem ocultista de Londres.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_wickedest_1913.jpg",
+    "mov": "in"
+   },
+   "credito": "Aleister Crowley, 1913 · domínio público",
+   "pausa": 0.2
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1904, diz que uma voz invisível ditou um livro para ele, no Cairo.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/liber_al.png",
+    "mov": "out"
+   },
+   "credito": "Liber AL vel Legis, ditado em abril de 1904 · domínio público",
+   "pausa": 0.2
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1912, passa a comandar na Inglaterra uma ordem chamada O.T.O.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_baphomet_1919.jpg",
+    "mov": "in"
+   },
+   "credito": "Crowley como Baphomet, grau X da O.T.O., 1919 · domínio público",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.75
+  },
+  {
+   "voz": "fita",
+   "fala": "A O.T.O. seria descendente direta dos Illuminati.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 247
+   },
+   "selo": "ALEGAÇÃO",
+   "credito": "Trecho: A Chegada, parte 1 · Spirit TV Online, 2009",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os Illuminati da Baviera foram proibidos em 1785. A O.T.O. surgiu mais de um século depois. A linha entre os dois, ninguém mostrou.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "ILLUMINATI: PROIBIDOS EM 1785",
+     "O.T.O.: MAIS DE UM SÉCULO DEPOIS"
+    ],
+    "papel": true
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.75
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas ele escreveu, com todas as letras: o diabo é a serpente, Satã. Ele é vida. Ele é amor.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/baphomet_levi_1856.jpg",
+    "mov": "in"
+   },
+   "credito": "Baphomet, Éliphas Lévi, 1856 · citação: Crowley, Magick in Theory and Practice, 1929",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.75
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Para os seguidores dele, é um símbolo. Para a fita, é uma confissão.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/tarot_diabo_1910.png",
+    "mov": "out"
+   },
+   "credito": "O Diabo, tarô Rider-Waite, 1910 · domínio público",
+   "carimbo": "INTERPRETAÇÃO",
+   "pausa": 0.75
+  },
+  {
+   "voz": "fita",
+   "fala": "E George Washington, sentado na mesma pose do bode.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 217
+   },
+   "selo": "ALEGAÇÃO",
+   "credito": "Trecho: A Chegada, parte 1 · Spirit TV Online, 2009",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A estátua é de 1840. O escultor copiou outra figura: o Zeus de Olímpia, a maior estátua da Grécia antiga.",
+   "visual": {
+    "tipo": "par",
+    "a": "../../acervo_privado/oar_e01/washington_greenough.jpg",
+    "b": "../../acervo_privado/oar_e01/zeus_olimpico_1814.jpg",
+    "rot_a": "WASHINGTON · GREENOUGH, 1840",
+    "rot_b": "ZEUS DE OLÍMPIA · GRAVURA DE 1814",
+    "corte": 0.33
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.75
+  },
+  {
+   "voz": "fita",
+   "fala": "Paris, 1924. Uma americana visita Crowley. Oito meses depois, nasce Barbara, a mãe de George W. Bush.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 653
+   },
+   "selo": "ALEGAÇÃO",
+   "credito": "Trecho: A Chegada · Spirit TV Online, 2009",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Essa história tem certidão de nascimento.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/barbara_bush_1992.jpg",
+    "mov": "in"
+   },
+   "credito": "Barbara Bush, retrato oficial, 1992 · domínio público",
+   "pausa": 0.25
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Um post de blog, publicado no primeiro de abril de 2006. Dia da mentira.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/cannonfire_2006-04-01.png",
+    "mov": "in"
+   },
+   "credito": "Blog Cannonfire, 01/04/2006 · captura para crítica",
+   "tela": "1º DE ABRIL DE 2006",
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A fita é de 2009. Ela repetiu a pegadinha como se fosse pista. Em 2021, o autor confessou ao USA Today.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "A FITA É DE 2009"
+    ],
+    "sub": "O boato nasceu três anos antes, como pegadinha de 1º de abril.",
+    "papel": true
+   },
+   "credito": "Checagem: USA TODAY, 28/02/2021",
+   "carimbo": "FALSO",
+   "pausa": 0.75
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Placar da fita um: três documentados, dois sem prova, uma interpretação, um falso.",
+   "visual": {
+    "tipo": "placar",
+    "titulo": "PLACAR DA FITA 01",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      3
+     ],
+     [
+      "SEM PROVA",
+      2
+     ],
+     [
+      "INTERPRETAÇÃO",
+      1
+     ],
+     [
+      "FALSO",
+      1
+     ]
+    ]
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A fita dois entra num filme de 1939. E no que existe por trás do arco-íris.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "QUE CARIMBO VOCÊ DARIA?",
+   "pausa": 1.2
+  }
+ ]
+}

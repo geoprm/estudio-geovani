@@ -1,4 +1,4 @@
-"""Encaixa a abertura do Arquivista em um corte privado já aprovado pelo QA."""
+"""Encaixa a abertura do Arquivista em um corte já aprovado pelo QA."""
 import argparse
 import hashlib
 import json
@@ -74,9 +74,11 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
              "zoompan=z='1.035+min(0.045,on*0.00024)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1080x1920:fps=30,"
              "eq=brightness=-0.035:saturation=0.82,ass=abertura.ass")
     filtro_voz = narrador.filtro_ffmpeg('1:a') + ';[v]loudnorm=I=-16:TP=-1.5[o]'
-    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-loop', '1', '-framerate', '30', '-i', str(personagem),
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-filter_complex_threads', '1', '-filter_threads', '1',
+                    '-loop', '1', '-framerate', '30', '-i', str(personagem),
                     '-i', 'fala.wav', '-filter_complex', filtro_voz, '-map', '0:v:0', '-map', '[o]', '-vf', video,
-                    '-t', f'{quadros / FPS:.9f}', '-c:v', 'libx264', '-preset', 'fast', '-crf', '24', '-pix_fmt', 'yuv420p',
+                    '-t', f'{quadros / FPS:.9f}', '-c:v', 'libx264', '-threads', '2',
+                    '-preset', 'fast', '-crf', '24', '-pix_fmt', 'yuv420p',
                     '-video_track_timescale', '15360', '-c:a', 'aac', '-b:a', '160k', '-ar', '48000', '-ac', '2',
                     'abertura.mp4'], cwd=pasta, check=True)
     return pista, quadros
@@ -95,12 +97,24 @@ def main():
     if not gancho.startswith('Hoje') or any(c in gancho for c in '\\{}\r\n'):
         parser.error('o gancho deve ser uma frase simples iniciada por Hoje')
     qa = json.loads((corte / 'qa.json').read_text(encoding='utf-8'))
-    if qa['status'] not in ('pass', 'pass_with_warnings') or qa['modo'] != 'private_preview' or corte == saida:
-        parser.error('use uma prévia privada aprovada e uma pasta de saída diferente')
+    modo = qa['modo']
+    if qa['status'] not in ('pass', 'pass_with_warnings') or modo not in ('private_preview', 'public_release') or corte == saida:
+        parser.error('use um corte aprovado pelo QA e uma pasta de saída diferente')
+    if modo == 'public_release' and qa.get('publicavel') is not True:
+        parser.error('o corte público precisa ter o filtro de direitos e o QA aprovados')
     timeline = json.loads((corte / 'timeline.json').read_text(encoding='utf-8'))
     digest = hashlib.sha256((corte / 'video_app.mp4').read_bytes()).hexdigest()
-    if timeline['episode_id'] != manifesto['episode_id'] or digest != qa['arquivos']['video_app.mp4']['sha256']:
+    if timeline['episode_id'] != manifesto['episode_id'] or timeline.get('modo') != modo or digest != qa['arquivos']['video_app.mp4']['sha256']:
         parser.error('o vídeo precisa corresponder ao episódio e ao arquivo conferido pelo QA')
+    if modo == 'public_release':
+        fonte = corte / 'sources.json'
+        registro = json.loads(fonte.read_text(encoding='utf-8'))
+        hash_fonte = hashlib.sha256(fonte.read_bytes()).hexdigest()
+        if (hash_fonte != qa['arquivos']['sources.json']['sha256']
+                or registro.get('modo') != modo
+                or not all(perfil.gate_direitos(a['rights_status'], modo) for a in registro['assets'])
+                or any(p.get('privado') for p in timeline['planos'])):
+            parser.error('o corte público precisa conservar as fontes, os direitos e os planos conferidos pelo QA')
     lock = perfil.carregar_lock()
     personagem = Path(perfil.RAIZ) / lock['character']['reference_image']
     saida.mkdir(parents=True, exist_ok=True)
@@ -115,9 +129,11 @@ def main():
                        cwd=pasta, check=True)
         (pasta / 'subtitles.srt').write_text(
             legendas(corte / 'subtitles.srt', pista, round(quadros / FPS * 1000)), encoding='utf-8')
-        entrega = {'episode_id': manifesto['episode_id'], 'modo': 'private_preview',
+        entrega = {'episode_id': manifesto['episode_id'], 'modo': modo,
                    'abertura_s': quadros / FPS, 'frases': [FRASE, gancho],
                    'voice_id': lock['voice']['voice_id'], 'decodificado': True,
+                   'base_video_sha256': digest, 'base_qa_status': qa['status'],
+                   'publicavel': modo == 'public_release' and qa.get('publicavel') is True,
                    'sha256': hashlib.sha256((pasta / 'video_app.mp4').read_bytes()).hexdigest()}
         (pasta / 'assinatura.json').write_text(json.dumps(entrega, ensure_ascii=False, indent=2), encoding='utf-8')
         for nome in ('video_app.mp4', 'subtitles.srt', 'assinatura.json'):

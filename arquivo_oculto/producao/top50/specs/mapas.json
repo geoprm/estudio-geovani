@@ -1,0 +1,1246 @@
+{
+ "T05": {
+  "0": {
+   "img": "01"
+  },
+  "2": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "3": {
+   "img": "10",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "img": "01"
+  },
+  "5": {
+   "img": "10",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "8": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "MÍSSIL?",
+     "YETI?",
+     "ALIENÍGENAS?"
+    ]
+   }
+  },
+  "9": {
+   "img": "10",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "10": {
+   "img": "03"
+  }
+ },
+ "T06": {
+  "0": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "2": {
+   "img": "10",
+   "selo": "ILUSTRAÇÃO",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "6": {
+   "img": "07",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   },
+   "tela": "DIREÇÃO: SAGITÁRIO"
+  },
+  "7": {
+   "img": "02",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   },
+   "tela": "72 SEGUNDOS"
+  },
+  "9": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "10": {
+   "img": "07",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "11": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "BIG EAR",
+     "DEMOLIDO EM 1998"
+    ],
+    "papel": true
+   }
+  }
+ },
+ "T07": {
+  "0": {
+   "img": "05"
+  },
+  "2": {
+   "img": "02",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "remover": [
+    "img",
+    "tela"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "WADI AL-JARF, 2013",
+     "OS PAPIROS MAIS ANTIGOS"
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: Pierre Tallet, missão de Wadi al-Jarf (2013)"
+  },
+  "4": {
+   "img": "05",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "5": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "8": {
+   "img": "07",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  }
+ },
+ "T04": {
+  "0": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "2": {
+   "img": "13",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "preto"
+   },
+   "tela": "ETIQUETAS ARRANCADAS"
+  },
+  "4": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "11",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "12",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "8": {
+   "img": "14",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "9": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "CARL WEBB",
+     "1905 – 1948"
+    ],
+    "papel": true
+   }
+  },
+  "11": {
+   "img": "15",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  }
+ },
+ "T08": {
+  "0": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "crt",
+    "video": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T08\\gimbal_480p.webm",
+    "inicio": 10
+   },
+   "credito": "Vídeo: Marinha dos EUA, 2015 (divulgado em 27/04/2020) · domínio público · Wikimedia Commons"
+  },
+  "2": {
+   "img": "02",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "crt",
+    "video": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T08\\gofast_480p.webm",
+    "inicio": 4
+   },
+   "credito": "Vídeo: Marinha dos EUA, 2015 (divulgado em 27/04/2020) · domínio público · Wikimedia Commons"
+  },
+  "4": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "crt",
+    "video": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T08\\gimbal_480p.webm",
+    "inicio": 18
+   }
+  },
+  "5": {
+   "img": "07",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "8": {
+   "img": "08",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "Eles admitiram que não sabem o que é, criancinhas. E quem diz que não sabe... às vezes sabe demais. O que mais estará guardado nessas gavetas?",
+   "tela": "O QUE AINDA ESTÁ NA GAVETA?"
+  }
+ },
+ "T10": {
+  "0": {
+   "img": "02",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "2": {
+   "img": "03",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "3": {
+   "img": "02",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan"
+   }
+  },
+  "4": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "06",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "8": {
+   "img": "03",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "9": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "-1": {
+   "fala": "A mentira foi confessada há mais de cem anos, criancinhas. E mesmo assim continua viva, passando de mão em mão. Por que algumas histórias se recusam a morrer?",
+   "tela": "POR QUE ELA NÃO MORRE?"
+  }
+ },
+ "T09": {
+  "0": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "2": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "12 DE SETEMBRO",
+     "DE 1826"
+    ],
+    "papel": true
+   }
+  },
+  "5": {
+   "img": "12",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "11",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "8": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "PARTIDO",
+     "ANTIMAÇÔNICO",
+     "1828"
+    ]
+   }
+  },
+  "9": {
+   "img": "12",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "O livro foi publicado. O homem, nunca mais visto. E se o segredo verdadeiro não estava no livro, criancinhas... e sim no que ele não chegou a contar?",
+   "tela": "O QUE ELE NÃO CONTOU?"
+  }
+ },
+ "T11": {
+  "0": {
+   "img": "01"
+  },
+  "2": {
+   "img": "01"
+  },
+  "3": {
+   "img": "05"
+  },
+  "4": {
+   "img": "01",
+   "visual": {
+    "mov": "out"
+   }
+  },
+  "6": {
+   "img": "01",
+   "visual": {
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "05"
+  },
+  "9": {
+   "img": "02",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "10": {
+   "img": "07",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "-1": {
+   "fala": "Eles tinham tudo, criancinhas, e pararam de viver. Agora olhe à sua volta: comida fácil, tela infinita, ninguém precisando de ninguém. Calhoun dizia que valia para nós também. E se ele estava certo?",
+   "tela": "E SE ELE ESTAVA CERTO?"
+  }
+ },
+ "T12": {
+  "0": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "3": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan"
+   }
+  },
+  "5": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "DESENHOS",
+     "FOTOS",
+     "PREVISÕES"
+    ]
+   }
+  },
+  "9": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "preto"
+   }
+  },
+  "10": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "QUEM ESCREVEU?"
+    ],
+    "papel": true
+   }
+  },
+  "-1": {
+   "fala": "Ele errou as datas, criancinhas... ou foi a nossa linha do tempo que mudou depois que ele passou por aqui? Faltam dez anos para 2036.",
+   "tela": "FALTAM 10 ANOS PARA 2036"
+  }
+ },
+ "T15": {
+  "0": {
+   "img": "09",
+   "selo": "ILUSTRAÇÃO"
+  },
+  "2": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "GUERRA FRIA",
+     "PODERES PSÍQUICOS?"
+    ]
+   }
+  },
+  "3": {
+   "img": "03",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "img": "07",
+   "selo": "ILUSTRAÇÃO",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "10",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "1995",
+     "NENHUMA INFORMAÇÃO ÚTIL"
+    ],
+    "papel": true
+   }
+  },
+  "8": {
+   "img": "10",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "O programa acabou em 1995, dizem os papéis. Mas os papéis são deles, criancinhas. E quantos outros programas assim continuam fechados até hoje?",
+   "tela": "QUANTOS AINDA ESTÃO FECHADOS?"
+  }
+ },
+ "T13": {
+  "2": {
+   "img": "09",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "4": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "09",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "7": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "-1": {
+   "fala": "O símbolo ficou sessenta anos escondido no barro, criancinhas. Quantas outras fazendas ainda guardam o mesmo símbolo... e o mesmo silêncio?",
+   "tela": "QUANTAS AINDA ESCONDEM?"
+  }
+ },
+ "T14": {
+  "0": {
+   "img": "20",
+   "credito": "Reconstituição ilustrada: nenhuma imagem da transmissão de 1987 foi usada"
+  },
+  "2": {
+   "img": "09",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "img": "20",
+   "credito": "Reconstituição ilustrada: nenhuma imagem da transmissão de 1987 foi usada"
+  },
+  "5": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "20",
+   "credito": "Reconstituição ilustrada: nenhuma imagem da transmissão de 1987 foi usada"
+  },
+  "8": {
+   "img": "10",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "Nunca acharam o homem da máscara, criancinhas. Nem o equipamento, nem o motivo. Quem tinha poder para invadir duas emissoras na mesma noite... e sumir sem deixar rastro?",
+   "tela": "QUEM TINHA ESSE PODER?"
+  }
+ },
+ "T16": {
+  "0": {
+   "img": "04"
+  },
+  "3": {
+   "img": "04"
+  },
+  "4": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "03",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "remover": [
+    "img",
+    "tela"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "LIBER PRIMUS",
+     "UM LIVRO EM RUNAS"
+    ],
+    "papel": true
+   }
+  },
+  "9": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "10": {
+   "img": "04"
+  },
+  "-1": {
+   "fala": "Ninguém sabe quem estava por trás, criancinhas. E quem chegou ao fim nunca contou tudo. Se você decifrar uma página do livro de runas... talvez alguém já esteja te observando.",
+   "tela": "ALGUÉM ESTÁ OBSERVANDO"
+  }
+ },
+ "T17": {
+  "0": {
+   "img": "08"
+  },
+  "2": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "3": {
+   "img": "08",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "03",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "8": {
+   "img": "08",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "9": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "A Aeronáutica registrou, fotografou e guardou, criancinhas. Depois, silêncio por trinta anos. Por que esconder por tanto tempo algo que não era nada?",
+   "tela": "POR QUE ESCONDER?"
+  }
+ },
+ "T18": {
+  "0": {
+   "img": "01"
+  },
+  "2": {
+   "img": "01"
+  },
+  "3": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "7": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "25 DE JULHO",
+     "DE 1972"
+    ],
+    "papel": true
+   }
+  },
+  "8": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "9": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "16 DE MAIO DE 1997",
+     "PEDIDO DE DESCULPAS"
+    ]
+   }
+  },
+  "-1": {
+   "fala": "Foram quarenta anos com carimbo do governo, criancinhas. E só soubemos porque um funcionário falou. Quantos outros estudos ainda esperam o seu funcionário?",
+   "tela": "QUANTOS AINDA SÃO SEGREDO?"
+  }
+ },
+ "T19": {
+  "0": {
+   "img": "07",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "2": {
+   "img": "06",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "3": {
+   "img": "08",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "img": "10",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "09",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "8": {
+   "img": "07",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "9": {
+   "img": "06",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "Seiscentos anos, e ninguém leu uma única frase, criancinhas. E se este livro nunca foi escrito para nós?",
+   "tela": "ESCRITO PARA QUEM?"
+  }
+ },
+ "T20": {
+  "0": {
+   "img": "10"
+  },
+  "2": {
+   "img": "08",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "img": "05",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "img": "09",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "03",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "8": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "9": {
+   "img": "10",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "Os médicos disseram doença. Os padres disseram demônio. O tribunal escolheu um lado. Mas as fitas das sessões ainda existem, criancinhas. E quem as ouve... não dorme igual.",
+   "tela": "AS FITAS AINDA EXISTEM"
+  }
+ },
+ "T21": {
+  "0": {
+   "img": "01"
+  },
+  "2": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "img": "03",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "4": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "J. ALLEN HYNEK",
+     "ASTRÔNOMO CÉTICO"
+    ]
+   }
+  },
+  "5": {
+   "img": "10",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "\"CONTATOS",
+     "IMEDIATOS\""
+    ],
+    "papel": true
+   }
+  },
+  "8": {
+   "img": "03",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "Setecentos e um casos sem explicação, criancinhas. E a resposta oficial foi fechar a pasta. Quem fecha uma pasta às pressas... quando não há nada dentro?",
+   "tela": "701 SEM RESPOSTA"
+  }
+ },
+ "T22": {
+  "0": {
+   "img": "12",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   },
+   "tela": "UMA MENSAGEM EM SÍMBOLOS"
+  },
+  "2": {
+   "img": "12",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "13",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "FBI CONFIRMA",
+     "11/12/2020"
+    ],
+    "papel": true
+   }
+  },
+  "7": {
+   "img": "12"
+  },
+  "8": {
+   "img": "12",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "9": {
+   "img": "01",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "10": {
+   "img": "11",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   },
+   "tela": "Z13: \"MEU NOME É...\""
+  },
+  "-1": {
+   "fala": "Treze símbolos, criancinhas. Talvez o nome dele esteja ali, esperando há mais de cinquenta anos. Esperando alguém como você.",
+   "tela": "O NOME PODE ESTAR NOS 13"
+  }
+ },
+ "T23": {
+  "0": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "2": {
+   "img": "04",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "img": "03",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "5": {
+   "img": "01",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "6": {
+   "img": "05",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "WOLFGANG GERHARD"
+    ],
+    "sub": "o nome na lápide",
+    "papel": true
+   }
+  },
+  "8": {
+   "remover": [
+    "img"
+   ],
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "JUNHO DE 1985",
+     "EXUMAÇÃO EM EMBU"
+    ],
+    "papel": true
+   }
+  },
+  "-1": {
+   "fala": "Ele passou dezenove anos entre nós com o nome de outro homem, criancinhas. Quem o ajudou a se esconder tanto tempo? Essa lista nunca saiu completa.",
+   "tela": "QUEM O ESCONDEU?"
+  }
+ },
+ "T24": {
+  "0": {
+   "img": "08"
+  },
+  "2": {
+   "img": "06",
+   "visual": {
+    "modo": "cover",
+    "mov": "pan"
+   }
+  },
+  "3": {
+   "img": "07",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "03",
+   "visual": {
+    "modo": "cover",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "08",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "9": {
+   "img": "03",
+   "visual": {
+    "modo": "cover",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "Disseram que foi descuido, criancinhas. Um aparelho esquecido num prédio vazio. Mas por que ninguém voltou para buscar uma fonte radioativa durante tanto tempo?",
+   "tela": "POR QUE NINGUÉM VOLTOU?"
+  }
+ },
+ "T25": {
+  "2": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "3": {
+   "img": "09",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "6": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  },
+  "7": {
+   "img": "04",
+   "visual": {
+    "modo": "contain",
+    "mov": "out"
+   }
+  },
+  "-1": {
+   "fala": "O papel ficou quarenta e quatro anos numa gaveta, criancinhas. E essa foi só uma gaveta. Quantas outras ainda estão trancadas?",
+   "tela": "QUANTAS AINDA ESTÃO TRANCADAS?"
+  }
+ },
+ "T02": {
+  "9": {
+   "img": "05",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   }
+  }
+ }
+}

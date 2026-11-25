@@ -1,10 +1,27 @@
 # PROJECT_STATUS — Estúdio Audiovisual GM
 
-Atualizado em 10/11/2026. Estados: **verified** (com evidência), **partial**, **blocked**.
+Atualizado em 18/11/2026. Estados: **verified** (com evidência), **partial**, **blocked**.
+
+## Linha Dossiê, primeiro longo e publicação (18/11/2026)
+
+- **Pronto (verified):**
+  - 25 Dossiês v2, T01 a T25, em `arquivo_oculto/saida_v2/top25/`, com o Arquivista em atuação 2,5D. Os finais abertos valem do T12 em diante.
+  - O longo OAR-L01, 16:9, 6 min 30 s, em `saida_v2/longos/OAR-L01/`.
+- **TikTok, via Metricool:**
+  - T01–T06 publicados.
+  - T07 e T08 recusados em 17/11 por limite da conta Metricool.
+  - T09–T25 agendados (PENDING), mas devem falhar pelo mesmo limite (**blocked**: decisão do Geovani).
+- **YouTube, via Studio:**
+  - Shorts T01, T02 e T08 publicados.
+  - Programados e conferidos: T09, T03 e T10 (18/11) e T11, T04 e T12 (19/11).
+  - O longo OAR-L01 está programado para 18/11 às 20:00.
+  - Faltam 16 Shorts (T13, T05, T14, T15, T06, T16, T17, T07, T18–T25), parados pelo limite diário de envios do canal (cerca de 10 por dia; a verificação por telefone, que só o Geovani faz, aumenta esse teto).
+- **Registros:** `producao/top50/PUBLICACAO_TOP25.json` e `producao/PUBLICACAO_YOUTUBE_SHORTS.json`.
+- **Próximos vídeos:** saem pela Central, com tom "cabuloso" (D-116). A Central roda os pilotos com o `reel_leve` deste motor.
 
 ## O Índice Cego
 
-*O Quadro 33* tem corte narrativo de 78,62 s, com assinatura gravada e áudio e vídeo decodificados por inteiro. A prévia privada está em `arquivo_oculto/saida_v2/AO-IC-E01_private_preview_assinatura/video_app.mp4`. O [caderno da série](arquivo_oculto/producao/microdramas/O_INDICE_CEGO.md) aponta para o EP02, em pré-produção. O primeiro corte de 50,17 s está preservado em `arquivo_oculto/saida_v2/AO-IC-E01_private_preview_final/`.
+*O Quadro 33* (78,62 s), *A Voz Atrás do Ombro* (64,17 s) e *O Número na Margem* (49,10 s) estão disponíveis na [sala de projeção local](http://127.0.0.1:43127/editorial/sessoes). Os três MP4 foram decodificados integralmente. O [caderno da série](arquivo_oculto/producao/microdramas/O_INDICE_CEGO.md) aponta para *As Sete Portas* e para os dois roteiros longos de YouTube, que aguardam gravação. O primeiro corte de 50,17 s está preservado em `arquivo_oculto/saida_v2/AO-IC-E01_private_preview_final/`.
 
 ## Direção editorial V3
 
@@ -41,9 +58,19 @@ Atualizado em 10/11/2026. Estados: **verified** (com evidência), **partial**, *
 | EP06 | Operação Northwoods | 95,6 s | `pass_with_warnings` (só duração) | sim, versão única | Memorando de 1962, cinejornal de 1962 e reconstituição de época; os 4 grupos de imagem |
 | EP07–EP10 | rascunhos V2 | — | — | não | `rascunho_pendente_checagem`: a fábrica recusa renderizar |
 
+## Publicação (Claude Code, 11/11/2026)
+
+- **TikTok @oarquivista.oculto** (Metricool, marca 6361339, publicação automática):
+  - temporada V2 de 11/11 a 14/11, mais *Arquivo Morto* 01 e *O Arquivo Responde* 01;
+  - o EP01 já está no ar.
+- **Top 25 "Dossiê"** (`arquivo_oculto/producao/top50/`): 25 roteiros prontos, T01 e T02 agendados para 14/11,
+  o restante em renderização na fila. Grade: 10:30 e 18:30, até 26/11.
+- **YouTube** (canal O Arquivista Oculto): 10 Shorts agendados pelo Studio. O limite diário de envios bloqueou os outros 4.
+  Para destravar Shorts, vídeos longos e miniaturas, o Geovani precisa fazer a verificação do canal por telefone.
+
 ## Em andamento / pendente
 
-1. **Revisão humana antes de qualquer post.** Nenhum vídeo foi publicado. A versão "Prévia privada" nunca pode ir para a rede.
+1. **Publicação autorizada pelo Geovani em 11/11** (TikTok e YouTube, ver acima). A versão "Prévia privada" continua fora da rede.
 2. **Direitos** — a arte oficial de Steve Jackson Games (cartas) e o trecho literal da editora só entram na prévia privada. Liberar a versão pública com eles exige licença ou parecer.
 3. **Rotina "Editor do Estúdio"** — continua na fábrica V1 para pedidos novos do perfil Arquivo. Trocar para a V2 exige alterar a tarefa agendada e o ambiente da nuvem (Kokoro, PyMuPDF, acervo): **aguarda autorização**. Texto pronto em `docs/v2/PLANO_INTEGRACAO_APP_V2.md`.
 4. **EP07–EP10** — roteiro V3 de 85 s planejados e fontes de base registradas. O manifesto técnico, a verificação por asset e o render seguem pendentes.

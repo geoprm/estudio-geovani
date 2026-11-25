@@ -1,0 +1,178 @@
+{
+ "id": "TOP-T15",
+ "num": 15,
+ "serie": "DOSSIÊ 15 · PROJETO STARGATE",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T15\\09_iss040e091213_jpeg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "ESPIÕES COM A MENTE",
+   "sfx": [
+    "batida"
+   ],
+   "selo": "ILUSTRAÇÃO",
+   "credito": "Imagem: Earth Science and Remote Sensing Unit, Lyndon B. · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje o arquivo traz documentos de um programa em que o governo americano treinava pessoas para espionar com a mente.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Início dos anos 1970, Guerra Fria. Corre a notícia de que os soviéticos estudam poderes paranormais. Os americanos não querem ficar para trás.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "GUERRA FRIA",
+     "PODERES PSÍQUICOS?"
+    ]
+   },
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1972, a CIA financia testes num instituto da Califórnia. A ideia tem nome técnico: visão remota.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T15\\03_sri_international_hq_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "1972: VISÃO REMOTA",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: Coolcaesar at English Wikipedia · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Funcionava assim: um vidente recebia só um código. E tentava desenhar o lugar que aquele código escondia. Uma base. Um navio. Um refém.",
+   "visual": {
+    "modo": "cover",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T15\\07_iss040e104932_jpeg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "selo": "ILUSTRAÇÃO",
+   "credito": "Imagem: Earth Science and Remote Sensing Unit, Lyndon B. · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O programa trocou de nome várias vezes. Passou pelo Exército, pela agência de inteligência militar. O último nome foi Stargate.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T15\\10_fort_meade_maryland_14496857244_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Ken Lund from Reno, Nevada, USA · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Vinte milhões de dólares. Mais de vinte anos. Uma sala numa base em Maryland.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "US$ 20 MILHÕES",
+     "MAIS DE 20 ANOS"
+    ]
+   },
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1995, a CIA encomenda uma avaliação independente. A conclusão: nenhuma informação útil para uma operação real.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "1995",
+     "NENHUMA INFORMAÇÃO ÚTIL"
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: American Institutes for Research, 29/09/1995",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O programa foi encerrado no mesmo ano. E os papéis, liberados. Em 2017, a CIA publicou milhões de páginas na internet.",
+   "visual": {
+    "modo": "cover",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T15\\10_fort_meade_maryland_14496857244_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Ken Lund from Reno, Nevada, USA · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os videntes acertaram alguma coisa? Há relatos de acertos. Mas nenhum resistiu a um teste controlado.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T15\\10_fort_meade_maryland_14496857244_jpg.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "SEM PROVA",
+   "pausa": 0.8,
+   "credito": "Imagem: Ken Lund from Reno, Nevada, USA · CC BY-SA 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O programa acabou em 1995, dizem os papéis. Mas os papéis são deles, criancinhas. E quantos outros programas assim continuam fechados até hoje?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "QUANTOS AINDA ESTÃO FECHADOS?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "A CIA pagou videntes por mais de 20 anos",
+  "fontes_texto": "Fontes: CIA, sala de leitura eletrônica (CREST), documentos do programa de visão remota liberados em 1995 e publicados on-line em 2017; American Institutes for Research, 'An Evaluation of Remote Viewing' (29/09/1995). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Durante mais de vinte anos, agências do governo americano pagaram pessoas para 'ver' bases inimigas com a mente. Os papéis foram liberados. E o resultado também. 👁️\n\nDossiê 15 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #stargate #cia #paranormal #misterio"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "titulo": "Ele ia revelar os segredos da Maçonaria. Sumiu.",
+ "serie": "DOSSIÊ 09 · WILLIAM MORGAN",
+ "fontes_texto": "Fontes: William Morgan, Illustrations of Masonry (1826); processos de sequestro no condado de Ontario, Nova York (1827–1831); história do Partido Antimaçônico (1828–1838). Imagens: Wikimedia Commons, domínio público.",
+ "legenda_tiktok": "1826. Um homem anuncia que vai publicar os rituais secretos da Maçonaria. Semanas depois, é tirado da cadeia à noite, posto numa carruagem, e nunca mais é visto. 🔺\n\nDossiê 09 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #maconaria #sociedadesecreta #misterio #historia",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "ELE IA CONTAR TUDO", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu conto a história do homem que prometeu revelar os segredos da Maçonaria. E desapareceu.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "1826. Batávia, Nova York. William Morgan anuncia um livro com os rituais secretos das lojas maçônicas.", "img": "02", "visual": {"modo": "contain", "mov": "in"}, "tela": "BATÁVIA, 1826", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Em setembro, ele é preso por uma dívida pequena. Na noite de doze de setembro, alguém paga a dívida e o tira da cadeia.", "img": "03", "visual": {"mov": "pan"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Testemunhas o ouvem gritar por socorro enquanto é empurrado para dentro de uma carruagem.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.6},
+  {"voz": "arquivista", "fala": "A carruagem segue até o Forte Niágara, na fronteira com o Canadá. E ali a história de William Morgan termina.", "img": "04", "visual": {"mov": "in"}, "sfx": ["batida"], "batida_em": 4.5, "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Alguns maçons foram condenados pelo sequestro. Penas leves. Nenhum corpo foi identificado com certeza.", "img": "05", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "E o livro? Saiu assim mesmo, naquele ano. Vendeu como nunca.", "img": "02", "visual": {"modo": "contain", "mov": "out"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "O caso enfureceu o país. Nasceu o Partido Antimaçônico, o primeiro terceiro partido dos Estados Unidos.", "img": "06", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Ele foi morto pela Maçonaria? É o que muitos acreditam. Mas o destino dele nunca foi provado.", "img": "01", "visual": {"modo": "contain", "mov": "out"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O segredo que ele queria contar está em qualquer biblioteca, criancinhas. O que aconteceu com ele... esse ninguém publicou.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "ONDE ESTÁ WILLIAM MORGAN?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

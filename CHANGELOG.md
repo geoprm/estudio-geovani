@@ -2,6 +2,109 @@
 
 Formato: data · o que mudou · arquivos · regressões e pendências. Sem commits locais: o estado de referência é `origin/main` = `53f5865`.
 
+## 2026-11-12 a 17 — Dossiês v2 com atuação, finais abertos, TikTok completo, Shorts e primeiro longo no YouTube (Claude Code)
+
+- **Arquivista em atuação.** Biblioteca de seis planos de 4 s em `v2/ator_biblioteca.py` (aparição, olhar para a câmera,
+  silêncio, debruçar, virar a cabeça, encerramento). O `reel_leve` monta os blocos de retrato com esses planos, em modo
+  `performance_2_5d`.
+- **Finais abertos (D-115).** `montar_roteiros.py` troca o título do placar por "O ARQUIVO CONTINUA ABERTO" e cobre as
+  telas pretas com a última imagem. Os T12–T25 trazem fala final de pulga atrás da orelha (`specs/mapas.json`, bloco "-1").
+- **Não refazer o pronto (D-116).** T01–T07 ficaram como estavam. O re-render de T08–T11 foi cancelado.
+- **Render.** T01–T25 v2 prontos em `saida_v2/top25/` (96–106 s cada). Novo motor 16:9 em `v2/reel_longo.py`
+  (1920×1080, crf 19): OAR-L01 com 390 s em `saida_v2/longos/OAR-L01/`.
+- **TikTok.** Os 25 Dossiês estão agendados no Metricool com a mídia v2, de 14/11 a 26/11, às 10:30 e às 18:30, com
+  rótulo de IA. Ids em `producao/top50/PUBLICACAO_TOP25.json`. Gerador de agendamento: `producao/top50/infos_metricool.py`.
+- **YouTube (Studio, pelo Chrome).**
+  - Automação na própria página: injeta o arquivo hospedado, preenche os campos, marca "não é para crianças" e "IA: sim",
+    e escolhe o dia no calendário.
+  - Ela só clica em "Programar" depois de conferir a data e a hora.
+  - O Short do T01 foi ao ar na hora em 12/11, por uma versão anterior do script, e ficou público.
+  - O longo OAR-L01 está programado para 18/11 às 20:00.
+  - Shorts programados e conferidos: T09, T03, T10, T11, T04 e T12. O T10 tinha ido para as 00:00 e foi corrigido para as 18:30.
+  - A hora agora é escolhida clicando na lista de horários: o texto digitado podia não gravar.
+  - Parado no limite diário de envios em 17/11. Faltam 16 Shorts.
+  - Ficou um rascunho quebrado do T04 (envio interrompido). Apagar só com o OK do Geovani.
+- **Metricool.** Em 17/11 a conta bateu o limite e recusou T07 e T08. Os demais seguem PENDING, em risco.
+- **Central.** Orientação do Geovani deixada na caixa de entrada
+  (`20261112-arquivo-decisao-do-geovani-nao-refazer-o-pronto`), validada.
+
+## 2026-11-11 — Top 50 do nicho, 25 versões do Arquivista e Shorts no YouTube (Claude Code)
+
+- **Levantamento.** yt-dlp em 20 consultas do nicho (800 resultados, só metadados), curadoria de 50 vídeos por views.
+  Fora da lista: música, conteúdo infantil, acusação a pessoa viva sem fonte e crime com vítima privada.
+  Resultado em `arquivo_oculto/producao/top50/TOP50_NICHO.json` e `PLANO_TOP25.md` (25 versões + 25 planejadas).
+- **Formato "Dossiê".** 25 roteiros em `producao/top50/specs/T01–T25.json`:
+  - abertura "Olá, criancinhas... Hoje";
+  - carimbo em cada alegação e placar final "O ARQUIVO JULGA";
+  - imagens reais do Wikimedia Commons, com crédito na tela (autor · licença), escolhidas na folha de contato.
+- **Ferramentas novas:**
+  - `producao/top50/montar_roteiros.py`: spec + `specs/mapas.json` viram o roteiro do `reel_leve`.
+  - `producao/top50/fila_render.sh`: renderiza uma versão por vez, por causa da memória.
+  - Busca no Commons: miniaturas em 1280 px; o tamanho 1600 px é estrangulado pelo servidor.
+- **T08** usa os vídeos Gimbal e GoFast da Marinha dos EUA (domínio público), só a imagem, no televisor.
+- **Publicado no TikTok** (Metricool, publicação automática, rótulo de IA): T01 em 14/11 10:30 e T02 em 14/11 18:30.
+  Grade das 25: duas por dia, 10:30 e 18:30, até 26/11. Registro em `producao/top50/PUBLICACAO_TOP25.json`.
+- **YouTube Shorts.** 10 dos 14 estão agendados pelo Studio, com IA declarada e não indicados para crianças.
+  - O canal atingiu o limite diário de envios: falta a verificação por telefone, que só o Geovani faz.
+  - E05, C05, E06 e C06 esperam 24 h ou a verificação. Registro em `producao/PUBLICACAO_YOUTUBE_SHORTS.json`.
+  - Um primeiro envio do E05 travou o Chrome e não virou rascunho.
+- **Observado.** O EP01 foi ao ar às 12:30 (77 views na primeira hora e meia), mas o Metricool seguia mostrando "Pending".
+- **Pendente.**
+  - Renderizar e agendar T03–T25.
+  - Vídeos longos no YouTube exigem o canal verificado (mais de 15 min, miniatura própria) e envio acima de 10 MB,
+    que a extensão do Chrome não aceita.
+
+## 2026-11-11 — Motor leve de reels e as duas séries novas do Claude (D-111)
+
+- **Motor.** `arquivo_oculto/v2/reel_leve.py` monta reels a partir de um roteiro JSON, um bloco por vez e só com ffmpeg:
+  - visuais: fotos com movimento, televisor de tubo com trechos creditados de *A Chegada*, par de imagens, cartelas,
+    placar e o retrato do Arquivista;
+  - carimbos DOCUMENTADO / SEM PROVA / INTERPRETAÇÃO / FALSO;
+  - vozes Kokoro (Arquivista do lock e "voz-da-fita", com pf_dora passada por filtro de TV velha);
+  - som: cama grave, chiado, batidas e silêncio;
+  - legendas no padrão V2 e volume em duas passadas para -15 LUFS;
+  - encode final com teto de 3,8 Mb/s.
+- **O Arquivo Responde · Fita 01 — O Homem Mais Maligno do Mundo.** 1:58, conferido contra a transcrição da Parte 1.
+  - Imagens originais em domínio público, mais a capa de *Sgt. Pepper's* e a captura do Cannonfire.
+  - Roteiro em `producao/o_arquivo_responde/OAR-E01.roteiro.json`; saída em `saida_v2/OAR-E01_reel/`.
+- **Arquivo Morto · Caso 01 — Carta Sem Remetente.** Terror rural, ficção declarada, 57 s.
+  - Adereços desenhados por `producao/arquivo_morto/AM-E01/aderecos.py`, com a fonte Homemade Apple (Apache 2.0).
+- **Agenda TikTok.** Caso 01 em 11/11 às 23:15; Fita 01 em 12/11 às 14:30. Registro em
+  `producao/PUBLICACAO_TIKTOK_CLAUDE.json`.
+- **Pendências.**
+  - O piloto passou dos 90 s, porque a voz do lock é lenta.
+  - O YouTube ainda não está ligado: falta o canal e a conexão no Metricool.
+  - O Chrome travou com a memória cheia durante a renderização.
+
+## 2026-11-11 — TikTok @oarquivista.oculto: temporada V2 agendada (Claude Code)
+
+- **Conta.** O TikTok antigo "Geo" (@geo58350, vazio, login por e-mail) virou **O Arquivista Oculto
+  (@oarquivista.oculto)**. Foto do Arquivista, bio, conexão com a Higgsfield. A conta de 166 seguidores da marca
+  Dr. Geovani ficou intocada.
+- **Abertura em todos.** Regra do Geovani: a primeira fala do Arquivista começa com "Olá, criancinhas..." e o
+  complemento, iniciado por "Hoje", muda a cada vídeo. Os seis episódios V2 receberam a abertura sem re-renderizar.
+  - A ferramenta nova `arquivo_oculto/v2/assinatura_publica.py` gera ~6 s com o retrato, o título dourado, a legenda e a
+    voz do lock, e emenda no corte público aprovado.
+  - A emenda decodifica sem erro, o áudio fica sincronizado e o volume bate: -15,3 LUFS na abertura, -15,4 no corpo.
+  - As saídas ficam em `saida_v2/AO-S01-E0N_public_release_assinatura_v2/`.
+- **Cortes.** Seis cortes de 37 a 48 s, um por episódio, recortados em frases completas e com a mesma abertura. As saídas
+  ficam em `saida_v2/AO-S01-E0N_corte_assinatura/`.
+- **Agenda.** Doze posts no Metricool, com publicação automática e rótulo de IA, entre 11 e 14/11, às 9:00, 12:30,
+  16:30 e 20:00. O registro está em `producao/v2/PUBLICACAO_TIKTOK_S01.json`. O EP03 e o corte dele foram liberados
+  pelo Geovani depois de assistir (11/11).
+- **Pendências e regressões.**
+  - A fábrica V2 completa falha por falta de RAM (OpenBLAS/numpy) com Codex, Chrome e Edge abertos.
+  - O manifesto variante `producao/v2/AO-S01-E01.v2.assinatura.json` ficou sem render.
+  - O lote de *O Índice Cego* do Codex segue só preparado, e os horários livres estão no handoff
+    `producao/HANDOFF_CLAUDE_TIKTOK_GRADE.md`.
+
+## 2026-11-10 — Dois novos episódios de O Índice Cego
+
+- *A Voz Atrás do Ombro* e *O Número na Margem* estão produzidos em 9:16, com abertura falada, legendas e artes de cena originais. Ambos passaram pelo QA com avisos de duração e composição visual.
+- A máscara reage discretamente à voz em planos marcados no manifesto. Identidade e voz do Arquivista continuam as do lock aprovado.
+- A sala de projeção local reúne os três cortes, com cartazes extraídos dos MP4 e acesso aos dois roteiros de gravação para YouTube.
+- As seis entregas V2 registradas pelo Claude Code continuam como uma temporada separada no app. Os novos cortes V3 ficam no estúdio local.
+
 ## 2026-11-10 — Temporada V2 completa no app (Claude Code)
 
 - **EP03 no app.** Subiram as duas versões, a pública e a prévia privada, com a capa. O pedido é `v2-ao-s01-e03`.

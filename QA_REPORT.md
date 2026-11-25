@@ -1,5 +1,35 @@
 # QA_REPORT — Arquivo Oculto
 
+## Dossiês T12–T25 v2 e longo OAR-L01 · 17/11/2026 (Claude Code)
+
+- **Folha de quadros T12–T25:** dois quadros por vídeo, a 35% e a 88% da duração. Verificado:
+  - créditos legíveis;
+  - placar "O ARQUIVO CONTINUA ABERTO" sem estourar a largura (896 px de 1080);
+  - Arquivista no plano final;
+  - nenhuma tela preta só com legenda.
+  Arquivo: `qa_T12_T25.jpg`, no scratchpad da sessão.
+- **Durações:** de 96 a 106 s, acima dos 60–75 s ideais (aviso já registrado).
+- **OAR-L01:** 1920×1080, 390 s, 287 MB. Os blocos 14 e 32 deixaram de ser tela preta (televisor com A Chegada sem áudio e
+  retrato de Crowley de 1913). O vídeo não foi assistido inteiro nesta sessão: a conferência foi técnica.
+
+## Top 25 "Dossiê" · T01 e T02 · 11/11/2026 (Claude Code)
+
+- **Motor:** `reel_leve`, 1080×1920, H.264/AAC, voz `arquivista-v2-c`, loudnorm de duas passagens.
+  - T01: 106,5 s, 43 MB.
+  - T02: 97,6 s.
+- **Folha de quadros conferida a olho:**
+  - cartela-gancho, abertura "Olá, criancinhas... Hoje" e retrato do Arquivista;
+  - créditos de imagem legíveis, carimbos no lugar certo e placar final.
+- **Fatos:** datas e números conferidos com as fontes da spec. O T02 corrige a tradução de *Novus Ordo Seclorum*
+  (carimbo FALSO), e a nota de 1928 sem pirâmide prova a data de 1935.
+- **Aviso:** a duração ficou acima dos 60–75 s ideais para retenção. Nas próximas, encurtar os blocos longos.
+
+## O Índice Cego · EP02 e EP03 · 10/11/2026
+
+- Vídeos em 1080 × 1920, H.264 e AAC, com duração real de 64,17 s e 49,10 s. A boca da máscara foi acionada pelo sinal da voz nas aberturas. Os três cortes, incluindo o EP01, passaram pela decodificação integral de áudio e vídeo.
+- O QA passou com avisos editoriais de duração abaixo de 90 s e quantidade de categorias de imagem. O EP03 tem 14,5% de planos documentais ou de arquivo, de acordo com a classificação da fábrica. O restante acompanha a ficção da lata, do corredor e das fotografias.
+- A reprodução dos três cortes foi comprovada em navegador desktop e com viewport móvel. [Hashes e streams](../evidence/v10-videos.json) · [Verificação do navegador](../evidence/v10-browser.json) · [Testes do estúdio](../evidence/v10-studio-tests.txt).
+
 ## O Quadro 33 · corte narrativo e assinatura · 10/11/2026
 
 - Prévia de 78,62 s em 1080 × 1920, com 7,47 s de assinatura e voz `arquivista-v2-c`. Conferidos áudio e vídeo por decodificação integral, hashes, 29 intervalos de legenda e sincronismo na emenda.

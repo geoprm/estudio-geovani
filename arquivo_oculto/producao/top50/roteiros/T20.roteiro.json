@@ -1,0 +1,182 @@
+{
+ "id": "TOP-T20",
+ "num": 20,
+ "serie": "DOSSIÊ 20 · KLINGENBERG, 1976",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\10_e_6_76_134_1_klingenberg_am_main_hauptst.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "67 SESSÕES",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Altstadtburg · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu conto o caso real por trás de um dos filmes de terror mais famosos. E ele é pior que o filme.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Baviera, Alemanha. Uma jovem estudante, de família muito religiosa, começa a ter convulsões aos dezesseis anos. Os médicos diagnosticam epilepsia.",
+   "visual": {
+    "mov": "pan",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\08_klingenberg_5_tif.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: chrisaliv · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os remédios não resolvem. Ela começa a ter visões, a ouvir vozes, a recusar objetos religiosos. A família se convence: não é doença. É o demônio.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\05_anneliese_michel_villa_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: David Pfister-Senz · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1975, o bispo de Würzburg autoriza um exorcismo. Dois padres assumem o caso.",
+   "visual": {
+    "modo": "cover",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\09_klingenberg_7_tif.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4,
+   "credito": "Imagem: chrisaliv · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em dez meses, sessenta e sete sessões. Muitas foram gravadas em fita. Gritos. Vozes graves. Nomes de demônios.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "10 MESES",
+     "67 SESSÕES"
+    ]
+   },
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ela para de comer. Ajoelha até machucar os joelhos. Ninguém chama um médico.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\09_klingenberg_7_tif.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.0,
+   "credito": "Imagem: chrisaliv · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Primeiro de julho de 1976. Ela morre no quarto. Desnutrida, desidratada. Pesava cerca de trinta quilos. Tinha vinte e três anos.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\03_gravestone_anneliese_michel_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 2.0,
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.8,
+   "credito": "Imagem: Offenbacherjung · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1978, os pais e os dois padres são condenados por homicídio culposo. A justiça entendeu que ela poderia ter sido salva.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\01_aschaffenburg_schloss_johannisburg_panor.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Tribunal Regional de Aschaffenburg, 21/04/1978",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Possessão? Nenhuma prova. O que existe é uma doença sem tratamento e uma fé que ninguém ousou contrariar.",
+   "visual": {
+    "mov": "out",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T20\\10_e_6_76_134_1_klingenberg_am_main_hauptst.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5,
+   "credito": "Imagem: Altstadtburg · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      4
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os médicos disseram doença. Os padres disseram demônio. O tribunal escolheu um lado. Mas as fitas das sessões ainda existem, criancinhas. E quem as ouve... não dorme igual.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "AS FITAS AINDA EXISTEM",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O exorcismo que terminou num tribunal",
+  "fontes_texto": "Fontes: Tribunal Regional de Aschaffenburg, sentença de 21/04/1978; Diocese de Würzburg (autorização de 1975); laudo de necropsia (julho de 1976). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "1976, Alemanha. Uma jovem passa dez meses por 67 sessões de exorcismo autorizadas pela Igreja. Ela morre pesando cerca de 30 quilos. Os pais e dois padres vão a julgamento. 🕯️\n\nDossiê 20 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #exorcismo #casosreais #historia #misterio"
+ }
+}

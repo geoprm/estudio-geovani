@@ -26,12 +26,21 @@ O filme de 1939 e a escrita de *Liber OZ* em 1941 entram como dados históricos 
 
 [Primeiro corte, 50,17 s](../../saida_v2/AO-IC-E01_private_preview_final/video_app.mp4)
 
+## Cortes seguintes
+
+- **EP02 · A Voz Atrás do Ombro · 64,17 s.** A inscrição na película leva ao relato de Crowley. Enquanto compara o rosto imaginado com a imagem pública da realeza, o Arquivista descobre que a lata sumiu de uma sala trancada. [MP4](../../saida_v2/AO-IC-E02_private_preview/video_app.mp4) · [Manifesto de produção](AO-IC-E02.v3.prod.json).
+- **EP03 · O Número na Margem · 49,10 s.** A gematria explica o 77 no livro. A numeração da prateleira leva a outro 77 e à lata vazia. Lá dentro, sete imagens de uma porta mostram que alguém usou as luvas do Arquivista. [MP4](../../saida_v2/AO-IC-E03_private_preview/video_app.mp4) · [Manifesto de produção](AO-IC-E03.v3.prod.json).
+
+Os dois cortes foram produzidos em 9:16 com voz `arquivista-v2-c`, legendas e cartelas de origem. A boca da máscara acompanha a intensidade da voz na abertura, com a aparência aprovada do personagem.
+
+As investigações longas têm locução completa e instruções de gravação separadas. [A voz e a página](../youtube/AO-YT-01_A_VOZ_E_A_PAGINA.md) · [A capa que chegou antes](../youtube/AO-YT-02_A_CAPA_QUE_CHEGOU_ANTES.md).
+
 ## Continuidade proposta
 
 | Episódio | Pista e virada | Âncora de pesquisa |
 |---|---|---|
 | 02 · A Voz Atrás do Ombro | O nome escrito no bilhete leva ao relato do Cairo. O Arquivista encontra a nota em que Crowley descreveu como imaginou o rosto. | Aiwass, *O Livro da Lei*, *Liber OZ* e a linguagem de poder em retratos de Estado. [Roteiro do EP02](AO-IC-E02_A_VOZ_ATRAS_DO_OMBRO.md) |
-| 03 · A Sala Numerada | Um número se repete em envelopes até o Arquivista achar dois sistemas de numeração. O que parecia um código é o número de entrada de dois arquivos diferentes. | Gematria como prática com regras próprias. Inventário da Russell Trust em Yale para Skull and Bones, sem inferir crimes ou comando oculto. |
+| 03 · O Número na Margem | A mesma inscrição leva a dois sistemas de numeração. O segundo aponta para a lata e muda o sentido da porta no último quadro. | Gematria de OZ no comentário do O.T.O. A lata, a prateleira e as fotos pertencem à ficção. O inventário de Yale fica como linha independente para uma investigação sobre Skull and Bones. |
 | 04 · As Sete Portas | Uma chave muda de posição a cada porta. O Arquivista percebe que alguém reencenou a estrutura de uma narrativa antiga para marcar o trajeto. | *A descida de Inana ao mundo dos mortos*, linhas 129–172. As sete portas e os juízes Anuna pertencem à composição literária suméria. |
 | 05 · A Pele do Quadro | A imagem muda conforme o ângulo. O Arquivista volta à primeira cópia para descobrir em que reedição apareceu a figura que todos passaram a procurar. | Genealogia moderna da narrativa reptiliana. Separar o registro de sua circulação de qualquer alegação sobre pessoas reais, divindades antigas ou grupos religiosos. |
 | 06 · O Espectador | Uma câmera mira a cadeira. No livro da cabine, o Arquivista encontra o método usado para selecionar o próximo observador. A identificação do operador fica em aberto. | Desfecho inteiramente ficcional. A trilha retorna à película e entrega a função do índice. |

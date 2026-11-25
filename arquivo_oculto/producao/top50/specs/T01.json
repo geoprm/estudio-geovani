@@ -1,0 +1,23 @@
+{
+ "titulo": "Os Illuminati existiram. E acabaram em 1785.",
+ "serie": "DOSSIÊ 01 · ILLUMINATI",
+ "fontes_texto": "Fontes: Einige Originalschriften des Illuminatenordens (Munique, 1787); editos do eleitor Karl Theodor (1784–1785); Barruel, Mémoires (1797); Robison, Proofs of a Conspiracy (1797). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "Os Illuminati existiram de verdade. Tinham data, cidade, fundador e codinome. E foram proibidos em 1785. Então de onde veio o resto? 🦉\n\nDossiê 01 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #illuminati #sociedadesecreta #historia #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "06", "visual": {"mov": "in"}, "tela": "ELES EXISTIRAM DE VERDADE", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu abro a pasta da sociedade secreta mais temida do mundo. E ela é real.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Primeiro de maio de 1776. Ingolstadt, na Baviera. Um professor de direito, de vinte e oito anos, funda uma ordem secreta.", "img": "01", "visual": {"mov": "in"}, "tela": "1º DE MAIO DE 1776", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "O nome dele era Adam Weishaupt. Lá dentro, ninguém usava o nome verdadeiro. Ele era... Espártaco.", "img": "03", "visual": {"mov": "pan"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "O símbolo era a coruja de Minerva. O objetivo, segundo ele, era libertar a razão do poder da Igreja e dos reis.", "img": "06", "visual": {"mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Em poucos anos, perto de dois mil membros. Nobres, professores, funcionários da própria corte.", "img": "07", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Até que o eleitor da Baviera, Karl Theodor, decidiu acabar com eles.", "img": "02", "visual": {"mov": "in"}, "sfx": ["batida"], "batida_em": 0.2, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Em março de 1785, um edito proíbe os Illuminati pelo nome.", "visual": {"tipo": "cartao", "linhas": ["MARÇO DE 1785", "EDITO CONTRA OS ILLUMINATI"], "papel": true}, "credito": "Fonte: editos do eleitor Karl Theodor da Baviera, 1784–1785", "carimbo": "DOCUMENTADO", "pausa": 0.4},
+  {"voz": "arquivista", "fala": "No ano seguinte, a polícia invade a casa de um dos líderes e leva os papéis da ordem. Em 1787, o governo publica tudo.", "img": "05", "visual": {"mov": "pan"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Weishaupt já tinha fugido em 1785. Morreu em Gotha, em 1830, longe da Baviera. A ordem já estava morta.", "img": "08", "visual": {"modo": "contain", "mov": "out"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Então por que, duzentos e cinquenta anos depois, ainda falamos deles?", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Em 1797, dois livros, de um padre francês e de um professor escocês, culpam os Illuminati pela Revolução Francesa.", "visual": {"tipo": "cartao", "linhas": ["1797", "BARRUEL E ROBISON"]}, "credito": "Fonte: Barruel, Mémoires (1797); Robison, Proofs of a Conspiracy (1797)", "carimbo": "SEM PROVA", "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Nascia ali a teoria. A ordem tinha acabado. O medo dela, não.", "img": "06", "visual": {"mov": "out"}, "pausa": 0.6},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 3], ["SEM PROVA", 2]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "E se eles ainda existissem, criancinhas... por que deixariam você saber o nome?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "ACABARAM EM 1785. OU NÃO?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

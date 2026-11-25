@@ -1,0 +1,599 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-11-11",
+  "scope_ids": [
+    "AO-C03-016",
+    "AO-C05-002",
+    "AO-SYS-X03"
+  ],
+  "primary_metadata_evidence": "evidence/mastral-primary-metadata.json",
+  "videos": [
+    {
+      "id": "DM-sachJnl9ofs",
+      "title": "DANIEL MASTRAL - Inteligência Ltda. Podcast #107",
+      "url": "https://www.youtube.com/watch?v=sachJnl9ofs",
+      "publisher": "Inteligência Ltda",
+      "published_at": "2021-04-03",
+      "published_at_exact": "2021-04-03T00:06:34-03:00",
+      "live_started_at": "2021-04-02T22:57:49+00:00",
+      "date_note": "Data de publicação do vídeo. A transmissão começou em 2021-04-02T22:57:49+00:00. A publicação e o início da live podem cair em dias distintos.",
+      "duration_seconds": 13091,
+      "publication_role": "original_interview",
+      "source_status": "primary_verified",
+      "topics": [
+        "apocalipse",
+        "satanismo"
+      ],
+      "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+      "segments": [
+        {
+          "id": "sachJnl9ofs-2192",
+          "title": "Pactos e a maldição dos 27 anos",
+          "start_seconds": 2192,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "sachJnl9ofs-2355",
+          "title": "Maçonaria",
+          "start_seconds": 2355,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "sachJnl9ofs-2590",
+          "title": "Igrejas satanistas",
+          "start_seconds": 2590,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "sachJnl9ofs-4217",
+          "title": "Os 4 cavaleiros do Apocalipse estão chegando",
+          "start_seconds": 4217,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "sachJnl9ofs-9404",
+          "title": "Bruxaria nos porões de Brasília",
+          "start_seconds": 9404,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "sachJnl9ofs-11376",
+          "title": "Há 9 Anticristos em potencial à solta",
+          "start_seconds": 11376,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-QnZU76VQYr4",
+      "title": "O INÍCIO DA TRIBULAÇÃO?: DANIEL LOPEZ E DANIEL MASTRAL - Inteligência Ltda. Podcast #1155",
+      "url": "https://www.youtube.com/watch?v=QnZU76VQYr4",
+      "publisher": "Inteligência Ltda",
+      "published_at": "2024-04-09",
+      "published_at_exact": "2024-04-09T22:11:31-03:00",
+      "live_started_at": "2024-04-09T22:10:31+00:00",
+      "date_note": "Data de publicação do vídeo. A transmissão começou em 2024-04-09T22:10:31+00:00. A publicação e o início da live podem cair em dias distintos.",
+      "duration_seconds": 10405,
+      "publication_role": "original_interview",
+      "source_status": "primary_verified",
+      "topics": [
+        "apocalipse",
+        "satanismo"
+      ],
+      "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+      "segments": [
+        {
+          "id": "QnZU76VQYr4-2220",
+          "title": "Cavaleiros do Apocalipse",
+          "start_seconds": 2220,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "QnZU76VQYr4-4560",
+          "title": "Estamos na tribulação?",
+          "start_seconds": 4560,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "QnZU76VQYr4-5880",
+          "title": "Como será o apocalipse?",
+          "start_seconds": 5880,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "QnZU76VQYr4-7200",
+          "title": "Apagão total",
+          "start_seconds": 7200,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "QnZU76VQYr4-8760",
+          "title": "Pandemia e apocalipse ",
+          "start_seconds": 8760,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        },
+        {
+          "id": "QnZU76VQYr4-9720",
+          "title": "Número da besta",
+          "start_seconds": 9720,
+          "end_seconds": null,
+          "locator_status": "chapter_verified",
+          "publisher": "Inteligência Ltda",
+          "claim_status": "attributed",
+          "notes": "Título de capítulo do canal de origem. A marca leva ao assunto, com ponto de saída e contexto verbal ainda por conferir.",
+          "cut_idea": "O Arquivista abre a ficha do episódio, identifica quem fala e acompanha o trecho com o documento ou o símbolo discutido. O fecho retorna à pergunta levantada por essa passagem."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-trOJMjBT_hI",
+      "title": "TODOS ACREDITARÃO em DEUS DEPOIS DISSO - DANIEL MASTRAL E DANIEL LOPEZ",
+      "url": "https://www.youtube.com/watch?v=trOJMjBT_hI",
+      "publisher": "Cortes do Inteligência [OFICIAL]",
+      "published_at": "2024-04-09",
+      "published_at_exact": "2024-04-09T22:48:48-03:00",
+      "live_started_at": null,
+      "date_note": "Data de publicação do vídeo. A data da gravação e a primeira circulação da fala devem ser conferidas separadamente.",
+      "duration_seconds": 694,
+      "publication_role": "official_cut",
+      "source_status": "primary_verified",
+      "topics": [
+        "2030",
+        "apocalipse"
+      ],
+      "notes": "As legendas automáticas do corte oficial foram consultadas. Nos primeiros 73 segundos, há referência à janela 2023–2030, à agenda e à leitura bíblica de sete anos. O arquivo de legendas não identifica os locutores. A identificação de cada voz e a escuta final permanecem pendentes.",
+      "segments": [
+        {
+          "id": "trOJMjBT_hI-janela",
+          "title": "A janela 2023–2030 na conversa",
+          "start_seconds": 12,
+          "end_seconds": null,
+          "locator_status": "transcript_verified",
+          "publisher": "Cortes do Inteligência [OFICIAL] · legendas automáticas do YouTube",
+          "claim_status": "attributed",
+          "notes": "Localização em legenda automática consultada diretamente no YouTube. A passagem se estende aproximadamente até 1:13, com locutor e ponto de saída por conferir em áudio. O corte reúne Mastral e Daniel Lopez.",
+          "cut_idea": "O Arquivista abre uma ficha com 2023 e 2030. A leitura de sete anos da entrevista passa à mesa ao lado do texto adotado pela ONU em 2015. A pergunta é qual documento sustenta cada passagem entre calendário, interpretação bíblica e cenário político."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-UuR-36XUzyc",
+      "title": "DANIEL MASTRAL - Flow Podcast #396",
+      "url": "https://www.youtube.com/watch?v=UuR-36XUzyc",
+      "publisher": "Flow Podcast",
+      "published_at": "2021-06-20",
+      "published_at_exact": "2021-06-20T01:12:56-03:00",
+      "live_started_at": "2021-06-19T23:23:24+00:00",
+      "date_note": "Data de publicação do vídeo. A transmissão começou em 2021-06-19T23:23:24+00:00. A publicação e o início da live podem cair em dias distintos.",
+      "duration_seconds": 15579,
+      "publication_role": "original_interview",
+      "source_status": "primary_verified",
+      "topics": [
+        "apocalipse",
+        "satanismo"
+      ],
+      "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+      "segments": [
+        {
+          "id": "UuR-36XUzyc-selecao",
+          "title": "Localizar a passagem original",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "claim_status": "attributed",
+          "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+          "cut_idea": "Preservar a pergunta que motivou a fala e o trecho em que o entrevistado a completa antes de preparar a intervenção do Arquivista."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-D-SGbsaBmTU",
+      "title": "DANIEL MASTRAL - Inteligência Ltda. Podcast #719",
+      "url": "https://www.youtube.com/watch?v=D-SGbsaBmTU",
+      "publisher": "Inteligência Ltda",
+      "published_at": "2023-01-17",
+      "published_at_exact": "2023-01-17T22:13:34-03:00",
+      "live_started_at": "2023-01-17T22:04:55+00:00",
+      "date_note": "Data de publicação do vídeo. A transmissão começou em 2023-01-17T22:04:55+00:00. A publicação e o início da live podem cair em dias distintos.",
+      "duration_seconds": 8802,
+      "publication_role": "original_interview",
+      "source_status": "primary_verified",
+      "topics": [
+        "apocalipse",
+        "satanismo"
+      ],
+      "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+      "segments": [
+        {
+          "id": "D-SGbsaBmTU-selecao",
+          "title": "Localizar a passagem original",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "claim_status": "attributed",
+          "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+          "cut_idea": "Preservar a pergunta que motivou a fala e o trecho em que o entrevistado a completa antes de preparar a intervenção do Arquivista."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-S9bmmmpo8wk",
+      "title": "DANIEL MASTRAL | Planeta Podcast (Sobrenatural) Ep.43",
+      "url": "https://www.youtube.com/watch?v=S9bmmmpo8wk",
+      "publisher": "PLANETA PODCAST [OFICIAL]",
+      "published_at": "2021-04-21",
+      "published_at_exact": "2021-04-21T20:00:16-03:00",
+      "live_started_at": "2021-04-21T23:00:16+00:00",
+      "date_note": "Data de publicação do vídeo. A transmissão começou em 2021-04-21T23:00:16+00:00. A publicação e o início da live podem cair em dias distintos.",
+      "duration_seconds": 8799,
+      "publication_role": "original_interview",
+      "source_status": "primary_verified",
+      "topics": [
+        "apocalipse",
+        "satanismo"
+      ],
+      "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+      "segments": [
+        {
+          "id": "S9bmmmpo8wk-selecao",
+          "title": "Localizar a passagem original",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "claim_status": "attributed",
+          "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+          "cut_idea": "Preservar a pergunta que motivou a fala e o trecho em que o entrevistado a completa antes de preparar a intervenção do Arquivista."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-tNeZdQk5I_A",
+      "title": "DANIEL MASTRAL - Prosa Guiada #83",
+      "url": "https://www.youtube.com/watch?v=tNeZdQk5I_A",
+      "publisher": "Prosa Guiada",
+      "published_at": "2021-11-23",
+      "published_at_exact": "2021-11-23T14:25:17-03:00",
+      "live_started_at": "2021-11-23T15:03:43+00:00",
+      "date_note": "Data de publicação do vídeo. A transmissão começou em 2021-11-23T15:03:43+00:00. A publicação e o início da live podem cair em dias distintos.",
+      "duration_seconds": 7798,
+      "publication_role": "original_interview",
+      "source_status": "primary_verified",
+      "topics": [
+        "apocalipse",
+        "satanismo"
+      ],
+      "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+      "segments": [
+        {
+          "id": "tNeZdQk5I_A-selecao",
+          "title": "Localizar a passagem original",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "claim_status": "attributed",
+          "notes": "A descrição e os metadados do vídeo foram conferidos. A seleção do trecho exige escuta e marcação do fim.",
+          "cut_idea": "Preservar a pergunta que motivou a fala e o trecho em que o entrevistado a completa antes de preparar a intervenção do Arquivista."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-76B_05uk5vA",
+      "title": "DANIEL MASTRAL APARECEU MORTO APÓS ESSE ALERTA PARA 2027",
+      "url": "https://www.youtube.com/watch?v=76B_05uk5vA",
+      "publisher": "Pastor Antônio Júnior",
+      "published_at": "2026-11-04",
+      "published_at_exact": "2026-11-04T15:05:13-03:00",
+      "live_started_at": null,
+      "date_note": "Data de publicação do vídeo. A data da gravação e a primeira circulação da fala devem ser conferidas separadamente.",
+      "duration_seconds": 751,
+      "publication_role": "posthumous_commentary",
+      "source_status": "primary_verified",
+      "topics": [
+        "2027",
+        "morte",
+        "apocalipse"
+      ],
+      "notes": "Publicado em 2026, depois da morte de Mastral em 2024. A página do comentarista menciona julho de 2027. A primeira gravação de Mastral e o início exato de sua fala ainda precisam ser localizados.",
+      "segments": [
+        {
+          "id": "76B_05uk5vA-selecao",
+          "title": "Localizar a passagem original",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "claim_status": "attributed",
+          "notes": "Publicado em 2026, depois da morte de Mastral em 2024. A página do comentarista menciona julho de 2027. A primeira gravação de Mastral e o início exato de sua fala ainda precisam ser localizados.",
+          "cut_idea": "Preservar a pergunta que motivou a fala e o trecho em que o entrevistado a completa antes de preparar a intervenção do Arquivista."
+        }
+      ],
+      "audio_verified": false,
+      "rights": {
+        "status": "permission_unverified",
+        "note": "O vídeo pode ser consultado na origem. A licença para reutilizar áudio e imagem em cortes está em conferência com o canal titular."
+      }
+    },
+    {
+      "id": "DM-PaUsTUbXQQw",
+      "title": "Daniel Mastral no Na Real — referência à eleição de 2024",
+      "url": "https://www.youtube.com/watch?v=PaUsTUbXQQw",
+      "publisher": "Na Real · Bruno Di Simone",
+      "published_at": null,
+      "published_at_exact": null,
+      "duration_seconds": null,
+      "publication_role": "original_interview",
+      "source_status": "candidate",
+      "date_note": "A reportagem de 20/02/2024 registra a fala e incorpora a entrevista. A data da publicação original do vídeo ainda deve ser conferida.",
+      "topics": [
+        "trump",
+        "apocalipse"
+      ],
+      "notes": "A reportagem anterior à eleição atribui a Mastral a previsão de que Trump venceria em 2024. A leitura religiosa e as outras alegações do entrevistado recebem avaliação própria.",
+      "segments": [
+        {
+          "id": "DM-trump-eleicao",
+          "title": "A aposta no retorno de Trump",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "publisher": "Metrópoles · Fábia Oliveira · reportagem de 20/02/2024",
+          "claim_status": "documented_report",
+          "notes": "A fala está reproduzida em reportagem contemporânea. Falta marcar a passagem no vídeo e conferir a pergunta completa.",
+          "cut_idea": "O Arquivista revela a data de fevereiro e depois o resultado de novembro. A ponte com Enough Is Enough pode entrar como comparação de circulação, com a data da primeira associação à carta exposta na mesma sequência."
+        }
+      ],
+      "rights": {
+        "status": "permission_unverified",
+        "note": "Reutilização do áudio e da imagem depende da verificação dos direitos com o canal."
+      }
+    },
+    {
+      "id": "DM-adrenocromo-metro",
+      "title": "Áudio atribuído a Mastral sobre adrenocromo",
+      "url": "https://www.metropoles.com/colunas/paulo-cappelli/adrenocromo-mastral",
+      "publisher": "Metrópoles · Paulo Cappelli e Petrônio Viana",
+      "published_at": "2024-11-02",
+      "duration_seconds": null,
+      "publication_role": "reported_audio",
+      "source_status": "secondary",
+      "date_note": "Data da reportagem que publicou o áudio. A data da gravação e o arquivo original exigem verificação.",
+      "topics": [
+        "adrenocromo",
+        "satanismo",
+        "morte"
+      ],
+      "notes": "A reportagem atribui a Mastral uma alegação sobre rituais e informa uma avaliação de autenticidade do áudio. O catálogo ainda não possui o laudo completo nem documentação que demonstre o conteúdo da alegação.",
+      "segments": [
+        {
+          "id": "DM-adreno-audio",
+          "title": "O que o áudio alega e de onde veio",
+          "start_seconds": null,
+          "end_seconds": null,
+          "locator_status": "pending_audio_review",
+          "publisher": "Metrópoles",
+          "claim_status": "allegation",
+          "notes": "A existência do áudio é um registro da alegação atribuída. Para associar a Epstein, falta documento individualizado que sustente a ligação.",
+          "cut_idea": "A cena começa no arquivo de áudio e segue sua cadeia de procedência. Ao abrir a pasta Epstein, o Arquivista mostra o documento judicial escolhido e formula a pergunta que aquele documento permite investigar."
+        }
+      ],
+      "rights": {
+        "status": "permission_unverified",
+        "note": "Áudio e reportagem de terceiros. Consultar o titular antes de reutilizar trechos."
+      }
+    }
+  ],
+  "context_sources": [
+    {
+      "title": "A cronologia da morte, segundo reportagem que consultou o boletim",
+      "url": "https://www.cnnbrasil.com.br/blogs/pedro-duran/nacional/o-que-diz-o-boletim-de-ocorrencia-da-morte-de-daniel-mastral/",
+      "publisher": "CNN Brasil",
+      "published_at": "2024-08-05",
+      "notes": "Reportagem de 5/8, atualizada em 6/8/2024, informa a morte em 4/8, em Barueri. O boletim original e a conclusão atual do inquérito ainda não foram obtidos neste catálogo. A cobertura consultada não demonstra relação causal entre morte e previsões."
+    },
+    {
+      "title": "Classificação policial relatada na cobertura de agosto de 2024",
+      "url": "https://www.metropoles.com/colunas/paulo-cappelli/daniel-mastral-detalhe-na-cena-da-morte-derruba-tese-de-assassinato",
+      "publisher": "Metrópoles",
+      "published_at": "2024-08-08",
+      "notes": "A reportagem atribui à apuração policial a classificação de suicídio. Registrar a atribuição e a data ao falar do caso. Este catálogo não possui o laudo pericial integral nem a conclusão atual do procedimento."
+    },
+    {
+      "title": "Agenda 2030 — texto adotado pelas Nações Unidas",
+      "url": "https://sdgs.un.org/2030agenda",
+      "publisher": "Nações Unidas",
+      "published_at": "2015-09-25",
+      "notes": "Fonte do documento oficial para a intervenção do Arquivista. A ligação entre esse texto e os cenários de Mastral será examinada como interpretação atribuída, com o parágrafo citado em cada corte."
+    },
+    {
+      "title": "Comentário póstumo sobre o alerta de 2027",
+      "url": "https://www.pastorantoniojunior.com.br/videos-evangelicos/ele-apareceu-morto-apos-fazer-esse-alerta-para-2027",
+      "publisher": "Pastor Antônio Júnior",
+      "published_at": "2026-11-04",
+      "notes": "A página contém transcrição e aponta para o vídeo 76B_05uk5vA. Sua data de 2026 identifica a republicação comentada."
+    },
+    {
+      "title": "A previsão de retorno de Trump registrada em fevereiro de 2024",
+      "url": "https://www.metropoles.com/colunas/fabia-oliveira/trump-e-o-anticristo-diz-o-ex-satanista-e-teologo-daniel-mastral",
+      "publisher": "Metrópoles · Fábia Oliveira",
+      "published_at": "2024-02-20",
+      "notes": "Registro jornalístico anterior à eleição que reproduz uma previsão afirmativa de vitória de Trump em 2024. A atribuição religiosa ao candidato é outra afirmação e continua como interpretação de Mastral."
+    },
+    {
+      "title": "Resultado oficial da eleição americana de 2024",
+      "url": "https://www.archives.gov/electoral-college/2024",
+      "publisher": "National Archives",
+      "notes": "Fonte primária do resultado e da cronologia da eleição. Serve à comparação com a declaração registrada antes da votação."
+    },
+    {
+      "title": "O áudio sobre adrenocromo publicado em novembro de 2024",
+      "url": "https://www.metropoles.com/colunas/paulo-cappelli/adrenocromo-mastral",
+      "publisher": "Metrópoles",
+      "published_at": "2024-11-02",
+      "notes": "A reportagem é fonte para a divulgação e a atribuição da alegação. O vínculo com Epstein continua sem documento individualizado neste levantamento."
+    },
+    {
+      "title": "Documentos do processo United States v. Ghislaine Maxwell",
+      "url": "https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell",
+      "publisher": "Department of Justice · SDNY",
+      "notes": "Arquivo judicial de referência para a pesquisa do caso Epstein/Maxwell. Qualquer alegação adicional deve apontar o documento e a passagem correspondentes."
+    },
+    {
+      "title": "EU preparedness union strategy",
+      "url": "https://commission.europa.eu/topics/preparedness_en",
+      "publisher": "Comissão Europeia",
+      "published_at": "2025-03-26",
+      "notes": "A estratégia prevê diretrizes para autossuficiência populacional mínima de 72 horas. O contexto inclui tensões geopolíticas, conflitos, riscos digitais e de manipulação informacional, mudanças climáticas e perigos naturais. Estratégia divulgada em março de 2025, anterior à circulação da lista de 33 em outubro de 2026."
+    },
+    {
+      "title": "Neuer BBK-Ratgeber gibt Orientierung in unsicheren Zeiten",
+      "url": "https://www.bbk.bund.de/SharedDocs/Pressemitteilungen/DE/2025/10/pm-13-neuer-ratgeber.html",
+      "publisher": "Bundesamt für Bevölkerungsschutz und Katastrophenhilfe — BBK, Alemanha",
+      "published_at": "2025-10-13",
+      "notes": "O BBK lançou uma revisão do guia de preparação em 13/10/2025. A orientação consultada considera desejável a autonomia de dez dias e registra que três dias de suprimentos já ajudam. O guia abrange interrupções de energia, inundações, clima extremo e desafios de segurança. A FAQ informa que o BBK publica orientações de preparação pessoal desde sua fundação em 2004 e que a edição anterior do guia central começou em 2013. A revisão de 2025 acrescentou temas."
+    },
+    {
+      "title": "In case of crisis or war; histórico de distribuição doméstica",
+      "url": "https://www.mcf.se/en/advice-for-individuals/the-brochure-in-case-of-crisis-or-war/",
+      "publisher": "Swedish Civil Defence and Resilience Agency — MCF, antiga MSB",
+      "published_at": null,
+      "notes": "O folheto residencial propõe capacidade doméstica de enfrentar ao menos uma semana de crise. A notícia oficial de janeiro de 2026 distingue a nova publicação para empresas da edição residencial distribuída em novembro de 2024. A recomendação residencial citada já circulava em 2024. Houve uma iniciativa própria para empresas em janeiro de 2026."
+    },
+    {
+      "title": "MIDR esclarece que kit de emergência é medida preventiva e não tem relação com alerta nacional",
+      "url": "https://www.gov.br/mdr/pt-br/noticias/midr-esclarece-que-kit-de-emergencia-e-medida-preventiva-e-nao-tem-relacao-com-alerta-nacional",
+      "publisher": "Ministério da Integração e do Desenvolvimento Regional — MIDR / Defesa Civil Nacional",
+      "published_at": "2026-11-07",
+      "notes": "O órgão confirma a recomendação de kit de emergência como parte das ações permanentes de prevenção. Declara que não emitiu orientação extraordinária de formação de estoques nem alerta nacional de interrupção generalizada. Registra o monitoramento meteorológico da Região Sul naquele sábado. A nota federal de 07/11/2026 afirma que o conteúdo já havia sido divulgado em 16/03, 29/03 e 03/04. Os três posts anteriores não foram abertos individualmente neste lote."
+    },
+    {
+      "title": "Defesa Civil de Maceió reforça caráter preventivo da orientação de kit de emergência",
+      "url": "https://maceio.al.gov.br/noticias/defesa-civil/defesa-civil-de-maceio-reforca-que-orientacao-sobre-kit-de-emergencia-nao-indica-previsao-de-desastre-e-enfatiza-carater-preventivo",
+      "publisher": "Prefeitura de Maceió / Defesa Civil Municipal",
+      "published_at": "2026-11-07",
+      "notes": "A prefeitura descreve a orientação nacional para até 72 horas e inclui água, alimentos não perecíveis, lanterna, pilhas extras, carregador portátil e rádio a pilha. O texto atribui ao kit uma finalidade preventiva e distingue a orientação geral do monitoramento de risco local. Esclarecimento municipal divulgado em 07/11/2026, durante a repercussão da campanha."
+    },
+    {
+      "title": "The 33 countries urging citizens to stockpile food and water",
+      "url": "https://en.newsner.com/news/33-countries-urging-citizens-to-stockpile-food/",
+      "publisher": "Newsner, remetendo a Newsweek",
+      "published_at": "2026-10-31",
+      "notes": "A reportagem de 31/10/2026 apresenta 33 governos e atribui o mapa à Newsweek. A página enumera países nas seis regiões e registra que parte das orientações já existia havia anos. O mapa foi transformado em manchetes no fim de outubro de 2026. A data de 28/10 para o original da Newsweek é atribuída por outras páginas e ficou pendente de verificação direta."
+    }
+  ],
+  "research_gaps": [
+    {
+      "topic": "2026",
+      "label": "Encontrar a fala sobre 2026",
+      "note": "Ainda falta uma fala original que nomeie 2026, com data, autor da frase e início/fim conferidos. A publicação póstuma de 2026 fica registrada em sua função própria."
+    },
+    {
+      "topic": "2027",
+      "label": "Voltar ao primeiro vídeo do alerta",
+      "note": "A menção a julho de 2027 foi localizada no comentário póstumo. Procurar a gravação integral de origem e distinguir palavras de Mastral das palavras do comentarista."
+    },
+    {
+      "topic": "2030",
+      "label": "Conferir a janela 2023–2030",
+      "note": "Ouvir o corte oficial e o contexto no #1155. Identificar locutor, formulação, condição e intervalo completo antes de montar a sequência."
+    },
+    {
+      "topic": "morte",
+      "label": "Obter o registro primário e o estado atual da apuração",
+      "note": "A ficha usa cobertura jornalística atribuída. Buscar boletim, manifestação pública das autoridades e eventual conclusão acessível, preservando a privacidade da família."
+    },
+    {
+      "topic": "adrenocromo",
+      "label": "Localizar a alegada conexão com Epstein",
+      "note": "Ainda falta um documento individualizado com referência, data e passagem que sustente a associação. A pesquisa separa a circulação do áudio da prova do que ele afirma."
+    }
+  ]
+}

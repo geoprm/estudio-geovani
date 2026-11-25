@@ -1,0 +1,187 @@
+{
+ "titulo": "5 aviões sumiram. O 6º, que foi buscá-los, também.",
+ "serie": "DOSSIÊ 03 · VOO 19",
+ "fontes_texto": "Fontes: relatório da Junta de Investigação da Marinha dos EUA (1946) e emenda de 1947; Naval History and Heritage Command (Flight 19); Vincent Gaddis, Argosy (fev. 1964); Guarda Costeira dos EUA. Imagens: Wikimedia Commons (Marinha dos EUA, domínio público).",
+ "legenda_tiktok": "5 de dezembro de 1945. Cinco aviões da Marinha somem num voo de treino. O avião que sai para buscá-los também some. O arquivo abriu o relatório. ✈️\n\nDossiê 03 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #triangulodasbermudas #voo19 #misterio #historia",
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "img": "07",
+   "visual": {
+    "mov": "in"
+   },
+   "tela": "27 HOMENS. NENHUM CORPO.",
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje vocês vão ouvir as últimas palavras de um piloto que não sabia onde estava.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Cinco de dezembro de 1945. Cinco bombardeiros Avenger decolam de Fort Lauderdale, na Flórida. Treino de navegação. Catorze homens.",
+   "img": "07",
+   "visual": {
+    "mov": "pan"
+   },
+   "tela": "5 DE DEZEMBRO DE 1945",
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O líder, tenente Charles Taylor, começa a desconfiar dos instrumentos.",
+   "img": "04",
+   "visual": {
+    "mov": "in"
+   },
+   "pausa": 0.2
+  },
+  {
+   "voz": "fita",
+   "fala": "Minhas duas bússolas pararam.",
+   "visual": {
+    "tipo": "crt"
+   },
+   "pausa": 0.6,
+   "sfx": [
+    "chiado"
+   ],
+   "img": "04"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele acreditava estar sobre as ilhas Keys, ao sul. Os rádios da costa achavam que ele estava a leste, sobre o oceano.",
+   "img": "10",
+   "visual": {
+    "modo": "contain",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A esquadrilha voa para um lado, depois para o outro. O sol se põe. O mar está bravo. O combustível acaba.",
+   "visual": {
+    "tipo": "preto"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Às sete e meia da noite, sai um hidroavião de resgate, um Mariner, com treze homens a bordo.",
+   "img": "08",
+   "visual": {
+    "mov": "in"
+   },
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Pouco depois, um navio no mar vê uma bola de fogo no céu. O Mariner nunca mais foi encontrado.",
+   "img": "02",
+   "visual": {
+    "mov": "out"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 1.2,
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Vinte e sete homens. Nenhum corpo. Nenhum destroço dos seis aviões.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "6 AVIÕES",
+     "27 HOMENS",
+     "0 DESTROÇOS"
+    ]
+   },
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A Marinha culpou Taylor. A mãe dele lutou. E o relatório foi mudado para: causas desconhecidas.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "\"CAUSAS OU RAZÕES",
+     "DESCONHECIDAS\""
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: Junta de Investigação da Marinha dos EUA (1946) e emenda de 1947",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Dezenove anos depois, uma revista inventa um nome para aquele pedaço de mar: o Triângulo das Bermudas.",
+   "img": "10",
+   "visual": {
+    "mov": "in"
+   },
+   "tela": "ARGOSY, 1964",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas a Guarda Costeira diz que ali não some mais gente do que em qualquer mar movimentado do mundo.",
+   "img": "10",
+   "visual": {
+    "mov": "out"
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO JULGA"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O triângulo é invenção, criancinhas. Os vinte e sete homens, não. Eles ainda estão lá embaixo.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "ELES AINDA ESTÃO LÁ",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ]
+}

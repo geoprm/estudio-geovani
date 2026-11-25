@@ -1,0 +1,21 @@
+{
+ "titulo": "9 mortos na neve. A barraca foi cortada por dentro.",
+ "serie": "DOSSIÊ 05 · PASSO DYATLOV",
+ "fontes_texto": "Fontes: processo criminal de 1959 (arquivo de Sverdlovsk); Procuradoria da Rússia, conclusão de 2020; Gaume e Puzrin, Communications Earth & Environment (28/01/2021). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "Fevereiro de 1959. Nove jovens experientes saem da barraca no meio da noite, a menos de trinta graus, quase sem roupa. O processo soviético chamou de 'força irresistível'. 🏔️\n\nDossiê 05 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #dyatlov #misterio #historia #casosreais",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "CORTADA POR DENTRO", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje vamos subir uma montanha que os povos de lá chamam de Montanha Morta.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Fevereiro de 1959, Montes Urais. Nove estudantes e montanhistas experientes. O líder se chamava Igor Dyatlov.", "img": "02", "visual": {"mov": "pan"}, "tela": "FEVEREIRO DE 1959", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Na noite de primeiro para dois de fevereiro, eles montam a barraca na encosta. E algo os faz sair correndo.", "img": "03", "visual": {"mov": "in"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Quando as equipes de busca chegam, a barraca está meio enterrada na neve. E rasgada... por dentro.", "img": "01", "visual": {"mov": "in"}, "sfx": ["batida"], "batida_em": 2.6, "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Os primeiros corpos estão a mais de um quilômetro, perto de um pinheiro. Descalços. De meias. Num frio de quase trinta graus negativos.", "img": "04", "visual": {"mov": "in"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em maio, com o degelo, aparecem os últimos quatro, num barranco. Crânio fraturado. Costelas quebradas. E uma das jovens... sem a língua.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 1.0},
+  {"voz": "arquivista", "fala": "O processo soviético foi encerrado com uma frase: uma força natural irresistível.", "visual": {"tipo": "cartao", "linhas": ["\"UMA FORÇA NATURAL", "IRRESISTÍVEL\""], "papel": true}, "credito": "Fonte: processo criminal de 1959, encerrado em maio de 1959", "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Foi o que bastou. Teste de míssil. Arma secreta. O abominável homem das neves. Até alienígenas.", "img": "05", "visual": {"mov": "in"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em 2021, dois pesquisadores na Suíça simularam a encosta. Um bloco de neve compacta, uma avalanche de placa, pode ter esmagado a barraca no escuro.", "img": "03", "visual": {"mov": "out"}, "credito": "Fonte: Gaume e Puzrin, Communications Earth & Environment, 2021", "carimbo": "INTERPRETAÇÃO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Eles fugiram para salvar a vida. E a noite fez o resto.", "img": "04", "visual": {"mov": "out"}, "pausa": 0.6},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["INTERPRETAÇÃO", 1], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "A avalanche explica a barraca, criancinhas. Ainda não explica tudo. Se você subisse lá hoje... dormiria de botas?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "VOCÊ DORMIRIA LÁ?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

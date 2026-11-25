@@ -1,0 +1,190 @@
+{
+ "id": "TOP-T23",
+ "num": 23,
+ "serie": "DOSSIÊ 23 · MENGELE NO BRASIL",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T23\\01_wp_josef_mengele_1956_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "ENTERRADO COM NOME FALSO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Anonymous photographer, not identified anywhere · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje o arquivo desce até um túmulo no interior de São Paulo. O nome na lápide era falso.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Auschwitz, 1943. Na plataforma de trem, um médico da SS escolhe, com um gesto, quem vai trabalhar e quem vai para a câmara de gás. O nome dele é Josef Mengele.",
+   "visual": {
+    "mov": "pan",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T23\\04_selection_on_the_ramp_at_auschwitz_birke.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: Bernhard Walter · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele fazia experimentos em prisioneiros. Principalmente em gêmeos. Os sobreviventes o chamavam de Anjo da Morte.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T23\\03_kz_auschwitz_birkenau_bahngleise_der_ent.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.6,
+   "credito": "Imagem: Dnalor 01 · CC BY-SA 3.0 at · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Quando a guerra acaba, ele foge. Argentina. Paraguai. E, a partir de 1960, Brasil.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "ARGENTINA",
+     "PARAGUAI",
+     "BRASIL, 1960"
+    ]
+   },
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Viveu em sítios e casas simples no interior paulista, ajudado por amigos. Usava o documento de outro homem: Wolfgang Gerhard.",
+   "visual": {
+    "mov": "out",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T23\\01_wp_josef_mengele_1956_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: Anonymous photographer, not identified anywhere · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Sete de fevereiro de 1979. Praia de Bertioga. Um senhor idoso entra no mar, passa mal e se afoga.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T23\\05_praia_da_enseada_bertioga_sp_1_panoramio.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "BERTIOGA, 1979",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.7,
+   "credito": "Imagem: CORRETOR-CARVALHO · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Foi enterrado em Embu como Wolfgang Gerhard. Ninguém no cemitério sabia quem estava naquele caixão.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "WOLFGANG GERHARD"
+    ],
+    "sub": "o nome na lápide",
+    "papel": true
+   },
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Seis anos depois, cartas apreendidas na Alemanha levam a polícia até o túmulo. Junho de 1985: a exumação é transmitida para o mundo.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "JUNHO DE 1985",
+     "EXUMAÇÃO EM EMBU"
+    ],
+    "papel": true
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1992, o exame de DNA confirma. Os ossos eram de Josef Mengele.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "1992",
+     "DNA CONFIRMA"
+    ],
+    "papel": true
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele nunca foi julgado. Hoje, a ossada é usada para ensinar medicina legal em São Paulo.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T23\\05_praia_da_enseada_bertioga_sp_1_panoramio.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8,
+   "credito": "Imagem: CORRETOR-CARVALHO · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      3
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele passou dezenove anos entre nós com o nome de outro homem, criancinhas. Quem o ajudou a se esconder tanto tempo? Essa lista nunca saiu completa.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "QUEM O ESCONDEU?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O 'Anjo da Morte' de Auschwitz morreu numa praia de São Paulo",
+  "fontes_texto": "Fontes: Polícia Federal e laudo da exumação no cemitério de Embu (06/1985); confirmação por DNA (1992); Museu Estatal de Auschwitz-Birkenau; Faculdade de Medicina da USP (ossada usada em ensino desde 2016). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "O médico nazista mais procurado do mundo viveu anos no interior de São Paulo com nome falso. Morreu afogado numa praia em 1979. E foi enterrado como outro homem. 🕯️\n\nDossiê 23 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #mengele #historia #brasil #segundaguerra"
+ }
+}

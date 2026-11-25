@@ -1,0 +1,173 @@
+{
+ "id": "TOP-T02",
+ "num": 2,
+ "serie": "DOSSIÊ 02 · O OLHO",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\01_united_states_one_dollar_bill_reverse_jp.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "ESTÁ NO SEU BOLSO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: United States Government · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje vamos olhar de perto o símbolo mais carregado do planeta. Ele está numa nota de dinheiro.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Uma pirâmide sem topo. Um olho brilhando no triângulo. E na base, em números romanos: 1776.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\08_great_seal_of_the_united_states_reverse.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "MDCCLXXVI = 1776",
+   "pausa": 0.4,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os Illuminati foram fundados em maio de 1776. Para muita gente, isso basta.",
+   "visual": {
+    "mov": "pan",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\02_great_seal_of_the_united_states_reverse.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: Ipankonin · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas a data na pirâmide é outra. É o ano da independência dos Estados Unidos.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\08_great_seal_of_the_united_states_reverse.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "No mesmo quatro de julho de 1776, o Congresso pediu um selo para o país. O olho foi ideia de um artista, Pierre du Simitière. Era o olho da Providência, um símbolo cristão.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\09_great_seal_of_the_united_states_obverse.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: U.S. Government · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O desenho final só foi aprovado em 1782. A pirâmide veio de uma nota de cinquenta dólares de 1778.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\05_greatsealthomsonreportpage1_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Diários do Congresso Continental, 20/06/1782",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E a frase embaixo, Novus Ordo Seclorum, não quer dizer nova ordem mundial. Quer dizer nova ordem dos séculos. É de um poema de Virgílio.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\02_great_seal_of_the_united_states_reverse.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "\"NOVA ORDEM DOS SÉCULOS\"",
+   "carimbo": "FALSO",
+   "carimbo_em": 4.0,
+   "pausa": 0.5,
+   "credito": "Imagem: Ipankonin · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O verso do selo passou mais de cento e cinquenta anos quase sem uso. Só em 1935 foi impresso na nota de um dólar.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T02\\04_1928_dollar_bill_reverse_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "tela": "NOTA DE 1928: SEM PIRÂMIDE",
+   "credito": "Imagem: U.S. Government. · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E a ligação com os Illuminati? Nenhum documento. Nenhuma ata. Nenhum nome.",
+   "visual": {
+    "tipo": "preto"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "FALSO",
+   "pausa": 0.8
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      1
+     ],
+     [
+      "FALSO",
+      2
+     ]
+    ],
+    "titulo": "O ARQUIVO JULGA"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O olho não é dos Illuminati, criancinhas. Mas repare: você nunca mais vai pegar essa nota sem sentir que ele está olhando.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "ELE CONTINUA OLHANDO",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O olho na nota de 1 dólar não é dos Illuminati",
+  "fontes_texto": "Fontes: Diários do Congresso Continental (04/07/1776 e 20/06/1782); Departamento de Estado dos EUA, The Great Seal (1976); Departamento do Tesouro (nota de 1 dólar, série 1935). Imagens: Wikimedia Commons, domínio público.",
+  "legenda_tiktok": "Uma pirâmide inacabada, um olho que tudo vê e o ano de 1776. Na nota de 1 dólar. Os Illuminati nasceram em 1776. Coincidência? O arquivo abriu a ata do Congresso. 👁️\n\nDossiê 02 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #illuminati #olhoquetudove #dolar #misterio"
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "id": "TOP-T19",
+ "num": 19,
+ "serie": "DOSSIÊ 19 · MANUSCRITO VOYNICH",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\07_voynich_manuscript_32_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "NINGUÉM CONSEGUE LER",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu abro um livro que ninguém, em seiscentos anos, conseguiu ler. Nem uma única frase.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "1912. Um livreiro chamado Wilfrid Voynich compra um lote de manuscritos antigos perto de Roma. Um deles não se parece com nada.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\06_voynich_manuscript_178_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "1912",
+   "pausa": 0.3,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Duzentas e quarenta páginas de pergaminho. Uma escrita elegante, fluida, que não pertence a nenhum alfabeto conhecido.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\08_voynich_manuscript_49_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Plantas que não existem na natureza. Mapas de estrelas. Mulheres nuas em piscinas ligadas por tubos.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\10_voynich_manuscript_135_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 2009, o pergaminho foi datado por carbono: entre 1404 e 1438. Não é falsificação moderna.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\09_voynich_manuscript_63_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Universidade do Arizona, 2009",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Uma carta de 1665 diz que ele teria pertencido a um imperador, Rodolfo Segundo, que pagou seiscentas moedas de ouro por ele.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\05_voynich_manuscript_177_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os maiores decifradores de códigos da Segunda Guerra tentaram. Os que quebraram as cifras do Japão. Falharam.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\05_voynich_manuscript_177_jpg.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "De tempos em tempos, alguém anuncia que decifrou. Latim, hebraico, uma língua perdida. Até hoje, nenhuma solução foi aceita pelos especialistas.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\07_voynich_manuscript_32_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "FALSO",
+   "pausa": 0.5,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Hoje ele está trancado numa biblioteca da Universidade Yale. E todas as páginas estão na internet. Para quem quiser tentar.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T19\\06_voynich_manuscript_178_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      1
+     ],
+     [
+      "SEM PROVA",
+      1
+     ],
+     [
+      "FALSO",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Seiscentos anos, e ninguém leu uma única frase, criancinhas. E se este livro nunca foi escrito para nós?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "ESCRITO PARA QUEM?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O livro que ninguém consegue ler há 600 anos",
+  "fontes_texto": "Fontes: Biblioteca Beinecke de Livros Raros, Universidade Yale (MS 408); datação por radiocarbono, Universidade do Arizona (2009): 1404–1438; carta de Johannes Marcus Marci (1665). Imagens: Beinecke/Yale via Wikimedia Commons, domínio público.",
+  "legenda_tiktok": "Um livro com 240 páginas, plantas que não existem e uma escrita que ninguém no mundo consegue ler. Nem os decifradores da Segunda Guerra. Ele está numa biblioteca dos EUA. 📖\n\nDossiê 19 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #voynich #misterio #historia #codigo"
+ }
+}

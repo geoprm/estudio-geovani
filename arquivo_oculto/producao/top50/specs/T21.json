@@ -1,0 +1,20 @@
+{
+ "titulo": "12.618 relatos de OVNI e uma pasta fechada",
+ "serie": "DOSSIÊ 21 · LIVRO AZUL",
+ "fontes_texto": "Fontes: Força Aérea dos EUA, ficha informativa do Projeto Livro Azul (1952–1969); Universidade do Colorado, Relatório Condon (1968); Arquivo Nacional dos EUA (registros do projeto). Imagens: Wikimedia Commons, domínio público.",
+ "legenda_tiktok": "Durante 17 anos, a Força Aérea americana investigou 12.618 avistamentos de OVNIs. 701 nunca foram explicados. Em 1969, fecharam a pasta. 🛸\n\nDossiê 21 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #ovni #livroazul #misterio #historia",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "701 SEM EXPLICAÇÃO", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu abro a pasta oficial onde a Força Aérea americana guardou seus discos voadores.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "1947. Pilotos e civis relatam objetos estranhos no céu dos Estados Unidos. A Força Aérea começa a investigar.", "img": "02", "visual": {"mov": "pan"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Em 1952, nasce o Projeto Livro Azul. Uma pequena equipe numa base em Ohio, encarregada de responder a uma pergunta: o que são essas coisas?", "img": "01", "visual": {"mov": "in"}, "tela": "PROJETO LIVRO AZUL, 1952", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "O consultor científico era um astrônomo cético, Allen Hynek. Ele entrou para desmascarar os relatos.", "img": "03", "visual": {"mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Balões. Planetas. Aviões. Reflexos. Quase tudo tinha explicação.", "img": "04", "visual": {"mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Quase. Em dezessete anos, doze mil seiscentos e dezoito relatos. Setecentos e um ficaram como não identificados.", "visual": {"tipo": "cartao", "linhas": ["12.618 RELATOS", "701 NÃO IDENTIFICADOS"]}, "credito": "Fonte: Força Aérea dos EUA, ficha do Projeto Livro Azul", "carimbo": "DOCUMENTADO", "sfx": ["batida"], "batida_em": 4.5, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Hynek mudou. O cético passou a dizer que alguns casos mereciam estudo sério. Foi ele quem criou a expressão contatos imediatos.", "img": "03", "visual": {"mov": "out"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em 1968, um relatório da Universidade do Colorado conclui que não vale a pena continuar. Em dezembro de 1969, a pasta é fechada.", "img": "05", "visual": {"modo": "contain", "mov": "in"}, "credito": "Fonte: Relatório Condon, 1968", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Conclusão oficial: nenhuma ameaça à segurança nacional. Nenhuma prova de naves de outro mundo.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "carimbo": "SEM PROVA", "pausa": 0.8},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Setecentos e um casos sem resposta, criancinhas. E a resposta oficial foi fechar a pasta. Hoje ela está no Arquivo Nacional. Aberta para quem tiver coragem.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "701 PERGUNTAS ABERTAS", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

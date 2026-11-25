@@ -1,0 +1,20 @@
+{
+ "titulo": "O livro que ninguém consegue ler há 600 anos",
+ "serie": "DOSSIÊ 19 · MANUSCRITO VOYNICH",
+ "fontes_texto": "Fontes: Biblioteca Beinecke de Livros Raros, Universidade Yale (MS 408); datação por radiocarbono, Universidade do Arizona (2009): 1404–1438; carta de Johannes Marcus Marci (1665). Imagens: Beinecke/Yale via Wikimedia Commons, domínio público.",
+ "legenda_tiktok": "Um livro com 240 páginas, plantas que não existem e uma escrita que ninguém no mundo consegue ler. Nem os decifradores da Segunda Guerra. Ele está numa biblioteca dos EUA. 📖\n\nDossiê 19 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #voynich #misterio #historia #codigo",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "NINGUÉM CONSEGUE LER", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu abro um livro que ninguém, em seiscentos anos, conseguiu ler. Nem uma única frase.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "1912. Um livreiro chamado Wilfrid Voynich compra um lote de manuscritos antigos perto de Roma. Um deles não se parece com nada.", "img": "02", "visual": {"modo": "contain", "mov": "in"}, "tela": "1912", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Duzentas e quarenta páginas de pergaminho. Uma escrita elegante, fluida, que não pertence a nenhum alfabeto conhecido.", "img": "01", "visual": {"modo": "contain", "mov": "pan"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Plantas que não existem na natureza. Mapas de estrelas. Mulheres nuas em piscinas ligadas por tubos.", "img": "03", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Em 2009, o pergaminho foi datado por carbono: entre 1404 e 1438. Não é falsificação moderna.", "img": "04", "visual": {"modo": "contain", "mov": "in"}, "credito": "Fonte: Universidade do Arizona, 2009", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Uma carta de 1665 diz que ele teria pertencido a um imperador, Rodolfo Segundo, que pagou seiscentas moedas de ouro por ele.", "img": "05", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Os maiores decifradores de códigos da Segunda Guerra tentaram. Os que quebraram as cifras do Japão. Falharam.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "De tempos em tempos, alguém anuncia que decifrou. Latim, hebraico, uma língua perdida. Até hoje, nenhuma solução foi aceita pelos especialistas.", "img": "03", "visual": {"modo": "contain", "mov": "out"}, "carimbo": "FALSO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Hoje ele está trancado numa biblioteca da Universidade Yale. E todas as páginas estão na internet. Para quem quiser tentar.", "img": "01", "visual": {"modo": "contain", "mov": "out"}, "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 1], ["SEM PROVA", 1], ["FALSO", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Alguém, há seiscentos anos, escreveu tudo isso com cuidado, criancinhas. Para alguém ler. Só não sabemos para quem.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "ESCRITO PARA QUEM?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

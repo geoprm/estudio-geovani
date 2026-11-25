@@ -1,0 +1,39 @@
+{
+ "schema": "arquivo-oculto/tiktok-grade-v1",
+ "linha": "Claude (D-111)",
+ "conta": "https://www.tiktok.com/@oarquivista.oculto",
+ "via": "Metricool 6361339 + mídia na Higgsfield",
+ "atualizado_em": "2026-11-11T05:15-03:00",
+ "itens": [
+  {
+   "serie": "Arquivo Morto",
+   "id": "AM-E01",
+   "titulo": "Carta Sem Remetente",
+   "agendado_para": "2026-11-11T23:15:00-03:00",
+   "metricool_post_id": "424120688",
+   "pasta": "saida_v2/AM-E01_reel",
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/d5d3108f-c47f-4a8c-9bde-d02565c69784.mp4",
+   "roteiro": "producao/arquivo_morto/AM-E01/AM-E01.roteiro.json",
+   "sha256": "f13b477978e93bb97ee118d1a86b090abc610ed35487e42bbcbdedd6cf5c812e",
+   "bytes": 22658334,
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "motor": "v2/reel_leve.py"
+  },
+  {
+   "serie": "O Arquivo Responde",
+   "id": "OAR-E01",
+   "titulo": "O Homem Mais Maligno do Mundo",
+   "agendado_para": "2026-11-12T14:30:00-03:00",
+   "metricool_post_id": "424120721",
+   "pasta": "saida_v2/OAR-E01_reel",
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/bb2920eb-8ceb-4cd8-9b5f-1e06c323ec2e.mp4",
+   "roteiro": "producao/o_arquivo_responde/OAR-E01.roteiro.json",
+   "sha256": "e40dfcd60aec0e3c6c049592bbee20cf296a7d038c104ddc599931851d51da4c",
+   "bytes": 40530225,
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "motor": "v2/reel_leve.py"
+  }
+ ]
+}

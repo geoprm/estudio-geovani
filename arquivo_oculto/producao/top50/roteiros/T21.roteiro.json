@@ -1,0 +1,180 @@
+{
+ "id": "TOP-T21",
+ "num": 21,
+ "serie": "DOSSIÊ 21 · LIVRO AZUL",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T21\\01_mcminnville_ufo_1_png.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "701 SEM EXPLICAÇÃO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: AnonymousUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu abro a pasta oficial onde a Força Aérea americana guardou seus discos voadores.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "1947. Pilotos e civis relatam objetos estranhos no céu dos Estados Unidos. A Força Aérea começa a investigar.",
+   "visual": {
+    "mov": "pan",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T21\\01_mcminnville_ufo_1_png.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: AnonymousUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1952, nasce o Projeto Livro Azul. Uma pequena equipe numa base em Ohio, encarregada de responder a uma pergunta: o que são essas coisas?",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T21\\03_project_blue_book_png.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "PROJETO LIVRO AZUL, 1952",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: Steve Jurvetson · CC BY 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O consultor científico era um astrônomo cético, Allen Hynek. Ele entrou para desmascarar os relatos.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "J. ALLEN HYNEK",
+     "ASTRÔNOMO CÉTICO"
+    ]
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Balões. Planetas. Aviões. Reflexos. Quase tudo tinha explicação.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T21\\10_project_bluebook_image_of_simonton_home.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: United States Air Force · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Quase. Em dezessete anos, doze mil seiscentos e dezoito relatos. Setecentos e um ficaram como não identificados.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "12.618 RELATOS",
+     "701 NÃO IDENTIFICADOS"
+    ]
+   },
+   "credito": "Fonte: Força Aérea dos EUA, ficha do Projeto Livro Azul",
+   "carimbo": "DOCUMENTADO",
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 4.5,
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Hynek mudou. O cético passou a dizer que alguns casos mereciam estudo sério. Foi ele quem criou a expressão contatos imediatos.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "\"CONTATOS",
+     "IMEDIATOS\""
+    ],
+    "papel": true
+   },
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1968, um relatório da Universidade do Colorado conclui que não vale a pena continuar. Em dezembro de 1969, a pasta é fechada.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T21\\03_project_blue_book_png.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Relatório Condon, 1968",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Conclusão oficial: nenhuma ameaça à segurança nacional. Nenhuma prova de naves de outro mundo.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T21\\03_project_blue_book_png.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "SEM PROVA",
+   "pausa": 0.8,
+   "credito": "Fonte: Relatório Condon, 1968"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Setecentos e um casos sem explicação, criancinhas. E a resposta oficial foi fechar a pasta. Quem fecha uma pasta às pressas... quando não há nada dentro?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "701 SEM RESPOSTA",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "12.618 relatos de OVNI e uma pasta fechada",
+  "fontes_texto": "Fontes: Força Aérea dos EUA, ficha informativa do Projeto Livro Azul (1952–1969); Universidade do Colorado, Relatório Condon (1968); Arquivo Nacional dos EUA (registros do projeto). Imagens: Wikimedia Commons, domínio público.",
+  "legenda_tiktok": "Durante 17 anos, a Força Aérea americana investigou 12.618 avistamentos de OVNIs. 701 nunca foram explicados. Em 1969, fecharam a pasta. 🛸\n\nDossiê 21 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #ovni #livroazul #misterio #historia"
+ }
+}

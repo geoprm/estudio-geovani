@@ -1,6 +1,6 @@
 # Pipeline real de produção de vídeo — Estúdio Audiovisual GM
 
-Atualizado em 09/11/2026.
+Atualizado em 10/11/2026.
 
 ## 1. As quatro peças do estúdio
 
@@ -24,6 +24,8 @@ Consultar `python -m arquivo_oculto.editorial --template <formato>` para começa
 O [caderno da temporada](arquivo_oculto/producao/v3/ROTEIROS_TEMPORADA_01.md) apresenta fala, imagem, som, fontes e pendências.
 A fábrica recusa o roteiro V3 direto. O manifesto de render recebe os planos, fontes, direitos, ativos e a locução com a identidade do lock.
 A rotina de nuvem continua no fluxo histórico V1.
+
+Para continuar **O Índice Cego** em V3, abra o [caderno da série](arquivo_oculto/producao/microdramas/O_INDICE_CEGO.md). Os cortes usam os manifestos em `arquivo_oculto/producao/microdramas/`. A [sala de projeção local](http://127.0.0.1:43127/editorial/sessoes) lê os MP4 aprovados pelo QA na máquina e lista os roteiros longos. A abertura narrada começa com “Olá, criancinhas...” e continua com uma frase do caso. `mascara_falada` no manifesto e no plano permite articulação discreta da boca com a voz, preservando o retrato e a voz já aprovados.
 
 Comando da fábrica para um manifesto técnico V2. O exemplo usa o manifesto histórico do EP01.
 

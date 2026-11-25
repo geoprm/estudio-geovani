@@ -6,7 +6,7 @@
 
 **Quadro:** macro de uma ponta metálica perto do papel. Um canal de áudio puxa discretamente à esquerda. O Arquivista entra pela direita, para de lado e parece escutar. A câmera continua em frente ao rosto. Sem sussurro que invente palavras de Aiwass.
 
-**Locução.** Olá, criancinhas... Hoje eu vou te mostrar o que um homem escreveu para evitar olhar para trás. Imagine uma mesa no Cairo. Meio-dia. Um homem sente que alguém fala atrás do seu ombro esquerdo. Ele escreve durante uma hora. No dia seguinte volta à mesma mesa. E, no terceiro, termina o livro. É assim que Aleister Crowley quis que a cena chegasse até nós. Aqui começa a parte estranha. A voz fica atrás dele. O rosto, ele diz que imaginou. E o livro dá à voz um nome: Aiwass. Por que um autor escolheria esconder a figura no instante em que apresenta alguém que diz conhecer tão bem? Para responder, eu precisei pôr duas versões do mesmo acontecimento em cima da mesa.
+**Locução.** Olá, criancinhas... Hoje eu vou te mostrar o que um homem escreveu sem se virar. Imagine uma mesa no Cairo. Meio-dia. Um homem sente que alguém fala atrás do seu ombro esquerdo. Ele escreve durante uma hora. No dia seguinte volta à mesma mesa. E, no terceiro, termina o livro. É assim que Aleister Crowley quis que a cena chegasse até nós. Aqui começa a parte estranha. A voz fica atrás dele. O rosto, ele diz que imaginou. E o livro dá à voz um nome: Aiwass. Por que um autor escolheria esconder a figura no instante em que apresenta alguém que diz conhecer tão bem? Para responder, eu precisei pôr duas versões do mesmo acontecimento em cima da mesa.
 
 ## 01:05 · Duas datas para o mesmo quarto
 
