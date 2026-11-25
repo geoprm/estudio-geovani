@@ -1,0 +1,45 @@
+{
+  "profile_id": "arquivo-oculto",
+  "editorial_version": "3.0.0",
+  "perfil_tecnico": "config/profiles/arquivo_oculto_v2.json",
+  "lock_identidade": "config/profiles/arquivo_oculto_v2.lock.json",
+  "temporada": "arquivo_oculto/producao/v3",
+  "formato_padrao": "investigacao_90",
+  "linguagem": "Investigação cinematográfica em português brasileiro, conduzida por O Arquivista.",
+  "direcao": {
+    "assinatura_abertura": "A primeira fala do Arquivista é “Olá, criancinhas...”. Depois da pausa, uma frase iniciada por “Hoje” abre a história do episódio.",
+    "abertura": "Entrar em uma ação ou vestígio específico: uma página virada, uma inscrição isolada, duas imagens em contraste. A pergunta surge da imagem.",
+    "progressao": "Cada pista altera a leitura da anterior ou introduz uma pergunta mais precisa. Alternar busca, descoberta e pausa. Só dizer datas que alteram a ordem dos fatos.",
+    "arquivista": "Investigar em cena: atravessar o arquivo, mudar de posição para ler, gesticular, virar a cabeça, retirar ou revelar um objeto. Preservar a máscara de marfim com veios dourados. Em planos falados expressamente marcados no manifesto, a máscara pode mover a boca de forma sutil no ritmo da voz, acompanhada pela cabeça e pelos ombros. A atuação pode alternar voz em cena e narração em off.",
+    "voz": "Usar a voz sintética grave aprovada no lock. Dirigir emoção pela intenção da frase, pelo silêncio antes ou depois da descoberta e pelo contraste com o desenho de som.",
+    "evidencia": "Dar às fontes e aos direitos um registro por beat. Atribuir a alegação na primeira menção, distinguir comparação de vínculo comprovado e manter a qualificação na mesma cena quando sua ausência mudar o sentido.",
+    "imagem": "Priorizar documentos, mapas, cartas e imagens autênticas com procedência e direitos adequados ao destino. Identificar ilustração, ficção e reconstituição na própria imagem. O cenário encenado jamais serve como prova.",
+    "desfecho": "Entregar uma descoberta ou mudança de leitura. Abrir a próxima investigação com uma pista concreta e explicitar a natureza da ponte quando ela for temática."
+  },
+  "templates": {
+    "reel_30": {
+      "estrutura": ["0–3 s · Um vestígio em movimento e uma pergunta curta.", "3–18 s · Duas pistas no máximo. Fazer a segunda mudar o sentido da primeira.", "18–26 s · Dar tempo de ler o achado.", "26–30 s · Fechar no objeto ou na pergunta que ele deixa."],
+      "montagem": "9:16. Começar em macro, cortar para a ação do Arquivista e voltar ao detalhe decisivo. Usar uma pausa de descoberta e no máximo uma ponte narrativa."
+    },
+    "investigacao_90": {
+      "estrutura": ["0–7 s · Abrir no mistério visual.", "7–32 s · Situar o caso seguindo duas pistas em ordem de descoberta.", "32–65 s · Revelar o documento ou detalhe que muda a hipótese.", "65–85 s · Concluir a busca do episódio e apontar o próximo objeto."],
+      "montagem": "9:16. Intercalar arquivo, atuação e detalhe. Fazer a voz ceder espaço ao documento nos planos de leitura. Dividir cada beat em planos após medir a locução."
+    },
+    "reel_profundo": {
+      "estrutura": ["0–8 s · Abrir numa contradição visível.", "8–48 s · Acompanhar a primeira linha de investigação.", "48–104 s · Apresentar a peça que desloca a suspeita ou sustenta outra leitura.", "104–135 s · Pagar a promessa inicial e formular a lacuna que resta."],
+      "montagem": "9:16. Usar um motivo visual que retorna com nova função. Dar espaço a uma comparação legível, sem apressar legendas ou empilhar datas."
+    },
+    "youtube_5min": {
+      "estrutura": ["0:00–0:20 · Abertura a frio em torno do vestígio central.", "0:20–1:40 · Capítulo 1: seguir a origem do documento ou objeto.", "1:40–3:35 · Capítulo 2: cruzar duas fontes ou leituras.", "3:35–5:00 · Capítulo 3: revelar o que mudou e deixar uma pergunta específica."],
+      "montagem": "16:9. Usar planos de contexto e detalhes legíveis. Situar cada fonte no capítulo correspondente e deixar referências completas na descrição."
+    },
+    "youtube_10min": {
+      "estrutura": ["0:00–0:30 · Abertura a frio com o vestígio que voltará no fim.", "0:30–2:30 · A origem e a primeira versão.", "2:30–5:30 · Fontes em confronto e consequências.", "5:30–8:30 · Uma hipótese concorrente e a peça que altera a investigação.", "8:30–10:00 · Voltar ao vestígio inicial, concluir e abrir a próxima linha."],
+      "montagem": "16:9. Usar capítulos com perguntas próprias, mapas legíveis e contrastes de escala. Fazer cada retorno ao mesmo objeto trazer uma informação nova."
+    },
+    "microdrama": {
+      "estrutura": ["0–5 s · Abrir numa decisão ou risco ficcional, com a identificação FICÇÃO já visível.", "5–30 s · Mostrar o que o Arquivista procura e o obstáculo que encontra.", "30–65 s · A escolha do personagem muda o rumo da cena.", "65–90 s · Mostrar a consequência e deixar um objeto ou gesto como fecho."],
+      "montagem": "9:16. Separar o segmento ficcional do documental com corte e identificação própria. Manter FICÇÃO legível durante a dramatização. Usar voz, gesto e som para a ação, sem simular gravação histórica ou atribuir falas inventadas a pessoas reais."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E01",
+  "titulo": "O jogo que parecia prever o mundo",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/AO-S01-E01.v2.json",
+  "proximo_episode_id": "AO-S01-E02",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Três nomes no escuro. Epidemia. Pentágono. Bomba nuclear. De que arquivo saíram?",
+      "visual": "Abra em preto. O foco corre sobre três títulos em tipografia original, parando um instante em cada um. Na terceira palavra, recue para revelar a margem de uma lista, sem simular a página da editora.",
+      "som": "Três toques secos de papel. Deixe o terceiro sem eco.",
+      "classe_visual": "tipografia",
+      "selo": "TÍTULOS TRADUZIDOS",
+      "claims_base": [
+        "C3"
+      ],
+      "referencias": [
+        "S-LIST-1995"
+      ]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 18,
+      "funcao": "pista",
+      "fala": "A luz pega a borda da página. É a lista de um jogo lançado em dezembro de noventa e quatro.",
+      "visual": "Travelling curto acompanha o Arquivista por dois módulos do fichário. Ele desliza uma folha de referência sob a luminária. Corte para o título do jogo e o lançamento em tipografia própria.",
+      "som": "Passos amortecidos, guias de gaveta e o clique da luminária.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [
+        "C1"
+      ],
+      "referencias": [
+        "S-FAQ-1994",
+        "S-LIST-1995"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 18,
+      "fim_s": 29,
+      "funcao": "pista",
+      "fala": "Illuminati: New World Order. Steve Jackson põe sociedades secretas à mesa. Cada jogador tem um alvo: o mundo.",
+      "visual": "Abra o FAQ assinado por Steve Jackson com data e origem visíveis. Corte da abertura para o parágrafo sobre o objetivo do jogo. Na pública, paráfrase atribuída e datada em composição própria. Um plano de mãos enluvadas distribui marcadores lisos sem reproduzir as cartas.",
+      "som": "Risco de lápis e três batidas leves de marcador, deixando a última frase em primeiro plano.",
+      "classe_visual": "documental",
+      "selo": "FONTE · STEVE JACKSON",
+      "claims_base": [
+        "C1",
+        "C2"
+      ],
+      "referencias": [
+        "S-FAQ-1994"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 29,
+      "fim_s": 41,
+      "funcao": "hipotese",
+      "fala": "Lidos hoje, os títulos parecem recortes do futuro. O jogo antecipou alguma coisa? Ou eu escolhi as cartas depois de conhecer o desfecho?",
+      "visual": "Corte da lista datada para os três títulos isolados e, de volta, para o Arquivista voltando a cabeça em um plano de até três segundos. A composição distingue ‘título da época’ de ‘leitura posterior’, sem fotos de desastres.",
+      "som": "Grave discreto durante a pergunta, cortado antes de a imagem voltar ao Arquivista.",
+      "classe_visual": "tipografia",
+      "selo": "LEITURA POSTERIOR",
+      "claims_base": [
+        "C3",
+        "C5",
+        "C7"
+      ],
+      "referencias": [
+        "S-LIST-1995"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 41,
+      "fim_s": 52,
+      "funcao": "virada",
+      "fala": "Abro o quadro. Os três nomes voltam a ser três entre quatrocentas e doze entradas. Quais ficaram fora da montagem?",
+      "visual": "Afaste a câmera da seleção de três termos para a contagem do inventário preservado. Faça os nomes voltarem às posições da lista e destaque a referência de 18 de abril de 1995 sem inventar artes.",
+      "som": "Papel arrastado em sentido contrário ao movimento de câmera. Sem efeito de revelação sobre os nomes.",
+      "classe_visual": "documental",
+      "selo": "DADOS DA LISTA OFICIAL",
+      "claims_base": [
+        "C3",
+        "C4",
+        "C7"
+      ],
+      "referencias": [
+        "S-LIST-1995"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 52,
+      "fim_s": 62,
+      "funcao": "pista",
+      "fala": "Guardo a lista. O nome da editora reaparece em outra pasta, no cabeçalho de um processo federal.",
+      "visual": "O Arquivista encaixa a folha na gaveta e para com a mão na segunda pasta. Corte de ombro para o cabeçalho e a referência judicial em lettering simples. Mantenha o adereço separado do documento.",
+      "som": "Engate da primeira gaveta, seguido por uma batida seca da segunda.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [
+        "C8"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 62,
+      "fim_s": 75,
+      "funcao": "virada",
+      "fala": "Quase cinco anos antes do jogo, agentes do Serviço Secreto fizeram uma busca na editora. Levaram computadores.",
+      "visual": "Mostre a data da busca no texto da decisão e deixe visível a identificação do tribunal. Corte para o local em um mapa editorial e para a data de lançamento. Cartela final com ambas as fontes.",
+      "som": "Risco de caneta sobre a primeira data. Deixe a segunda entrar no silêncio.",
+      "classe_visual": "documental",
+      "selo": "DECISÃO JUDICIAL · BUSCA DE 1990",
+      "claims_base": [
+        "C8",
+        "C9"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-LIST-1995"
+      ]
+    },
+    {
+      "id": "B08",
+      "inicio_s": 75,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "O que os agentes procuravam naquela sala? Deixo a lista aqui. Vou abrir o processo.",
+      "visual": "O Arquivista encosta as pastas sem sobrepor as datas. O foco abandona o rosto e vai para o número do processo. Corte para preto com a referência do próximo episódio.",
+      "som": "Som da lombada tocando a mesa. Faça a pergunta sem trilha e feche com o motivo sonoro do perfil.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [
+        "C9"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-LIST-1995"
+      ]
+    }
+  ],
+  "fontes_adicionais": [],
+  "preproducao": [
+    "Conferir a lista no snapshot de 18/04/1995 já preservado. O endereço atual da editora retornou 403 na revisão V3. A contagem de 412 é daquele inventário e não do total de variantes.",
+    "Na versão pública, mostrar os nomes e dados do catálogo em tipografia própria. Citações literais da lista e a arte Bavarian Illuminati seguem o gate V2. Se usado na prévia, creditar Jeff Koke e Steve Jackson Games e identificar o asset como recorte de arte, não como carta completa.",
+    "Manter as duas datas na montagem e não usar uma imagem da busca como se ela documentasse interesse dos agentes nas cartas."
+  ]
+}

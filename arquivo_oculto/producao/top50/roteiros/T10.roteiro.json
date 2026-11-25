@@ -1,0 +1,173 @@
+{
+ "id": "TOP-T10",
+ "num": 10,
+ "serie": "DOSSIÊ 10 · A FARSA DE TAXIL",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\02_les_myst_res_de_la_franc_ma_onnerie_d_vo.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "ERA TUDO MENTIRA",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Published by Imp. Edw. Ancourt &amp; Cie (Paris) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje vocês vão conhecer o homem que enganou o mundo inteiro sobre a Maçonaria. E depois riu na cara de todos.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Paris, 1885. Léo Taxil, escritor famoso por atacar a Igreja, anuncia que se converteu. E que vai revelar a verdade sobre os maçons.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\03_l_o_taxil_melandri_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "PARIS, 1885",
+   "pausa": 0.3,
+   "credito": "Imagem: Achille Mélandri. Upload, stitch and restoration · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Livro após livro, ele descreve rituais a Lúcifer, templos secretos, uma seita dentro das lojas.",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\02_les_myst_res_de_la_franc_ma_onnerie_d_vo.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: Published by Imp. Edw. Ancourt &amp; Cie (Paris) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Inventa até uma testemunha: Diana Vaughan, uma ex-sacerdotisa arrependida, que escreve memórias assustadoras.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\04_epilogue_de_la_conversion_de_l_o_taxil_l.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Claude Guillaumin · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os livros vendem aos milhares. Em 1887, Taxil é recebido em audiência pelo Papa Leão Treze.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\06_conversion_de_l_o_taxil_par_demare_la_no.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: Henri Demare · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Até que, em dezenove de abril de 1897, ele promete apresentar Diana Vaughan ao público. O salão lota.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "19 DE ABRIL DE 1897",
+     "SOCIEDADE DE GEOGRAFIA"
+    ],
+    "papel": true
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele sobe ao palco. E diz que Diana Vaughan não existe. Que os rituais não existem. Que inventou tudo para mostrar como era fácil enganar.",
+   "visual": {
+    "tipo": "preto"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "FALSO",
+   "carimbo_em": 6.0,
+   "pausa": 0.8
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele precisou sair escoltado. Mas a mentira já tinha ganhado vida própria.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\03_l_o_taxil_melandri_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Achille Mélandri. Upload, stitch and restoration · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Uma frase que ele inventou e atribuiu a um líder maçom americano, dizendo que Lúcifer é Deus, circula até hoje na internet. Como se fosse verdadeira.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T10\\01_baphomet_png.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "FALSO",
+   "pausa": 0.5,
+   "credito": "Imagem: Eliphas Levi · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      1
+     ],
+     [
+      "FALSO",
+      2
+     ]
+    ],
+    "titulo": "O ARQUIVO JULGA"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O mentiroso confessou há mais de cem anos, criancinhas. A mentira não. Da próxima vez que te mandarem essa frase... pergunte de onde ela veio.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "A MENTIRA NÃO CONFESSOU",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "A maior farsa contra a Maçonaria foi confessada em 1897",
+  "fontes_texto": "Fontes: conferência de Léo Taxil na Sociedade de Geografia de Paris (19/04/1897), publicada em Le Frondeur (25/04/1897); A. E. Waite, Devil-Worship in France (1896). Imagens: Wikimedia Commons, domínio público.",
+  "legenda_tiktok": "Durante 12 anos, um francês revelou ao mundo que a Maçonaria adorava Lúcifer. Até o Papa o recebeu. Em 1897, ele subiu num palco e confessou: era tudo mentira. 😈\n\nDossiê 10 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #maconaria #farsa #misterio #historia"
+ }
+}

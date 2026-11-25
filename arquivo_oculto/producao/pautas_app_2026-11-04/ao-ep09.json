@@ -1,0 +1,123 @@
+{
+  "aberturaA": "Ela é citada como plano secreto. Mas está publicada para quem quiser ler.",
+  "cenas": [
+    {
+      "fala": "Ela é citada como plano secreto. Mas está publicada para quem quiser ler.",
+      "tela": "AGENDA 2030",
+      "v": {
+        "sub": "AGENDA",
+        "texto": "2030",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "A Agenda 2030 foi aprovada na ONU em setembro de 2015.",
+      "selo": "DOCUMENTADO",
+      "tela": "ONU · 2015",
+      "tts": "A Agenda dois mil e trinta foi aprovada na ONU em setembro de dois mil e quinze.",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Dezessete objetivos. Cento e sessenta e nove metas.",
+      "tela": "17 OBJETIVOS · 169 METAS",
+      "v": {
+        "tipo": "grade"
+      }
+    },
+    {
+      "fala": "Pobreza, fome, saúde, educação, energia, clima. Está tudo no texto oficial.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "O QUE ESTÁ ESCRITO",
+      "v": {
+        "cabecalho": "NAÇÕES UNIDAS · 2015",
+        "carimbo": "PÚBLICO",
+        "linhas": [
+          "TRANSFORMANDO NOSSO MUNDO",
+          "17 OBJETIVOS · 169 METAS",
+          "PRAZO: 2030"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "O debate sério não é se ela existe. É o que cada governo faz com ela, e quem decide.",
+      "tela": "TEXTO × INTERPRETAÇÃO",
+      "v": {
+        "a": [
+          "TEXTO",
+          "OFICIAL"
+        ],
+        "b": [
+          "O QUE",
+          "DIZEM"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Quem critica sem ler perde o argumento. Quem lê, ganha.",
+      "tela": "LEIA A FONTE",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Você já leu a Agenda 2030... ou só ouviu falar dela?",
+      "tela": "LEU OU OUVIU?",
+      "tts": "Você já leu a Agenda dois mil e trinta... ou só ouviu falar dela?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-009",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "ONU 2015, 17 ODS, 169 metas. Não apresentar plano secreto como fato.",
+  "data": "2026-11-03",
+  "fato": "ONU 2015, 17 ODS, 169 metas. Não apresentar plano secreto como fato.",
+  "fontes": [
+    {
+      "nome": "sdgs.un.org",
+      "url": "https://sdgs.un.org/2030agenda"
+    }
+  ],
+  "legenda": "O texto da Agenda 2030 é público: ONU, 2015, 17 objetivos e 169 metas. Dá para discutir o impacto real sem confundir documento com interpretação.\n\nQuer a análise por capítulo? Comente 2030.\n\nFonte: sdgs.un.org/2030agenda\n\n#ArquivoOculto #Agenda2030 #ONU #geopolitica #misterio",
+  "nota": 4,
+  "ordem": 9,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Ela é citada como plano secreto. Mas está publicada para quem quiser ler.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "A Agenda 2030 foi aprovada na ONU em setembro de 2015.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "Dezessete objetivos. Cento e sessenta e nove metas.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Pobreza, fome, saúde, educação, energia, clima. Está tudo no texto oficial.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "O debate sério não é se ela existe. É o que cada governo faz com ela, e quem decide.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Quem critica sem ler perde o argumento. Quem lê, ganha.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Você já leu a Agenda 2030... ou só ouviu falar dela?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Tabuleiro Mundial",
+  "titulo": "Agenda 2030: o que está escrito?"
+}

@@ -1,0 +1,274 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E05",
+ "versao": "v2.0-rascunho",
+ "num": 5,
+ "formato": "investigacao_90",
+ "duracao_estimada_s": 44.3,
+ "expandir_para_formato": true,
+ "titulo": "MKULTRA: quando o segredo foi confirmado",
+ "serie": "Conspirações Documentadas",
+ "hook": "1977. O SENADO AMERICANO OUVE A CIA SOBRE UM PROGRAMA SECRET",
+ "status_editorial": "rascunho_pendente_checagem",
+ "pendencias": [
+  "ler cada fonte e salvar snapshot com hash em acervo_privado/",
+  "classificar claims (documented/interpretation/allegation) e ligar às falas",
+  "trocar dossiês ilustrados por evidência autêntica quando houver direitos",
+  "expandir para investigacao_90 (85 s, 25–30 planos) se o tema sustentar",
+  "conferir cuidado editorial: Programa de 1953; destruição ordenada por Richard Helms em 1973; documentos financeiros achados em 1977; audiência no Senado em 03/08/1977."
+ ],
+ "origem": {
+  "pauta_app": "ao-ep05",
+  "codigo": "AO-REEL-005",
+  "palavras": 86
+ },
+ "fontes": [
+  {
+   "id": "S-PAUTA-1",
+   "titulo": "cia.gov",
+   "url": "https://www.cia.gov/readingroom/",
+   "verificacao": "NÃO VERIFICADA no fluxo V2: fonte herdada da pauta do app"
+  }
+ ],
+ "claims": [],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "1977. O Senado americano ouve a CIA sobre um programa secreto.",
+   "tts": "Mil novecentos e setenta e sete. O Senado americano ouve a CIA sobre um programa secreto.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "titulo_obra",
+     "params": {
+      "linhas": [
+       "1977"
+      ],
+      "sub": "SENADO DOS EUA"
+     },
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "titulo_obra original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S01",
+     "peso": 1,
+     "tela": "1977"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "inciting_question",
+   "fala": "O nome: MKULTRA.",
+   "tts": "O nome: em quei ultra.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe",
+     "camera_motion": "dolly-in",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "aparicao",
+     "id": "S02",
+     "peso": 1,
+     "tela": "MKULTRA"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "dated_evidence",
+   "fala": "Na Guerra Fria, a agência financiou experiências com drogas como o LSD e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+   "tts": "Na Guerra Fria, a agência financiou experiências com drogas como o éle éssi dê e técnicas de controle do comportamento. Muitos nem sabiam que eram cobaias.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "dossie_abre",
+     "params": {
+      "cabecalho": "PROJETO MKULTRA",
+      "linhas": [
+       "SUBSTÂNCIAS: LSD",
+       "CONTROLE DO COMPORTAMENTO",
+       "CONSENTIMENTO: NÃO"
+      ],
+      "rotulo": "SEM CONSENTIMENTO",
+      "data": ""
+     },
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossie_abre",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "dossie_abre original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S03",
+     "peso": 1,
+     "tela": "SEM CONSENTIMENTO"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "Em 1973, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+   "tts": "Em mil novecentos e setenta e três, o diretor da CIA mandou destruir os arquivos. Uma parte sobreviveu, esquecida em outro setor.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "salto_datas",
+     "params": {
+      "de": "1953",
+      "ate": "1977",
+      "rot_de": "INÍCIO",
+      "rot_ate": "SENADO",
+      "gap": ""
+     },
+     "selo": "A VERIFICAR",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "salto_datas original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S04",
+     "peso": 1,
+     "tela": "1973: QUEIMA DE ARQUIVO"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "competing_interpretations",
+   "fala": "É perturbador. E está documentado.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "action": "caminha entre fichários",
+     "gesture": "passos com balanço",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: caminha entre fichários",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "corredor",
+     "id": "S05",
+     "peso": 1,
+     "tela": "DOCUMENTADO"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "reversal_or_surprise",
+   "fala": "Mas um caso real não prova qualquer outra teoria. Cada uma precisa da sua própria evidência.",
+   "pausa_ms": 340,
+   "claims": [],
+   "shots": [
+    {
+     "tipo": "leituras",
+     "params": {
+      "a": [
+       "FATO",
+       "1977"
+      ],
+      "b": [
+       "EXTRAPOLAÇÃO",
+       "SEM PROVA"
+      ],
+      "sync_b": 0.45
+     },
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "papel / pulso grave",
+     "prompt": "leituras original do Arquivo Oculto",
+     "negative_prompt": "documento real falsificado, logotipos, rostos reais",
+     "id": "S06",
+     "peso": 1,
+     "tela": "CADA TEORIA, SUA PROVA"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Se queimaram os arquivos uma vez... o que mais sobrou?",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "tipo": "encerramento",
+     "id": "S07",
+     "peso": 1,
+     "tela": "O QUE SOBROU?"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 05",
+   "ARQUIVO OCULTO",
+   "CONSPIRAÇÕES DOCUMENTADAS"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "MKULTRA existiu e foi investigado oficialmente pelo Senado dos EUA em 1977. O rigor começa quando separamos documento de extrapolação.\n\nSiga para mais casos comprovados.\n\nFonte: audiência conjunta do Senado dos EUA, 03/08/1977 (Project MKULTRA, the CIA's Program of Research in Behavioral Modification)\n\n#ArquivoOculto #MKULTRA #CIA #historia #conspiracao"
+}

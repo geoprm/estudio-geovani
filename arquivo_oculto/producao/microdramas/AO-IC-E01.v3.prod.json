@@ -1,0 +1,505 @@
+{
+  "schema": "arquivo-oculto/episodio-v2",
+  "episode_id": "AO-IC-E01",
+  "num": 1,
+  "formato": "microdrama",
+  "versao": "v3.0-piloto.1",
+  "status_editorial": "pronto_para_render",
+  "titulo": "O Quadro 33",
+  "serie": "O Índice Cego",
+  "hook": "QUEM ESTÁ SENDO FILMADO?",
+  "fontes": [
+    {
+      "id": "S-LOC-OZ",
+      "titulo": "The Wizard of Oz (1939) · Library of Congress",
+      "url": "https://www.loc.gov/item/95510666/",
+      "verificacao": "Registro do filme, campo Created / Published: 1939."
+    },
+    {
+      "id": "S-OTO-OZ",
+      "titulo": "Observations on Liber Oz · O.T.O. USA",
+      "url": "https://sabazius.oto-usa.org/writings/essays-and-commentaries/thelema/observations-on-liber-oz",
+      "verificacao": "O texto foi escrito em 1941 com base em uma palestra anterior. A data do texto não data a palestra."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "status": "documented",
+      "texto": "O filme O Mágico de Oz foi lançado em 1939.",
+      "fontes": [
+        "S-LOC-OZ"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "documented",
+      "texto": "O.T.O. USA situa a escrita de Liber OZ em 1941 e indica uma palestra anterior.",
+      "fontes": [
+        "S-OTO-OZ"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "A-ARQUIVISTA",
+      "tipo": "personagem",
+      "arquivo": "arquivo_oculto/assets/arquivista.png",
+      "rights_status": "owner_provided",
+      "credito": "O Arquivista · identidade aprovada"
+    },
+    {
+      "id": "A-PRODUCAO-ORIGINAL",
+      "tipo": "ficcao",
+      "rights_status": "original_production",
+      "credito": "Arte e adereços originais · O Índice Cego"
+    },
+    {
+      "id": "A-DATA-FILME",
+      "tipo": "dado_documental",
+      "fonte": "S-LOC-OZ",
+      "rights_status": "fact_citation",
+      "credito": "Dado histórico · Library of Congress"
+    },
+    {
+      "id": "A-DATA-TEXTO",
+      "tipo": "dado_documental",
+      "fonte": "S-OTO-OZ",
+      "rights_status": "fact_citation",
+      "credito": "Dado histórico · O.T.O. USA"
+    }
+  ],
+  "outro": {
+    "duracao_s": 2.4,
+    "visual_source_type": "tipografia",
+    "rights_status": "original_production",
+    "linhas": [
+      "O ÍNDICE CEGO · EP. 01",
+      "A MARGEM DO LIVRO",
+      "PRÓXIMO CAPÍTULO"
+    ],
+    "aviso": "FICÇÃO ORIGINAL · VOZ SINTÉTICA"
+  },
+  "nota_editorial": "A fita, a cabine e a gravação são ficção. Os dados de Oz e Crowley são referências históricas em tipografia própria. Nenhum trecho do filme, da série ou de música comercial foi usado.",
+  "linhas": [
+    {
+      "id": "L01",
+      "beat": "cold_open",
+      "fala": "A fita termina no quadro trinta e dois. Eu contei duas vezes.",
+      "pausa_ms": 380,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S01",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · pelicula",
+          "params": {
+            "modo": "pelicula"
+          },
+          "selo": "FICÇÃO",
+          "movement": "feixe de projeção percorre os dentes da fita e encontra a numeração",
+          "sound_design": "tranco curto de projetor",
+          "prompt": "Composição procedural original em 2,5D: pelicula. feixe de projeção percorre os dentes da fita e encontra a numeração",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "beat": "inciting_question",
+      "fala": "No último quadro, uma porta. A minha.",
+      "pausa_ms": 580,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S02",
+          "tipo": "aparicao",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "entra no feixe e para ao reconhecer a imagem",
+          "gesture": "ergue a cabeça para a projeção",
+          "camera_motion": "dolly-in curto",
+          "emotional_beat": "reconhecimento",
+          "movement": "dolly-in curto",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: entra no feixe e para ao reconhecer a imagem.",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.55,
+          "params": {}
+        },
+        {
+          "id": "S03",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · porta",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "travelling para uma porta fechada e risco de luz",
+          "sound_design": "pulso grave",
+          "prompt": "Composição procedural original em 2,5D: porta. travelling para uma porta fechada e risco de luz",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.78
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "beat": "dated_evidence",
+      "fala": "Na emenda, alguém escreveu Liber Oz. Puxei as duas datas.",
+      "pausa_ms": 420,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S04",
+          "tipo": "corredor",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "atravessa o arquivo até o fichário",
+          "gesture": "passos contidos",
+          "camera_motion": "travelling lateral",
+          "emotional_beat": "busca",
+          "movement": "travelling lateral",
+          "sound_design": "passos no piso",
+          "prompt": "Arquivista canônico: atravessa o arquivo até o fichário.",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.69,
+          "params": {
+            "direcao": 1
+          }
+        },
+        {
+          "id": "S05",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · pelicula",
+          "params": {
+            "modo": "pelicula",
+            "inscricao": "LIBER OZ"
+          },
+          "selo": "FICÇÃO",
+          "movement": "macro da inscrição presa à emenda",
+          "sound_design": "dentes da fita, motor em queda",
+          "prompt": "Composição procedural original em 2,5D: pelicula. macro da inscrição presa à emenda",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.84
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "beat": "dated_evidence",
+      "fala": "O filme é de mil novecentos e trinta e nove. Crowley escreveu Liber Oz em quarenta e um.",
+      "pausa_ms": 620,
+      "claims": [
+        "C1",
+        "C2"
+      ],
+      "shots": [
+        {
+          "id": "S06",
+          "tipo": "titulo_obra",
+          "asset": "A-DATA-FILME",
+          "visual_source_type": "dado_documental",
+          "shot_type": "tipografia de referência",
+          "params": {
+            "linhas": [
+              "O MÁGICO",
+              "DE OZ"
+            ],
+            "sub": "FILME · 1939"
+          },
+          "selo": "FICÇÃO",
+          "credito": true,
+          "peso": 1.03,
+          "movement": "entrada em luz e aproximação contida",
+          "sound_design": "toque de papel",
+          "prompt": "tipografia original para a referência citada",
+          "negative_prompt": "capa ou fotograma copiado, marca do estúdio cinematográfico"
+        },
+        {
+          "id": "S07",
+          "tipo": "titulo_obra",
+          "asset": "A-DATA-TEXTO",
+          "visual_source_type": "dado_documental",
+          "shot_type": "tipografia de referência",
+          "params": {
+            "linhas": [
+              "LIBER OZ"
+            ],
+            "sub": "TEXTO · 1941"
+          },
+          "selo": "FICÇÃO",
+          "credito": true,
+          "peso": 0.97,
+          "movement": "entrada em luz e aproximação contida",
+          "sound_design": "toque de papel",
+          "prompt": "tipografia original para a referência citada",
+          "negative_prompt": "capa ou fotograma copiado, marca do estúdio cinematográfico"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "beat": "competing_interpretations",
+      "fala": "As datas abriram outra pergunta. Quem juntou esses nomes na nossa fita?",
+      "pausa_ms": 470,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S08",
+          "tipo": "virar_cabeca",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "recuou da emenda e procura de onde veio a projeção",
+          "gesture": "giro rígido em direção à cabine",
+          "camera_motion": "órbita discreta",
+          "emotional_beat": "desconfiança",
+          "movement": "órbita discreta",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: recuou da emenda e procura de onde veio a projeção.",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.66,
+          "params": {
+            "lado": -1
+          }
+        },
+        {
+          "id": "S09",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · pelicula",
+          "params": {
+            "modo": "pelicula",
+            "inscricao": "LIBER OZ"
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe abandona a marca e deixa o fotograma em sombra",
+          "sound_design": "motor da fita e corte seco",
+          "prompt": "Composição procedural original em 2,5D: pelicula. o feixe abandona a marca e deixa o fotograma em sombra",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.05
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "beat": "reversal_or_surprise",
+      "fala": "No verso da lata, outro número. Trinta e três.",
+      "pausa_ms": 530,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S10",
+          "tipo": "lata_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · verso da lata",
+          "params": {
+            "inscricao": "33"
+          },
+          "selo": "FICÇÃO",
+          "movement": "a luz percorre o metal e termina na etiqueta 33",
+          "sound_design": "a lata toca a mesa, som curto",
+          "prompt": "Macro do verso de uma lata de película em luz âmbar, com etiqueta de número 33.",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "beat": "reversal_or_surprise",
+      "fala": "No mapa da cabine, ele estava no meio da plateia. Era um assento.",
+      "pausa_ms": 680,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S11",
+          "tipo": "debrucar",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "se inclina e encontra a planta baixa",
+          "gesture": "cabeça desce sobre a mesa",
+          "camera_motion": "tilt para a planta",
+          "emotional_beat": "descoberta",
+          "movement": "tilt para a planta",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: se inclina e encontra a planta baixa.",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.57,
+          "params": {}
+        },
+        {
+          "id": "S12",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · plateia",
+          "params": {
+            "modo": "plateia"
+          },
+          "selo": "FICÇÃO",
+          "movement": "começa na poltrona rubra e abre para a planta e a linha da cabine",
+          "sound_design": "batida metálica e espaço para a revelação",
+          "prompt": "Composição procedural original em 2,5D: plateia. começa na poltrona rubra e abre para a planta e a linha da cabine",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.35
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "O projetor apontava para a tela. A câmera apontava para a cadeira.",
+      "pausa_ms": 490,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S13",
+          "tipo": "dossie_abre",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "ficha da cabine",
+          "params": {
+            "cabecalho": "FICHA DA CABINE",
+            "linhas": [
+              "A bobina registra quem ocupa o assento.",
+              "Posição da câmera: atrás da fileira."
+            ],
+            "rotulo": "CABINE DE PROJEÇÃO"
+          },
+          "selo": "FICÇÃO",
+          "peso": 1,
+          "movement": "o feixe acompanha a abertura da capa e desce até a linha",
+          "sound_design": "papel e trilho da mesa",
+          "prompt": "adereço de papel explicitamente ficcional",
+          "negative_prompt": "brasões, autenticação, carimbo governamental"
+        },
+        {
+          "id": "S14",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · lente",
+          "params": {
+            "modo": "lente"
+          },
+          "selo": "FICÇÃO",
+          "movement": "aproximação na lente com o reflexo rubro deslocando-se",
+          "sound_design": "pulso baixo e seco",
+          "prompt": "Composição procedural original em 2,5D: lente. aproximação na lente com o reflexo rubro deslocando-se",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.89
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Ouvi o motor ligar. Eu ainda estava sentado.",
+      "pausa_ms": 760,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S15",
+          "tipo": "olhar_camera",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "vira da plateia para a lente",
+          "gesture": "olhar cruza o quadro sem mover a boca",
+          "camera_motion": "push-in curto",
+          "emotional_beat": "realização",
+          "movement": "push-in curto",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: vira da plateia para a lente.",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.75,
+          "params": {}
+        },
+        {
+          "id": "S16",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · lente",
+          "params": {
+            "modo": "lente"
+          },
+          "selo": "FICÇÃO",
+          "movement": "o reflexo recua até restar um ponto vermelho",
+          "sound_design": "clique de gravação",
+          "prompt": "Composição procedural original em 2,5D: lente. o reflexo recua até restar um ponto vermelho",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.9
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Na margem do livro havia outros nomes. O primeiro era o meu.",
+      "pausa_ms": 480,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S17",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço narrativo · porta",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "luz na fresta afina até quase sumir",
+          "sound_design": "toque grave sob a abertura",
+          "prompt": "Composição procedural original em 2,5D: porta. luz na fresta afina até quase sumir",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.03
+        },
+        {
+          "id": "S18",
+          "tipo": "encerramento",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "recolhe-se para fora do feixe",
+          "gesture": "recua sem virar o rosto",
+          "camera_motion": "pull-back",
+          "emotional_beat": "corte de continuidade",
+          "movement": "pull-back",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: recolhe-se para fora do feixe.",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.7,
+          "params": {}
+        }
+      ]
+    }
+  ]
+}

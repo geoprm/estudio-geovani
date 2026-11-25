@@ -1,0 +1,168 @@
+{
+ "id": "TOP-T25",
+ "num": 25,
+ "serie": "DOSSIÊ 25 · O MEMORANDO DE 1974",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "SECRETO",
+     "11 DE ABRIL DE 1974"
+    ],
+    "papel": true
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu abro um papel que ficou trancado em Washington por quarenta e quatro anos. E ele fala do Brasil.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Onze de abril de 1974. O diretor da CIA, William Colby, escreve ao secretário de Estado americano, Henry Kissinger.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T25\\04_dci_colby_1975_cia_map_30583776980_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: Central Intelligence Agency from Washington, D.C · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O assunto: uma reunião em Brasília, poucas semanas depois da posse do presidente Ernesto Geisel.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T25\\09_ernesto_geisel_a_cores_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Segundo o memorando, generais informam ao presidente que, no ano anterior, cento e quatro pessoas consideradas subversivas tinham sido executadas sumariamente.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "104"
+    ],
+    "sub": "segundo o memorando"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 6.0,
+   "pausa": 0.7
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E relata a resposta: a política deveria continuar, com cuidado. E cada caso precisaria da aprovação do chefe do serviço de informações.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T25\\09_ernesto_geisel_a_cores_jpg.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.9,
+   "credito": "Imagem: Unknown authorUnknown author · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em maio de 2018, um pesquisador brasileiro encontra o documento na coleção oficial do Departamento de Estado. O país inteiro lê.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T25\\05_henry_kissinger_na_onu_1974_tif.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Foreign Relations of the United States, 1969–1976, vol. E-11 (2018)",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Atenção: o memorando é um relato da CIA, de segunda mão. Nunca houve confirmação oficial brasileira daquela conversa.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T25\\04_dci_colby_1975_cia_map_30583776980_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "INTERPRETAÇÃO",
+   "pausa": 0.5,
+   "credito": "Imagem: Central Intelligence Agency from Washington, D.C · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas em 2014, a Comissão Nacional da Verdade já tinha listado quatrocentos e trinta e quatro mortos e desaparecidos pela repressão.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "434",
+     "MORTOS E DESAPARECIDOS"
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: Comissão Nacional da Verdade, relatório final, 2014",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "INTERPRETAÇÃO",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O papel ficou quarenta e quatro anos numa gaveta, criancinhas. E essa foi só uma gaveta. Quantas outras ainda estão trancadas?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "QUANTAS AINDA ESTÃO TRANCADAS?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O memorando da CIA sobre a ditadura brasileira",
+  "fontes_texto": "Fontes: memorando do diretor da CIA, William Colby, ao secretário de Estado Henry Kissinger (11/04/1974), publicado em Foreign Relations of the United States, 1969–1976, vol. E-11, parte 2 (2018); Comissão Nacional da Verdade, relatório final (10/12/2014). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Em 2018, o governo americano liberou um memorando de 1974 da CIA. Ele relata uma conversa no alto comando da ditadura brasileira sobre execuções. O que o documento diz, e o que ele não prova. 📄\n\nDossiê 25 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #ditadura #cia #historia #documentos"
+ }
+}

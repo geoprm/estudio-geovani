@@ -1,0 +1,140 @@
+{
+  "aberturaA": "Uma carta de 1995 voltou a circular em julho de 2024.",
+  "cenas": [
+    {
+      "fala": "Uma carta de 1995 voltou a circular em julho de 2024.",
+      "tela": "DE 1995 A 2024",
+      "tts": "Uma carta de mil novecentos e noventa e cinco voltou a circular em julho de dois mil e vinte e quatro.",
+      "v": {
+        "alvo": "mesa",
+        "tipo": "crop"
+      }
+    },
+    {
+      "fala": "Depois do atentado contra Donald Trump, milhões de pessoas viram nela um aviso.",
+      "tela": "UM AVISO?",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "O nome da carta: Enough Is Enough. Expansão Assassins, do jogo Illuminati.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "ENOUGH IS ENOUGH",
+      "tts": "O nome da carta: Inâf is inâf. Expansão Assassins, do jogo Iluminati.",
+      "v": {
+        "cabecalho": "FICHA DA CARTA",
+        "carimbo": "INTERPRETAÇÃO",
+        "linhas": [
+          "TÍTULO: ENOUGH IS ENOUGH",
+          "EXPANSÃO: ASSASSINS",
+          "ANO: 1995"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Mas a ligação com Trump já circulava em 2017. E a carta não cita nome, data nem lugar.",
+      "tela": "SEM NOME. SEM DATA.",
+      "tts": "Mas a ligação com Trump já circulava em dois mil e dezessete. E a carta não cita nome, data nem lugar.",
+      "v": {
+        "pontos": [
+          [
+            "1995",
+            "CARTA"
+          ],
+          [
+            "2017",
+            "TEORIA"
+          ],
+          [
+            "2024",
+            "ATENTADO"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "Uma imagem parecida não é previsão. É interpretação.",
+      "tela": "IMAGEM NÃO É PREVISÃO",
+      "v": {
+        "a": [
+          "PARECE",
+          "IMAGEM"
+        ],
+        "b": [
+          "PROVA",
+          "NENHUMA"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "E interpretação, neste arquivo, ganha selo.",
+      "tela": "SELO: INTERPRETAÇÃO",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Você viu a carta original... ou só o print?",
+      "tela": "ORIGINAL OU PRINT?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-003",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Associação é interpretação, não previsão explícita. Não reproduzir a arte da carta sem licença; não simular o atentado.",
+  "data": "2026-11-03",
+  "fato": "Associação é interpretação, não previsão explícita. Não reproduzir a arte da carta sem licença; não simular o atentado.",
+  "fontes": [
+    {
+      "nome": "ccgtrader.net",
+      "url": "https://www.ccgtrader.net/games/illuminati-nwo-ccg"
+    },
+    {
+      "nome": "illuminati.game",
+      "url": "https://illuminati.game/faqs"
+    }
+  ],
+  "legenda": "Antes de chamar algo de previsão, confira a carta original e quando a interpretação surgiu. A associação com Trump já circulava em 2017 e a carta não cita nome, data nem lugar.\n\nQuer o comparativo completo? Comente DOSSIÊ.\n\nFontes: ccgtrader.net · illuminati.game/faqs\n\n#ArquivoOculto #INWO #Previsoes #Trump #misterio",
+  "nota": 4,
+  "ordem": 3,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Uma carta de 1995 voltou a circular em julho de 2024.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "Depois do atentado contra Donald Trump, milhões de pessoas viram nela um aviso.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "O nome da carta: Enough Is Enough. Expansão Assassins, do jogo Illuminati.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Mas a ligação com Trump já circulava em 2017. E a carta não cita nome, data nem lugar.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "Uma imagem parecida não é previsão. É interpretação.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "E interpretação, neste arquivo, ganha selo.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Você viu a carta original... ou só o print?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Cartas do Futuro",
+  "titulo": "A carta associada a Trump"
+}

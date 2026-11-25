@@ -1,0 +1,176 @@
+{
+ "id": "TOP-T18",
+ "num": 18,
+ "serie": "DOSSIÊ 18 · TUSKEGEE",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T18\\01_tuskegee_syphilis_study_doctor_injecting.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "40 ANOS SEM TRATAMENTO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: National Archives Atlanta, GA (U.S. government) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje o arquivo traz uma conspiração que não precisa de teoria. Ela tem carimbo do governo americano.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "1932. Condado de Macon, Alabama. O Serviço de Saúde Pública dos Estados Unidos recruta seiscentos homens negros, quase todos agricultores pobres.",
+   "visual": {
+    "mov": "pan",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T18\\01_tuskegee_syphilis_study_doctor_injecting.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "ALABAMA, 1932",
+   "pausa": 0.3,
+   "credito": "Imagem: National Archives Atlanta, GA (U.S. government) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Trezentos e noventa e nove deles tinham sífilis. Ninguém disse isso a eles. Disseram que tinham sangue ruim.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T18\\01_tuskegee_syphilis_study_doctor_injecting.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: National Archives Atlanta, GA (U.S. government) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em troca de exames, refeições e a promessa de um enterro pago, eles eram observados. O objetivo era ver o que a doença fazia com o corpo até o fim.",
+   "visual": {
+    "mov": "out",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T18\\01_tuskegee_syphilis_study_doctor_injecting.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: National Archives Atlanta, GA (U.S. government) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Por volta de 1947, a penicilina já era o tratamento padrão. A cura estava ali.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "1947",
+     "A CURA JÁ EXISTIA"
+    ]
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 0.3,
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E os homens não receberam. O estudo continuou. Por mais vinte e cinco anos.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T18\\01_tuskegee_syphilis_study_doctor_injecting.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.0,
+   "credito": "Imagem: National Archives Atlanta, GA (U.S. government) · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Até que, em julho de 1972, um funcionário que não aguentava mais procura a imprensa. A reportagem corre o país. O estudo acaba.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "25 DE JULHO",
+     "DE 1972"
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: Associated Press, Jean Heller, 25/07/1972",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Muitos já tinham morrido da doença ou de suas complicações. Esposas foram contaminadas. Crianças nasceram com sífilis.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T18\\04_penicillin_fermentation_vessel_england_w.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.6,
+   "credito": "Imagem: autor desconhecido · CC BY 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 1997, um presidente dos Estados Unidos pediu desculpas, em nome do país, aos poucos sobreviventes.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "16 DE MAIO DE 1997",
+     "PEDIDO DE DESCULPAS"
+    ]
+   },
+   "credito": "Fonte: Casa Branca, 16/05/1997",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      4
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Foram quarenta anos com carimbo do governo, criancinhas. E só soubemos porque um funcionário falou. Quantos outros estudos ainda esperam o seu funcionário?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "QUANTOS AINDA SÃO SEGREDO?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O governo deixou 399 homens doentes por 40 anos",
+  "fontes_texto": "Fontes: Centros de Controle e Prevenção de Doenças dos EUA (CDC), 'The U.S. Public Health Service Untreated Syphilis Study at Tuskegee'; Associated Press, Jean Heller (25/07/1972); pedido de desculpas presidencial (16/05/1997). Imagens: Arquivo Nacional dos EUA via Wikimedia Commons, domínio público.",
+  "legenda_tiktok": "Durante quarenta anos, o serviço de saúde do governo americano acompanhou homens doentes sem tratá-los. Mesmo quando a cura já existia. Não é teoria da conspiração. É documento. 🩺\n\nDossiê 18 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #tuskegee #historia #experimento #documentos"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "titulo": "Luzes que atacavam pessoas no Pará",
+ "serie": "DOSSIÊ 17 · OPERAÇÃO PRATO",
+ "fontes_texto": "Fontes: documentos da Operação Prato (I COMAR, Força Aérea Brasileira, 1977), liberados ao Arquivo Nacional a partir de 2008–2009; depoimentos à imprensa de moradores e da médica de Colares. Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "1977, ilha de Colares, Pará. Moradores dizem que luzes no céu disparam feixes e deixam pessoas fracas e queimadas. A Força Aérea manda uma equipe. Os papéis foram liberados. 🛸\n\nDossiê 17 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #operacaoprato #ovni #para #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "A LUZ DESCIA SOBRE AS CASAS", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje o arquivo atravessa o rio até uma ilha no Pará, onde as pessoas tinham medo de dormir.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "1977. Ilha de Colares, perto de Belém. Pescadores e moradores contam a mesma coisa: luzes no céu que descem, perseguem, e disparam um feixe.", "img": "01", "visual": {"mov": "pan"}, "tela": "COLARES, 1977", "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Quem era atingido dizia sentir fraqueza, tontura. Alguns apareciam com manchas e pequenas marcas na pele. O povo deu um nome: chupa-chupa.", "img": "02", "visual": {"mov": "in"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Famílias passavam a noite com fogueiras acesas, batendo panelas. Muitas abandonaram as casas.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "A prefeitura pede ajuda. E a Força Aérea Brasileira manda uma equipe de militares, com câmeras e gravadores. Nome: Operação Prato.", "img": "03", "visual": {"mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Durante meses, eles colhem depoimentos, desenham as luzes, fotografam o céu.", "img": "01", "visual": {"mov": "out"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Décadas depois, a FAB libera os papéis ao Arquivo Nacional. Relatórios, desenhos, fotos. Os relatos estão lá, registrados por militares.", "visual": {"tipo": "cartao", "linhas": ["ARQUIVO NACIONAL", "RELATÓRIOS E FOTOS"], "papel": true}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Mas o que eram as luzes, os documentos não dizem. Naves de outro mundo? Nenhuma prova.", "img": "02", "visual": {"mov": "out"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Pesquisadores céticos falam em pânico coletivo, fenômenos naturais, até aeronaves desconhecidas. Nenhuma explicação fechou o caso.", "img": "04", "visual": {"mov": "in"}, "carimbo": "INTERPRETAÇÃO", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1], ["INTERPRETAÇÃO", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O medo foi real, criancinhas. Está carimbado pela Aeronáutica. Agora olhe pela janela... tem alguma luz parada no céu?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "OLHE PELA JANELA", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "titulo": "Um morto numa praia, um bolso secreto e duas palavras: Tamam Shud",
+ "serie": "DOSSIÊ 04 · TAMAM SHUD",
+ "fontes_texto": "Fontes: inquérito do legista da Austrália Meridional (1949); Polícia da Austrália Meridional, exumação de 19/05/2021; Derek Abbott e Colleen Fitzpatrick, identificação de 26/07/2022. Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "1º de dezembro de 1948. Um homem bem vestido aparece morto numa praia da Austrália. Etiquetas das roupas arrancadas. No bolso secreto, duas palavras de um livro persa: Tamám Shud. 📜\n\nDossiê 04 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #tamamshud #misterio #casosreais #codigo",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "02", "visual": {"mov": "in"}, "tela": "TAMÁM SHUD", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu trago um morto sem nome, um bolso escondido e um código que ninguém conseguiu ler.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Primeiro de dezembro de 1948. Praia de Somerton, Adelaide, Austrália. Um homem de terno, encostado no muro da areia. Morto.", "img": "03", "visual": {"mov": "pan"}, "tela": "1º DE DEZEMBRO DE 1948", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Nenhum documento. E as etiquetas das roupas... tinham sido arrancadas.", "img": "01", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Meses depois, num bolsinho escondido da calça, a polícia acha um papel enrolado. Duas palavras impressas.", "img": "02", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Tamám Shud. Em persa: está terminado. É a última frase do Rubaiyat, um livro de poemas.", "img": "04", "visual": {"modo": "contain", "mov": "in"}, "tela": "\"ESTÁ TERMINADO\"", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Um morador entrega à polícia um exemplar desse livro, deixado no carro dele. A última página tinha sido rasgada.", "img": "04", "visual": {"modo": "contain", "mov": "out"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Na contracapa, a lápis, cinco linhas de letras. Um código. E um número de telefone.", "visual": {"tipo": "cartao", "linhas": ["CINCO LINHAS", "A LÁPIS"], "papel": true}, "credito": "Fonte: inquérito do legista da Austrália Meridional, 1949", "sfx": ["batida"], "batida_em": 0.4, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "O telefone era de uma enfermeira que morava perto da praia. Ela disse que não conhecia o homem.", "img": "03", "visual": {"mov": "out"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Setenta e três anos sem nome. Até 2021, quando o corpo foi exumado. E em 2022, pesquisadores anunciaram, pelo DNA: Carl Webb, engenheiro de Melbourne.", "img": "05", "visual": {"mov": "in"}, "credito": "Fonte: Derek Abbott e Colleen Fitzpatrick, 26/07/2022", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Ficamos sabendo quem ele era. Mas não por que morreu. Nem para quem eram aquelas letras.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Espião, amante, mensageiro: tudo isso foi dito. Nada foi provado.", "img": "01", "visual": {"modo": "contain", "mov": "out"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O código continua lá, criancinhas. Cinco linhas. Se você decifrar... me conte primeiro.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "O CÓDIGO NUNCA FOI LIDO", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

@@ -1,0 +1,140 @@
+{
+  "aberturaA": "Um mangá de 1999 falava de um grande desastre em março de 2011.",
+  "cenas": [
+    {
+      "fala": "Um mangá de 1999 falava de um grande desastre em março de 2011.",
+      "tela": "1999 E 2011",
+      "tts": "Um mangá de mil novecentos e noventa e nove falava de um grande desastre em março de dois mil e onze.",
+      "v": {
+        "sub": "E MARÇO DE 2011",
+        "texto": "1999",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "Em março de 2011, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+      "selo": "DOCUMENTADO",
+      "tela": "MARÇO DE 2011",
+      "tts": "Em março de dois mil e onze, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "O livro: The Future I Saw. A autora: Ryo Tatsuki, que desenhava os próprios sonhos.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "THE FUTURE I SAW",
+      "tts": "O livro: The Fiutchur Ai Só. A autora: Riô Tatsuki, que desenhava os próprios sonhos.",
+      "v": {
+        "cabecalho": "FICHA DA OBRA",
+        "carimbo": "EM ANÁLISE",
+        "linhas": [
+          "TÍTULO: THE FUTURE I SAW",
+          "AUTORA: RYO TATSUKI",
+          "1ª EDIÇÃO: 1999 · AMPLIADA: 2021"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Em 2021, uma edição ampliada citou julho de 2025. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+      "tela": "JULHO DE 2025",
+      "tts": "Em dois mil e vinte e um, uma edição ampliada citou julho de dois mil e vinte e cinco. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+      "v": {
+        "pontos": [
+          [
+            "1999",
+            "MANGÁ"
+          ],
+          [
+            "2021",
+            "EDIÇÃO NOVA"
+          ],
+          [
+            "2025",
+            "O BOATO"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "Julho de 2025 passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+      "tela": "NÃO ACONTECEU",
+      "tts": "Julho de dois mil e vinte e cinco passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+      "v": {
+        "a": [
+          "BOATO",
+          "JULHO 2025"
+        ],
+        "b": [
+          "REALIDADE",
+          "NADA"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Uma previsão não precisa acertar para mudar o mundo. Basta alguém acreditar.",
+      "tela": "BASTA ACREDITAR",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Você cancelaria uma viagem por causa de um sonho?",
+      "tela": "VOCÊ CANCELARIA?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-008",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Edição de 1999 e ampliada de 2021 (Ryo Tatsuki). Não simular a tragédia de 2011.",
+  "data": "2026-11-03",
+  "fato": "Edição de 1999 e ampliada de 2021 (Ryo Tatsuki). Não simular a tragédia de 2011.",
+  "fontes": [
+    {
+      "nome": "abc.net.au",
+      "url": "https://www.abc.net.au/news/2025-07-04/comics-disaster-prediction-rattling-japan-s-tourist-boom/105494580"
+    }
+  ],
+  "legenda": "The Future I Saw virou fenômeno e mexeu com o turismo do Japão em 2025. Mas julho passou, a catástrofe não veio, e a autora negou ser profeta.\n\nParte 2: quer ver as datas originais?\n\nFonte: ABC News (Austrália), 04/07/2025\n\n#ArquivoOculto #Manga #Japao #Previsoes #misterio",
+  "nota": 4,
+  "ordem": 8,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Um mangá de 1999 falava de um grande desastre em março de 2011.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "Em março de 2011, o Japão foi atingido por um terremoto e um tsunami devastadores.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "O livro: The Future I Saw. A autora: Ryo Tatsuki, que desenhava os próprios sonhos.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Em 2021, uma edição ampliada citou julho de 2025. O boato correu a Ásia, e muita gente desistiu de viajar ao Japão.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "Julho de 2025 passou. A catástrofe anunciada não veio. E a própria autora disse que não é profeta.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Uma previsão não precisa acertar para mudar o mundo. Basta alguém acreditar.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Você cancelaria uma viagem por causa de um sonho?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Mangás e Previsões",
+  "titulo": "O mangá que assustou o Japão"
+}

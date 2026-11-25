@@ -1,0 +1,21 @@
+{
+ "titulo": "O enigma da internet que recrutava gênios",
+ "serie": "DOSSIÊ 16 · CICADA 3301",
+ "fontes_texto": "Fontes: mensagens assinadas por PGP atribuídas a Cicada 3301 (2012–2017); David Kushner, Rolling Stone (2015); relatos públicos de participantes. Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "4 de janeiro de 2012. Uma imagem aparece num fórum: 'Procuramos indivíduos altamente inteligentes.' Quem resolveu foi parar em cartazes espalhados pelo mundo. E ninguém sabe quem estava por trás. 🦗\n\nDossiê 16 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #cicada3301 #enigma #internet #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "PROCURAMOS GÊNIOS", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu conto a história do teste mais difícil da internet. E de quem passou nele.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Quatro de janeiro de 2012. Num fórum anônimo, surge uma imagem com uma mensagem curta.", "visual": {"tipo": "cartao", "linhas": ["4 DE JANEIRO DE 2012"], "papel": true}, "pausa": 0.3},
+  {"voz": "fita", "fala": "Olá. Estamos procurando indivíduos altamente inteligentes. Para encontrá-los, criamos um teste. Boa sorte. 3301.", "img": "01", "visual": {"tipo": "crt"}, "sfx": ["chiado"], "credito": "Tradução da mensagem publicada em 04/01/2012", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Dentro da imagem, um código escondido. Ele leva a um livro antigo. O livro leva a um número de telefone. O telefone, a coordenadas.", "img": "02", "visual": {"mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "E as coordenadas levam a postes de rua, em cidades de vários países. Neles, cartazes com uma cigarra e um código.", "img": "03", "visual": {"mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Quem chegou ao fim foi chamado para um fórum privado. E o que aconteceu lá dentro... quase ninguém contou.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.9},
+  {"voz": "arquivista", "fala": "Em 2013 e 2014, novos enigmas. O último deixou um livro inteiro escrito em runas. Até hoje, a maior parte não foi decifrada.", "img": "04", "visual": {"mov": "in"}, "tela": "LIBER PRIMUS", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Quem estava por trás? Agência de espionagem recrutando hackers? Sociedade secreta? Um grupo de amigos geniais?", "visual": {"tipo": "cartao", "linhas": ["NSA?", "SOCIEDADE SECRETA?", "HACKERS?"]}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Um participante que chegou ao fim disse que o grupo falava de privacidade e criptografia. Nada de agências. Mas ninguém se identificou.", "img": "02", "visual": {"mov": "out"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Em 2017, uma última mensagem assinada: desconfiem de qualquer recado sem a nossa assinatura. Depois, silêncio.", "img": "01", "visual": {"tipo": "crt"}, "sfx": ["chiado"], "pausa": 0.6},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 1], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O livro de runas ainda espera, criancinhas. Se você conseguir ler uma página... talvez alguém, em algum lugar, esteja te observando.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "ALGUÉM ESTÁ OBSERVANDO", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

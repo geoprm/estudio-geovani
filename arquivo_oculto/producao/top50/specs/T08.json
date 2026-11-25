@@ -1,0 +1,20 @@
+{
+ "titulo": "O Pentágono publicou os vídeos. E não explicou.",
+ "serie": "DOSSIÊ 08 · OS VÍDEOS DA MARINHA",
+ "fontes_texto": "Fontes: Departamento de Defesa dos EUA, nota de 27/04/2020; Escritório do Diretor de Inteligência Nacional, avaliação preliminar de 25/06/2021; AARO, relatório histórico (março de 2024). Imagens: Wikimedia Commons, Marinha dos EUA (domínio público).",
+ "legenda_tiktok": "Em 2020, o Pentágono publicou oficialmente três vídeos de pilotos da Marinha perseguindo objetos que ninguém identificou. O que eles admitiram, e o que não admitiram. 🛸\n\nDossiê 08 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #ovni #uap #pentagono #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"tipo": "crt"}, "tela": "OFICIAL: NÃO IDENTIFICADO", "sfx": ["chiado"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje o arquivo não traz boato. Traz um carimbo do Departamento de Defesa dos Estados Unidos.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Novembro de 2004. Pilotos de caças da Marinha, perto do porta-aviões Nimitz, filmam um objeto branco que eles chamaram de tic-tac.", "img": "02", "visual": {"mov": "pan"}, "tela": "NOVEMBRO DE 2004", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Em 2015, outros pilotos gravam mais dois. Num deles, o objeto parece girar no ar.", "img": "01", "visual": {"tipo": "crt"}, "pausa": 0.4},
+  {"voz": "fita", "fala": "Olha aquilo! Está girando!", "img": "01", "visual": {"tipo": "crt"}, "sfx": ["chiado"], "credito": "Reconstituição em português da fala dos pilotos (vídeo Gimbal, 2015)", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Em abril de 2020, o Pentágono publica os três vídeos oficialmente. E diz: os fenômenos continuam não identificados.", "img": "03", "visual": {"mov": "in"}, "credito": "Fonte: Departamento de Defesa dos EUA, 27/04/2020", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em 2021, um relatório de inteligência analisa cento e quarenta e quatro casos. Explica só um: um balão murchando.", "visual": {"tipo": "cartao", "linhas": ["144 CASOS", "1 EXPLICADO"]}, "credito": "Fonte: Diretor de Inteligência Nacional, 25/06/2021", "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Não identificado não quer dizer alienígena. Quer dizer: não sabemos. Pode ser drone, balão, erro de sensor.", "img": "04", "visual": {"mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Em 2024, o escritório do Pentágono para esses casos concluiu: nenhuma prova de tecnologia extraterrestre.", "img": "03", "visual": {"mov": "out"}, "credito": "Fonte: AARO, relatório histórico, março de 2024", "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Mas pilotos treinados viram algo que voava sem asas, sem fumaça, sem explicação. E isso está no papel do governo.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Eles admitiram que não sabem o que é, criancinhas. Agora me diga: isso te acalma... ou te assusta mais?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "ELES NÃO SABEM", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

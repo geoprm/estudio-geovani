@@ -1,0 +1,20 @@
+{
+ "titulo": "O pó azul que brilhava no escuro em Goiânia",
+ "serie": "DOSSIÊ 24 · CÉSIO-137",
+ "fontes_texto": "Fontes: Agência Internacional de Energia Atômica, 'The Radiological Accident in Goiânia' (1988); Comissão Nacional de Energia Nuclear (CNEN). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "Setembro de 1987. Dois homens levam uma peça de metal de uma clínica abandonada em Goiânia. Dentro dela, um pó que brilhava azul no escuro. O maior acidente radiológico do mundo fora de uma usina nuclear. ☢️\n\nDossiê 24 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #cesio137 #goiania #historia #brasil",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "ELE BRILHAVA NO ESCURO", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu conto a história de uma luz azul, bonita, que passou de mão em mão numa cidade brasileira.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Setembro de 1987. Goiânia. Num prédio abandonado, onde funcionava uma clínica de radioterapia, dois catadores encontram uma peça pesada de metal.", "img": "02", "visual": {"mov": "pan"}, "tela": "GOIÂNIA, SETEMBRO DE 1987", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Eles a levam para casa, desmontam, e vendem para um ferro-velho.", "img": "02", "visual": {"mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "À noite, o dono do ferro-velho vê: dentro da cápsula, um pó que brilha azul no escuro. Ele acha lindo. Mostra para a família. Distribui pedaços.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Era cloreto de césio-137. Radioativo.", "img": "01", "visual": {"modo": "contain", "mov": "in"}, "sfx": ["batida"], "batida_em": 0.2, "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Uma menina de seis anos brinca com o pó e come com as mãos sujas. As pessoas começam a passar mal: vômito, queimaduras, cabelo caindo.", "img": "03", "visual": {"mov": "in"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Só quando uma mulher leva a peça de ônibus até a vigilância sanitária, dentro de um saco, alguém desconfia de radiação.", "img": "04", "visual": {"mov": "in"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Mais de cem mil pessoas foram examinadas num estádio. Duzentas e quarenta e nove estavam contaminadas. Quatro morreram, entre elas a menina.", "visual": {"tipo": "cartao", "linhas": ["112 MIL EXAMINADAS", "249 CONTAMINADAS", "4 MORTES"]}, "credito": "Fonte: Agência Internacional de Energia Atômica, 1988", "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Casas foram demolidas. Toneladas de lixo radioativo foram enterradas num depósito em Abadia de Goiás. Ficarão lá por séculos.", "img": "05", "visual": {"mov": "in"}, "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Não houve monstro nem conspiração, criancinhas. Houve um aparelho esquecido num prédio vazio. Às vezes, o terror é só descuido... e brilha bonito.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "O TERROR BRILHAVA BONITO", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

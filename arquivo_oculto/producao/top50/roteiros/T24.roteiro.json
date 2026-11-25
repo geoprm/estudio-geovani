@@ -1,0 +1,175 @@
+{
+ "id": "TOP-T24",
+ "num": 24,
+ "serie": "DOSSIÊ 24 · CÉSIO-137",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\08_02010019_radioactive_cesium_source_goi_n.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "ELE BRILHAVA NO ESCURO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: IAEA Imagebank · CC BY 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu conto a história de uma luz azul, bonita, que passou de mão em mão numa cidade brasileira.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Setembro de 1987. Goiânia. Num prédio abandonado, onde funcionava uma clínica de radioterapia, dois catadores encontram uma peça pesada de metal.",
+   "visual": {
+    "mov": "pan",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\06_goi_nia_accident_roberto_dos_santos_hous.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "GOIÂNIA, SETEMBRO DE 1987",
+   "pausa": 0.3,
+   "credito": "Imagem: marciosampaio @ Mapillary.com · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Eles a levam para casa, desmontam, e vendem para um ferro-velho.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\07_goi_nia_accident_devair_ferreira_s_scrap.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: kaart_4 @ Mapillary.com · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "À noite, o dono do ferro-velho vê: dentro da cápsula, um pó que brilha azul no escuro. Ele acha lindo. Mostra para a família. Distribui pedaços.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\07_goi_nia_accident_devair_ferreira_s_scrap.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8,
+   "credito": "Imagem: kaart_4 @ Mapillary.com · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Era cloreto de césio-137. Radioativo.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\01_radiation_warning_symbol_svg.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 0.2,
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6,
+   "credito": "Imagem: Original: Unknown authorUnknown author Vector: U · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Uma menina de seis anos brinca com o pó e come com as mãos sujas. As pessoas começam a passar mal: vômito, queimaduras, cabelo caindo.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\03_local_do_c_sio_137_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.6,
+   "credito": "Imagem: Ycaro Gouveia Ribeiro · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Só quando uma mulher leva a peça de ônibus até a vigilância sanitária, dentro de um saco, alguém desconfia de radiação.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\08_02010019_radioactive_cesium_source_goi_n.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: IAEA Imagebank · CC BY 2.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mais de cem mil pessoas foram examinadas num estádio. Duzentas e quarenta e nove estavam contaminadas. Quatro morreram, entre elas a menina.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "112 MIL EXAMINADAS",
+     "249 CONTAMINADAS",
+     "4 MORTES"
+    ]
+   },
+   "credito": "Fonte: Agência Internacional de Energia Atômica, 1988",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Casas foram demolidas. Toneladas de lixo radioativo foram enterradas num depósito em Abadia de Goiás. Ficarão lá por séculos.",
+   "visual": {
+    "mov": "out",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T24\\03_local_do_c_sio_137_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.5,
+   "credito": "Imagem: Ycaro Gouveia Ribeiro · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Disseram que foi descuido, criancinhas. Um aparelho esquecido num prédio vazio. Mas por que ninguém voltou para buscar uma fonte radioativa durante tanto tempo?",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "POR QUE NINGUÉM VOLTOU?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "O pó azul que brilhava no escuro em Goiânia",
+  "fontes_texto": "Fontes: Agência Internacional de Energia Atômica, 'The Radiological Accident in Goiânia' (1988); Comissão Nacional de Energia Nuclear (CNEN). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Setembro de 1987. Dois homens levam uma peça de metal de uma clínica abandonada em Goiânia. Dentro dela, um pó que brilhava azul no escuro. O maior acidente radiológico do mundo fora de uma usina nuclear. ☢️\n\nDossiê 24 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #cesio137 #goiania #historia #brasil"
+ }
+}

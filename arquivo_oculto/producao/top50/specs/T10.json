@@ -1,0 +1,20 @@
+{
+ "titulo": "A maior farsa contra a Maçonaria foi confessada em 1897",
+ "serie": "DOSSIÊ 10 · A FARSA DE TAXIL",
+ "fontes_texto": "Fontes: conferência de Léo Taxil na Sociedade de Geografia de Paris (19/04/1897), publicada em Le Frondeur (25/04/1897); A. E. Waite, Devil-Worship in France (1896). Imagens: Wikimedia Commons, domínio público.",
+ "legenda_tiktok": "Durante 12 anos, um francês revelou ao mundo que a Maçonaria adorava Lúcifer. Até o Papa o recebeu. Em 1897, ele subiu num palco e confessou: era tudo mentira. 😈\n\nDossiê 10 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #maconaria #farsa #misterio #historia",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "ERA TUDO MENTIRA", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje vocês vão conhecer o homem que enganou o mundo inteiro sobre a Maçonaria. E depois riu na cara de todos.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Paris, 1885. Léo Taxil, escritor famoso por atacar a Igreja, anuncia que se converteu. E que vai revelar a verdade sobre os maçons.", "img": "01", "visual": {"modo": "contain", "mov": "in"}, "tela": "PARIS, 1885", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Livro após livro, ele descreve rituais a Lúcifer, templos secretos, uma seita dentro das lojas.", "img": "02", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Inventa até uma testemunha: Diana Vaughan, uma ex-sacerdotisa arrependida, que escreve memórias assustadoras.", "img": "03", "visual": {"modo": "contain", "mov": "pan"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Os livros vendem aos milhares. Em 1887, Taxil é recebido em audiência pelo Papa Leão Treze.", "img": "04", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Até que, em dezenove de abril de 1897, ele promete apresentar Diana Vaughan ao público. O salão lota.", "visual": {"tipo": "cartao", "linhas": ["19 DE ABRIL DE 1897", "SOCIEDADE DE GEOGRAFIA"], "papel": true}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Ele sobe ao palco. E diz que Diana Vaughan não existe. Que os rituais não existem. Que inventou tudo para mostrar como era fácil enganar.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "carimbo": "FALSO", "carimbo_em": 6.0, "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Ele precisou sair escoltado. Mas a mentira já tinha ganhado vida própria.", "img": "01", "visual": {"modo": "contain", "mov": "out"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Uma frase que ele inventou e atribuiu a um líder maçom americano, dizendo que Lúcifer é Deus, circula até hoje na internet. Como se fosse verdadeira.", "img": "05", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "FALSO", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 1], ["FALSO", 2]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O mentiroso confessou há mais de cem anos, criancinhas. A mentira não. Da próxima vez que te mandarem essa frase... pergunte de onde ela veio.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "A MENTIRA NÃO CONFESSOU", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

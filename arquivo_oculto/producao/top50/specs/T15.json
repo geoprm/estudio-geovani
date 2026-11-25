@@ -1,0 +1,20 @@
+{
+ "titulo": "A CIA pagou videntes por mais de 20 anos",
+ "serie": "DOSSIÊ 15 · PROJETO STARGATE",
+ "fontes_texto": "Fontes: CIA, sala de leitura eletrônica (CREST), documentos do programa de visão remota liberados em 1995 e publicados on-line em 2017; American Institutes for Research, 'An Evaluation of Remote Viewing' (29/09/1995). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "Durante mais de vinte anos, agências do governo americano pagaram pessoas para 'ver' bases inimigas com a mente. Os papéis foram liberados. E o resultado também. 👁️\n\nDossiê 15 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #stargate #cia #paranormal #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "ESPIÕES COM A MENTE", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje o arquivo traz documentos de um programa em que o governo americano treinava pessoas para espionar com a mente.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Início dos anos 1970, Guerra Fria. Corre a notícia de que os soviéticos estudam poderes paranormais. Os americanos não querem ficar para trás.", "img": "02", "visual": {"mov": "pan"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Em 1972, a CIA financia testes num instituto da Califórnia. A ideia tem nome técnico: visão remota.", "img": "03", "visual": {"mov": "in"}, "tela": "1972: VISÃO REMOTA", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Funcionava assim: um vidente recebia só um código. E tentava desenhar o lugar que aquele código escondia. Uma base. Um navio. Um refém.", "img": "04", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "O programa trocou de nome várias vezes. Passou pelo Exército, pela agência de inteligência militar. O último nome foi Stargate.", "img": "01", "visual": {"mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Vinte milhões de dólares. Mais de vinte anos. Uma sala numa base em Maryland.", "visual": {"tipo": "cartao", "linhas": ["US$ 20 MILHÕES", "MAIS DE 20 ANOS"]}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em 1995, a CIA encomenda uma avaliação independente. A conclusão: nenhuma informação útil para uma operação real.", "img": "05", "visual": {"modo": "contain", "mov": "in"}, "credito": "Fonte: American Institutes for Research, 29/09/1995", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "O programa foi encerrado no mesmo ano. E os papéis, liberados. Em 2017, a CIA publicou milhões de páginas na internet.", "img": "05", "visual": {"modo": "contain", "mov": "out"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Os videntes acertaram alguma coisa? Há relatos de acertos. Mas nenhum resistiu a um teste controlado.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "carimbo": "SEM PROVA", "pausa": 0.8},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Os poderes não foram provados, criancinhas. Mas o governo acreditou por vinte anos. E pagou. Quantos outros programas assim ainda estão fechados?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "QUANTOS AINDA ESTÃO FECHADOS?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

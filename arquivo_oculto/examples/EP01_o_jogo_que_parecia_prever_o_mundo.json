@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "brand_id": "arquivo-oculto",
+  "character_id": "arquivista-classico-v1",
+  "format": "cartas_previsoes",
+  "locale": "pt-BR",
+  "aspect_ratio": "9:16",
+  "delivery": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "container": "mp4",
+    "captions": "burned_and_srt",
+    "cover": "png",
+    "requires_download_link": true
+  },
+  "voice": {
+    "profile_id": "arquivista-voz-01",
+    "gender_presentation": "masculine",
+    "language": "pt-BR",
+    "tone": "grave_sintetico_sombrio_claro",
+    "rate_wpm_target": 145,
+    "provider_voice_id": null
+  },
+  "character_reference": "assets/arquivista_legado_referencia_privada.png",
+  "rights": {
+    "third_party_archive_reuse": "requires_review",
+    "ai_reenactment_label": "RECONSTITUIÇÃO IA",
+    "publication_approved": false
+  },
+  "qa_required": true,
+  "status": "planned",
+  "episode_id": "AO-S01-E01",
+  "title": "O jogo que parecia prever o mundo",
+  "target_duration_sec": 38,
+  "hook": "UM JOGO PREVIU O FUTURO?",
+  "voiceover_script": "Em 1994, um jogo de cartas apresentou um mundo governado por conspirações. O nome? Illuminati: New World Order. Anos depois, imagens desse baralho começaram a ser comparadas com tragédias e crises reais. Algumas semelhanças impressionam. Mas há uma pergunta que quase ninguém faz: o que estava, de fato, impresso naquela época? E o que foi interpretado depois? Eu sou o Arquivista. Este é o primeiro dossiê.",
+  "cta": "Qual carta devemos investigar primeiro?",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Illuminati New World Order foi lançado em dezembro de 1994 pela Steve Jackson Games",
+      "status": "documented",
+      "sources": [
+        "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48"
+      ]
+    },
+    {
+      "id": "C2",
+      "text": "O jogo é uma sátira política e cultural com conspirações",
+      "status": "documented",
+      "sources": [
+        "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48"
+      ]
+    },
+    {
+      "id": "C3",
+      "text": "Imagens do jogo foram posteriormente associadas a acontecimentos reais",
+      "status": "interpretation",
+      "sources": [],
+      "note": "Quando usar exemplo específico, anexar prova datada da associação; não afirmar uma previsão comprovada"
+    }
+  ],
+  "source_urls": [
+    "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48"
+  ],
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "start_sec": 0,
+      "end_sec": 3,
+      "location": "arquivo_escuro",
+      "asset_class": "character_clip",
+      "visual_prompt": "Very close-up of canonical Archivist white porcelain mask emerging from total darkness, eyes deep black; gold rimlight; index card glides into frame.",
+      "motion": "slow push-in",
+      "subtitle_bite": "UM JOGO PREVIU O FUTURO?",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S02",
+      "start_sec": 3,
+      "end_sec": 7,
+      "location": "mesa_de_cartas",
+      "asset_class": "ai_reenactment",
+      "visual_prompt": "Overhead on collectible 1990s-style cards spread on a desk; these are generic original AI-designed card back designs, never exact reproductions of INWO original art; textured gold dark.",
+      "motion": "top-down tracking",
+      "subtitle_bite": "1994",
+      "source_assets": [],
+      "reconstruction_label_required": true
+    },
+    {
+      "scene_id": "S03",
+      "start_sec": 7,
+      "end_sec": 11,
+      "location": "arquivo_textos",
+      "asset_class": "kinetic_typography",
+      "visual_prompt": "Headline typography from archive documents with verified title and date 1994, as editorial graphic not imitation of official cover.",
+      "motion": "kinetic type",
+      "subtitle_bite": "ILLUMINATI: NEW WORLD ORDER",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S04",
+      "start_sec": 11,
+      "end_sec": 16,
+      "location": "arquivo_arte",
+      "asset_class": "ai_reenactment",
+      "visual_prompt": "Hands with black gloves flipping stamped dossiers with political satirical iconography; no fake archival newspaper.",
+      "motion": "match cut",
+      "subtitle_bite": "POLÍTICA · PODER · CRISES",
+      "source_assets": [],
+      "reconstruction_label_required": true
+    },
+    {
+      "scene_id": "S05",
+      "start_sec": 16,
+      "end_sec": 21,
+      "location": "sala_de_analise",
+      "asset_class": "ai_abstract",
+      "visual_prompt": "Wall of screens with abstract world maps and dated timeline 1994 -> 2024/2026; no invented claims on screens.",
+      "motion": "pan parallax",
+      "subtitle_bite": "DÉCADAS DEPOIS...",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S06",
+      "start_sec": 21,
+      "end_sec": 26,
+      "location": "mesa_de_documentos",
+      "asset_class": "kinetic_typography",
+      "visual_prompt": "Split-screen editorial comparison FIRST PRINTED vs LATER INTERPRETED, with blank authentic asset placeholder if actual original card rights not resolved.",
+      "motion": "horizontal reveal",
+      "subtitle_bite": "ANTES / DEPOIS",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S07",
+      "start_sec": 26,
+      "end_sec": 32,
+      "location": "arquivo_escuro",
+      "asset_class": "character_clip",
+      "visual_prompt": "Canon Archivist turning toward lens, gloved hand holds two files; coherent white porcelain mask, not bare face.",
+      "motion": "slow dolly",
+      "subtitle_bite": "COINCIDÊNCIA OU PREVISÃO?",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    },
+    {
+      "scene_id": "S08",
+      "start_sec": 32,
+      "end_sec": 38,
+      "location": "biblioteca_oculta",
+      "asset_class": "character_clip",
+      "visual_prompt": "Archivist closes large black dossier. Elegant logo Arquivo Oculto reveals in gold in darkness, original soundtrack resolves.",
+      "motion": "hard cut to black",
+      "subtitle_bite": "ARQUIVO OCULTO — EP. 01",
+      "source_assets": [],
+      "reconstruction_label_required": false
+    }
+  ]
+}

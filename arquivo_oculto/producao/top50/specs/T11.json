@@ -1,0 +1,21 @@
+{
+ "titulo": "Deram aos ratos o paraíso. Eles se destruíram.",
+ "serie": "DOSSIÊ 11 · UNIVERSO 25",
+ "fontes_texto": "Fontes: John B. Calhoun, 'Death Squared: The Explosive Growth and Demise of a Mouse Population', Proceedings of the Royal Society of Medicine 66 (1973); Instituto Nacional de Saúde Mental dos EUA (NIMH). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "1968. Um cientista americano constrói o paraíso para ratos: comida infinita, água infinita, nenhum predador. Cinco anos depois, não havia mais nenhum vivo. 🐀\n\nDossiê 11 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #universo25 #experimento #ciencia #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "O PARAÍSO QUE MATOU", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu conto o que aconteceu quando um cientista deu a uma colônia tudo o que ela podia querer.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Julho de 1968, Maryland, Estados Unidos. O pesquisador John Calhoun constrói uma cidade para ratos. Ele a chama de Universo 25.", "img": "01", "visual": {"mov": "pan"}, "tela": "JULHO DE 1968", "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Comida sem fim. Água sem fim. Nenhum predador. Nenhuma doença. Espaço para três mil animais.", "img": "02", "visual": {"mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Ele solta quatro casais. E observa.", "img": "03", "visual": {"mov": "in"}, "sfx": ["silencio"], "pausa": 0.7},
+  {"voz": "arquivista", "fala": "A população dobra a cada dois meses. Até que chega a dois mil e duzentos. E para de crescer. Ainda havia espaço sobrando.", "visual": {"tipo": "cartao", "linhas": ["8", "→ 2.200"]}, "credito": "Fonte: Calhoun, Proceedings of the Royal Society of Medicine, 1973", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Os machos começam a atacar sem motivo. As mães abandonam os filhotes. Alguns grupos se trancam no centro e brigam até a morte.", "img": "02", "visual": {"mov": "out"}, "sfx": ["batida"], "batida_em": 1.0, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "E surgem os que Calhoun chamou de os belos. Machos que só comem, dormem e se limpam. Não lutam. Não se reproduzem. Não vivem.", "img": "03", "visual": {"mov": "in"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Os nascimentos param. A última geração envelhece sem filhos. Em pouco mais de quatro anos, o paraíso estava vazio.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "carimbo": "DOCUMENTADO", "pausa": 1.0},
+  {"voz": "arquivista", "fala": "Calhoun chamou aquilo de morte do espírito. E perguntou se as cidades humanas teriam o mesmo destino.", "img": "01", "visual": {"mov": "out"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Mas ratos não são pessoas. Outros cientistas dizem que o problema era o confinamento, não a abundância.", "img": "04", "visual": {"mov": "in"}, "carimbo": "INTERPRETAÇÃO", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["INTERPRETAÇÃO", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Eles tinham tudo, criancinhas. Menos um motivo. Agora largue o celular um pouco... e veja se você ainda tem o seu.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "VOCÊ AINDA TEM UM MOTIVO?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

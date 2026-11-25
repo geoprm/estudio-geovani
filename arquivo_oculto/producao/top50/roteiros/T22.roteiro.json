@@ -1,0 +1,200 @@
+{
+ "id": "TOP-T22",
+ "num": 22,
+ "serie": "DOSSIÊ 22 · A CIFRA Z340",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\12_zodiac_killer_cipher_san_francisco_exami.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "UMA MENSAGEM EM SÍMBOLOS",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Zodiac Killer · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu vou ler para vocês uma mensagem que um assassino escondeu por cinquenta e um anos.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Norte da Califórnia, fim dos anos 1960. Um homem mata a tiros e a faca. E escreve aos jornais. Ele mesmo se apelida: Zodíaco.",
+   "visual": {
+    "modo": "contain",
+    "mov": "pan",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\12_zodiac_killer_cipher_san_francisco_exami.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: Zodiac Killer · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Oito de novembro de 1969. O San Francisco Chronicle recebe uma folha com trezentos e quarenta símbolos. Ninguém consegue ler.",
+   "visual": {
+    "modo": "cover",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\04_chronicle_building_san_francisco_1901_jp.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "8 DE NOVEMBRO DE 1969",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: Detroit Photographic Co. · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Décadas passam. Polícia, FBI, criptógrafos. Nada.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\04_chronicle_building_san_francisco_1901_jp.jpg",
+    "modo": "cover",
+    "mov": "out"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8,
+   "credito": "Imagem: Detroit Photographic Co. · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Dezembro de 2020. Três amadores, nos Estados Unidos, na Austrália e na Bélgica, descobrem o truque: o texto foi escrito na diagonal.",
+   "visual": {
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\13_zodiac_z340_cipher_key_png.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Shāntián Tàiláng · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E o FBI confirma. A mensagem dizia:",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "FBI CONFIRMA",
+     "11/12/2020"
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: FBI, 11/12/2020",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "fita",
+   "fala": "Espero que vocês estejam se divertindo tentando me pegar. Eu não tenho medo da câmara de gás. Ela vai me mandar para o paraíso mais cedo.",
+   "visual": {
+    "tipo": "crt",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\12_zodiac_killer_cipher_san_francisco_exami.jpg"
+   },
+   "sfx": [
+    "chiado"
+   ],
+   "credito": "Tradução do texto decifrado do Z340",
+   "pausa": 0.8
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Cinquenta e um anos esperando. E ele não deixou o nome.",
+   "visual": {
+    "modo": "contain",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\12_zodiac_killer_cipher_san_francisco_exami.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 2.0,
+   "pausa": 0.6,
+   "credito": "Imagem: Zodiac Killer · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Suspeitos foram apontados ao longo dos anos. Nenhum foi acusado formalmente. O caso continua aberto.",
+   "visual": {
+    "modo": "cover",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\01_chronicle_building_1906_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "SEM PROVA",
+   "pausa": 0.5,
+   "credito": "Imagem: Roebling Construction Company, publisher · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E ainda há duas cifras curtas dele que ninguém resolveu.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "Z13",
+     "Z32"
+    ],
+    "papel": true,
+    "modo": "contain",
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T22\\11_my_name_is_zodiac_cipher_jpg.jpg"
+   },
+   "pausa": 0.5,
+   "tela": "Z13: \"MEU NOME É...\"",
+   "credito": "Imagem: User:LK · CC BY-SA 4.0 · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Treze símbolos, criancinhas. Talvez o nome dele esteja ali, esperando há mais de cinquenta anos. Esperando alguém como você.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "O NOME PODE ESTAR NOS 13",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "A cifra do Zodíaco levou 51 anos para cair",
+  "fontes_texto": "Fontes: San Francisco Chronicle (cifra recebida em 08/11/1969); FBI, nota de 11/12/2020 confirmando a solução de David Oranchak, Sam Blake e Jarl Van Eycke. Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Em 1969, um assassino mandou a um jornal uma mensagem com 340 símbolos. Ninguém conseguiu ler. Em 2020, três amadores conseguiram. E o que estava escrito... 🔐\n\nDossiê 22 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #zodiaco #casosreais #codigo #misterio"
+ }
+}

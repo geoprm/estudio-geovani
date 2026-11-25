@@ -1,0 +1,322 @@
+{
+ "schema": "arquivo-oculto/tiktok-grade-v1",
+ "atualizado_em": "2026-11-11T04:00-03:00",
+ "conta": "https://www.tiktok.com/@oarquivista.oculto",
+ "via": "Metricool, marca 6361339, autoPublish; mídia hospedada na Higgsfield",
+ "autorizacao": "Geovani, 10 e 11/11/2026: publicar e agendar os vídeos produzidos, 2 a 3 por dia, mais cortes ao longo do dia",
+ "regra_abertura": "primeira fala do Arquivista começa com \"Olá, criancinhas...\" (arquivo_oculto/v2/assinatura_publica.py)",
+ "horarios_ocupados": [
+  "09:00",
+  "12:30",
+  "16:30",
+  "20:00"
+ ],
+ "itens": [
+  {
+   "tipo": "episodio",
+   "episode_id": "AO-S01-E01",
+   "agendado_para": "2026-11-11T12:30:00-03:00",
+   "metricool_post_id": "424057141",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E01_public_release_assinatura_v2/video_app.mp4",
+   "sha256": "9debcbc954138a23deb666d78475100441eba3bd796be5fc7524b194f2983f98",
+   "duracao_s": 90.621,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a história de um baralho."
+   ],
+   "tela": "UM JOGO PREVIU O FUTURO?",
+   "trecho_s": null,
+   "base": {
+    "pasta": "AO-S01-E01_public_release",
+    "sha256": "65c094b1b66f20e7cf2a960d090ced50d134ccf876209092ea4a46a73257dbc3",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/a5adaf3e-351f-42c7-89b1-df7e8d3fce67.mp4"
+  },
+  {
+   "tipo": "corte",
+   "episode_id": "AO-S01-E01",
+   "agendado_para": "2026-11-11T16:30:00-03:00",
+   "metricool_post_id": "424066012",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E01_corte_assinatura/video_app.mp4",
+   "sha256": "ce3117f3fc186292152ca71d5b9ecba4c8d9cf56d6fb04c0bd6d8b3fc1aea1e5",
+   "duracao_s": 37.355,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a conta que ninguém faz."
+   ],
+   "tela": "412 CARTAS. FAÇA AS CONTAS.",
+   "trecho_s": [
+    50.909,
+    82.297
+   ],
+   "base": {
+    "pasta": "AO-S01-E01_public_release",
+    "sha256": "65c094b1b66f20e7cf2a960d090ced50d134ccf876209092ea4a46a73257dbc3",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/0c70c861-c373-42e2-adcf-94581b9afcc9.mp4"
+  },
+  {
+   "tipo": "episodio",
+   "episode_id": "AO-S01-E02",
+   "agendado_para": "2026-11-11T20:00:00-03:00",
+   "metricool_post_id": "424057539",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E02_public_release_assinatura_v2/video_app.mp4",
+   "sha256": "d77403caba63b7da2eccb21576b692b4c9f9f65decb422f2c1d902a1dfb44194",
+   "duracao_s": 93.621,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a história de uma invasão."
+   ],
+   "tela": "POR CAUSA DAS CARTAS?",
+   "trecho_s": null,
+   "base": {
+    "pasta": "AO-S01-E02_public_release",
+    "sha256": "c50c41d0c0324ff736cd30444c7298f6f30bc0b4a4d8cdef5ac6d9815ac46cd2",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/476a5baa-6ba4-495d-98c4-41756c6532d7.mp4"
+  },
+  {
+   "tipo": "corte",
+   "episode_id": "AO-S01-E02",
+   "agendado_para": "2026-11-12T09:00:00-03:00",
+   "metricool_post_id": "424066026",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E02_corte_assinatura/video_app.mp4",
+   "sha256": "eba1ee2fa47fa9567f99b0da9ec6fcfc1d3c216392a6c9cbdc0f3ac3e39852f7",
+   "duracao_s": 42.821,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar o detalhe que o boato apagou."
+   ],
+   "tela": "O NOME ESTAVA LÁ",
+   "trecho_s": [
+    41.328,
+    77.875
+   ],
+   "base": {
+    "pasta": "AO-S01-E02_public_release",
+    "sha256": "c50c41d0c0324ff736cd30444c7298f6f30bc0b4a4d8cdef5ac6d9815ac46cd2",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/371e466c-221a-44e7-bd57-652b0dcef7a7.mp4"
+  },
+  {
+   "tipo": "episodio",
+   "episode_id": "AO-S01-E03",
+   "agendado_para": "2026-11-12T12:30:00-03:00",
+   "metricool_post_id": "424069702",
+   "status": "agendado, publicação automática (liberado pelo Geovani em 11/11 após revisão)",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E03_public_release_assinatura_v2/video_app.mp4",
+   "sha256": "f9458b2fd791ccb9836b1d3b06bfa50b88a9fa802bcc582009fa00ed059a2c97",
+   "duracao_s": 96.921,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a história de uma carta."
+   ],
+   "tela": "UMA CARTA DE 1996 PREVIU?",
+   "trecho_s": null,
+   "base": {
+    "pasta": "AO-S01-E03_public_release",
+    "sha256": "51e891ea298fccd55ec2bea7bdf47e9ca1a10d83d06306d2479c49d3fec8abb2",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/c22659a7-4741-45d3-8862-d7142488bac8.mp4"
+  },
+  {
+   "tipo": "corte",
+   "episode_id": "AO-S01-E03",
+   "agendado_para": "2026-11-12T16:30:00-03:00",
+   "metricool_post_id": "424069715",
+   "status": "agendado, publicação automática (liberado pelo Geovani em 11/11 após revisão)",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E03_corte_assinatura/video_app.mp4",
+   "sha256": "6d3a9bd1e378f6bbde9c7a899be4bf08ea137d365775050df33122b4dd2bea5c",
+   "duracao_s": 48.255,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar sobre uma carta de 1996."
+   ],
+   "tela": "UMA CARTA DE 1996",
+   "trecho_s": [
+    36.072,
+    76.629
+   ],
+   "base": {
+    "pasta": "AO-S01-E03_public_release",
+    "sha256": "51e891ea298fccd55ec2bea7bdf47e9ca1a10d83d06306d2479c49d3fec8abb2",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/f3864d64-40a8-4503-9e6c-825610ffc116.mp4"
+  },
+  {
+   "tipo": "episodio",
+   "episode_id": "AO-S01-E04",
+   "agendado_para": "2026-11-12T20:00:00-03:00",
+   "metricool_post_id": "424057582",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E04_public_release_assinatura_v2/video_app.mp4",
+   "sha256": "060dc8b5be81550ada0f40b3c0e0df95820388dd7f02aed0890ad4e63dee741b",
+   "duracao_s": 103.821,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a história de uma confissão."
+   ],
+   "tela": "O FBI RECONHECE",
+   "trecho_s": null,
+   "base": {
+    "pasta": "AO-S01-E04_public_release",
+    "sha256": "039c32a13fe21d9db12463e2e75993c939c43a40a9d62f674ea08837f529801e",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/b6001402-47c7-4fed-ab21-8460bb8d4b3a.mp4"
+  },
+  {
+   "tipo": "corte",
+   "episode_id": "AO-S01-E04",
+   "agendado_para": "2026-11-13T09:00:00-03:00",
+   "metricool_post_id": "424066064",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E04_corte_assinatura/video_app.mp4",
+   "sha256": "29401e79822c3c0623d59bf6ec6b2167010b63ee0d2f2b42d00206422209fc45",
+   "duracao_s": 38.355,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar o que o FBI fazia em segredo."
+   ],
+   "tela": "EXPOR. PERTURBAR. NEUTRALIZAR.",
+   "trecho_s": [
+    35.797,
+    67.65
+   ],
+   "base": {
+    "pasta": "AO-S01-E04_public_release",
+    "sha256": "039c32a13fe21d9db12463e2e75993c939c43a40a9d62f674ea08837f529801e",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/6c51851e-7ffe-4253-bd82-6c9050710a84.mp4"
+  },
+  {
+   "tipo": "episodio",
+   "episode_id": "AO-S01-E05",
+   "agendado_para": "2026-11-13T12:30:00-03:00",
+   "metricool_post_id": "424057610",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E05_public_release_assinatura_v2/video_app.mp4",
+   "sha256": "2af304d16000cb82f9d8db8ac24cd8a22039f9b2a1cbe580453144cb2f9bcf21",
+   "duracao_s": 101.788,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a história de um segredo destruído."
+   ],
+   "tela": "PAPÉIS DESTRUÍDOS EM 1973",
+   "trecho_s": null,
+   "base": {
+    "pasta": "AO-S01-E05_public_release",
+    "sha256": "c70c2a7e7da0715061f42a5c425c93f78f940d30fdce40646794526332367c24",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/64fbc8c0-aca4-43a0-a5fc-f060f5e3c6d6.mp4"
+  },
+  {
+   "tipo": "corte",
+   "episode_id": "AO-S01-E05",
+   "agendado_para": "2026-11-13T16:30:00-03:00",
+   "metricool_post_id": "424066074",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E05_corte_assinatura/video_app.mp4",
+   "sha256": "d1e6e185a81b1866d411c0bdadb19a8649c07ad8d032cfbc356e8604b8de00a2",
+   "duracao_s": 46.721,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar sobre o subprojeto 119."
+   ],
+   "tela": "CONTROLE À DISTÂNCIA?",
+   "trecho_s": [
+    47.048,
+    86.907
+   ],
+   "base": {
+    "pasta": "AO-S01-E05_public_release",
+    "sha256": "c70c2a7e7da0715061f42a5c425c93f78f940d30fdce40646794526332367c24",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/f95d819e-7321-4175-bc53-4a02a673dd31.mp4"
+  },
+  {
+   "tipo": "episodio",
+   "episode_id": "AO-S01-E06",
+   "agendado_para": "2026-11-13T20:00:00-03:00",
+   "metricool_post_id": "424057632",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E06_public_release_assinatura_v2/video_app.mp4",
+   "sha256": "fce495c6c7478f666b0171c38789af5544534710894d837835b666ab64d307ca",
+   "duracao_s": 101.821,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar a história de um plano sombrio."
+   ],
+   "tela": "UM PLANO PARA CULPAR CUBA",
+   "trecho_s": null,
+   "base": {
+    "pasta": "AO-S01-E06_public_release",
+    "sha256": "dff5fd1f6cfae64a554f97cec88e465dbea683042e79f0e19d706305b10d432f",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/823f136c-477f-4401-9351-ca91bf2bc8c5.mp4"
+  },
+  {
+   "tipo": "corte",
+   "episode_id": "AO-S01-E06",
+   "agendado_para": "2026-11-14T09:00:00-03:00",
+   "metricool_post_id": "424066093",
+   "status": "agendado, publicação automática",
+   "is_aigc": true,
+   "privacidade": "PUBLIC_TO_EVERYONE",
+   "arquivo": "saida_v2/AO-S01-E06_corte_assinatura/video_app.mp4",
+   "sha256": "ea7b29296bb126bfc3e156a95c320a3f539d9b5bd3b959a05555d27ed53bed72",
+   "duracao_s": 39.288,
+   "abertura": [
+    "Olá, criancinhas...",
+    "Hoje vou te contar o que dizia um papel ultrassecreto."
+   ],
+   "tela": "EXPLODIR UM NAVIO E CULPAR CUBA",
+   "trecho_s": [
+    34.903,
+    67.539
+   ],
+   "base": {
+    "pasta": "AO-S01-E06_public_release",
+    "sha256": "dff5fd1f6cfae64a554f97cec88e465dbea683042e79f0e19d706305b10d432f",
+    "qa": "pass_with_warnings"
+   },
+   "midia_hospedada": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/155573ec-23c0-403d-8881-69568a00c98a.mp4"
+  }
+ ]
+}

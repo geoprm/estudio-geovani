@@ -1,0 +1,562 @@
+{
+ "id": "OAR-L01",
+ "num": 1,
+ "serie": "O ARQUIVO RESPONDE · A CHEGADA · PARTES 1 E 2",
+ "selo_fixo": null,
+ "meta": {
+  "titulo": "A CHEGADA julgada: Crowley, o Mágico de Oz e o 'avô' de Bush | O Arquivo Responde",
+  "formato": "youtube_10min 16:9",
+  "obra_analisada": "A Chegada — Como o Mundo foi Preparado para o Anticristo (Spirit TV, 2009), partes 1 e 2"
+ },
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 104
+   },
+   "credito": "Trecho de A Chegada (Spirit TV, 2009), sem o áudio original · inserção para análise",
+   "tela": "A CHEGADA · PARTES 1 E 2",
+   "sfx": [
+    "chiado"
+   ]
+  },
+  {
+   "voz": "fita",
+   "fala": "O membro mais famoso da Aurora Dourada era um satanista confesso. Ele se chamava de a Besta.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 108
+   },
+   "selo": "ALEGAÇÃO",
+   "credito": "Paráfrase da narração de A Chegada, parte 1",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje o arquivo vai assistir com vocês às duas primeiras fitas de uma série que milhões de brasileiros viram na internet. E vai julgar cada frase.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A série se chama A Chegada. Foi lançada em 2009, ligada ao canal Spirit TV, e promete mostrar como o mundo foi preparado para o Anticristo. São mais de trinta partes.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 130
+   },
+   "credito": "A Chegada (Spirit TV, 2009) · trecho sem áudio",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "As regras do arquivo são simples. O que tem documento recebe o carimbo verde. O que ninguém provou, o amarelo. A leitura de alguém, o laranja. E o que é mentira... o vermelho.",
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      0
+     ],
+     [
+      "INTERPRETAÇÃO",
+      0
+     ],
+     [
+      "SEM PROVA",
+      0
+     ],
+     [
+      "FALSO",
+      0
+     ]
+    ],
+    "titulo": "AS REGRAS DO ARQUIVO"
+   },
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Primeira fita. O homem mais maligno do mundo.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "FITA 1",
+     "O HOMEM MAIS MALIGNO DO MUNDO"
+    ],
+    "papel": true
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 0.3,
+   "pausa": 0.8
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Aleister Crowley. Inglês, nascido em 1875, filho de uma família rica e religiosa. Em 1898, ele entra numa sociedade de magia chamada Ordem Hermética da Aurora Dourada.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/longos/L01/05_rose_cross_lamen_svg.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Lâmina da Rosa-Cruz da Aurora Dourada · Wikimedia Commons",
+   "tela": "AURORA DOURADA, 1898",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E sim, ele mesmo se apelidou de a Besta. Os jornais ingleses chamaram ele de o homem mais maligno do mundo.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_wickedest_1913.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Aleister Crowley, c. 1913 · domínio público · Wikimedia Commons",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas satanista confesso? Crowley criou a própria religião, a Thelema, e usava Satã como símbolo de provocação. Chamar isso de culto ao diabo já é uma leitura.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/liber_al.png",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Liber AL vel Legis (1904), texto central da Thelema · Wikimedia Commons",
+   "carimbo": "INTERPRETAÇÃO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "fita",
+   "fala": "Crowley aparece na capa do disco Sgt. Pepper, dos Beatles.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 118
+   },
+   "selo": "ALEGAÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Verdade. Ele está lá, na fileira de cima, entre dezenas de rostos famosos que os Beatles escolheram para a capa de 1967.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/sgt_pepper_capa_1967.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Capa de Sgt. Pepper's Lonely Hearts Club Band (1967) © Apple Corps · reprodução para análise",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas estar numa colagem com Marilyn Monroe, Einstein e Gandhi não faz de ninguém um agente secreto. Só mostra que ele era famoso.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/sgt_pepper_capa_1967.jpg",
+    "modo": "contain",
+    "mov": "out"
+   },
+   "credito": "Capa de Sgt. Pepper's (1967) © Apple Corps · reprodução para análise",
+   "pausa": 0.5
+  },
+  {
+   "voz": "fita",
+   "fala": "Crowley foi iniciado na Maçonaria em Paris. E uma loja de Londres ligada a ele teria hoje um político famoso como membro.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 160
+   },
+   "selo": "ALEGAÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A iniciação em Paris, em 1904, está nas memórias do próprio Crowley. Mas a Maçonaria inglesa nunca reconheceu aquela loja.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_pensador_1925.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Aleister Crowley, c. 1925 · domínio público · Wikimedia Commons",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Quanto ao político: é boato sobre uma pessoa viva, sem documento nenhum. O arquivo não repete boato. Fica registrado só que a série não apresenta prova.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 176
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "SEM PROVA",
+   "pausa": 0.7,
+   "credito": "A Chegada (Spirit TV, 2009) · trecho sem áudio"
+  },
+  {
+   "voz": "fita",
+   "fala": "Até a estátua de George Washington imita a pose do Baphomet, o demônio com cabeça de bode.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 222
+   },
+   "selo": "ALEGAÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olhem as datas, criancinhas. A estátua de Washington, de Horatio Greenough, foi feita em 1840.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/washington_greenough.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Horatio Greenough, George Washington (1840) · Wikimedia Commons",
+   "tela": "1840",
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O desenho do Baphomet, de Éliphas Lévi, só foi publicado em 1856. Dezesseis anos depois.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/baphomet_levi_1856.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Éliphas Lévi, Dogme et Rituel de la Haute Magie (1856) · domínio público",
+   "tela": "1856",
+   "pausa": 0.3
+  },
+  {
+   "voz": "arquivista",
+   "fala": "O modelo de Greenough era outro: a estátua de Zeus feita por Fídias na Grécia antiga. Um deus sentado no trono. Não um demônio.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/zeus_olimpico_1814.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Quatremère de Quincy, Le Jupiter Olympien (1814) · domínio público",
+   "carimbo": "FALSO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "fita",
+   "fala": "Em 1912, Crowley assumiu a Ordem do Templo do Oriente, herdeira direta dos Illuminati da Baviera.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 242
+   },
+   "selo": "ALEGAÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Crowley de fato passou a liderar o ramo inglês dessa ordem, a O.T.O., por volta de 1912.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_baphomet_1919.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Aleister Crowley em traje da O.T.O. · domínio público · Wikimedia Commons",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas herdeira dos Illuminati? A ordem dos Illuminati foi proibida em 1785. A O.T.O. surgiu mais de cem anos depois. Nenhum documento liga uma à outra.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "ILLUMINATI: 1776–1785",
+     "O.T.O.: c. 1904"
+    ],
+    "papel": true
+   },
+   "credito": "Ver Dossiê 01 do canal",
+   "carimbo": "SEM PROVA",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Segunda fita. O que há por trás do arco-íris.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "FITA 2",
+     "O QUE HÁ POR TRÁS DO ARCO-ÍRIS"
+    ],
+    "papel": true
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 0.3,
+   "pausa": 0.8
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Aqui a série muda de tom. Mostra cenas de O Mágico de Oz: o espantalho sem cérebro, o homem de lata sem coração, o leão sem coragem. E sugere que o filme esconde uma iniciação oculta.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/longos/L01/04_illustration_by_w_w_denslow_from_the_won.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "W. W. Denslow, ilustração de O Mágico de Oz (1900) · domínio público · Wikimedia Commons",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Um fato curioso: o autor do livro, L. Frank Baum, entrou para a Sociedade Teosófica em 1892, um grupo místico da época.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/longos/L01/07_l_frank_baum_1911_jpg.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "L. Frank Baum, 1911 · domínio público · Wikimedia Commons",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas o livro é de 1900, e foi lido de mil jeitos: alegoria política, conto de fadas americano, crítica ao dinheiro. Ler ali um ritual secreto é mais uma interpretação. Sem prova de intenção do autor.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/longos/L01/02_the_wonderful_wizard_of_oz_w_w_denslow_c.jpg",
+    "modo": "contain",
+    "mov": "out"
+   },
+   "credito": "Capa da primeira edição de O Mágico de Oz (1900) · domínio público",
+   "carimbo": "INTERPRETAÇÃO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E então a fita volta para Crowley. Para a parte que mais circulou no Brasil.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.5
+  },
+  {
+   "voz": "fita",
+   "fala": "Em 1924, em Paris, Crowley teria realizado um ritual sexual com uma americana chamada Pauline Pierce. Nove meses depois, nasceu Barbara, futura mãe de George W. Bush.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 640
+   },
+   "selo": "ALEGAÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Peças verdadeiras primeiro. Crowley esteve na França em 1924, pobre e doente. E escreveu nos diários que atingiu o grau mais alto da sua magia naquele ano.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_pensador_1925.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Aleister Crowley, c. 1925 · domínio público",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Barbara Pierce nasceu em 8 de junho de 1925, filha de Marvin e Pauline Pierce. Casou com George H. W. Bush. O filho, George W. Bush, virou presidente.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/barbara_bush_1992.jpg",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Retrato oficial de Barbara Bush (1992) · domínio público · Wikimedia Commons",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Agora, a peça que liga tudo. A história de Pauline Pierce com Crowley em Paris apareceu num blog americano... no dia primeiro de abril de 2006. O dia da mentira.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/cannonfire_2006-04-01.png",
+    "modo": "contain",
+    "mov": "in"
+   },
+   "credito": "Captura do blog Cannonfire (01/04/2006) · reprodução para análise",
+   "tela": "1º DE ABRIL DE 2006",
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 6.0,
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Três anos depois, A Chegada repetiu a brincadeira como se fosse fato. E em 2021 uma checagem do jornal USA Today confirmou: não há nenhum registro que ligue Pauline Pierce a Crowley.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "CHECAGEM",
+     "USA TODAY, 28/02/2021"
+    ],
+    "papel": true
+   },
+   "credito": "Fonte: USA TODAY, checagem de 28/02/2021",
+   "carimbo": "FALSO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Nenhum registro liga Pauline a Crowley, criancinhas. Pelo menos... nenhum registro que alguém tenha mostrado.",
+   "visual": {
+    "tipo": "imagem",
+    "arquivo": "../../acervo_privado/oar_e01/crowley_wickedest_1913.jpg",
+    "modo": "cover",
+    "mov": "in"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "SEM PROVA",
+   "pausa": 0.8,
+   "credito": "Aleister Crowley, c. 1913 · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "fita",
+   "fala": "E quando o segundo avião atingiu a torre, o presidente Bush continuou lendo uma história de cabra para crianças.",
+   "visual": {
+    "tipo": "crt",
+    "video": "../../acervo_privado/a_chegada/parte01-02_GfnwnuW4qv4.mp4",
+    "inicio": 810
+   },
+   "selo": "ALEGAÇÃO",
+   "sfx": [
+    "chiado"
+   ],
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Isso aconteceu. Onze de setembro de 2001, numa escola da Flórida, Bush ouviu a notícia e ficou alguns minutos sentado, com o livro na mão.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "11 DE SETEMBRO DE 2001",
+     "ESCOLA EMMA E. BOOKER, FLÓRIDA"
+    ],
+    "papel": true
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas a série vai dizer que aquilo era parte de um ritual. Essa é a próxima fita. E o arquivo já está com ela na mesa.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.6
+  },
+  {
+   "voz": null,
+   "dur": 4.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      8
+     ],
+     [
+      "INTERPRETAÇÃO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      3
+     ],
+     [
+      "FALSO",
+      2
+     ]
+    ],
+    "titulo": "O ARQUIVO CONTINUA ABERTO"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Repararam, criancinhas? Quase tudo nessas fitas tem documento. A Besta, a Aurora Dourada, a capa do disco, a ordem de 1912, os diários de Paris, a data do nascimento. Quando tantas peças verdadeiras aparecem juntas... fica difícil dormir achando que é tudo coincidência.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Na próxima fita: o onze de setembro como mega ritual. Até lá, criancinhas... o arquivo continua aberto. E alguém, em algum lugar, prefere que ele fique fechado.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "PRÓXIMA FITA: O MEGA RITUAL",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.6
+  }
+ ]
+}

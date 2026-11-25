@@ -1,0 +1,142 @@
+{
+  "aberturaA": "Isto não é teoria. Está no site do próprio FBI.",
+  "cenas": [
+    {
+      "fala": "Isto não é teoria. Está no site do próprio FBI.",
+      "selo": "DOCUMENTADO",
+      "tela": "ERA REAL",
+      "v": {
+        "sub": "ARQUIVO OFICIAL",
+        "texto": "FBI",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "De 1956 a 1971, o FBI manteve um programa secreto chamado COINTELPRO.",
+      "tela": "1956–1971",
+      "tts": "De mil novecentos e cinquenta e seis a mil novecentos e setenta e um, o éfe bi ai manteve um programa secreto chamado Cointelpro.",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "O alvo: grupos políticos dentro dos Estados Unidos. O método: infiltrar, vigiar, desacreditar.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "INFILTRAR · VIGIAR · DESACREDITAR",
+      "v": {
+        "cabecalho": "COINTELPRO",
+        "carimbo": "CONFIDENCIAL",
+        "linhas": [
+          "PROGRAMA DE CONTRAINTELIGÊNCIA",
+          "ALVOS: GRUPOS POLÍTICOS",
+          "1956 – 1971"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Em 1971, ativistas invadiram um escritório do FBI na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+      "selo": "DOCUMENTADO",
+      "tela": "1971: O VAZAMENTO",
+      "tts": "Em mil novecentos e setenta e um, ativistas invadiram um escritório do éfe bi ai na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+      "v": {
+        "pontos": [
+          [
+            "1956",
+            "INÍCIO"
+          ],
+          [
+            "1971",
+            "VAZAMENTO"
+          ],
+          [
+            "1975",
+            "CONGRESSO"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "Depois, o Congresso investigou. E o programa virou história oficial.",
+      "tela": "INVESTIGADO",
+      "v": {
+        "a": [
+          "SEGREDO",
+          "1956"
+        ],
+        "b": [
+          "PÚBLICO",
+          "1971"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Conspirações reais deixam rastro. Papel, data, assinatura.",
+      "tela": "PAPEL · DATA · ASSINATURA",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Quantos arquivos ainda estão fechados?",
+      "tela": "O QUE AINDA ESTÁ FECHADO?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-004",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Programa de 1956 a 1971; vazamento de Media (PA) em 1971; Comitê Church (1975-76). Não extrapolar para acusações atuais.",
+  "data": "2026-11-03",
+  "fato": "Programa de 1956 a 1971; vazamento de Media (PA) em 1971; Comitê Church (1975-76). Não extrapolar para acusações atuais.",
+  "fontes": [
+    {
+      "nome": "vault.fbi.gov",
+      "url": "https://vault.fbi.gov/cointel-pro"
+    },
+    {
+      "nome": "fbi.gov",
+      "url": "https://www.fbi.gov/history/history-of-the-fbi/and-justice-for-all"
+    }
+  ],
+  "legenda": "COINTELPRO é o exemplo clássico de operação clandestina que deixou rastro documental: o próprio FBI registra essa história.\n\nQuer a parte 2 com os documentos? Escreva ARQUIVOS.\n\nFontes: fbi.gov (history) · vault.fbi.gov/cointel-pro\n\n#ArquivoOculto #COINTELPRO #FBI #historia #conspiracao",
+  "nota": 4,
+  "ordem": 4,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Isto não é teoria. Está no site do próprio FBI.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "De 1956 a 1971, o FBI manteve um programa secreto chamado COINTELPRO.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "O alvo: grupos políticos dentro dos Estados Unidos. O método: infiltrar, vigiar, desacreditar.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Em 1971, ativistas invadiram um escritório do FBI na Pensilvânia e levaram os documentos. Foi assim que tudo veio à tona.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "Depois, o Congresso investigou. E o programa virou história oficial.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Conspirações reais deixam rastro. Papel, data, assinatura.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Quantos arquivos ainda estão fechados?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Conspirações Documentadas",
+  "titulo": "COINTELPRO: uma conspiração comprovada"
+}

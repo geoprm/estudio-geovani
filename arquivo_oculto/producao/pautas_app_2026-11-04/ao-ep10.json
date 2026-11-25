@@ -1,0 +1,138 @@
+{
+  "aberturaA": "2027. Por que essa data aparece em tantas previsões?",
+  "cenas": [
+    {
+      "fala": "2027. Por que essa data aparece em tantas previsões?",
+      "tela": "2027",
+      "tts": "Dois mil e vinte e sete. Por que essa data aparece em tantas previsões?",
+      "v": {
+        "sub": "POR QUE ESSA DATA?",
+        "texto": "2027",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "Comecemos pelo que é verificável.",
+      "tela": "O QUE É VERIFICÁVEL",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "A ONU marcou para setembro de 2027 uma cúpula de líderes para revisar a Agenda 2030.",
+      "selo": "DOCUMENTADO",
+      "tela": "CÚPULA DA ONU · SET/2027",
+      "tts": "A ONU marcou para setembro de dois mil e vinte e sete uma cúpula de líderes para revisar a Agenda dois mil e trinta.",
+      "v": {
+        "pontos": [
+          [
+            "2015",
+            "AGENDA"
+          ],
+          [
+            "2023",
+            "REVISÃO"
+          ],
+          [
+            "2027",
+            "CÚPULA"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "No mesmo ano, o exército chinês completa cem anos. E analistas discutem Taiwan, tecnologia e economia.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "CENTENÁRIO DO EXÉRCITO CHINÊS",
+      "v": {
+        "cabecalho": "CALENDÁRIO 2027",
+        "carimbo": "CENÁRIOS",
+        "linhas": [
+          "SET · CÚPULA DOS ODS NA ONU",
+          "AGO · 100 ANOS DO EXÉRCITO CHINÊS",
+          "EM DEBATE: TAIWAN, IA, ECONOMIA"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Mas um calendário cheio não é profecia. Data marcada não é destino.",
+      "tela": "CENÁRIO NÃO É DESTINO",
+      "v": {
+        "a": [
+          "CALENDÁRIO",
+          "FATO"
+        ],
+        "b": [
+          "PROFECIA",
+          "SEM PROVA"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Eu não aposto no pior. Observo os sinais e me preparo para vários cenários.",
+      "tela": "PREPARAR, NÃO TEMER",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "O que você faria diferente, se soubesse o que vem em 2027?",
+      "tela": "E VOCÊ?",
+      "tts": "O que você faria diferente, se soubesse o que vem em dois mil e vinte e sete?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-010",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Cúpula dos ODS prevista para 2027; Exército de Libertação Popular fundado em 01/08/1927. Não alegar data de colapso.",
+  "data": "2026-11-03",
+  "fato": "Cúpula dos ODS prevista para 2027; Exército de Libertação Popular fundado em 01/08/1927. Não alegar data de colapso.",
+  "fontes": [
+    {
+      "nome": "sdgs.un.org",
+      "url": "https://sdgs.un.org/2030agenda"
+    }
+  ],
+  "legenda": "Datas podem marcar decisões reais sem provar profecias. Em 2027 há uma cúpula da ONU sobre a Agenda 2030 e o centenário do exército chinês. O resto é cenário, não destino.\n\nSiga a série Laboratório do Futuro.\n\nFontes: sdgs.un.org\n\n#ArquivoOculto #2027 #Cenarios #geopolitica #futuro",
+  "nota": 4,
+  "ordem": 10,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "2027. Por que essa data aparece em tantas previsões?",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "Comecemos pelo que é verificável.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "A ONU marcou para setembro de 2027 uma cúpula de líderes para revisar a Agenda 2030.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "No mesmo ano, o exército chinês completa cem anos. E analistas discutem Taiwan, tecnologia e economia.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "Mas um calendário cheio não é profecia. Data marcada não é destino.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Eu não aposto no pior. Observo os sinais e me preparo para vários cenários.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "O que você faria diferente, se soubesse o que vem em 2027?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Tabuleiro Mundial",
+  "titulo": "2027: por que essa data aparece tanto?"
+}

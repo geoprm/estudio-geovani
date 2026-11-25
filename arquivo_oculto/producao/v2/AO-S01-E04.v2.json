@@ -1,0 +1,963 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E04",
+ "versao": "v2.0",
+ "num": 4,
+ "formato": "investigacao_90",
+ "titulo": "COINTELPRO: uma conspiração comprovada",
+ "serie": "Conspirações Documentadas",
+ "hook": "O FBI RECONHECE",
+ "status_editorial": "pronto_para_render",
+ "estrutura": [
+  "cold_open",
+  "inciting_question",
+  "dated_evidence",
+  "competing_interpretations",
+  "reversal_or_surprise",
+  "open_loop_or_next_dossier"
+ ],
+ "nota_editorial": "Documentos de domínio público lidos nesta sessão (FBI, Senado, Arquivo Nacional, cinejornal). Pessoas reais só como agentes públicos documentados; alvos citados pelo rótulo do próprio documento, sem nomes privados.",
+ "fontes": [
+  {
+   "id": "S-FBI-HIST",
+   "titulo": "FBI — And Justice for All, 1954–1971",
+   "editor": "FBI (fbi.gov)",
+   "url": "https://www.fbi.gov/history/history-of-the-fbi/and-justice-for-all",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/fbi_history_and_justice_for_all.html",
+   "acessado_em": "2026-11-05",
+   "verificacao": "lido: Cointelpro aprovado pelo National Security Council em 1956; o público soube após o arrombamento de um escritório do FBI em Media, Pensilvânia, em 1971, com vazamento à imprensa e ao Congresso; infiltração, discórdia e descrédito mesmo com pouca ou nenhuma evidência de atividade ilegal; Hoover encerrou formalmente em abril de 1971",
+   "direitos": "texto do governo federal dos EUA: domínio público"
+  },
+  {
+   "id": "S-CHURCH-1976",
+   "titulo": "Senate Select Committee (Church Committee) — Final Report, Book III (1976), \"COINTELPRO: The FBI's Covert Action Programs Against American Citizens\"",
+   "editor": "Senado dos EUA (cópia do Internet Archive: finalreportofsel03unit)",
+   "url": "https://archive.org/details/finalreportofsel03unit",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/church_committee_book_III_1976.pdf",
+   "acessado_em": "2026-11-05",
+   "verificacao": "lido p.12 do PDF: COINTELPRO = programas de ação encoberta contra grupos domésticos; ação secreta para \"disrupt\" e \"neutralize\"; técnicas do trivial ao degradante (cartas anônimas para destruir casamentos) e ao perigoso; base de mais de 20.000 páginas de documentos do FBI",
+   "direitos": "documento do Congresso dos EUA: domínio público"
+  },
+  {
+   "id": "S-NARA-2020",
+   "titulo": "National Archives — When the FBI Used a Stamp Collecting Club as a Counterintelligence Tool (26/03/2020)",
+   "editor": "National Archives (The Text Message)",
+   "url": "https://text-message.blogs.archives.gov/2020/03/26/when-the-fbi-used-a-stamp-collecting-club-as-a-counterintelligence-tool/",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/nara_stamp_club_cointelpro.html",
+   "acessado_em": "2026-11-05",
+   "verificacao": "lido: memorando de Hoover de 28/08/1956 inicia o COINTELPRO; em 1970 o FBI usou/planejou um clube de colecionadores de selos como fachada; reproduz a carta de 25/08/1967 (ARC ID 5060504) e o retrato de Hoover (NAID 518187)"
+  },
+  {
+   "id": "S-NEWSREEL-1957",
+   "titulo": "Universal Newsreel — Red Colonel. Top-Ranking Russian Spy Chief Captured (12/08/1957)",
+   "editor": "Universal-International News (Internet Archive)",
+   "url": "https://archive.org/details/1957-08-12_Red_Colonel",
+   "snapshot": "arquivo_oculto/acervo_dominio_publico/newsreel_1957-08-12_Red_Colonel.mp4",
+   "acessado_em": "2026-11-05",
+   "direitos": "marcado como domínio público no Internet Archive"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "texto": "Em 1971 um escritório do FBI em Media, Pensilvânia, foi arrombado e informações vazaram para a imprensa e o Congresso",
+   "status": "documented",
+   "fontes": [
+    "S-FBI-HIST"
+   ]
+  },
+  {
+   "id": "C2",
+   "texto": "O FBI reconhece que táticas do Cointelpro foram longe demais",
+   "status": "documented",
+   "fontes": [
+    "S-FBI-HIST"
+   ]
+  },
+  {
+   "id": "C3",
+   "texto": "Cointelpro foi aprovado em 1956",
+   "status": "documented",
+   "fontes": [
+    "S-FBI-HIST",
+    "S-NARA-2020"
+   ]
+  },
+  {
+   "id": "C4",
+   "texto": "Em 1957 cinejornais mostraram a prisão de um espião soviético nos EUA",
+   "status": "documented",
+   "fontes": [
+    "S-NEWSREEL-1957"
+   ]
+  },
+  {
+   "id": "C5",
+   "texto": "COINTELPRO foram programas de ação encoberta contra grupos domésticos",
+   "status": "documented",
+   "fontes": [
+    "S-CHURCH-1976"
+   ]
+  },
+  {
+   "id": "C6",
+   "texto": "Carta do Diretor do FBI de 25/08/1967 abre o programa contra grupos nacionalistas negros com o objetivo de \"expose, disrupt, misdirect, discredit, or otherwise neutralize\"",
+   "status": "documented",
+   "fontes": [
+    "S-NARA-2020"
+   ]
+  },
+  {
+   "id": "C7",
+   "texto": "O relatório de 1976 se baseou em mais de 20 mil páginas do FBI e descreve técnicas do trivial ao degradante e ao perigoso",
+   "status": "documented",
+   "fontes": [
+    "S-CHURCH-1976"
+   ]
+  },
+  {
+   "id": "C8",
+   "texto": "Em 1970 o FBI usou um clube de colecionadores de selos como fachada de contrainteligência",
+   "status": "documented",
+   "fontes": [
+    "S-NARA-2020"
+   ]
+  },
+  {
+   "id": "C9",
+   "texto": "Hoover encerrou formalmente o Cointelpro em abril de 1971",
+   "status": "documented",
+   "fontes": [
+    "S-FBI-HIST"
+   ]
+  },
+  {
+   "id": "C10",
+   "texto": "Uma conspiração comprovada não prova outras; o fim formal não prova ausência de abusos posteriores",
+   "status": "interpretation",
+   "fontes": []
+  }
+ ],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "credito": "Ilustração original · Arquivo Oculto"
+  },
+  {
+   "id": "A-FBI-HIST",
+   "tipo": "documento_autentico",
+   "fonte": "S-FBI-HIST",
+   "rights_status": "public_domain",
+   "credito": "FBI · And Justice for All, 1954–1971 (fbi.gov) · domínio público"
+  },
+  {
+   "id": "A-CHURCH",
+   "tipo": "documento_autentico",
+   "arquivo": "arquivo_oculto/acervo_dominio_publico/church_committee_book_III_1976.pdf",
+   "fonte": "S-CHURCH-1976",
+   "rights_status": "public_domain",
+   "credito": "Senado dos EUA · Church Committee, Livro III, 1976 · domínio público"
+  },
+  {
+   "id": "A-CARTA-1967",
+   "tipo": "documento_autentico",
+   "arquivo": "arquivo_oculto/acervo_dominio_publico/nara_cointelpro_1967-08-25_p2.jpg",
+   "fonte": "S-NARA-2020",
+   "rights_status": "public_domain",
+   "credito": "Carta do Diretor do FBI, 25/08/1967 · Arquivo Nacional dos EUA · domínio público"
+  },
+  {
+   "id": "A-HOOVER",
+   "tipo": "foto_arquivo",
+   "arquivo": "arquivo_oculto/acervo_dominio_publico/nara_stamp_club_doc.gif",
+   "fonte": "S-NARA-2020",
+   "rights_status": "public_domain",
+   "credito": "Retrato de J. Edgar Hoover · Arquivo Nacional dos EUA (NAID 518187) · domínio público"
+  },
+  {
+   "id": "A-NEWSREEL-1957",
+   "tipo": "video_arquivo",
+   "arquivo": "arquivo_oculto/acervo_dominio_publico/newsreel_1957-08-12_Red_Colonel.mp4",
+   "fonte": "S-NEWSREEL-1957",
+   "rights_status": "public_domain",
+   "credito": "Universal Newsreel, 12/08/1957 · Internet Archive · domínio público"
+  },
+  {
+   "id": "A-NARA-FATO",
+   "tipo": "dado_documental",
+   "fonte": "S-NARA-2020",
+   "rights_status": "fact_citation",
+   "credito": "Fonte: Arquivo Nacional dos EUA (The Text Message, 26/03/2020)"
+  },
+  {
+   "id": "A-DATAS",
+   "tipo": "dado_documental",
+   "fonte": "S-FBI-HIST",
+   "rights_status": "fact_citation",
+   "credito": "Fonte: FBI · And Justice for All, 1954–1971"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Em 1971, um escritório do FBI na Pensilvânia é arrombado.",
+   "pausa_ms": 340,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S01",
+     "tipo": "escritorio_epoca",
+     "peso": 1.1,
+     "tela": "PENSILVÂNIA · 1971",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "escritorio_epoca",
+     "visual_source_type": "reconstituicao_ilustrada",
+     "movement": "lanterna varre os arquivos de aço; uma gaveta se abre",
+     "sound_design": "vidro, passos, gaveta",
+     "prompt": "escritório de repartição de 1971 à noite: arquivos de aço, máquina de escrever",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados, monitor, computador",
+     "params": {
+      "acao": "lanterna",
+      "semente": 5
+     },
+     "selo": "RECONSTITUIÇÃO ILUSTRADA"
+    },
+    {
+     "id": "S02",
+     "tipo": "dossies",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "dossies",
+     "visual_source_type": "ilustracao",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pastas",
+     "prompt": "pastas genéricas",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "rotulos": [
+       "ARQUIVO",
+       "ARQUIVO",
+       "ARQUIVO"
+      ],
+      "dur": 2.4
+     },
+     "selo": "ILUSTRAÇÃO"
+    }
+   ],
+   "tts": "Em mil novecentos e setenta e um, um escritório do efe-bê-i na Pensilvânia é arrombado."
+  },
+  {
+   "id": "L02",
+   "beat": "cold_open",
+   "fala": "Os papéis levados dali vão parar na imprensa e no Congresso.",
+   "pausa_ms": 400,
+   "claims": [
+    "C1",
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S03",
+     "tipo": "trecho_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-FBI-HIST",
+     "shot_type": "trecho_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "lápis circula o lugar",
+     "sound_design": "lápis",
+     "prompt": "trecho_documento",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "publico": {
+       "cabecalho": "FBI · HISTÓRIA OFICIAL",
+       "texto": "...began to learn about the classified program after an FBI office in Media, Pennsylvania, was burglarized in 1971 by radicals and information was leaked to the press and Congress.",
+       "destaque": "Media, Pennsylvania",
+       "rodape": "TRANSCRIÇÃO · fbi.gov · domínio público"
+      }
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "inciting_question",
+   "fala": "Eu sou o Arquivista. Aqui não há teoria: o FBI reconhece.",
+   "pausa_ms": 360,
+   "claims": [
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S04",
+     "tipo": "aparicao",
+     "peso": 1.0,
+     "tela": "O FBI RECONHECE",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "surge da sombra à contraluz e encara a lente",
+     "gesture": "cabeça sobe até a câmera",
+     "camera_motion": "dolly-in discreto",
+     "emotional_beat": "aparição",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "dolly-in discreto",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: surge da sombra à contraluz e encara a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    },
+    {
+     "id": "S05",
+     "tipo": "corredor",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "caminha entre fichários e para",
+     "gesture": "passos com balanço; vira para a lente",
+     "camera_motion": "travelling lateral",
+     "emotional_beat": "apresentação",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "travelling lateral",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: caminha entre fichários e para",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "direcao": -1
+     }
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "O nome era Cointelpro. Aprovado em 1956, segundo o FBI.",
+   "pausa_ms": 340,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S06",
+     "tipo": "titulo_obra",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-DATAS",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "varredura",
+     "prompt": "nome do programa",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "linhas": [
+       "COINTELPRO"
+      ],
+      "sub": "FBI · 1956–1971"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    },
+    {
+     "id": "S07",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-HOOVER",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "foto_arquivo",
+     "movement": "push-in lento no retrato",
+     "sound_design": "obturador",
+     "prompt": "retrato oficial de Hoover (NARA)",
+     "negative_prompt": "retrato alterado",
+     "params": {
+      "moldura": "foto",
+      "legenda": "J. Edgar Hoover, diretor do FBI",
+      "largura": 760
+     },
+     "selo": "FOTO DE ARQUIVO",
+     "credito": true
+    }
+   ],
+   "tts": "O nome era Cointélpro. Aprovado em mil novecentos e cinquenta e seis, segundo o efe-bê-i."
+  },
+  {
+   "id": "L05",
+   "beat": "dated_evidence",
+   "fala": "Era a Guerra Fria. Em 1957, os cinejornais mostravam a prisão de um espião soviético.",
+   "pausa_ms": 360,
+   "claims": [
+    "C4"
+   ],
+   "shots": [
+    {
+     "id": "S08",
+     "tipo": "video_arquivo",
+     "peso": 0.8,
+     "tela": "",
+     "asset": "A-NEWSREEL-1957",
+     "shot_type": "video_arquivo",
+     "visual_source_type": "video_arquivo",
+     "movement": "cartela",
+     "sound_design": "chiado de película",
+     "prompt": "video_arquivo",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "inicio": 0.5
+     },
+     "selo": "CINEJORNAL DE 1957",
+     "credito": true
+    },
+    {
+     "id": "S09",
+     "tipo": "video_arquivo",
+     "peso": 1.2,
+     "tela": "",
+     "asset": "A-NEWSREEL-1957",
+     "shot_type": "video_arquivo",
+     "visual_source_type": "video_arquivo",
+     "movement": "tribunal",
+     "sound_design": "chiado de película",
+     "prompt": "video_arquivo",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "inicio": 33.5
+     },
+     "selo": "CINEJORNAL DE 1957",
+     "credito": true
+    }
+   ],
+   "tts": "Era a Guerra Fria. Em mil novecentos e cinquenta e sete, os cinejornais mostravam a prisão de um espião soviético."
+  },
+  {
+   "id": "L06",
+   "beat": "dated_evidence",
+   "fala": "Mas o alvo não eram só espiões estrangeiros. Eram grupos do próprio país.",
+   "pausa_ms": 360,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S10",
+     "tipo": "pagina_documento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-CHURCH",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página do relatório do Senado de 1976",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "pagina": 12,
+      "foco": [
+       0.03,
+       0.1,
+       0.97,
+       0.15
+      ]
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S11",
+     "tipo": "virar_cabeca",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "reage ao documento girando a cabeça",
+     "gesture": "giro de cabeça e olhar baixo",
+     "camera_motion": "órbita lenta",
+     "emotional_beat": "suspeita",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "órbita lenta",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: reage ao documento girando a cabeça",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "dated_evidence",
+   "fala": "Em 1967, uma carta do diretor do FBI abre uma nova frente, contra grupos nacionalistas negros.",
+   "pausa_ms": 340,
+   "claims": [
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S12",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-1967",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "documento_autentico",
+     "movement": "câmera vai ao trecho",
+     "sound_design": "papel",
+     "prompt": "carta original do FBI de 1967",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "moldura": "foto",
+      "foco": [
+       0.1,
+       0.2,
+       0.55,
+       0.28
+      ],
+      "largura": 900,
+      "inclinacao": -1.2
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S12b",
+     "tipo": "imagem_arquivo",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CARTA-1967",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "documento_autentico",
+     "movement": "câmera vai ao trecho",
+     "sound_design": "papel",
+     "prompt": "carta original do FBI de 1967",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "moldura": "foto",
+      "foco": [
+       0.62,
+       0.1,
+       0.97,
+       0.16
+      ],
+      "largura": 900,
+      "inclinacao": -1.2
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    }
+   ],
+   "tts": "Em mil novecentos e sessenta e sete, uma carta do diretor do efe-bê-i abre uma nova frente, contra grupos nacionalistas negros."
+  },
+  {
+   "id": "L08",
+   "beat": "dated_evidence",
+   "fala": "O objetivo, nas palavras do documento: expor, perturbar, desviar, desacreditar ou neutralizar.",
+   "pausa_ms": 620,
+   "claims": [
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S13",
+     "tipo": "imagem_arquivo",
+     "peso": 1.3,
+     "tela": "",
+     "asset": "A-CARTA-1967",
+     "shot_type": "imagem_arquivo",
+     "visual_source_type": "documento_autentico",
+     "movement": "câmera vai ao trecho",
+     "sound_design": "papel",
+     "prompt": "carta original do FBI de 1967",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "moldura": "foto",
+      "foco": [
+       0.1,
+       0.435,
+       0.96,
+       0.49
+      ],
+      "largura": 900,
+      "inclinacao": -1.2
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    },
+    {
+     "id": "S14",
+     "tipo": "silencio",
+     "peso": 0.7,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "rosto imóvel numa batida dramática",
+     "gesture": "nenhum, só respiração",
+     "camera_motion": "push-in micro",
+     "emotional_beat": "suspense",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "push-in micro",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: rosto imóvel numa batida dramática",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "beat": "dated_evidence",
+   "fala": "Em 1976, o Senado expôs o programa, com base em mais de vinte mil páginas do FBI.",
+   "pausa_ms": 300,
+   "claims": [
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S15",
+     "tipo": "ombro",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CHURCH",
+     "personagem": true,
+     "action": "examina a prova por cima do ombro",
+     "gesture": "cabeça inclinada sobre o papel",
+     "camera_motion": "over-the-shoulder com foco seletivo",
+     "emotional_beat": "investigação",
+     "shot_type": "over-the-shoulder",
+     "visual_source_type": "documento_autentico",
+     "movement": "over-the-shoulder com foco seletivo",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: examina a prova por cima do ombro",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": -1
+     },
+     "prova": {
+      "tipo": "pagina_documento",
+      "params": {
+       "pagina": 12,
+       "foco": [
+        0.03,
+        0.185,
+        0.97,
+        0.245
+       ],
+       "circular": false
+      }
+     },
+     "parcial": true,
+     "credito": true,
+     "selo": "DOCUMENTO ORIGINAL"
+    },
+    {
+     "id": "S16",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CHURCH",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página do relatório do Senado de 1976",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "pagina": 12,
+      "foco": [
+       0.03,
+       0.352,
+       0.97,
+       0.395
+      ]
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    }
+   ],
+   "tts": "Em mil novecentos e setenta e seis, o Senado expôs o programa, com base em mais de vinte mil páginas do efe-bê-i."
+  },
+  {
+   "id": "L09b",
+   "beat": "dated_evidence",
+   "fala": "As técnicas iam do trivial ao degradante: cartas anônimas para destruir casamentos.",
+   "pausa_ms": 400,
+   "claims": [
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S16b",
+     "tipo": "pagina_documento",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-CHURCH",
+     "shot_type": "pagina_documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "da página ao trecho; lápis marca",
+     "sound_design": "papel, lápis",
+     "prompt": "página do relatório do Senado de 1976",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "pagina": 12,
+      "foco": [
+       0.03,
+       0.245,
+       0.97,
+       0.355
+      ]
+     },
+     "selo": "DOCUMENTO ORIGINAL",
+     "credito": true
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "beat": "reversal_or_surprise",
+   "fala": "E o detalhe mais estranho: em 1970, o FBI usou até um clube de selos como fachada.",
+   "pausa_ms": 500,
+   "claims": [
+    "C8"
+   ],
+   "shots": [
+    {
+     "id": "S17",
+     "tipo": "titulo_obra",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-NARA-FATO",
+     "shot_type": "titulo_obra",
+     "visual_source_type": "dado_documental",
+     "movement": "câmera lenta com luz",
+     "sound_design": "carimbo",
+     "prompt": "frase factual em tipografia própria",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "linhas": [
+       "UM CLUBE",
+       "DE SELOS"
+      ],
+      "sub": "FACHADA DE CONTRAINTELIGÊNCIA · 1970"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    },
+    {
+     "id": "S17b",
+     "tipo": "virar_cabeca",
+     "peso": 0.8,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "reage ao documento girando a cabeça",
+     "gesture": "giro de cabeça e olhar baixo",
+     "camera_motion": "órbita lenta",
+     "emotional_beat": "suspeita",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "órbita lenta",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: reage ao documento girando a cabeça",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "lado": -1
+     }
+    }
+   ],
+   "tts": "E o detalhe mais estranho: em mil novecentos e setenta, o efe-bê-i usou até um clube de selos como fachada."
+  },
+  {
+   "id": "L11",
+   "beat": "reversal_or_surprise",
+   "fala": "Segundo o FBI, Hoover encerrou o programa em abril de 1971.",
+   "pausa_ms": 400,
+   "claims": [
+    "C9"
+   ],
+   "shots": [
+    {
+     "id": "S18",
+     "tipo": "salto_datas",
+     "peso": 1.0,
+     "tela": "",
+     "asset": "A-DATAS",
+     "shot_type": "salto_datas",
+     "visual_source_type": "dado_documental",
+     "movement": "linha do tempo",
+     "sound_design": "relógio",
+     "prompt": "salto_datas",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "de": "1956",
+      "ate": "ABRIL · 1971",
+      "rot_de": "COINTELPRO APROVADO",
+      "rot_ate": "ENCERRAMENTO FORMAL",
+      "gap": "15 ANOS"
+     },
+     "selo": "DOCUMENTADO",
+     "credito": true
+    },
+    {
+     "id": "S18b",
+     "tipo": "debrucar",
+     "peso": 0.8,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "inclina-se sobre a mesa; a luz revela a prova",
+     "gesture": "tronco avança, cabeça baixa",
+     "camera_motion": "tilt para a mesa",
+     "emotional_beat": "nova pista",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "tilt para a mesa",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: inclina-se sobre a mesa; a luz revela a prova",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ],
+   "tts": "Segundo o efe-bê-i, Húver encerrou o programa em abril de mil novecentos e setenta e um."
+  },
+  {
+   "id": "L12",
+   "beat": "competing_interpretations",
+   "fala": "Conspiração comprovada não prova todas as outras. E o fim oficial não prova que nada parecido voltou a acontecer.",
+   "pausa_ms": 500,
+   "claims": [
+    "C10"
+   ],
+   "shots": [
+    {
+     "id": "S19",
+     "tipo": "leituras",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pulso grave",
+     "prompt": "comprovada",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "a": [
+       "COMPROVADA",
+       "1956–1971"
+      ],
+      "b": [
+       "E AS OUTRAS?",
+       "cada uma exige prova"
+      ],
+      "sync_b": 2.0,
+      "brilho_fundo": 0.5
+     },
+     "selo": "ANÁLISE"
+    },
+    {
+     "id": "S19b",
+     "tipo": "leituras",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "leituras",
+     "visual_source_type": "tipografia",
+     "movement": "câmera lenta com luz",
+     "sound_design": "pulso grave",
+     "prompt": "e as outras",
+     "negative_prompt": "documento falsificado, logotipos, rostos inventados",
+     "params": {
+      "a": [
+       "COMPROVADA",
+       "1956–1971"
+      ],
+      "b": [
+       "E AS OUTRAS?",
+       "cada uma exige prova"
+      ],
+      "sync_b": 0.0,
+      "brilho_fundo": 0.5
+     },
+     "selo": "ANÁLISE"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "No próximo arquivo: outra agência e uma ordem para destruir papéis.",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S20",
+     "tipo": "olhar_camera",
+     "peso": 0.9,
+     "tela": "PRÓXIMO ARQUIVO",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "volta o olhar do documento para a lente",
+     "gesture": "giro até a câmera",
+     "camera_motion": "micro push-in",
+     "emotional_beat": "pergunta",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "micro push-in",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: volta o olhar do documento para a lente",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas",
+     "params": {
+      "de_yaw": -12
+     }
+    },
+    {
+     "id": "S21",
+     "tipo": "encerramento",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "recua e some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "atuação do Arquivista",
+     "visual_source_type": "personagem",
+     "movement": "pull-back",
+     "sound_design": "ambiente do arquivo, tecido, respiração",
+     "prompt": "Arquivista canônico: recua e some na sombra",
+     "negative_prompt": "boca mexendo, rosto humano, máscara diferente, mãos deformadas"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 04",
+   "PRÓXIMO ARQUIVO:",
+   "A ORDEM PARA DESTRUIR PAPÉIS"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {},
+ "legenda_post": "COINTELPRO não é teoria: o próprio FBI reconhece. Aprovado em 1956, exposto depois do arrombamento de um escritório em Media (Pensilvânia) em 1971, investigado pelo Senado em 1976 com base em mais de 20 mil páginas do FBI.\n\nFontes: FBI (And Justice for All) · Church Committee, Livro III (1976) · Arquivo Nacional dos EUA · Universal Newsreel 1957 (domínio público).\nPersonagem fictício, voz sintética.\n\n#ArquivoOculto #COINTELPRO #FBI #historia #documentos"
+}

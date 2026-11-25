@@ -1,0 +1,129 @@
+{
+ "artifact": "https://claude.ai/artifact/MUNdJL4BwN9ovWQeVdboHt",
+ "nota": "ids de asset devolvidos pelo upload; servidos em /_blob/<id> só a quem abre o app",
+ "episodios": {
+  "AO-S01-E01": {
+   "a": {
+    "asset": "8affcc656630ad7cae99012eb9693780",
+    "origem": "saida_v2/AO-S01-E01_public_release/video_app.mp4",
+    "sha256_origem": "65c094b1b66f20e7cf2a960d090ced50d134ccf876209092ea4a46a73257dbc3",
+    "bytes_origem": 18902239,
+    "enviado_em": "2026-11-10T16:24:04-03:00"
+   },
+   "b": {
+    "asset": "4c4419cef4b10ec3453bd00e39e158bc",
+    "origem": "saida_v2/AO-S01-E01_private_preview/video_app.mp4",
+    "sha256_origem": "6a6c103fcc684a25b094f83547591692a7de401469f38a8dfb5b1c2bf2360185",
+    "bytes_origem": 18899898,
+    "enviado_em": "2026-11-05T12:43:23-03:00"
+   },
+   "capa": {
+    "asset": "efea134ffd622facf7c5e5361b595cda",
+    "origem": "saida_v2/AO-S01-E01_public_release/cover.png",
+    "sha256_origem": "485fcda7b8cdcb115c97e873afe9e9b4dc8e3f00b8c5bad1fc293b4257192eb3",
+    "bytes_origem": 960604,
+    "enviado_em": "2026-11-05T12:43:23-03:00"
+   },
+   "pedido_doc": "v2-ao-s01-e01"
+  },
+  "AO-S01-E02": {
+   "a": {
+    "asset": "4829c5b29f60c0097742a193a3a50b37",
+    "origem": "saida_v2/AO-S01-E02_public_release/video_app.mp4",
+    "sha256_origem": "c50c41d0c0324ff736cd30444c7298f6f30bc0b4a4d8cdef5ac6d9815ac46cd2",
+    "bytes_origem": 19141025,
+    "enviado_em": "2026-11-10T16:24:04-03:00"
+   },
+   "b": {
+    "asset": "814ae2c9c0d3e6aa7786f8fa5f06c53d",
+    "origem": "saida_v2/AO-S01-E02_private_preview/video_app.mp4",
+    "sha256_origem": "572577b6e10cf797849f6cde5969f398e64283be1cae31fd89fb022f86981530",
+    "bytes_origem": 19140782,
+    "enviado_em": "2026-11-05T12:43:24-03:00"
+   },
+   "capa": {
+    "asset": "ef8dd9e4b4260a8df6b3db3eb0e5da54",
+    "origem": "saida_v2/AO-S01-E02_public_release/cover.png",
+    "sha256_origem": "bdde08a68c387026fa8b4dd31a652379e7d473d68a79ed4ce2fed3a4e0a49da5",
+    "bytes_origem": 973634,
+    "enviado_em": "2026-11-05T12:43:24-03:00"
+   },
+   "pedido_doc": "v2-ao-s01-e02"
+  },
+  "AO-S01-E04": {
+   "a": {
+    "asset": "3e6f6e4c152571587729a54ad5f3f22a",
+    "origem": "saida_v2/AO-S01-E04_public_release/video_app.mp4",
+    "sha256_origem": "039c32a13fe21d9db12463e2e75993c939c43a40a9d62f674ea08837f529801e",
+    "bytes_origem": 18930964,
+    "enviado_em": "2026-11-05T13:04:20-03:00"
+   },
+   "capa": {
+    "asset": "c6562e0ac824c0f65e26074273415d33",
+    "origem": "saida_v2/AO-S01-E04_public_release/cover.png",
+    "sha256_origem": "fb7297f60bdabfc61f8c6382c879642c93990002f4033a7f60e5333e45b91995",
+    "bytes_origem": 962888,
+    "enviado_em": "2026-11-05T13:04:20-03:00"
+   },
+   "pedido_doc": "v2-ao-s01-e04"
+  },
+  "AO-S01-E06": {
+   "a": {
+    "asset": "38e3d97c6fe972fba976eb4327a7dc8e",
+    "origem": "saida_v2/AO-S01-E06_public_release/video_app.mp4",
+    "sha256_origem": "dff5fd1f6cfae64a554f97cec88e465dbea683042e79f0e19d706305b10d432f",
+    "bytes_origem": 18999018,
+    "enviado_em": "2026-11-05T13:45:02-03:00"
+   },
+   "capa": {
+    "asset": "16f6e2570ac4fc5711cc2b923db08ae6",
+    "origem": "saida_v2/AO-S01-E06_public_release/cover.png",
+    "sha256_origem": "745c30af0d8f100afc69de7ecb579204220a09423eb4486a5041813069dd4faa",
+    "bytes_origem": 965517,
+    "enviado_em": "2026-11-05T13:45:02-03:00"
+   },
+   "pedido_doc": "v2-ao-s01-e06"
+  },
+  "AO-S01-E05": {
+   "a": {
+    "asset": "3137a900e3c43130ada685605c86053b",
+    "origem": "saida_v2/AO-S01-E05_public_release/video_app.mp4",
+    "sha256_origem": "c70c2a7e7da0715061f42a5c425c93f78f940d30fdce40646794526332367c24",
+    "bytes_origem": 19094752,
+    "enviado_em": "2026-11-05T13:52:15-03:00"
+   },
+   "capa": {
+    "asset": "823375d6d34bda750b5caf84c989a6c0",
+    "origem": "saida_v2/AO-S01-E05_public_release/cover.png",
+    "sha256_origem": "8178d4fb9556ffe7e2d1bbc9930efd7deaf24983f6673e7d3f50b5b22e959c47",
+    "bytes_origem": 969041,
+    "enviado_em": "2026-11-05T13:52:15-03:00"
+   },
+   "pedido_doc": "v2-ao-s01-e05"
+  },
+  "AO-S01-E03": {
+   "a": {
+    "asset": "d150146e802c93184928abc01587a644",
+    "origem": "saida_v2/AO-S01-E03_public_release/video_app.mp4",
+    "sha256_origem": "51e891ea298fccd55ec2bea7bdf47e9ca1a10d83d06306d2479c49d3fec8abb2",
+    "bytes_origem": 18980377,
+    "enviado_em": "2026-11-10T16:24:04-03:00"
+   },
+   "b": {
+    "asset": "d516c3158390630f210d92cd9d1374eb",
+    "origem": "saida_v2/AO-S01-E03_private_preview/video_app.mp4",
+    "sha256_origem": "330491f99a19f1040c562c86d689927ff8cff3311b73c91439f246041591f435",
+    "bytes_origem": 19005984,
+    "enviado_em": "2026-11-10T16:24:04-03:00"
+   },
+   "capa": {
+    "asset": "fdb890c055da3322ef94bccc2486def2",
+    "origem": "saida_v2/AO-S01-E03_public_release/cover.png",
+    "sha256_origem": "180b4291ee6c74e27e96cad86d0b79d38f77b3047182d0be533ff7c275837d28",
+    "bytes_origem": 968504,
+    "enviado_em": "2026-11-10T16:24:04-03:00"
+   },
+   "pedido_doc": "v2-ao-s01-e03"
+  }
+ }
+}

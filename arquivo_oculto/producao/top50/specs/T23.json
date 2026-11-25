@@ -1,0 +1,21 @@
+{
+ "titulo": "O 'Anjo da Morte' de Auschwitz morreu numa praia de São Paulo",
+ "serie": "DOSSIÊ 23 · MENGELE NO BRASIL",
+ "fontes_texto": "Fontes: Polícia Federal e laudo da exumação no cemitério de Embu (06/1985); confirmação por DNA (1992); Museu Estatal de Auschwitz-Birkenau; Faculdade de Medicina da USP (ossada usada em ensino desde 2016). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "O médico nazista mais procurado do mundo viveu anos no interior de São Paulo com nome falso. Morreu afogado numa praia em 1979. E foi enterrado como outro homem. 🕯️\n\nDossiê 23 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #mengele #historia #brasil #segundaguerra",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "ENTERRADO COM NOME FALSO", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje o arquivo desce até um túmulo no interior de São Paulo. O nome na lápide era falso.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Auschwitz, 1943. Na plataforma de trem, um médico da SS escolhe, com um gesto, quem vai trabalhar e quem vai para a câmara de gás. O nome dele é Josef Mengele.", "img": "02", "visual": {"mov": "pan"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Ele fazia experimentos em prisioneiros. Principalmente em gêmeos. Os sobreviventes o chamavam de Anjo da Morte.", "img": "03", "visual": {"mov": "in"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Quando a guerra acaba, ele foge. Argentina. Paraguai. E, a partir de 1960, Brasil.", "visual": {"tipo": "cartao", "linhas": ["ARGENTINA", "PARAGUAI", "BRASIL, 1960"]}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Viveu em sítios e casas simples no interior paulista, ajudado por amigos. Usava o documento de outro homem: Wolfgang Gerhard.", "img": "04", "visual": {"mov": "in"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Sete de fevereiro de 1979. Praia de Bertioga. Um senhor idoso entra no mar, passa mal e se afoga.", "img": "05", "visual": {"mov": "in"}, "tela": "BERTIOGA, 1979", "sfx": ["silencio"], "pausa": 0.7},
+  {"voz": "arquivista", "fala": "Foi enterrado em Embu como Wolfgang Gerhard. Ninguém no cemitério sabia quem estava naquele caixão.", "img": "04", "visual": {"mov": "out"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Seis anos depois, cartas apreendidas na Alemanha levam a polícia até o túmulo. Junho de 1985: a exumação é transmitida para o mundo.", "img": "06", "visual": {"mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em 1992, o exame de DNA confirma. Os ossos eram de Josef Mengele.", "visual": {"tipo": "cartao", "linhas": ["1992", "DNA CONFIRMA"], "papel": true}, "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Ele nunca foi julgado. Hoje, a ossada é usada para ensinar medicina legal em São Paulo.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 3]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Ele passou dezenove anos entre nós, criancinhas. Na padaria, no ônibus, na praia. Quem mais será que mora ao lado... com o nome de outra pessoa?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "QUEM MORA AO LADO?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

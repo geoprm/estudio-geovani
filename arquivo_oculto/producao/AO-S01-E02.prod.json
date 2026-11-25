@@ -1,0 +1,145 @@
+{
+ "episode_id": "AO-S01-E02",
+ "num": 2,
+ "manifesto_origem": "examples/EP02_a_operacao_contra_a_editora.json",
+ "nota": "Narração = voiceover_script do manifesto, dividida por cena; acrescentados o gancho falado, a frase 'Quatro anos e nove meses depois' (01/03/1990 a 16/12/1994) e o CTA do manifesto. Fatos checados na decisão 816 F.Supp. 432 (1993) e na FAQ de Steve Jackson (25/12/1994). Cenas S01 e S03 divididas em duas (S01b, S03b) para trocar de imagem a cada 2 a 5 s.",
+ "cenas": [
+  {
+   "scene_id": "S01",
+   "fala": "O governo invadiu a editora por causa das cartas?",
+   "tela": "UMA INVASÃO POR CAUSA DAS CARTAS?",
+   "v": {
+    "tipo": "arq",
+    "zoom": [
+     1.35,
+     1.02
+    ],
+    "surgir": 0.5
+   }
+  },
+  {
+   "scene_id": "S01b",
+   "fala": "Dizem que agentes federais entraram na editora de Illuminati porque o jogo revelava segredos do futuro.",
+   "tts": "Dizem que agentes federais entraram na editora de Iluminati porque o jogo revelava segredos do futuro.",
+   "tela": "O QUE DIZEM",
+   "selo": "ILUSTRAÇÃO",
+   "v": {
+    "tipo": "doc",
+    "cabecalho": "VERSÃO QUE CIRCULA",
+    "linhas": [
+     "AGENTES FEDERAIS NA EDITORA",
+     "MOTIVO ALEGADO: AS CARTAS",
+     "FONTE: NÃO INDICADA"
+    ],
+    "carimbo": "ALEGAÇÃO"
+   }
+  },
+  {
+   "scene_id": "S02",
+   "fala": "A operação existiu.",
+   "tela": "1º DE MARÇO DE 1990",
+   "selo": "RECONSTITUIÇÃO IA",
+   "v": {
+    "tipo": "escritorio"
+   }
+  },
+  {
+   "scene_id": "S03",
+   "fala": "Em primeiro de março de 1990, o Serviço Secreto dos Estados Unidos",
+   "tts": "Em primeiro de março de mil novecentos e noventa, o Serviço Secreto dos Estados Unidos",
+   "tela": "",
+   "selo": "DOCUMENTADO",
+   "v": {
+    "tipo": "tipo",
+    "linhas": [
+     "SERVIÇO SECRETO",
+     "DOS EUA"
+    ],
+    "sub": "BUSCA EM 01/03/1990 · DECISÃO JUDICIAL DE 1993",
+    "fundo": "gavetas",
+    "tam": 120
+   }
+  },
+  {
+   "scene_id": "S03b",
+   "fala": "apreendeu computadores e documentos da Steve Jackson Games,",
+   "tts": "apreendeu computadores e documentos da Stív Djékson Gueims,",
+   "tela": "APREENSÃO",
+   "selo": "ILUSTRAÇÃO",
+   "v": {
+    "tipo": "dossies",
+    "rotulos": [
+     "COMPUTADORES",
+     "DISQUETES",
+     "DOCUMENTOS"
+    ],
+    "dur": 3.0
+   }
+  },
+  {
+   "scene_id": "S04",
+   "fala": "numa investigação sobre sistemas eletrônicos.",
+   "tela": "INVESTIGAÇÃO DE COMPUTADORES",
+   "selo": "RECONSTITUIÇÃO IA",
+   "v": {
+    "tipo": "terminal",
+    "cps": 40
+   }
+  },
+  {
+   "scene_id": "S05",
+   "fala": "Só que o baralho Illuminati: New World Order seria lançado em dezembro de 1994.",
+   "tts": "Só que o baralho Iluminati: Niú Uórld Órder seria lançado em dezembro de mil novecentos e noventa e quatro.",
+   "tela": "1990 A 1994",
+   "selo": "DOCUMENTADO",
+   "v": {
+    "tipo": "salto",
+    "de": "1990",
+    "ate": "1994",
+    "rot_de": "A BUSCA",
+    "rot_ate": "AS CARTAS",
+    "gap": "4 ANOS E 9 MESES"
+   }
+  },
+  {
+   "scene_id": "S06",
+   "fala": "Quatro anos e nove meses depois.",
+   "tela": "INWO SÓ SAIU DEPOIS",
+   "selo": "ILUSTRAÇÃO",
+   "v": {
+    "tipo": "cartas",
+    "n": 6
+   }
+  },
+  {
+   "scene_id": "S07",
+   "fala": "Ou seja: o acontecimento é real. A explicação viral ignora a cronologia.",
+   "tela": "FATO X VERSÃO VIRAL",
+   "v": {
+    "tipo": "arq",
+    "close": true
+   }
+  },
+  {
+   "scene_id": "S08",
+   "fala": "No Arquivo Oculto, cada detalhe importa.",
+   "tela": "AS DATAS NÃO BATEM",
+   "selo": "ILUSTRAÇÃO",
+   "v": {
+    "tipo": "relogio"
+   }
+  },
+  {
+   "scene_id": "S09",
+   "fala": "Você já tinha ouvido essa versão da história?",
+   "tela": "VOCÊ CONHECIA ESSA VERSÃO?",
+   "v": {
+    "tipo": "arq",
+    "zoom": [
+     1.08,
+     1.0
+    ]
+   }
+  }
+ ]
+}

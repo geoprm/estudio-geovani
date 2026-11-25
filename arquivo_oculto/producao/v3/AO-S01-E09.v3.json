@@ -1,0 +1,143 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E09",
+  "titulo": "Agenda 2030: o que está escrito?",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/rascunhos/AO-S01-E09.v2.rascunho.json",
+  "proximo_episode_id": "AO-S01-E10",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Neste documento, a lista acaba no dezessete. No arquivo brasileiro, aparece o dezoito. De onde veio o número a mais?",
+      "visual": "Começar no último item de uma lista recomposta em tipografia própria. Uma segunda folha entra por baixo e revela apenas o número 18. Identificar cada fonte no rodapé.",
+      "som": "O papel estala e a trilha cessa no número.",
+      "classe_visual": "tipografia",
+      "selo": "",
+      "estado_evidencia": "documentado_e_pergunta",
+      "claims_base": [],
+      "referencias": [
+        "S-PAUTA-1",
+        "S-CNODS-ODS18"
+      ]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 21,
+      "funcao": "pista",
+      "fala": "Abro a Agenda aprovada na ONU em dois mil e quinze. Dezessete objetivos. A pista está antes da lista.",
+      "visual": "Abrir o texto oficial no título da seção de objetivos e voltar a câmera aos parágrafos que a antecedem.",
+      "som": "Um clique baixo e uma página recua.",
+      "classe_visual": "documental",
+      "selo": "ONU · AGENDA 2030",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-PAUTA-1"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 21,
+      "fim_s": 36,
+      "funcao": "virada",
+      "fala": "Parágrafo cinquenta e cinco. O texto diz que cada governo estabelece metas nacionais e decide como incorporá-las aos seus planos.",
+      "visual": "A luz revela o parágrafo 55 na fonte. Uma tradução de trabalho aparece abaixo do trecho, fora da página, com atribuição.",
+      "som": "Som de grafite, pausa para leitura e ambiente de arquivo.",
+      "classe_visual": "documental",
+      "selo": "PARÁGRAFO 55",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-PAUTA-1"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 36,
+      "fim_s": 49,
+      "funcao": "pista",
+      "fala": "Troco de pasta. A numeração brasileira me leva a uma resolução com uma assinatura institucional e outro tipo de compromisso.",
+      "visual": "A mão com luva desliza a pasta da ONU para a esquerda, traz a pasta brasileira de outro fichário e deixa as duas bordas visíveis.",
+      "som": "Trilho do fichário seguido pelo contato do papel com a mesa.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-CNODS-ODS18"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 49,
+      "fim_s": 63,
+      "funcao": "virada",
+      "fala": "No Brasil, a comissão define o dezoito como objetivo voluntário de igualdade étnico-racial. O número é brasileiro. A lista da ONU permanece com dezessete.",
+      "visual": "Foco no parágrafo único da resolução. Fazer o contraplano com o último objetivo do texto da ONU, com cabeçalhos distintos.",
+      "som": "Uma batida curta no corte entre os dois cabeçalhos.",
+      "classe_visual": "documental",
+      "selo": "BRASIL · OBJETIVO VOLUNTÁRIO",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-CNODS-ODS18",
+        "S-PAUTA-1"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 63,
+      "fim_s": 74,
+      "funcao": "hipotese",
+      "fala": "Com duas pastas abertas, a pergunta muda. Que meta vira política? Que decisão deixa registro para a gente cobrar depois?",
+      "visual": "O Arquivista puxa uma terceira folha, escrita com título contemporâneo do estúdio, e divide as notas em compromisso e execução.",
+      "som": "O pulso volta bem baixo, sem cobrir a segunda pergunta.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "pergunta_investigativa",
+      "claims_base": [],
+      "referencias": [
+        "S-PAUTA-1",
+        "S-BRASIL-CONSULTA"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 74,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "A próxima revisão tem outro ano no calendário. Eu marquei dois mil e vinte e sete. Em outro arquivo, a mesma data significa outra coisa.",
+      "visual": "Duas etiquetas aparecem em mesas visualmente separadas. Ambas têm 2027. Encerrar antes de mostrar a segunda instituição.",
+      "som": "Dois ruídos de papel separados por silêncio.",
+      "classe_visual": "tipografia",
+      "selo": "",
+      "estado_evidencia": "ponte_editorial",
+      "claims_base": [],
+      "referencias": []
+    }
+  ],
+  "fontes_adicionais": [
+    {
+      "id": "S-CNODS-ODS18",
+      "titulo": "Comissão Nacional para os ODS · Resolução nº 02/CNODS",
+      "url": "https://www.gov.br/secretariageral/pt-br/cnods/resolucoes/Resolucao2ODS18IgualdadeEtnicoRacial.pdf",
+      "localizador": "Art. 1º e parágrafo único. Cria a câmara temática e descreve o ODS 18 como objetivo voluntário brasileiro."
+    },
+    {
+      "id": "S-BRASIL-CONSULTA",
+      "titulo": "Presidência da República · Consulta sobre metas nacionais dos ODS",
+      "url": "https://brasilparticipativo.presidencia.gov.br/processes/consultaodsnacionais?locale=pt-BR",
+      "localizador": "Apresentação da consulta e link para relatório final. Registra a adequação nacional das metas."
+    }
+  ],
+  "preproducao": [
+    "Localizar Agenda 2030, preâmbulo e parágrafo 55. Exibir traduções como paráfrase/tradução do estúdio com fonte e manter a distinção entre objetivos da ONU, metas nacionais e políticas executadas.",
+    "Conferir direitos do material institucional para o corte público. Sem licença para uma imagem ou marca, usar tipografia própria e dados atribuídos.",
+    "O objetivo brasileiro tem base na resolução da CNODS. Não ilustrar a comparação como alteração da lista global ou prova de comando oculto."
+  ]
+}

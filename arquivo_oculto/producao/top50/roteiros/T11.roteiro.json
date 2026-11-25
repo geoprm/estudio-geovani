@@ -1,0 +1,185 @@
+{
+ "id": "TOP-T11",
+ "num": 11,
+ "serie": "DOSSIÊ 11 · UNIVERSO 25",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\01_calhounj_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "O PARAÍSO QUE MATOU",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Yoichi R Okamoto, White House photographer [1] · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje eu conto o que aconteceu quando um cientista deu a uma colônia tudo o que ela podia querer.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Julho de 1968, Maryland, Estados Unidos. O pesquisador John Calhoun constrói uma cidade para ratos. Ele a chama de Universo 25.",
+   "visual": {
+    "mov": "pan",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\01_calhounj_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "JULHO DE 1968",
+   "pausa": 0.3,
+   "credito": "Imagem: Yoichi R Okamoto, White House photographer [1] · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Comida sem fim. Água sem fim. Nenhum predador. Nenhuma doença. Espaço para três mil animais.",
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\05_hd_6c_064_11999615225_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: ENERGY.GOV · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Ele solta quatro casais. E observa.",
+   "visual": {
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\01_calhounj_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.7,
+   "credito": "Imagem: Yoichi R Okamoto, White House photographer [1] · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "A população dobra a cada dois meses. Até que chega a dois mil e duzentos. E para de crescer. Ainda havia espaço sobrando.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "8",
+     "→ 2.200"
+    ]
+   },
+   "credito": "Fonte: Calhoun, Proceedings of the Royal Society of Medicine, 1973",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os machos começam a atacar sem motivo. As mães abandonam os filhotes. Alguns grupos se trancam no centro e brigam até a morte.",
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\01_calhounj_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 1.0,
+   "pausa": 0.5,
+   "credito": "Imagem: Yoichi R Okamoto, White House photographer [1] · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E surgem os que Calhoun chamou de os belos. Machos que só comem, dormem e se limpam. Não lutam. Não se reproduzem. Não vivem.",
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\05_hd_6c_064_11999615225_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.6,
+   "credito": "Imagem: ENERGY.GOV · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os nascimentos param. A última geração envelhece sem filhos. Em pouco mais de quatro anos, o paraíso estava vazio.",
+   "visual": {
+    "tipo": "preto"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "carimbo": "DOCUMENTADO",
+   "pausa": 1.0
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Calhoun chamou aquilo de morte do espírito. E perguntou se as cidades humanas teriam o mesmo destino.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\02_johnbcalhoun1986_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.4,
+   "credito": "Imagem: Cat Calhoun · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Mas ratos não são pessoas. Outros cientistas dizem que o problema era o confinamento, não a abundância.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T11\\07_johnbcalhoun1986_cropped_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "INTERPRETAÇÃO",
+   "pausa": 0.5,
+   "credito": "Imagem: Cat Calhoun · CC BY-SA 3.0 · Wikimedia Commons"
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "INTERPRETAÇÃO",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO JULGA"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Eles tinham tudo, criancinhas. Menos um motivo. Agora largue o celular um pouco... e veja se você ainda tem o seu.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "VOCÊ AINDA TEM UM MOTIVO?",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "Deram aos ratos o paraíso. Eles se destruíram.",
+  "fontes_texto": "Fontes: John B. Calhoun, 'Death Squared: The Explosive Growth and Demise of a Mouse Population', Proceedings of the Royal Society of Medicine 66 (1973); Instituto Nacional de Saúde Mental dos EUA (NIMH). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "1968. Um cientista americano constrói o paraíso para ratos: comida infinita, água infinita, nenhum predador. Cinco anos depois, não havia mais nenhum vivo. 🐀\n\nDossiê 11 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #universo25 #experimento #ciencia #misterio"
+ }
+}

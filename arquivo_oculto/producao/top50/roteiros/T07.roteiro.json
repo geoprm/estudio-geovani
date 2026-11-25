@@ -1,0 +1,177 @@
+{
+ "id": "TOP-T07",
+ "num": 7,
+ "serie": "DOSSIÊ 07 · O DIÁRIO DE MERER",
+ "selo_fixo": null,
+ "blocos": [
+  {
+   "voz": null,
+   "dur": 2.4,
+   "visual": {
+    "mov": "in",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\05_giza_pyramid_of_khufu_and_sphinx_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "4.500 ANOS DEPOIS, UM DIÁRIO",
+   "sfx": [
+    "batida"
+   ],
+   "credito": "Imagem: Cornell University Library · No restrictions · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Olá, criancinhas... Hoje vou ler para vocês o diário de um homem que carregou as pedras da Grande Pirâmide.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "in"
+   },
+   "pausa": 0.4
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Vocês já ouviram: ninguém sabe como os egípcios fizeram aquilo. Pedras perfeitas. Precisão impossível. Só pode ter sido ajuda... de fora.",
+   "visual": {
+    "mov": "pan",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\02_lepsius_expedition_cheops_pyramide_full.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "SEM PROVA",
+   "carimbo_em": 5.5,
+   "pausa": 0.5,
+   "credito": "Imagem: Johann Jakob Frey · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Em 2013, numa caverna à beira do Mar Vermelho, uma equipe francesa encontra rolos de papiro. Os mais antigos com escrita já achados.",
+   "visual": {
+    "tipo": "cartao",
+    "linhas": [
+     "WADI AL-JARF, 2013",
+     "OS PAPIROS MAIS ANTIGOS"
+    ],
+    "papel": true
+   },
+   "pausa": 0.3,
+   "credito": "Fonte: Pierre Tallet, missão de Wadi al-Jarf (2013)"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "São anotações de um inspetor chamado Merer. Ele chefiava uma equipe de uns quarenta homens.",
+   "visual": {
+    "modo": "cover",
+    "mov": "out",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\05_giza_pyramid_of_khufu_and_sphinx_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "pausa": 0.3,
+   "credito": "Imagem: Cornell University Library · No restrictions · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Dia após dia, ele anota: blocos de calcário tirados das pedreiras de Tura, levados de barco pelo Nilo até Gizé.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\01_the_great_sphinx_pyramids_of_gizeh_1839.jpg",
+    "tipo": "imagem"
+   },
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.5,
+   "credito": "Imagem: David Roberts · domínio público · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Destino: o horizonte de Khufu. O nome antigo da Grande Pirâmide. No vigésimo sétimo ano do reinado do faraó.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\05_giza_pyramid_of_khufu_and_sphinx_jpg.jpg",
+    "tipo": "imagem"
+   },
+   "tela": "\"HORIZONTE DE KHUFU\"",
+   "pausa": 0.5,
+   "credito": "Imagem: Cornell University Library · No restrictions · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "E tem mais. Em 1990, perto das pirâmides, um cavalo tropeça num muro enterrado. Era um cemitério.",
+   "visual": {
+    "mov": "in",
+    "modo": "cover",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\04_schiaparelli_s_excavations_giza_eastern.jpg",
+    "tipo": "imagem"
+   },
+   "sfx": [
+    "batida"
+   ],
+   "batida_em": 2.8,
+   "pausa": 0.4,
+   "credito": "Imagem: autor desconhecido · CC0 · Wikimedia Commons"
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Os túmulos dos construtores. Enterrados com pão, cerveja e honra, à sombra do que eles mesmos ergueram.",
+   "visual": {
+    "mov": "in",
+    "modo": "contain",
+    "arquivo": "C:\\Projetos\\ARQUIVO OCULTO\\estudio-gm\\arquivo_oculto\\acervo_privado\\top25\\T07\\07_limestone_stela_of_ihynes_egyptian_museu.jpg",
+    "tipo": "imagem"
+   },
+   "credito": "Fonte: Zahi Hawass e Mark Lehner, Gizé, 1990",
+   "carimbo": "DOCUMENTADO",
+   "pausa": 0.6
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Nenhum documento fala em visitantes do céu. O que existe é suor, cálculo, barcos e milhares de nomes.",
+   "visual": {
+    "tipo": "preto"
+   },
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 0.8
+  },
+  {
+   "voz": null,
+   "dur": 3.0,
+   "visual": {
+    "tipo": "placar",
+    "contagem": [
+     [
+      "DOCUMENTADO",
+      2
+     ],
+     [
+      "SEM PROVA",
+      1
+     ]
+    ],
+    "titulo": "O ARQUIVO JULGA"
+   },
+   "sfx": [
+    "batida"
+   ]
+  },
+  {
+   "voz": "arquivista",
+   "fala": "Dizer que foram alienígenas é apagar Merer e os homens dele, criancinhas. Eles escreveram o próprio nome na história. Leiam.",
+   "visual": {
+    "tipo": "retrato",
+    "mov": "out",
+    "fade_preto": true
+   },
+   "tela": "ELES TINHAM NOME",
+   "sfx": [
+    "silencio"
+   ],
+   "pausa": 1.4
+  }
+ ],
+ "meta": {
+  "titulo": "Quem construiu as pirâmides deixou um diário",
+  "fontes_texto": "Fontes: Pierre Tallet, papiros de Wadi al-Jarf (descoberta de 2013); Zahi Hawass e Mark Lehner, cemitério dos construtores de Gizé (1990). Imagens: Wikimedia Commons.",
+  "legenda_tiktok": "Dizem que ninguém sabe quem construiu as pirâmides. Mas um dos homens que carregaram as pedras escreveu um diário. E ele foi encontrado em 2013. 🔺\n\nDossiê 07 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #piramides #egito #misterio #historia"
+ }
+}

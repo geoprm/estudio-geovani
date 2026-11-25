@@ -12,3 +12,17 @@ wheels/
 *.wav
 *.f32
 *.2pass*
+
+# Arquivo Oculto V2 (04/11/2026) — o repositório geoprm/estudio-geovani é PÚBLICO:
+# nada de acervo com direitos pendentes, referência privada, modelos baixados ou ambiente local.
+.venv/
+.env
+arquivo_oculto/tts/
+arquivo_oculto/cache/
+arquivo_oculto/acervo_privado/
+arquivo_oculto/assets/referencias_privadas/
+arquivo_oculto/saida_v2/
+
+arquivo_oculto/acervo_dominio_publico/
+# cópia local de um arquivo servido pelo app (app/arquivista_v2.jpg é o versionado)
+app/arquivo/

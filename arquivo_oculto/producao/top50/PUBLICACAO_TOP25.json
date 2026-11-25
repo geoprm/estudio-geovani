@@ -1,0 +1,231 @@
+{
+ "schema": "arquivo-oculto/publicacao-top25-v1",
+ "conta": "TikTok @oarquivista.oculto via Metricool 6361339",
+ "itens": [
+  {
+   "id": "T01",
+   "quando": "2026-11-14 10:30",
+   "metricool_id": 426268435,
+   "uuid": "3913279002863224755",
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/18db5530-9615-4736-9d59-860f8773d94b.mp4",
+   "duracao_s": 106.5,
+   "estado": "agendado",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T02",
+   "quando": "2026-11-14 18:30",
+   "metricool_id": 426268483,
+   "uuid": "5985198652088730192",
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/4a47fa00-5e05-4c24-859f-f75670369808.mp4",
+   "duracao_s": 97.6,
+   "estado": "agendado",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T03",
+   "quando": "2026-11-15 10:30",
+   "metricool_id": 426418259,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/c73aac64-8724-4414-ac27-406131dad453.mp4",
+   "duracao_s": 100.3,
+   "estado": "agendado",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T04",
+   "quando": "2026-11-15 18:30",
+   "metricool_id": 426418282,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/ce31cc63-fd9f-462b-912f-30cb5b2a301c.mp4",
+   "duracao_s": 101.2,
+   "estado": "agendado",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T05",
+   "quando": "2026-11-16 10:30",
+   "metricool_id": 426418317,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/04b4cf62-51b1-441c-a5b7-1c2fe004f4e0.mp4",
+   "duracao_s": 98.5,
+   "estado": "agendado",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T06",
+   "quando": "2026-11-16 18:30",
+   "metricool_id": 426418344,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/ccee5fd0-1275-494b-b04f-dc516745e4e8.mp4",
+   "duracao_s": 102.8,
+   "estado": "agendado",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T07",
+   "quando": "2026-11-17 10:30",
+   "metricool_id": 426418371,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/5d4f8c45-da98-4521-b594-9a555f894b98.mp4",
+   "duracao_s": 93.0,
+   "estado": "ERRO no Metricool 17/11: limite da conta atingido (não publicado no TikTok)",
+   "obs": "v2: título duplicado corrigido",
+   "versao": "v2 Arquivista atuando"
+  },
+  {
+   "id": "T08",
+   "quando": "2026-11-17 18:30",
+   "metricool_id": 426430574,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/45bd1169-caca-4938-b405-71b3f1a64e17.mp4",
+   "duracao_s": 90.7,
+   "estado": "ERRO no Metricool 17/11: limite da conta atingido (não publicado no TikTok)",
+   "versao": "v2 (atuação do Arquivista)"
+  },
+  {
+   "id": "T09",
+   "quando": "2026-11-18 10:30",
+   "metricool_id": 426430598,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/92652338-85eb-45ee-b732-6364fea2e802.mp4",
+   "duracao_s": 87.5,
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (atuação do Arquivista)"
+  },
+  {
+   "id": "T10",
+   "quando": "2026-11-18 18:30",
+   "metricool_id": 426430633,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/29ec5f66-8f34-4928-a454-a6197b59ef1e.mp4",
+   "duracao_s": 100.8,
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (atuação do Arquivista)"
+  },
+  {
+   "id": "T11",
+   "quando": "2026-11-19 10:30",
+   "metricool_id": 426430664,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/9f676645-f3e7-4b80-bd2a-3a1d51a22dd6.mp4",
+   "duracao_s": 98.9,
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (atuação do Arquivista)"
+  },
+  {
+   "id": "T12",
+   "quando": "2026-11-19 18:30",
+   "metricool_id": 431449745,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/a654e464-edb7-4621-a533-b88cf4c9ea12.mp4",
+   "duracao_s": 98.2,
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T13",
+   "quando": "2026-11-20 10:30",
+   "metricool_id": 431449801,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/5a4aa620-ed3f-40a9-8f99-5f7df0dede8c.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T14",
+   "quando": "2026-11-20 18:30",
+   "metricool_id": 431449857,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/d417ba5e-ce9f-43d9-9422-3232c8af3d4c.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T15",
+   "quando": "2026-11-21 10:30",
+   "metricool_id": 431449906,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/97d34e60-8377-415f-bea0-3135db811e68.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T16",
+   "quando": "2026-11-21 18:30",
+   "metricool_id": 431449966,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/4c8b9c8a-8425-4beb-9dae-ba087d83997c.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T17",
+   "quando": "2026-11-22 10:30",
+   "metricool_id": 431450022,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/74e70180-c415-43b9-aebd-f82d0166f0e8.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T18",
+   "quando": "2026-11-22 18:30",
+   "metricool_id": 431450064,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/b55e66f1-0db2-402d-8d78-a9bc5aaed7af.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T19",
+   "quando": "2026-11-23 10:30",
+   "metricool_id": 431451013,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/b2312b94-a35e-4c34-ad36-459f4d59925f.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T20",
+   "quando": "2026-11-23 18:30",
+   "metricool_id": 431451062,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/a9695ec6-d901-4496-ace7-9ac923893f0f.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T21",
+   "quando": "2026-11-24 10:30",
+   "metricool_id": 431451118,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/d42cc050-9e9c-48c7-9836-875b81a307f2.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T22",
+   "quando": "2026-11-24 18:30",
+   "metricool_id": 431451160,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/5ea43c2c-9683-4f08-bc10-7cd0e6618dfa.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T23",
+   "quando": "2026-11-25 10:30",
+   "metricool_id": 431451208,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/b212e09f-732d-420e-aa0c-cf3be9b4cf8d.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T24",
+   "quando": "2026-11-25 18:30",
+   "metricool_id": 431451261,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/2b831ad2-8735-46dd-8abe-66fac1cb135a.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  },
+  {
+   "id": "T25",
+   "quando": "2026-11-26 10:30",
+   "metricool_id": 431451309,
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/e9817f79-c6de-4db6-b6f0-27734b6e62ce.mp4",
+   "estado": "agendado (PENDING), em risco pelo limite da conta Metricool",
+   "versao": "v2 (final aberto)"
+  }
+ ],
+ "pendentes": {},
+ "youtube_longo": {
+  "OAR-L01": {
+   "midia": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LsJQjwnNRs5JcCgq9X48BYrtW8/c9cf21ee-ac47-4941-bfd3-0f8c2bd348e8.mp4",
+   "duracao_s": 390
+  }
+ },
+ "alerta_metricool": "17/11: T07 e T08 recusados (\"You have reached your Metricool account limit\"); decisão do Geovani: plano pago, publicação manual ou outra via",
+ "responsavel_tiktok": "Central do Estúdio Geovani via TikTok Studio desde 18/11/2026 (1080p, legenda do Metricool, rótulo de IA; post do Metricool vai para rascunho); T07–T25 agendados pela Central (T09 publicado 18/11 10:30)",
+ "observacao_T07": "duplicata do T07 em 18/11 14:00 (legenda só \"T07\"), criada pelo motor; o Geovani mandou deixar (\"deixa ele lá\"), sem pendência"
+}

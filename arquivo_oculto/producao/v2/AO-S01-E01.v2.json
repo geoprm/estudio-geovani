@@ -1,0 +1,977 @@
+{
+ "schema": "arquivo-oculto/episodio-v2",
+ "episode_id": "AO-S01-E01",
+ "versao": "v2.0",
+ "num": 1,
+ "formato": "investigacao_90",
+ "titulo": "O jogo que parecia prever o mundo",
+ "serie": "Cartas do Futuro",
+ "hook": "PREVIU O FUTURO?",
+ "proximo": "PRÓXIMO ARQUIVO: A OPERAÇÃO CONTRA A EDITORA",
+ "estrutura": [
+  "cold_open",
+  "inciting_question",
+  "dated_evidence",
+  "competing_interpretations",
+  "reversal_or_surprise",
+  "open_loop_or_next_dossier"
+ ],
+ "nota_editorial": "Refeito do zero no perfil V2 (04/11/2026). Pergunta central respondida no próprio episódio (viés de seleção sobre 412 cartas); o laço aberto é legítimo: a busca federal de 1990 é fato documentado e é o tema do EP02.",
+ "fontes": [
+  {
+   "id": "S-LIST-1995",
+   "titulo": "The Official INWO Card List - April 18, 1995",
+   "editor": "Steve Jackson Games",
+   "url": "https://www.sjgames.com/inwo/lists/ill.html",
+   "data_documento": "1995-04-18",
+   "acessado_em": "2026-11-04",
+   "snapshot": "arquivo_oculto/acervo_privado/sjgames_inwo_lists_ill_1995-04-18.html",
+   "verificacao": "lida nesta sessão: 412 linhas de carta; informa o lançamento de 16/12; Epidemic C Dis. Shea/Jeff; Pentagon C Plc. Dan/Jeff; Terrorist Nuke C Plot Dan/Derek",
+   "direitos": "Copyright 1995 Steve Jackson Games; permissão só para fotocópia pessoal"
+  },
+  {
+   "id": "S-FAQ-1994",
+   "titulo": "FAQ de INWO assinada por Steve Jackson (dez/1994)",
+   "editor": "Steve Jackson (Usenet, rec.games.trading-cards.misc)",
+   "url": "https://groups.google.com/g/rec.games.trading-cards.misc/c/pZqyQ8eJP48",
+   "data_documento": "1994-12-24",
+   "verificacao": "conferida pelo site Arquivo Oculto v0.8 (graph-data S-INWO-FAQ); não relida nesta sessão"
+  },
+  {
+   "id": "S-ART-GALLERY",
+   "titulo": "INWO Artwork — galeria oficial",
+   "editor": "Steve Jackson Games",
+   "url": "https://www.sjgames.com/inwo/artwork/",
+   "arquivo": "https://www.sjgames.com/inwo/artwork/img/bavaria.gif",
+   "acessado_em": "2026-11-04",
+   "verificacao": "baixado nesta sessão (435x300); site v0.2 registra crédito Jeff Koke (ilustração e cores)"
+  },
+  {
+   "id": "S-JUDGMENT-1993",
+   "titulo": "Steve Jackson Games, Inc. v. United States Secret Service, 816 F. Supp. 432 (W.D. Tex. 1993)",
+   "editor": "U.S. District Court, W.D. Texas",
+   "url": "https://law.justia.com/cases/federal/district-courts/FSupp/816/432/1976489/",
+   "data_documento": "1993-03-12",
+   "verificacao": "registrada no grafo do site v0.8 e no relatório V1 (busca de 01/03/1990 pelo Serviço Secreto; computadores apreendidos). Justia respondeu 403 nesta sessão; não relida",
+   "direitos": "decisão judicial federal dos EUA: domínio público"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "texto": "INWO foi lançado em 16/12/1994 pela Steve Jackson Games",
+   "status": "documented",
+   "fontes": [
+    "S-LIST-1995",
+    "S-FAQ-1994"
+   ]
+  },
+  {
+   "id": "C2",
+   "texto": "O jogo é uma sátira em que sociedades secretas disputam o controle do mundo",
+   "status": "documented",
+   "fontes": [
+    "S-FAQ-1994"
+   ]
+  },
+  {
+   "id": "C3",
+   "texto": "A lista oficial de 18/04/1995 inclui Epidemic, Pentagon e Terrorist Nuke",
+   "status": "documented",
+   "fontes": [
+    "S-LIST-1995"
+   ]
+  },
+  {
+   "id": "C4",
+   "texto": "A lista oficial de 18/04/1995 tem 412 cartas",
+   "status": "documented",
+   "fontes": [
+    "S-LIST-1995"
+   ]
+  },
+  {
+   "id": "C5",
+   "texto": "Décadas depois, cartas como essas passaram a circular como 'prova' de conhecimento prévio",
+   "status": "interpretation",
+   "fontes": [],
+   "nota": "Descreve a circulação de uma leitura, sem endossá-la; sem data específica de primeira associação"
+  },
+  {
+   "id": "C6",
+   "texto": "Leitura alternativa: o jogo reúne medos comuns nos anos 1990",
+   "status": "interpretation",
+   "fontes": []
+  },
+  {
+   "id": "C7",
+   "texto": "Com centenas de catástrofes imaginadas, algumas coincidências são esperadas; as que não aconteceram não circulam (viés de seleção)",
+   "status": "interpretation",
+   "fontes": [],
+   "nota": "Análise editorial, apresentada como análise"
+  },
+  {
+   "id": "C8",
+   "texto": "Em 01/03/1990 o Serviço Secreto dos EUA fez busca na Steve Jackson Games e levou computadores",
+   "status": "documented",
+   "fontes": [
+    "S-JUDGMENT-1993"
+   ]
+  },
+  {
+   "id": "C9",
+   "texto": "Entre 01/03/1990 e 16/12/1994 passaram 4 anos e 9 meses (quase cinco anos)",
+   "status": "documented",
+   "fontes": [
+    "S-JUDGMENT-1993",
+    "S-LIST-1995"
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "A-ARQUIVISTA",
+   "tipo": "personagem",
+   "arquivo": "arquivo_oculto/assets/arquivista.png",
+   "rights_status": "owner_provided",
+   "autenticidade": "personagem fictício do proprietário",
+   "credito": "O Arquivista · Arquivo Oculto"
+  },
+  {
+   "id": "A-ART-BAVARIA",
+   "tipo": "arte_autentica",
+   "arquivo": "arquivo_oculto/acervo_privado/bavaria.gif",
+   "fonte": "S-ART-GALLERY",
+   "rights_status": "private_research",
+   "autenticidade": "verified_artwork (recorte oficial, não a carta completa)",
+   "credito": "Arte: Jeff Koke · © Steve Jackson Games · galeria oficial",
+   "fallback": "placeholder"
+  },
+  {
+   "id": "A-DOC-1995-TRECHO",
+   "tipo": "documento_autentico",
+   "fonte": "S-LIST-1995",
+   "rights_status": "quotation_excerpt",
+   "autenticidade": "transcrição literal de trecho (não é fac-símile)",
+   "credito": "Trecho: lista oficial INWO, Steve Jackson Games, 18/04/1995",
+   "fallback": "A-DOC-1995-PARAFRASE"
+  },
+  {
+   "id": "A-DOC-1995-PARAFRASE",
+   "tipo": "documento_autentico",
+   "fonte": "S-LIST-1995",
+   "rights_status": "fact_citation",
+   "autenticidade": "paráfrase em português com fonte",
+   "credito": "Fonte: lista oficial INWO, Steve Jackson Games, 18/04/1995"
+  },
+  {
+   "id": "A-LISTA-DADOS",
+   "tipo": "dado_documental",
+   "fonte": "S-LIST-1995",
+   "rights_status": "fact_citation",
+   "autenticidade": "dados factuais (nome, frequência, tipo, artistas) em tipografia própria",
+   "credito": "Fonte: lista oficial INWO, Steve Jackson Games, 18/04/1995"
+  },
+  {
+   "id": "A-DATAS-1990-1994",
+   "tipo": "dado_documental",
+   "fonte": "S-JUDGMENT-1993",
+   "rights_status": "fact_citation",
+   "autenticidade": "datas com fonte",
+   "credito": "Fontes: 816 F.Supp. 432 (1993) · lista oficial INWO (1995)"
+  },
+  {
+   "id": "A-PRODUCAO-ORIGINAL",
+   "tipo": "ilustracao",
+   "rights_status": "original_production",
+   "autenticidade": "desenhado por código nesta fábrica; nunca imita documento, carta ou foto real",
+   "credito": "Ilustração original · Arquivo Oculto"
+  }
+ ],
+ "linhas": [
+  {
+   "id": "L01",
+   "beat": "cold_open",
+   "fala": "Este baralho foi lançado em dezembro de 1994.",
+   "tts": "Este baralho foi lançado em dezembro de mil novecentos e noventa e quatro.",
+   "pausa_ms": 320,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S01",
+     "tipo": "cartas_caem",
+     "peso": 0.9,
+     "tela": "UM BARALHO DE 1994",
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "n": 9
+     },
+     "shot_type": "plongée sobre a mesa",
+     "visual_source_type": "ilustracao",
+     "movement": "cartas caem e assentam; dolly-in suave; feixe de luz",
+     "sound_design": "impactos secos de cartas, drone grave entra",
+     "prompt": "versos de cartas originais do Arquivo Oculto (monograma AO) caindo sobre mesa de arquivo, luz âmbar",
+     "negative_prompt": "arte de INWO, verso original do jogo, logotipos de terceiros"
+    },
+    {
+     "id": "S02",
+     "tipo": "documento_1995",
+     "peso": 1.4,
+     "tela": "",
+     "selo": "DOCUMENTO DE 1995",
+     "asset": "A-DOC-1995-TRECHO",
+     "credito": true,
+     "shot_type": "macro de documento",
+     "visual_source_type": "documento_autentico",
+     "movement": "push-out do trecho para a folha; lápis vermelho circula a data; data surge",
+     "sound_design": "papel, lápis riscando",
+     "prompt": "transcrição tipográfica do trecho da lista oficial de 1995 sobre a mesa",
+     "negative_prompt": "fac-símile falso, logotipo da editora, carimbos inventados"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "beat": "cold_open",
+   "fala": "E até hoje há quem jure que ele previu o futuro.",
+   "pausa_ms": 450,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S03",
+     "tipo": "aparicao",
+     "peso": 1,
+     "tela": "PREVIU O FUTURO?",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "sai da sombra à contraluz, ergue a cabeça e olha para a lente",
+     "gesture": "cabeça sobe de olhar baixo para a câmera",
+     "camera_motion": "dolly-in discreto",
+     "emotional_beat": "aparição, enigma",
+     "shot_type": "plano médio fechado",
+     "visual_source_type": "personagem",
+     "movement": "silhueta acende; corpo se aproxima; cabeça gira para a lente",
+     "sound_design": "respiro grave, sopro de ar",
+     "prompt": "Arquivista canônico surgindo da escuridão à contraluz âmbar",
+     "negative_prompt": "rosto humano, boca mexendo, máscara diferente"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "beat": "inciting_question",
+   "fala": "Eu sou o Arquivista. E neste arquivo, a data vem antes da teoria.",
+   "pausa_ms": 360,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S04",
+     "tipo": "corredor",
+     "peso": 1.25,
+     "tela": "A DATA VEM ANTES DA TEORIA",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "direcao": 1
+     },
+     "action": "caminha entre fichários e para olhando para a câmera",
+     "gesture": "passos com balanço; cabeça vira para a lente no fim",
+     "camera_motion": "travelling lateral com montantes de estante em primeiro plano",
+     "emotional_beat": "apresentação, regra do arquivo",
+     "shot_type": "plano médio",
+     "visual_source_type": "personagem",
+     "movement": "corpo atravessa o quadro; paralaxe de estantes",
+     "sound_design": "passos em assoalho de madeira",
+     "prompt": "Arquivista caminhando entre estantes, luz de lanternas passando",
+     "negative_prompt": "rosto humano, mãos deformadas"
+    },
+    {
+     "id": "S04b",
+     "tipo": "olhar_camera",
+     "peso": 0.75,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "de_yaw": 10,
+      "altura": 700
+     },
+     "action": "para no fim do corredor e encara a lente",
+     "gesture": "cabeça gira até a câmera",
+     "camera_motion": "micro push-in",
+     "emotional_beat": "regra do arquivo",
+     "shot_type": "close",
+     "visual_source_type": "personagem",
+     "movement": "giro de cabeça; push-in",
+     "sound_design": "último passo, silêncio",
+     "prompt": "Arquivista encarando a câmera depois de caminhar",
+     "negative_prompt": "boca mexendo, rosto humano"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "beat": "dated_evidence",
+   "fala": "O jogo se chama Illuminati: New World Order. É da editora Steve Jackson Games, do Texas.",
+   "tts": "O jogo se chama Iluminati: Niú Uórld Órder. É da editora Stív Djéquisson Gueims, do Téxas.",
+   "pausa_ms": 260,
+   "claims": [
+    "C1"
+   ],
+   "shots": [
+    {
+     "id": "S05",
+     "tipo": "titulo_obra",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-LISTA-DADOS",
+     "credito": true,
+     "params": {
+      "linhas": [
+       "ILLUMINATI:",
+       "NEW WORLD ORDER"
+      ],
+      "sub": "STEVE JACKSON GAMES · TEXAS · DEZ/1994"
+     },
+     "shot_type": "tipografia sobre couro",
+     "visual_source_type": "dado_documental",
+     "movement": "luz revela as letras da esquerda para a direita; travelling lento",
+     "sound_design": "varredura metálica",
+     "prompt": "título da obra em tipografia própria com editora e data",
+     "negative_prompt": "logotipo oficial do jogo, capa do produto"
+    },
+    {
+     "id": "S05b",
+     "tipo": "titulo_obra",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-LISTA-DADOS",
+     "credito": true,
+     "params": {
+      "linhas": [
+       "STEVE JACKSON",
+       "GAMES"
+      ],
+      "sub": "AUSTIN · TEXAS · EUA"
+     },
+     "shot_type": "tipografia sobre couro",
+     "visual_source_type": "dado_documental",
+     "movement": "luz revela o nome da editora; travelling inverso",
+     "sound_design": "varredura metálica",
+     "prompt": "nome da editora e cidade em tipografia própria",
+     "negative_prompt": "logotipo oficial da editora"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "beat": "dated_evidence",
+   "fala": "Uma sátira: sociedades secretas disputando o controle do mundo, carta por carta.",
+   "pausa_ms": 320,
+   "claims": [
+    "C2"
+   ],
+   "shots": [
+    {
+     "id": "S06",
+     "tipo": "ombro",
+     "peso": 1.15,
+     "tela": "",
+     "selo": "ARTE ORIGINAL",
+     "asset": "A-ART-BAVARIA",
+     "personagem": true,
+     "parcial": true,
+     "credito": true,
+     "prova": {
+      "tipo": "arte_original",
+      "params": {
+       "titulo": "Bavarian Illuminati (arte da carta)"
+      }
+     },
+     "params": {
+      "lado": 1
+     },
+     "action": "examina a arte por cima do ombro",
+     "gesture": "cabeça inclinada sobre a prova",
+     "camera_motion": "over-shoulder com foco seletivo do capuz para a arte",
+     "emotional_beat": "descoberta",
+     "shot_type": "over-the-shoulder",
+     "visual_source_type": "arte_autentica",
+     "movement": "rack focus capuz->arte; feixe de luz",
+     "sound_design": "papel, respiro",
+     "prompt": "arte oficial de INWO presa num dossiê, Arquivista desfocado em primeiro plano",
+     "negative_prompt": "arte redesenhada, carta inventada"
+    },
+    {
+     "id": "S07",
+     "tipo": "arte_original",
+     "peso": 0.85,
+     "tela": "",
+     "selo": "ARTE ORIGINAL",
+     "asset": "A-ART-BAVARIA",
+     "credito": true,
+     "params": {
+      "titulo": "Bavarian Illuminati (arte da carta)"
+     },
+     "shot_type": "macro da arte",
+     "visual_source_type": "arte_autentica",
+     "movement": "push-in, foco puxado, luz atravessa",
+     "sound_design": "clique de clipe",
+     "prompt": "recorte oficial da arte, com crédito, sobre dossiê",
+     "negative_prompt": "carta completa inventada, marca d'água removida"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "beat": "dated_evidence",
+   "fala": "Na lista oficial da editora, publicada em abril de 1995, aparecem estes nomes.",
+   "tts": "Na lista oficial da editora, publicada em abril de mil novecentos e noventa e cinco, aparecem estes nomes.",
+   "pausa_ms": 220,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S08a",
+     "tipo": "ombro",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-LISTA-DADOS",
+     "personagem": true,
+     "parcial": true,
+     "credito": true,
+     "prova": {
+      "tipo": "lista_oficial",
+      "params": {
+       "lista": "ep01",
+       "sync": [
+        2,
+        2,
+        2
+       ],
+       "camera": "geral"
+      }
+     },
+     "params": {
+      "lado": -1
+     },
+     "action": "lê a lista oficial por cima do ombro",
+     "gesture": "cabeça inclinada sobre o papel",
+     "camera_motion": "over-shoulder com foco seletivo",
+     "emotional_beat": "investigação",
+     "shot_type": "over-the-shoulder",
+     "visual_source_type": "dado_documental",
+     "movement": "rack focus capuz->lista",
+     "sound_design": "papel",
+     "prompt": "lista oficial sobre a mesa, Arquivista desfocado em primeiro plano",
+     "negative_prompt": "fac-símile falso"
+    },
+    {
+     "id": "S08",
+     "tipo": "lista_oficial",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-LISTA-DADOS",
+     "credito": true,
+     "params": {
+      "lista": "ep01",
+      "sync": [
+       2,
+       2,
+       2
+      ],
+      "camera": "geral"
+     },
+     "shot_type": "plano geral do documento",
+     "visual_source_type": "dado_documental",
+     "movement": "tilt do cabeçalho para as linhas",
+     "sound_design": "papel",
+     "prompt": "dados da lista oficial em tipografia própria, sobre a mesa",
+     "negative_prompt": "fac-símile da página, logotipo"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "beat": "dated_evidence",
+   "fala": "Epidemic. Pentagon. Terrorist Nuke.",
+   "tts": "Epidêmic. ... Péntagon. ... Térrorist Niúk.",
+   "pausa_ms": 650,
+   "claims": [
+    "C3"
+   ],
+   "shots": [
+    {
+     "id": "S09",
+     "tipo": "lista_oficial",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-LISTA-DADOS",
+     "credito": true,
+     "params": {
+      "lista": "ep01",
+      "sync": [
+       0.0,
+       0.33,
+       0.62
+      ],
+      "camera": "macro"
+     },
+     "shot_type": "macro com tilt (A5)",
+     "visual_source_type": "dado_documental",
+     "movement": "lápis circula cada nome no instante em que é dito; câmera desce",
+     "sound_design": "lápis riscando três vezes",
+     "prompt": "três linhas destacadas da lista oficial",
+     "negative_prompt": "imagem das cartas, legenda alarmista"
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "beat": "competing_interpretations",
+   "fala": "Décadas depois, cartas como essas passaram a circular como prova de que alguém sabia.",
+   "pausa_ms": 300,
+   "claims": [
+    "C5"
+   ],
+   "shots": [
+    {
+     "id": "S10",
+     "tipo": "virar_cabeca",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "lado": -1
+     },
+     "action": "reage à prova: gira a cabeça e baixa o olhar",
+     "gesture": "giro de cabeça de 15 graus e inclinação",
+     "camera_motion": "órbita lenta",
+     "emotional_beat": "suspeita",
+     "shot_type": "plano médio",
+     "visual_source_type": "personagem",
+     "movement": "cabeça gira; câmera orbita; luz cai na mesa",
+     "sound_design": "tecido, respiro",
+     "prompt": "Arquivista virando o rosto para um documento iluminado",
+     "negative_prompt": "boca mexendo, rosto humano"
+    },
+    {
+     "id": "S11",
+     "tipo": "telas",
+     "peso": 1.1,
+     "tela": "",
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "anos": [
+       1994,
+       2026
+      ]
+     },
+     "shot_type": "parede de monitores",
+     "visual_source_type": "ilustracao",
+     "movement": "contador de anos 1994->2026; câmera avança",
+     "sound_design": "chiado de tubo, pulsos",
+     "prompt": "parede de monitores abstratos com o ano avançando",
+     "negative_prompt": "manchetes reais, imagens de tragédias, rostos"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "beat": "competing_interpretations",
+   "fala": "Uma leitura diz: previsão. A outra diz: um jogo feito dos medos dos anos noventa.",
+   "pausa_ms": 420,
+   "claims": [
+    "C5",
+    "C6"
+   ],
+   "shots": [
+    {
+     "id": "S12",
+     "tipo": "leituras",
+     "peso": 0.42,
+     "tela": "",
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "a": [
+       "PREVISÃO?",
+       "alguém sabia"
+      ],
+      "b": [
+       "MEDOS DOS ANOS 90",
+       "terrorismo · epidemias · poder"
+      ],
+      "sync_b": 2.0,
+      "brilho_fundo": 0.55
+     },
+     "shot_type": "tela dividida editorial",
+     "visual_source_type": "tipografia",
+     "movement": "cada lado acende quando a leitura é dita",
+     "sound_design": "dois pulsos graves",
+     "prompt": "duas leituras lado a lado",
+     "negative_prompt": "afirmação de previsão como fato"
+    },
+    {
+     "id": "S12b",
+     "tipo": "leituras",
+     "peso": 0.58,
+     "tela": "",
+     "selo": "INTERPRETAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "a": [
+       "PREVISÃO?",
+       "alguém sabia"
+      ],
+      "b": [
+       "MEDOS DOS ANOS 90",
+       "terrorismo · epidemias · poder"
+      ],
+      "sync_b": 0.0,
+      "brilho_fundo": 0.55
+     },
+     "shot_type": "tela dividida editorial",
+     "visual_source_type": "tipografia",
+     "movement": "a segunda leitura acende e a primeira recua",
+     "sound_design": "dois pulsos graves",
+     "prompt": "duas leituras lado a lado",
+     "negative_prompt": "afirmação de previsão como fato"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "beat": "reversal_or_surprise",
+   "fala": "Mas existe um número que quase ninguém menciona.",
+   "pausa_ms": 620,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S13",
+     "tipo": "silencio",
+     "peso": 0.9,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "rosto imóvel numa batida dramática",
+     "gesture": "nenhum, só respiração",
+     "camera_motion": "push-in micro",
+     "emotional_beat": "suspense antes da revelação",
+     "shot_type": "close extremo",
+     "visual_source_type": "personagem",
+     "movement": "push-in micro; lanterna oscila",
+     "sound_design": "silêncio quase total, tique de relógio",
+     "prompt": "close da máscara marfim com veios dourados",
+     "negative_prompt": "boca mexendo, olhos humanos"
+    },
+    {
+     "id": "S13b",
+     "tipo": "titulo_obra",
+     "peso": 1.1,
+     "tela": "",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "linhas": [
+       "UM NÚMERO"
+      ],
+      "sub": "QUE QUASE NINGUÉM MENCIONA"
+     },
+     "shot_type": "tipografia",
+     "visual_source_type": "tipografia",
+     "movement": "luz revela a frase",
+     "sound_design": "grave sustentado",
+     "prompt": "frase-tema em tipografia",
+     "negative_prompt": "número falso"
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "beat": "reversal_or_surprise",
+   "fala": "Só aquela lista tem quatrocentas e doze cartas.",
+   "pausa_ms": 360,
+   "claims": [
+    "C4"
+   ],
+   "shots": [
+    {
+     "id": "S14",
+     "tipo": "grade_cartas",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-LISTA-DADOS",
+     "credito": true,
+     "params": {
+      "fase": "contagem"
+     },
+     "shot_type": "grade de cartas",
+     "visual_source_type": "dado_documental",
+     "movement": "412 cartas surgem; contador sobe; câmera recua",
+     "sound_design": "cascata de cliques",
+     "prompt": "412 silhuetas de carta e contador",
+     "negative_prompt": "arte das cartas"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "beat": "reversal_or_surprise",
+   "fala": "Quem imagina centenas de catástrofes acaba acertando algumas. As que não aconteceram, ninguém compartilha.",
+   "pausa_ms": 520,
+   "claims": [
+    "C7"
+   ],
+   "shots": [
+    {
+     "id": "S15",
+     "tipo": "grade_cartas",
+     "peso": 1.1,
+     "tela": "",
+     "selo": "ANÁLISE",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "fase": "selecao"
+     },
+     "shot_type": "grade de cartas",
+     "visual_source_type": "ilustracao",
+     "movement": "quase todas apagam; três brilham; push-in",
+     "sound_design": "nota grave sustentada",
+     "prompt": "grade em que a maioria apaga e poucas brilham",
+     "negative_prompt": "nomes de eventos reais"
+    },
+    {
+     "id": "S15b",
+     "tipo": "dossies",
+     "peso": 0.9,
+     "tela": "",
+     "selo": "ANÁLISE",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "rotulos": [
+       "NÃO ACONTECEU",
+       "NÃO ACONTECEU",
+       "NÃO ACONTECEU"
+      ],
+      "dur": 2.4
+     },
+     "shot_type": "pastas sobre a mesa",
+     "visual_source_type": "ilustracao",
+     "movement": "pastas carimbadas deslizam e se empilham",
+     "sound_design": "pastas caindo",
+     "prompt": "pastas genéricas carimbadas NÃO ACONTECEU",
+     "negative_prompt": "nomes de eventos reais, documentos oficiais"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Só que este dossiê tem uma página que não se encaixa.",
+   "pausa_ms": 300,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S16",
+     "tipo": "debrucar",
+     "peso": 1,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "inclina-se sobre a mesa; a luz revela a página",
+     "gesture": "tronco avança, cabeça baixa",
+     "camera_motion": "tilt da máscara para a mesa",
+     "emotional_beat": "nova pista",
+     "shot_type": "plano médio para detalhe",
+     "visual_source_type": "personagem",
+     "movement": "corpo se inclina; câmera desce; spot acende",
+     "sound_design": "rangido de cadeira, papel",
+     "prompt": "Arquivista debruçado sobre a mesa",
+     "negative_prompt": "mãos deformadas"
+    },
+    {
+     "id": "S17",
+     "tipo": "dossie_abre",
+     "peso": 0.8,
+     "tela": "",
+     "selo": "ILUSTRAÇÃO",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "params": {
+      "rotulo": "STEVE JACKSON GAMES",
+      "cabecalho": "ARQUIVO Nº 01 · PÁGINA SOLTA",
+      "linhas": [
+       "Steve Jackson Games",
+       "Austin, Texas"
+      ],
+      "data": "01·03·1990"
+     },
+     "shot_type": "plongée do dossiê (A4)",
+     "visual_source_type": "ilustracao",
+     "movement": "capa gira e revela a página; zoom",
+     "sound_design": "capa de pasta abrindo",
+     "prompt": "dossiê do Arquivista abrindo",
+     "negative_prompt": "documento oficial falso, brasões, assinaturas"
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Quase cinco anos antes do baralho, agentes federais entraram nessa mesma editora e levaram os computadores.",
+   "pausa_ms": 360,
+   "claims": [
+    "C8",
+    "C9"
+   ],
+   "shots": [
+    {
+     "id": "S18",
+     "tipo": "salto_datas",
+     "peso": 1,
+     "tela": "",
+     "selo": "DOCUMENTADO",
+     "asset": "A-DATAS-1990-1994",
+     "credito": true,
+     "params": {
+      "de": "01·03·1990",
+      "ate": "16·12·1994",
+      "rot_de": "BUSCA FEDERAL NA EDITORA",
+      "rot_ate": "INWO NAS LOJAS",
+      "gap": "4 ANOS E 9 MESES"
+     },
+     "shot_type": "linha do tempo",
+     "visual_source_type": "dado_documental",
+     "movement": "linha corre de 1990 a 1994",
+     "sound_design": "relógio acelerando",
+     "prompt": "linha do tempo com duas datas e fonte",
+     "negative_prompt": "datas aproximadas sem fonte"
+    },
+    {
+     "id": "S19",
+     "tipo": "escritorio",
+     "peso": 1,
+     "tela": "1990",
+     "selo": "RECONSTITUIÇÃO ILUSTRADA",
+     "asset": "A-PRODUCAO-ORIGINAL",
+     "shot_type": "escritório à noite com lanterna",
+     "visual_source_type": "reconstituicao_ilustrada",
+     "movement": "lanterna varre mesas e computadores",
+     "sound_design": "passos, gaveta, zumbido de monitor",
+     "prompt": "escritório de 1990 genérico, computadores bege, lanterna",
+     "negative_prompt": "pessoas reais, agentes identificáveis, logotipos, uniformes"
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "beat": "open_loop_or_next_dossier",
+   "fala": "Por quê? Esse é o próximo arquivo.",
+   "pausa_ms": 900,
+   "claims": [],
+   "shots": [
+    {
+     "id": "S20",
+     "tipo": "olhar_camera",
+     "peso": 0.8,
+     "tela": "POR QUÊ?",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "params": {
+      "de_yaw": -12
+     },
+     "action": "volta o olhar da prova para a lente",
+     "gesture": "giro de cabeça até a câmera",
+     "camera_motion": "micro push-in",
+     "emotional_beat": "pergunta",
+     "shot_type": "close",
+     "visual_source_type": "personagem",
+     "movement": "cabeça gira para a lente",
+     "sound_design": "sting curto",
+     "prompt": "Arquivista olhando para a câmera",
+     "negative_prompt": "boca mexendo"
+    },
+    {
+     "id": "S21",
+     "tipo": "encerramento",
+     "peso": 1.2,
+     "tela": "",
+     "asset": "A-ARQUIVISTA",
+     "personagem": true,
+     "action": "recua, a lanterna apaga, some na sombra",
+     "gesture": "tronco recua",
+     "camera_motion": "pull-back",
+     "emotional_beat": "assinatura",
+     "shot_type": "plano médio para geral",
+     "visual_source_type": "personagem",
+     "movement": "luz apaga; figura escurece",
+     "sound_design": "clique de lâmpada, grave final",
+     "prompt": "Arquivista desaparecendo na sombra",
+     "negative_prompt": "corte seco sem resolução"
+    }
+   ]
+  }
+ ],
+ "outro": {
+  "duracao_s": 2.6,
+  "visual_source_type": "tipografia",
+  "rights_status": "original_production",
+  "linhas": [
+   "ARQUIVO OCULTO · Nº 01",
+   "PRÓXIMO ARQUIVO:",
+   "A OPERAÇÃO CONTRA A EDITORA"
+  ],
+  "aviso": "Personagem fictício · voz sintética (IA) · ilustrações originais"
+ },
+ "listas": {
+  "ep01": [
+   [
+    "…"
+   ],
+   [
+    "Epidemic",
+    "C",
+    "Dis.",
+    "Shea / Jeff",
+    1
+   ],
+   [
+    "…"
+   ],
+   [
+    "Pentagon",
+    "C",
+    "Plc.",
+    "Dan / Jeff",
+    1
+   ],
+   [
+    "…"
+   ],
+   [
+    "Terrorist Nuke",
+    "C",
+    "Plot",
+    "Dan / Derek",
+    1
+   ],
+   [
+    "…"
+   ]
+  ]
+ },
+ "legenda_post": "Um baralho de 1994 virou 'prova' de que alguém sabia do futuro. O Arquivista abriu a lista oficial da editora, de abril de 1995: são 412 cartas. Quantas coincidências você esperaria encontrar?\n\nE quase cinco anos antes do baralho, agentes federais entraram na editora. Por quê? Próximo arquivo.\n\nFontes: lista oficial INWO (Steve Jackson Games, 18/04/1995) · Steve Jackson Games v. U.S. Secret Service, 816 F.Supp. 432 (1993).\nPersonagem fictício, voz sintética.\n\n#ArquivoOculto #INWO #Illuminati #misterio #historia"
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E07",
+  "titulo": "As capas da The Economist são profecias?",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/rascunhos/AO-S01-E07.v2.rascunho.json",
+  "proximo_episode_id": "AO-S01-E08",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Saturno sem anéis. A revista anunciou que eles desapareceriam. O que, exatamente, ela esperava que sumisse?",
+      "visual": "A luz corre sobre o contorno de um planeta desenhado. Os anéis viram um risco quando a câmera desce ao plano do disco.",
+      "som": "Um grave sobe e some quando o risco fecha.",
+      "classe_visual": "ilustracao",
+      "selo": "ILUSTRAÇÃO",
+      "estado_evidencia": "documentado_e_pergunta",
+      "claims_base": [],
+      "referencias": [
+        "S-ECON-2025"
+      ]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 21,
+      "funcao": "pista",
+      "fala": "O Arquivista abre a edição de previsões da The Economist. No índice de dois mil e vinte e cinco, lá está Saturno.",
+      "visual": "Ele tira uma pasta estreita, desliza o dedo pelo índice e prende uma marca na borda. Inserto do título em tipografia do estúdio.",
+      "som": "Arrasto de papel grosso e batida leve no tampo.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-ECON-2025"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 21,
+      "fim_s": 34,
+      "funcao": "pista",
+      "fala": "Puxo um arquivo mais antigo. Em noventa e cinco, o Hubble já havia fotografado os anéis quase de perfil.",
+      "visual": "Na sequência autêntica, começar pela imagem em que o anel aparece como um traço. Abrir o enquadramento para revelar a série e seu crédito.",
+      "som": "O pulso cede lugar a um ruído óptico discreto, sem imitar som histórico.",
+      "classe_visual": "documental",
+      "selo": "REGISTRO HUBBLE · 1995",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-NASA-1995"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 34,
+      "fim_s": 48,
+      "funcao": "virada",
+      "fala": "No texto da NASA, a data reaparece: vinte e três de março de dois mil e vinte e cinco. Já estava lá, décadas antes da revista.",
+      "visual": "O cursor acompanha o parágrafo original da NASA. Sustentar a linha com a data e a data de publicação na margem, sem fundir as fontes.",
+      "som": "Um clique seco e um intervalo sem música.",
+      "classe_visual": "documental",
+      "selo": "NASA · PREVISÃO PUBLICADA EM 1995",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-NASA-1995",
+        "S-ECON-2025"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 48,
+      "fim_s": 60,
+      "funcao": "virada",
+      "fala": "Ponha o olho na altura do disco. Os anéis continuam lá. É a Terra que os vê de perfil.",
+      "visual": "Passar do disco inclinado ao perfil num único movimento. Um ponto de luz marca a posição do observador sem escala astronômica.",
+      "som": "Papel roçando vidro, seguido de ambiente baixo.",
+      "classe_visual": "ilustracao",
+      "selo": "ILUSTRAÇÃO · GEOMETRIA DOS ANÉIS",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-NASA-1995"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 60,
+      "fim_s": 72,
+      "funcao": "hipotese",
+      "fala": "Esse enigma se resolve pelo ângulo. Para ler os outros símbolos, ainda preciso do texto que saiu com cada capa.",
+      "visual": "O Arquivista gira a pasta na mesa e separa uma revista neutra das notas do Hubble. A mão para sobre uma lombada ainda fechada.",
+      "som": "A cadeira range e a trilha respira antes da troca.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "interpretacao",
+      "claims_base": [],
+      "referencias": [
+        "S-ECON-2025",
+        "S-NASA-1995"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 72,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Na próxima pasta, uma capa japonesa também carrega uma data. Dessa vez, alguém deu até a hora. Quero saber de qual página ela saiu.",
+      "visual": "Match cut do traço orbital para dois-pontos de um relógio. Abrir o espaço entre os números e revelar uma lombada cenográfica lisa.",
+      "som": "Dois tiques e corte seco.",
+      "classe_visual": "tipografia",
+      "selo": "",
+      "estado_evidencia": "ponte_editorial",
+      "claims_base": [],
+      "referencias": []
+    }
+  ],
+  "fontes_adicionais": [
+    {
+      "id": "S-ECON-2025",
+      "titulo": "The Economist · índice editorial de The World Ahead",
+      "url": "https://www.economist.com/syndication/the-world-ahead",
+      "localizador": "Seção The World Ahead 2025, entrada sobre o aparente desaparecimento dos anéis de Saturno."
+    },
+    {
+      "id": "S-NASA-1995",
+      "titulo": "NASA/Hubble · Hubble Views Saturn Ring-Plane Crossing",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-views-saturn-ring-plane-crossing/",
+      "localizador": "Comunicado de 1995, legenda da observação de 22 de maio de 1995 e parágrafo que antecipa a passagem de 23 de março de 2025."
+    }
+  ],
+  "preproducao": [
+    "Confirmar a edição, a página do artigo e o recorte autorizado antes de usar capa, marca ou reprodução da revista. O índice editorial sustenta o tema. Se faltar licença, usar tipografia própria com atribuição.",
+    "Conferir os créditos específicos da sequência Hubble e os termos de reutilização do arquivo escolhido. Rotular o esquema orbital como ilustração e registrar que não é em escala.",
+    "O episódio resolve um caso do índice editorial. Evitar estender a explicação astronômica a outras capas e símbolos."
+  ]
+}

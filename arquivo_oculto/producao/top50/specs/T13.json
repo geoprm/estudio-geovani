@@ -1,0 +1,19 @@
+{
+ "titulo": "Os tijolos com suástica do interior de São Paulo",
+ "serie": "DOSSIÊ 13 · OS MENINOS DA FAZENDA",
+ "fontes_texto": "Fontes: Sidney Aguilar Filho, 'Educação, autoritarismo e eugenia: exploração do trabalho e violência à infância desamparada no Brasil (1930–1945)', tese de doutorado, Unicamp (2011); documentário Menino 23, de Belisario Franca (2016). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "1998, interior de São Paulo. A parede de um chiqueiro cai e revela tijolos com suásticas. Um historiador foi atrás. E encontrou cinquenta meninos levados de um orfanato do Rio nos anos 1930. 🧱\n\nDossiê 13 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #historia #brasil #nazismo #documentos",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "visual": {"tipo": "cartao", "linhas": ["TIJOLOS", "COM SUÁSTICA"], "papel": true}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje o arquivo vai até uma fazenda no interior de São Paulo, onde as paredes escondiam um símbolo.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "1998. Campina do Monte Alegre. Numa fazenda antiga, a parede de um chiqueiro desaba.", "img": "01", "visual": {"mov": "pan"}, "tela": "CAMPINA DO MONTE ALEGRE, 1998", "pausa": 0.4},
+  {"voz": "arquivista", "fala": "O dono olha os tijolos no chão. Em cada um, estampada no barro... uma suástica.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "carimbo": "DOCUMENTADO", "carimbo_em": 3.6, "pausa": 0.9},
+  {"voz": "arquivista", "fala": "Nos anos 1930, a fazenda pertencia a uma família rica do Rio de Janeiro. Segundo um historiador, alguns deles eram ligados ao integralismo, o movimento de extrema direita da época.", "img": "02", "visual": {"mov": "in"}, "credito": "Fonte: Sidney Aguilar Filho, tese de doutorado, Unicamp, 2011", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Investigando, ele encontra algo pior. Cinquenta meninos tinham sido levados de um orfanato do Rio para trabalhar naquela terra. A maioria, negros.", "img": "03", "visual": {"mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Lá, eles não eram chamados pelo nome. Eram números.", "visual": {"tipo": "cartao", "linhas": ["1", "2", "23"], "papel": true}, "sfx": ["batida"], "batida_em": 2.0, "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Trabalho pesado, castigos, nenhum salário. Décadas depois, já idosos, dois sobreviventes contaram o que viveram. Um deles era o número vinte e três.", "img": "01", "visual": {"mov": "out"}, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "A história virou tese de doutorado e o documentário Menino 23.", "visual": {"tipo": "cartao", "linhas": ["MENINO 23"], "sub": "documentário de 2016"}, "credito": "Menino 23, de Belisario Franca (2016)", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O símbolo ficou escondido no barro por sessenta anos, criancinhas. Os nomes daqueles meninos, quase oitenta. Quantas paredes ainda guardam histórias assim?", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "O QUE A SUA PAREDE ESCONDE?", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

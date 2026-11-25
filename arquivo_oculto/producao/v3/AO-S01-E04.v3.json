@@ -1,0 +1,109 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E04",
+  "titulo": "COINTELPRO: uma conspiração comprovada",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/AO-S01-E04.v2.json",
+  "proximo_episode_id": "AO-S01-E05",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Arrombaram um escritório do FBI. De lá saíram os papéis que o próprio FBI mantinha em segredo.",
+      "visual": "No escuro, um feixe atravessa o vão de uma porta e encontra o espaço vazio de uma gaveta. Corte antes de vermos alguém. Set de época sem emblemas, sem detalhes identificáveis do local.",
+      "som": "Lingueta de metal recua. Silêncio no corte.",
+      "classe_visual": "reconstituicao",
+      "selo": "RECONSTITUIÇÃO",
+      "claims_base": ["C1"],
+      "referencias": ["S-FBI-HIST"]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 20,
+      "funcao": "pista",
+      "fala": "Pensilvânia, mil novecentos e setenta e um. Os papéis chegam à imprensa e ao Congresso. Que operação precisava ficar escondida?",
+      "visual": "O Arquivista caminha de perfil entre estantes. Puxa uma gaveta contemporânea e vira a etiqueta tipográfica COINTELPRO para a lente. A segunda gaveta fica fechada.",
+      "som": "Passos secos; trilho grave sustentando a pergunta.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": ["C1", "C5"],
+      "referencias": ["S-FBI-HIST", "S-CHURCH-1976"]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 20,
+      "fim_s": 31,
+      "funcao": "pista",
+      "fala": "O Senado encontrou a resposta nas páginas do FBI. O COINTELPRO mirava grupos dentro do próprio país.",
+      "visual": "A faixa de luz da gaveta vira a margem do Livro III do Senado. Da página inteira, aproximação ao título da seção sobre ações encobertas contra cidadãos americanos. O crédito fica fora da mancha documental.",
+      "som": "Uma página pesada assenta sobre a mesa.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C5", "C7"],
+      "referencias": ["S-CHURCH-1976"]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 31,
+      "fim_s": 44,
+      "funcao": "virada",
+      "fala": "Uma carta do diretor abre uma frente contra grupos nacionalistas negros. Leio os verbos. Desacreditar. Desorientar. Neutralizar.",
+      "visual": "Na carta de 25/08/1967 digitalizada e apontada pelo National Archives, comece pelo cabeçalho. Desça para o parágrafo dos objetivos. Marque três termos no original em sequência, sem substituir as palavras da página.",
+      "som": "Ruído do arquivo recua durante os três verbos.",
+      "classe_visual": "documental",
+      "selo": "DOCUMENTO DE ARQUIVO",
+      "claims_base": ["C6"],
+      "referencias": ["S-NARA-2020"]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 44,
+      "fim_s": 57,
+      "funcao": "pista",
+      "fala": "Houve cartas anônimas para tentar romper casamentos. Em outro arquivo, o FBI cogitou montar um clube de selos como fachada.",
+      "visual": "Uma ilustração de envelope liso desliza para fora. O movimento revela uma folha de álbuns vazia, com um único selo abstrato que gira até revelar o verso em branco. Sem carta, assinatura ou selo postal de época inventados.",
+      "som": "Papel dobrado à esquerda; pinça bate na mesa à direita.",
+      "classe_visual": "ilustracao",
+      "selo": "ILUSTRAÇÃO",
+      "claims_base": ["C7"],
+      "referencias": ["S-CHURCH-1976", "S-NARA-2020"]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 57,
+      "fim_s": 70,
+      "funcao": "virada",
+      "fala": "Nos papéis examinados pelo Arquivo Nacional, o clube parece nunca ter saído do projeto. O programa, esse deixou milhares de páginas.",
+      "visual": "O Arquivista desliza para o lado a ficha moderna do clube, com PROPOSTA na etiqueta. Tira de baixo a capa do relatório do Senado. A câmera acompanha o peso da pasta, com a mão ainda pousada sobre ela.",
+      "som": "O raspado leve da ficha cede ao impacto da pasta na madeira.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": ["C7"],
+      "referencias": ["S-NARA-2020", "S-CHURCH-1976"]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 70,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Hoover encerrou formalmente o COINTELPRO semanas depois do arrombamento. Ficaram os papéis. No próximo arquivo, uma ordem da CIA tenta fazer os seus desaparecerem.",
+      "visual": "Por cima do ombro, o Arquivista fecha a primeira gaveta e abre a segunda. Na divisória contemporânea, só MKULTRA. O quadro escurece com a gaveta ainda aberta.",
+      "som": "O trilho interrompe a música; um único passo fica no escuro.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": ["C1", "C9"],
+      "referencias": ["S-FBI-HIST", "S-NARA-2020"]
+    }
+  ],
+  "fontes_adicionais": [],
+  "preproducao": [
+    "A peça do clube de selos é uma proposta. S-NARA-2020, parágrafo iniciado por From the lack of evidence, relata que o clube aparentemente nunca foi estabelecido. O texto de C8 na base V2 fica fora do novo roteiro.",
+    "No gancho ao próximo episódio, a destruição de registros da CIA está documentada no EP05 em S-SENATE-1977, PDF p. 7 e p. 72 (numeração do visualizador). A montagem trata os casos como arquivos separados.",
+    "Conferir página, crédito e direitos por reprodução do relatório do Senado e da carta de 1967. Se uma imagem faltar, usar tipografia com transcrição curta atribuída, com selo TRANSCRIÇÃO. A cena da gaveta é reconstituição, com rótulo legível desde o primeiro quadro.",
+    "Aferir a locução e a leitura dos documentos no corte com o perfil aprovado. Planejar os gestos de B02, B06 e B07 conforme a capacidade real de atuação do motor."
+  ]
+}

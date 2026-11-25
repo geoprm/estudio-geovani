@@ -1,0 +1,564 @@
+{
+  "schema": "arquivo-oculto/episodio-v2",
+  "episode_id": "AO-IC-E01",
+  "num": 1,
+  "formato": "microdrama",
+  "versao": "v3.0-piloto.2",
+  "status_editorial": "pronto_para_render",
+  "titulo": "O Quadro 33",
+  "serie": "O Índice Cego",
+  "hook": "ALGUÉM ENTROU NO ARQUIVO",
+  "assinatura_abertura": {
+    "gancho": "Hoje eu vou contar a história de uma fita que sabia onde me encontrar."
+  },
+  "fontes": [
+    {
+      "id": "S-LOC-OZ",
+      "titulo": "The Wizard of Oz (1939) · Library of Congress",
+      "url": "https://www.loc.gov/item/95510666/",
+      "verificacao": "Registro do filme, Created / Published: 1939."
+    },
+    {
+      "id": "S-OTO-OZ",
+      "titulo": "Observations on Liber Oz · O.T.O. USA",
+      "url": "https://sabazius.oto-usa.org/writings/essays-and-commentaries/thelema/observations-on-liber-oz",
+      "verificacao": "O.T.O. situa a redação em 1941 e a palestra que a precedeu em torno de 1916."
+    },
+    {
+      "id": "S-CROWLEY-EQUINOX",
+      "titulo": "Aleister Crowley · The Equinox of the Gods (1936), pp. 117–118",
+      "url": "https://www.100thmonkeypress.com/biblio/acrowley/books/equinox_of_the_gods_1936/equinox_of_the_gods_text.pdf",
+      "verificacao": "Genesis Libri AL, §5. Relato retrospectivo de Crowley sobre a voz atribuída a Aiwass."
+    },
+    {
+      "id": "S-OTO-AL",
+      "titulo": "Liber AL vel Legis · Biblioteca O.T.O. USA",
+      "url": "https://library.oto-usa.org/libri/liber0220.html",
+      "verificacao": "Introdução, seção I, e cap. I:7. Data/local e nome atribuídos a Crowley."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "status": "documented",
+      "texto": "O catálogo da Library of Congress data O Mágico de Oz de 1939.",
+      "fontes": [
+        "S-LOC-OZ"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "documented",
+      "texto": "O.T.O. USA situa a escrita de Liber OZ em 1941, a partir de palestra anterior.",
+      "fontes": [
+        "S-OTO-OZ"
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "documented",
+      "texto": "Em seu relato retrospectivo, Crowley afirmou que ouviu uma voz no Cairo e a chamou de Aiwass. A fonte sustenta a atribuição da narrativa, sem validar sua causa.",
+      "fontes": [
+        "S-CROWLEY-EQUINOX",
+        "S-OTO-AL"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "A-ARQUIVISTA",
+      "tipo": "personagem",
+      "arquivo": "arquivo_oculto/assets/arquivista.png",
+      "rights_status": "owner_provided",
+      "credito": "O Arquivista · identidade aprovada"
+    },
+    {
+      "id": "A-PRODUCAO-ORIGINAL",
+      "tipo": "ficcao",
+      "rights_status": "original_production",
+      "credito": "Arte e adereços originais · O Índice Cego"
+    },
+    {
+      "id": "A-DATA-FILME",
+      "tipo": "dado_documental",
+      "fonte": "S-LOC-OZ",
+      "rights_status": "fact_citation",
+      "credito": "Dado histórico · Library of Congress"
+    },
+    {
+      "id": "A-DATA-TEXTO",
+      "tipo": "dado_documental",
+      "fonte": "S-OTO-OZ",
+      "rights_status": "fact_citation",
+      "credito": "Dado histórico · O.T.O. USA"
+    },
+    {
+      "id": "A-RELATO",
+      "tipo": "dado_documental",
+      "fonte": "S-CROWLEY-EQUINOX",
+      "rights_status": "fact_citation",
+      "credito": "Relato de Crowley · The Equinox of the Gods, p. 117"
+    }
+  ],
+  "outro": {
+    "duracao_s": 2.6,
+    "visual_source_type": "tipografia",
+    "rights_status": "original_production",
+    "linhas": [
+      "O ÍNDICE CEGO · EP. 01",
+      "A VOZ ATRÁS DO OMBRO",
+      "PRÓXIMO CAPÍTULO"
+    ],
+    "aviso": "FICÇÃO ORIGINAL · VOZ SINTÉTICA"
+  },
+  "nota_editorial": "Corte narrativo. O envelope, a cabine e o caso do Arquivista são ficção. As referências em cartela creditada são dados ou relato atribuído. Imagens, adereços, som e música originais do estúdio.",
+  "linhas": [
+    {
+      "id": "L01",
+      "beat": "cold_open",
+      "fala": "Naquela noite, encontrei um envelope no chão do arquivo. Alguém o tinha deixado do lado de dentro da porta.",
+      "pausa_ms": 430,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S01",
+          "tipo": "aparicao",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "para ao entrar no arquivo",
+          "gesture": "ergue a cabeça na contraluz",
+          "camera_motion": "dolly-in curto",
+          "emotional_beat": "estranheza",
+          "movement": "dolly-in curto",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: para ao entrar no arquivo",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.64,
+          "params": {}
+        },
+        {
+          "id": "S02",
+          "tipo": "bilhete_indice",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · bilhete_indice",
+          "params": {
+            "linhas": [
+              "NÃO PASSE DO",
+              "QUADRO 32"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe desce do envelope ao bilhete",
+          "sound_design": "papel arrastado",
+          "prompt": "o feixe desce do envelope ao bilhete",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.12
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "beat": "inciting_question",
+      "fala": "Dentro, uma fita e um bilhete. Não passe do quadro trinta e dois.",
+      "pausa_ms": 560,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S03",
+          "tipo": "bilhete_indice",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · bilhete_indice",
+          "params": {
+            "linhas": [
+              "NÃO PASSE DO",
+              "QUADRO 32"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "macro na borda do papel e na inscrição",
+          "sound_design": "papel seco",
+          "prompt": "macro na borda do papel e na inscrição",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.9
+        },
+        {
+          "id": "S04",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · quadro_cinema",
+          "params": {
+            "modo": "pelicula"
+          },
+          "selo": "FICÇÃO",
+          "movement": "a fita entra no feixe",
+          "sound_design": "engrenagem do projetor",
+          "prompt": "a fita entra no feixe",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.65
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "beat": "inciting_question",
+      "fala": "Levei a fita à cabine. Quando liguei o projetor, reconheci a porta da minha sala. A câmera estivera lá dentro.",
+      "pausa_ms": 620,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S05",
+          "tipo": "corredor",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "segue até a cabine",
+          "gesture": "caminha entre estantes",
+          "camera_motion": "travelling lateral",
+          "emotional_beat": "urgência contida",
+          "movement": "travelling lateral",
+          "sound_design": "passos no piso",
+          "prompt": "Arquivista canônico: segue até a cabine",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.55,
+          "params": {
+            "direcao": 1
+          }
+        },
+        {
+          "id": "S06",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · quadro_cinema",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "o último fotograma abre até a fresta da porta",
+          "sound_design": "pulso do projetor",
+          "prompt": "o último fotograma abre até a fresta da porta",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.3
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "beat": "dated_evidence",
+      "fala": "Parei a fita. Na emenda, alguém tinha escrito Liber Oz. Primeiro pensei no Mágico de Oz.",
+      "pausa_ms": 410,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S07",
+          "tipo": "virar_cabeca",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "busca o detalhe na emenda",
+          "gesture": "inclina e gira a cabeça",
+          "camera_motion": "órbita lenta",
+          "emotional_beat": "atenção",
+          "movement": "órbita lenta",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: busca o detalhe na emenda",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.7,
+          "params": {
+            "lado": -1
+          }
+        },
+        {
+          "id": "S08",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · quadro_cinema",
+          "params": {
+            "modo": "pelicula",
+            "inscricao": "LIBER OZ"
+          },
+          "selo": "FICÇÃO",
+          "movement": "a luz revela o nome junto à emenda",
+          "sound_design": "atrito de película",
+          "prompt": "a luz revela o nome junto à emenda",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.12
+        }
+      ],
+      "tts": "Parei a fita. Na emenda, alguém tinha escrito Líber Óz. Primeiro pensei no Mágico de Oz."
+    },
+    {
+      "id": "L05",
+      "beat": "dated_evidence",
+      "fala": "Mas o filme era de mil novecentos e trinta e nove. O texto de Aleister Crowley veio dois anos depois.",
+      "pausa_ms": 650,
+      "claims": [
+        "C1",
+        "C2"
+      ],
+      "shots": [
+        {
+          "id": "S09",
+          "tipo": "titulo_obra",
+          "asset": "A-DATA-FILME",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de referência",
+          "params": {
+            "linhas": [
+              "O MÁGICO",
+              "DE OZ"
+            ],
+            "sub": "FILME · 1939"
+          },
+          "selo": "FICÇÃO",
+          "credito": true,
+          "peso": 1,
+          "movement": "entrada em luz e aproximação contida",
+          "sound_design": "toque de papel",
+          "prompt": "tipografia original para a referência citada",
+          "negative_prompt": "capa ou fotograma copiado, marca do estúdio cinematográfico"
+        },
+        {
+          "id": "S10",
+          "tipo": "titulo_obra",
+          "asset": "A-DATA-TEXTO",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de referência",
+          "params": {
+            "linhas": [
+              "LIBER OZ"
+            ],
+            "sub": "TEXTO DE CROWLEY · 1941"
+          },
+          "selo": "FICÇÃO",
+          "credito": true,
+          "peso": 1,
+          "movement": "entrada em luz e aproximação contida",
+          "sound_design": "toque de papel",
+          "prompt": "tipografia original para a referência citada",
+          "negative_prompt": "capa ou fotograma copiado, marca do estúdio cinematográfico"
+        }
+      ],
+      "tts": "Mas o filme era de mil novecentos e trinta e nove. O texto de Alêister Cráuli veio dois anos depois."
+    },
+    {
+      "id": "L06",
+      "beat": "reversal_or_surprise",
+      "fala": "Dois objetos, o mesmo nome. Virei a lata. No metal, alguém tinha marcado outro número. Trinta e três.",
+      "pausa_ms": 600,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S11",
+          "tipo": "debrucar",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "se inclina para virar a lata",
+          "gesture": "baixa o olhar para a mesa",
+          "camera_motion": "tilt curto",
+          "emotional_beat": "busca",
+          "movement": "tilt curto",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: se inclina para virar a lata",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.62,
+          "params": {}
+        },
+        {
+          "id": "S12",
+          "tipo": "lata_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · lata_cinema",
+          "params": {
+            "inscricao": "33"
+          },
+          "selo": "FICÇÃO",
+          "movement": "feixe rente ao verso da lata revela o número",
+          "sound_design": "toque de lata na mesa",
+          "prompt": "feixe rente ao verso da lata revela o número",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.15
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "beat": "reversal_or_surprise",
+      "fala": "Achei o trinta e três na planta da cabine. Era a poltrona que eu usava. E a lente apontava direto para ela.",
+      "pausa_ms": 670,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S13",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · quadro_cinema",
+          "params": {
+            "modo": "plateia"
+          },
+          "selo": "FICÇÃO",
+          "movement": "planta abre da poltrona 33 ao eixo da cabine",
+          "sound_design": "pulso baixo",
+          "prompt": "planta abre da poltrona 33 ao eixo da cabine",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.09
+        },
+        {
+          "id": "S14",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · quadro_cinema",
+          "params": {
+            "modo": "lente"
+          },
+          "selo": "FICÇÃO",
+          "movement": "o reflexo da lente ocupa o centro",
+          "sound_design": "clique de gravação",
+          "prompt": "o reflexo da lente ocupa o centro",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 0.92
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Abri o bilhete de novo. No verso havia outro nome. Aiwass.",
+      "pausa_ms": 530,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S15",
+          "tipo": "olhar_camera",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "recua da lente e volta para o papel",
+          "gesture": "gira o olhar sem mexer a boca",
+          "camera_motion": "push-in curto",
+          "emotional_beat": "apreensão",
+          "movement": "push-in curto",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: recua da lente e volta para o papel",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.59,
+          "params": {}
+        },
+        {
+          "id": "S16",
+          "tipo": "bilhete_indice",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · bilhete_indice",
+          "params": {
+            "linhas": [
+              "AIWASS"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe atravessa o verso e revela a assinatura",
+          "sound_design": "folha vira",
+          "prompt": "o feixe atravessa o verso e revela a assinatura",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.13
+        }
+      ],
+      "tts": "Abri o bilhete de novo. No verso havia outro nome. Ai-uáss."
+    },
+    {
+      "id": "L09",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Era o nome que Crowley deu à voz que dizia ter ouvido no Cairo.",
+      "pausa_ms": 480,
+      "claims": [
+        "C3"
+      ],
+      "shots": [
+        {
+          "id": "S17",
+          "tipo": "titulo_obra",
+          "asset": "A-RELATO",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de referência",
+          "params": {
+            "linhas": [
+              "AIWASS"
+            ],
+            "sub": "CAIRO · NO RELATO DE CROWLEY"
+          },
+          "selo": "FICÇÃO",
+          "credito": true,
+          "peso": 1,
+          "movement": "entrada em luz e aproximação contida",
+          "sound_design": "toque de papel",
+          "prompt": "tipografia original para a referência citada",
+          "negative_prompt": "capa ou fotograma copiado, marca do estúdio cinematográfico"
+        }
+      ],
+      "tts": "Era o nome que Cráuli deu à voz que dizia ter ouvido no Cairo."
+    },
+    {
+      "id": "L10",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Desliguei o projetor. A pergunta que ficou comigo foi outra. Quem entrou na minha sala para me mandar atrás daquela voz?",
+      "pausa_ms": 610,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S18",
+          "tipo": "quadro_cinema",
+          "asset": "A-PRODUCAO-ORIGINAL",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço original · quadro_cinema",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "a fresta fica estreita na porta, o movimento recua",
+          "sound_design": "som do motor cai",
+          "prompt": "a fresta fica estreita na porta, o movimento recua",
+          "negative_prompt": "fotograma do filme, imagem da série, marcas reais, documento histórico simulado",
+          "peso": 1.15
+        },
+        {
+          "id": "S19",
+          "tipo": "encerramento",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "recua para a sombra da cabine",
+          "gesture": "solta o papel fora do quadro",
+          "camera_motion": "pull-back contido",
+          "emotional_beat": "decisão",
+          "movement": "pull-back contido",
+          "sound_design": "ambiente de cabine",
+          "prompt": "Arquivista canônico: recua para a sombra da cabine",
+          "negative_prompt": "boca animada, rosto humano, máscara diferente",
+          "selo": "FICÇÃO",
+          "peso": 0.57,
+          "params": {}
+        }
+      ]
+    }
+  ]
+}

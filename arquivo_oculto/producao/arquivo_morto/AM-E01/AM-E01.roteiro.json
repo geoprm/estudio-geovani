@@ -1,0 +1,29 @@
+{
+ "id": "AM-E01",
+ "num": 1,
+ "serie": "ARQUIVO MORTO · CASO 01",
+ "selo_fixo": "FICÇÃO",
+ "blocos": [
+  {"voz": null, "dur": 2.6, "visual": {"tipo": "imagem", "arquivo": "envelope.png", "mov": "in"},
+   "tela": "ESTA CARTA CHEGOU 3 DIAS DEPOIS DO ENTERRO", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje vou te contar a história de uma carta que não devia existir.",
+   "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Ela chegou a uma casa no sertão da Bahia, três dias depois do enterro de dona Lurdes.",
+   "visual": {"tipo": "imagem", "arquivo": "envelope.png", "mov": "pan"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "O envelope não tinha remetente. Mas a letra... a filha reconheceu na hora.",
+   "visual": {"tipo": "imagem", "arquivo": "verso.png", "mov": "in"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Dentro, uma folha só. Filha, me perdoa. Eu deixei a porta da cozinha aberta.",
+   "visual": {"tipo": "imagem", "arquivo": "carta.png", "mov": "in"}, "pausa": 0.7},
+  {"voz": "arquivista", "fala": "Ninguém tinha entrado na cozinha desde o velório. A filha foi até lá.",
+   "visual": {"tipo": "imagem", "arquivo": "porta_fechada.png", "modo": "cover", "mov": "in"}, "sfx": ["silencio"], "pausa": 0.4},
+  {"voz": null, "dur": 2.2, "visual": {"tipo": "preto"}, "sfx": ["silencio"]},
+  {"voz": "arquivista", "fala": "A porta estava aberta.",
+   "visual": {"tipo": "imagem", "arquivo": "porta_aberta.png", "modo": "cover", "mov": "in"}, "sfx": ["batida"], "batida_em": 0.0, "pausa": 1.4},
+  {"voz": "arquivista", "fala": "Ela voltou correndo para a carta. Na parede, o calendário marcava dia onze.",
+   "visual": {"tipo": "imagem", "arquivo": "calendario.png", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "E o carimbo do correio dizia... doze.",
+   "visual": {"tipo": "imagem", "arquivo": "carimbo_close.png", "mov": "in"}, "tela": "12 NOV", "sfx": ["batida"], "batida_em": 2.2, "pausa": 1.0},
+  {"voz": "arquivista", "fala": "A carta foi postada amanhã, criancinhas. Antes de dormir... confiram as suas portas.",
+   "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "CONFIRA A SUA PORTA", "sfx": ["silencio"], "pausa": 1.6}
+ ]
+}

@@ -1,0 +1,521 @@
+{
+  "schema": "arquivo-oculto/episodio-v2",
+  "episode_id": "AO-IC-E02",
+  "num": 2,
+  "formato": "microdrama",
+  "versao": "v3.0-piloto.3",
+  "status_editorial": "pronto_para_render",
+  "titulo": "A Voz Atrás do Ombro",
+  "serie": "O Índice Cego",
+  "hook": "A VOZ ATRÁS DO OMBRO",
+  "mascara_falada": true,
+  "assinatura_abertura": {
+    "gancho": "Hoje eu vou contar a história de um homem que escreveu sem virar a cabeça."
+  },
+  "outro": {
+    "duracao_s": 2.6,
+    "visual_source_type": "tipografia",
+    "rights_status": "original_production",
+    "linhas": [
+      "O ÍNDICE CEGO · EP. 02",
+      "O NÚMERO NA MARGEM",
+      "PRÓXIMO CAPÍTULO"
+    ],
+    "aviso": "FICÇÃO ORIGINAL · VOZ SINTÉTICA"
+  },
+  "nota_editorial": "O bilhete, o sumiço da lata e o caso do Arquivista são ficção. Cartelas de fontes e adereços são originais.",
+  "fontes": [
+    {
+      "id": "S-EQUINOX",
+      "titulo": "The Equinox of the Gods (1936), p. 116–118",
+      "url": "https://www.100thmonkeypress.com/biblio/acrowley/books/equinox_of_the_gods_1936/equinox_of_the_gods_text.pdf#page=127",
+      "verificacao": "Relato retrospectivo de Crowley; ombro, horas e descrição do rosto."
+    },
+    {
+      "id": "S-LIBER-AL",
+      "titulo": "Liber AL vel Legis — O.T.O. USA",
+      "url": "https://library.oto-usa.org/libri/liber0220.html",
+      "verificacao": "O livro dá o nome Aiwass em I:7; conferir II:58, o rei oculto."
+    },
+    {
+      "id": "S-OZ",
+      "titulo": "Liber OZ e Observations on Liber Oz — O.T.O. USA",
+      "url": "https://sabazius.oto-usa.org/writings/essays-and-commentaries/thelema/observations-on-liber-oz",
+      "verificacao": "Redação em 1941, citações de Liber AL e valor 77."
+    },
+    {
+      "id": "S-LOC",
+      "titulo": "The Wizard of Oz — Library of Congress",
+      "url": "https://www.loc.gov/item/95510666/",
+      "verificacao": "Filme de 1939."
+    },
+    {
+      "id": "S-ROYAL",
+      "titulo": "Official Coronation Portraits — Royal Household",
+      "url": "https://www.royal.uk/news-and-activity/2023-05-08/official-coronation-portraits",
+      "verificacao": "Retrato de 2023, com coroa, orbe e cetro; usado apenas como contraste de representação."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "status": "documented",
+      "texto": "Crowley narra que ouviu Aiwass no Cairo em abril de 1904 e que a voz vinha de trás do ombro esquerdo.",
+      "fontes": [
+        "S-EQUINOX",
+        "S-LIBER-AL"
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "documented",
+      "texto": "O autor apresenta o rosto do rei como imagem mental, não como observação externa.",
+      "fontes": [
+        "S-EQUINOX"
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "documented",
+      "texto": "O filme O Mágico de Oz é de 1939; Liber OZ foi escrito em 1941 e cita Liber AL.",
+      "fontes": [
+        "S-LOC",
+        "S-OZ"
+      ]
+    },
+    {
+      "id": "C4",
+      "status": "documented",
+      "texto": "O retrato oficial de 2023 encena a realeza com insígnias visíveis.",
+      "fontes": [
+        "S-ROYAL"
+      ]
+    },
+    {
+      "id": "C5",
+      "status": "interpretation",
+      "texto": "O contraste entre rei escondido no texto e rei reconhecível no retrato é uma leitura simbólica, sem alegação de contato histórico.",
+      "fontes": [
+        "S-LIBER-AL",
+        "S-ROYAL"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "A-ARQUIVISTA",
+      "tipo": "personagem",
+      "arquivo": "arquivo_oculto/assets/arquivista.png",
+      "rights_status": "owner_provided",
+      "credito": "O Arquivista — identidade aprovada"
+    },
+    {
+      "id": "A-FICCAO",
+      "tipo": "ficcao",
+      "rights_status": "original_production",
+      "credito": "Adereços e arte originais — O Índice Cego"
+    },
+    {
+      "id": "A-S-EQUINOX",
+      "tipo": "dado_documental",
+      "fonte": "S-EQUINOX",
+      "rights_status": "fact_citation",
+      "credito": "The Equinox of the Gods (1936), p. 116–118"
+    },
+    {
+      "id": "A-S-LIBER-AL",
+      "tipo": "dado_documental",
+      "fonte": "S-LIBER-AL",
+      "rights_status": "fact_citation",
+      "credito": "Liber AL vel Legis — O.T.O. USA"
+    },
+    {
+      "id": "A-S-OZ",
+      "tipo": "dado_documental",
+      "fonte": "S-OZ",
+      "rights_status": "fact_citation",
+      "credito": "Liber OZ e Observations on Liber Oz — O.T.O. USA"
+    },
+    {
+      "id": "A-S-LOC",
+      "tipo": "dado_documental",
+      "fonte": "S-LOC",
+      "rights_status": "fact_citation",
+      "credito": "The Wizard of Oz — Library of Congress"
+    },
+    {
+      "id": "A-S-ROYAL",
+      "tipo": "dado_documental",
+      "fonte": "S-ROYAL",
+      "rights_status": "fact_citation",
+      "credito": "Official Coronation Portraits — Royal Household"
+    }
+  ],
+  "linhas": [
+    {
+      "id": "L01",
+      "beat": "cold_open",
+      "fala": "Olá, criancinhas... Hoje eu vou contar a história de um homem que escreveu sem virar a cabeça.",
+      "pausa_ms": 510,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S01",
+          "tipo": "aparicao",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "fixa o olhar no espectador",
+          "gesture": "inclina a cabeça e fala",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "aviso íntimo",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: fixa o olhar no espectador",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.52,
+          "params": {},
+          "mascara_falada": true
+        },
+        {
+          "id": "S02",
+          "tipo": "quadro_cinema",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "luz corta a porta",
+          "sound_design": "projeção e papel",
+          "prompt": "luz corta a porta",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "beat": "inciting_question",
+      "fala": "Na cabine, voltei a fita ao quadro trinta e três. Debaixo do risco, havia um nome: Aiwass.",
+      "pausa_ms": 360,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S03",
+          "tipo": "bilhete_indice",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "linhas": [
+              "QUADRO 33",
+              "AIWASS"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe revela o nome",
+          "sound_design": "projeção e papel",
+          "prompt": "o feixe revela o nome",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        }
+      ],
+      "tts": "Na cabine, voltei a fita ao quadro trinta e três. Debaixo do risco, havia um nome: Ai-uáss."
+    },
+    {
+      "id": "L03",
+      "beat": "dated_evidence",
+      "fala": "Cairo, abril de mil novecentos e quatro. Crowley contou que ouviu uma voz durante três dias. Atrás do ombro esquerdo. Ele escreveu. Não se virou.",
+      "pausa_ms": 450,
+      "claims": [
+        "C1"
+      ],
+      "shots": [
+        {
+          "id": "S04",
+          "tipo": "virar_cabeca",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "interrompe o giro",
+          "gesture": "olha de lado e recua",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "medo contido",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: interrompe o giro",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.47,
+          "params": {}
+        },
+        {
+          "id": "S05",
+          "tipo": "titulo_obra",
+          "asset": "A-S-EQUINOX",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "CAIRO • ABRIL DE 1904",
+              "A VOZ ATRÁS DO OMBRO"
+            ],
+            "sub": "Relato de Crowley, publicado em 1936"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-EQUINOX",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        }
+      ],
+      "tts": "Cairo, abril de mil novecentos e quatro. Cráuli contou que ouviu uma voz durante três dias. Atrás do ombro esquerdo. Ele escreveu. Não se virou."
+    },
+    {
+      "id": "L04",
+      "beat": "dated_evidence",
+      "fala": "No relato dele, um rosto tomou forma. Parecia o de um rei. Crowley chamou aquilo de uma imagem na imaginação.",
+      "pausa_ms": 380,
+      "claims": [
+        "C2"
+      ],
+      "shots": [
+        {
+          "id": "S06",
+          "tipo": "titulo_obra",
+          "asset": "A-S-EQUINOX",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "UM ROSTO IMAGINADO",
+              "EQUINOX OF THE GODS"
+            ],
+            "sub": "Aleister Crowley • p. 117–118"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-EQUINOX",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        },
+        {
+          "id": "S07",
+          "tipo": "quadro_cinema",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "modo": "lente"
+          },
+          "selo": "FICÇÃO",
+          "movement": "a lente perde o foco",
+          "sound_design": "projeção e papel",
+          "prompt": "a lente perde o foco",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 0.6
+        }
+      ],
+      "tts": "No relato dele, um rosto tomou forma. Parecia o de um rei. Cráuli chamou aquilo de uma imagem na imaginação."
+    },
+    {
+      "id": "L05",
+      "beat": "reversal_or_surprise",
+      "fala": "O filme de Oz é de trinta e nove. O Liber OZ, de quarenta e um. Abri o texto procurando o filme. Encontrei citações do livro do Cairo.",
+      "pausa_ms": 350,
+      "claims": [
+        "C3"
+      ],
+      "shots": [
+        {
+          "id": "S08",
+          "tipo": "titulo_obra",
+          "asset": "A-S-LOC",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "O MÁGICO DE OZ",
+              "FILME • 1939"
+            ],
+            "sub": "Library of Congress"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-LOC",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        },
+        {
+          "id": "S09",
+          "tipo": "titulo_obra",
+          "asset": "A-S-OZ",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "LIBER OZ",
+              "TEXTO • 1941"
+            ],
+            "sub": "O.T.O. USA • citações de Liber AL"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-OZ",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        }
+      ],
+      "tts": "O filme de Oz é de trinta e nove. O Líber Óz, de quarenta e um. Abri o texto procurando o filme. Encontrei citações do livro do Cairo."
+    },
+    {
+      "id": "L06",
+      "beat": "reversal_or_surprise",
+      "fala": "No retrato da coroação de dois mil e vinte e três, a coroa está à vista. No livro, a roupa não diz quem é rei. O mesmo símbolo, virado do avesso.",
+      "pausa_ms": 420,
+      "claims": [
+        "C4",
+        "C5"
+      ],
+      "shots": [
+        {
+          "id": "S10",
+          "tipo": "titulo_obra",
+          "asset": "A-S-ROYAL",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "UM REI À VISTA",
+              "RETRATO OFICIAL • 2023"
+            ],
+            "sub": "Royal Household • comparação simbólica"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-ROYAL",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        },
+        {
+          "id": "S11",
+          "tipo": "titulo_obra",
+          "asset": "A-S-LIBER-AL",
+          "visual_source_type": "dado_documental",
+          "shot_type": "cartela de fonte",
+          "params": {
+            "linhas": [
+              "O REI PODE ESTAR OCULTO",
+              "LIBER AL • II:58"
+            ],
+            "sub": "Leitura do texto • outro contexto histórico"
+          },
+          "selo": "FONTE",
+          "movement": "entrada discreta",
+          "sound_design": "queda de ambiência",
+          "prompt": "Cartela tipográfica original de S-LIBER-AL",
+          "negative_prompt": "reprodução, logotipo, imagem histórica falsa",
+          "peso": 1,
+          "credito": true
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "beat": "open_loop_or_next_dossier",
+      "fala": "Na margem do bilhete, achei dois números. Setenta e sete. Trinta e três. Quando ergui a cabeça, a lata tinha sumido. A porta continuava trancada por dentro.",
+      "pausa_ms": 520,
+      "claims": [],
+      "shots": [
+        {
+          "id": "S12",
+          "tipo": "debrucar",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "se inclina sobre o bilhete",
+          "gesture": "mão pára antes de alcançar o papel",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "o perigo chegou",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: se inclina sobre o bilhete",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.47,
+          "params": {}
+        },
+        {
+          "id": "S13",
+          "tipo": "bilhete_indice",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "linhas": [
+              "77",
+              "33"
+            ]
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe apaga o segundo número",
+          "sound_design": "projeção e papel",
+          "prompt": "o feixe apaga o segundo número",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        },
+        {
+          "id": "S14",
+          "tipo": "quadro_cinema",
+          "asset": "A-FICCAO",
+          "visual_source_type": "ficcao",
+          "shot_type": "adereço ficcional original",
+          "params": {
+            "modo": "porta"
+          },
+          "selo": "FICÇÃO",
+          "movement": "o feixe termina na fechadura",
+          "sound_design": "projeção e papel",
+          "prompt": "o feixe termina na fechadura",
+          "negative_prompt": "fotograma de terceiro, documento histórico simulado, rosto humano",
+          "peso": 1
+        },
+        {
+          "id": "S15",
+          "tipo": "encerramento",
+          "asset": "A-ARQUIVISTA",
+          "personagem": true,
+          "visual_source_type": "personagem",
+          "shot_type": "atuação do Arquivista",
+          "action": "recua para a sombra",
+          "gesture": "sustenta o último olhar",
+          "camera_motion": "aproximação curta",
+          "emotional_beat": "ameaça",
+          "movement": "aproximação curta",
+          "sound_design": "respiração da sala",
+          "prompt": "Arquivista canônico: recua para a sombra",
+          "negative_prompt": "rosto humano exposto, máscara diferente, deformação extrema",
+          "selo": "FICÇÃO",
+          "peso": 0.42,
+          "params": {}
+        }
+      ]
+    }
+  ]
+}

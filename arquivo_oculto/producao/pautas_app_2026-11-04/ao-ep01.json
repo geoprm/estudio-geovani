@@ -1,0 +1,127 @@
+{
+  "aberturaA": "Um jogo de cartas de 1994 parece ter visto o futuro.",
+  "cenas": [
+    {
+      "fala": "Um jogo de cartas de 1994 parece ter visto o futuro.",
+      "tela": "UM JOGO PREVIU?",
+      "v": {
+        "alvo": "mesa",
+        "tipo": "crop"
+      }
+    },
+    {
+      "fala": "Eu guardo o que foi impresso. Não o que foi contado depois.",
+      "tela": "O ARQUIVISTA",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Illuminati: New World Order. Lançado em 1994, como uma sátira.",
+      "selo": "DOCUMENTADO",
+      "tela": "1994",
+      "tts": "Iluminati, Niú Uórld Órder. Lançado em mil novecentos e noventa e quatro, como uma sátira.",
+      "v": {
+        "sub": "ILLUMINATI: NEW WORLD ORDER",
+        "texto": "1994",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "Torres em chamas. Epidemias. Ataques ao poder. As imagens parecem familiares demais.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "COINCIDÊNCIA?",
+      "v": {
+        "cabecalho": "FICHA DE CARTAS",
+        "carimbo": "EM ANÁLISE",
+        "linhas": [
+          "CATÁLOGO · 1994",
+          "TEMAS: ATENTADOS, EPIDEMIAS, PODER",
+          "STATUS: SOB ANÁLISE"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Mas este arquivo tem uma regra: primeiro a data da carta. Depois, a interpretação.",
+      "tela": "DATA ANTES DA TEORIA",
+      "v": {
+        "a": [
+          "IMPRESSO",
+          "1994"
+        ],
+        "b": [
+          "INTERPRETADO",
+          "DEPOIS"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Nos próximos arquivos, vamos abrir carta por carta.",
+      "tela": "CARTA POR CARTA",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Previsão... ou nós encaixando o passado no presente?",
+      "tela": "PREVISÃO OU ENCAIXE?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-001",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Jogo lançado em 1994 (Steve Jackson Games). Semelhanças visuais não comprovam previsão.",
+  "data": "2026-11-03",
+  "fato": "Jogo lançado em 1994 (Steve Jackson Games). Semelhanças visuais não comprovam previsão.",
+  "fontes": [
+    {
+      "nome": "illuminati.game",
+      "url": "https://illuminati.game/faqs"
+    },
+    {
+      "nome": "ccgtrader.net",
+      "url": "https://www.ccgtrader.net/games/illuminati-nwo-ccg"
+    }
+  ],
+  "legenda": "Um jogo de 1994 virou combustível para centenas de teorias. A parte mais interessante não é acreditar: é conferir o que estava impresso antes do fato.\n\nComente CARTAS para acompanhar a série.\n\nFontes: illuminati.game/faqs · ccgtrader.net/games/illuminati-nwo-ccg\n\n#ArquivoOculto #Illuminati #INWO #misterio #conspiracao",
+  "nota": 4,
+  "ordem": 1,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Um jogo de cartas de 1994 parece ter visto o futuro.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "Eu guardo o que foi impresso. Não o que foi contado depois.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "Illuminati: New World Order. Lançado em 1994, como uma sátira.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Torres em chamas. Epidemias. Ataques ao poder. As imagens parecem familiares demais.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "Mas este arquivo tem uma regra: primeiro a data da carta. Depois, a interpretação.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Nos próximos arquivos, vamos abrir carta por carta.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Previsão... ou nós encaixando o passado no presente?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Cartas do Futuro",
+  "titulo": "O jogo que parecia prever o mundo"
+}

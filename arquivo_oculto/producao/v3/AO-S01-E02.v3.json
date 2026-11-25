@@ -1,0 +1,169 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E02",
+  "titulo": "A operação contra a editora",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/AO-S01-E02.v2.json",
+  "proximo_episode_id": "AO-S01-E03",
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "O computador sai da sala. Na decisão, sigo a máquina pelo nome do sistema: Illuminati.",
+      "visual": "Reconstituição de época sem agentes identificáveis. Corte do cabo solto para uma silhueta carregando um gabinete. Na chegada a ‘Illuminati’, troque para tipografia original e separe o corte da fonte judicial.",
+      "som": "Estalo elétrico curto e ruído de ventilador que morre de uma vez.",
+      "classe_visual": "reconstituicao",
+      "selo": "RECONSTITUIÇÃO ILUSTRADA",
+      "claims_base": [
+        "C1",
+        "C3",
+        "C5"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-SJG-SS"
+      ]
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 19,
+      "funcao": "pista",
+      "fala": "Março de noventa. O Serviço Secreto entra na editora, em Austin. Segundo a empresa, investigava pirataria de dados.",
+      "visual": "Passe do processo à data da busca. Apareça por até três segundos em travelling de corredor, depois revele a paráfrase identificada do relato da editora.",
+      "som": "Som de um fichário correndo no trilho. Pare a trilha antes da atribuição à editora.",
+      "classe_visual": "documental",
+      "selo": "REGISTROS DA BUSCA",
+      "claims_base": [
+        "C1",
+        "C2"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-SJG-SS"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 19,
+      "fim_s": 30,
+      "funcao": "pista",
+      "fala": "Discos e impressoras entram no inventário. Num dos computadores, o manuscrito de um RPG. O título é GURPS Cyberpunk.",
+      "visual": "Câmera percorre os itens em tipografia própria com referência da decisão. Corte para a nota sobre o livro no PDF do tribunal de apelação. Segure a nota até a fala terminar.",
+      "som": "Raspada de plástico seguida pelo som seco de uma página virando.",
+      "classe_visual": "documental",
+      "selo": "AUTOS FEDERAIS",
+      "claims_base": [
+        "C3",
+        "C4"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-SJG-SS",
+        "S-APPEAL-1994"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 30,
+      "fim_s": 43,
+      "funcao": "virada",
+      "fala": "Volto à máquina. Illuminati era o mural eletrônico da editora. O tribunal descreve gente que discava para receber mensagens particulares.",
+      "visual": "Mostre o Arquivista se inclinando junto a um monitor desligado por até três segundos. Em seguida, apresente o trecho do acórdão sobre o sistema e as mensagens, em tradução identificada. Sem interface fingindo ser a original.",
+      "som": "Dial-up discreto como paisagem sonora. Corte antes de ‘mensagens particulares’.",
+      "classe_visual": "documental",
+      "selo": "TRADUÇÃO · ACÓRDÃO FEDERAL",
+      "claims_base": [
+        "C5"
+      ],
+      "referencias": [
+        "S-APPEAL-1994",
+        "S-JUDGMENT-1993"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 43,
+      "fim_s": 54,
+      "funcao": "virada",
+      "fala": "O mesmo nome está no baralho que chegou às lojas quase cinco anos depois. Agora consigo separar os dois arquivos.",
+      "visual": "Alinhe a data da busca e a do lançamento. Separe os trilhos ‘mural eletrônico’ e ‘jogo de cartas’ sem sobrepor os dois. O Arquivista puxa o cartão do jogo para a marca de dezembro de 1994 em plano de detalhe.",
+      "som": "Duas batidas distantes, uma para cada data. Entre elas, mantenha o ruído de sala.",
+      "classe_visual": "tipografia",
+      "selo": "CRONOLOGIA · BUSCA E LANÇAMENTO",
+      "claims_base": [
+        "C5",
+        "C7"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-LIST-1995",
+        "S-APPEAL-1994"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 54,
+      "fim_s": 66,
+      "funcao": "pista",
+      "fala": "Em noventa e três, a Justiça responsabilizou o Serviço Secreto pela apreensão de material destinado a publicação. A editora obteve indenização.",
+      "visual": "Corte do cabeçalho de 1993 para a seção Privacy Protection Act. Amplie só a passagem sobre a responsabilidade e a indenização da editora, mantendo a referência visível.",
+      "som": "Uma página assentando e a trilha baixando na palavra ‘indenização’.",
+      "classe_visual": "documental",
+      "selo": "DECISÃO DISTRITAL · 1993",
+      "claims_base": [
+        "C8"
+      ],
+      "referencias": [
+        "S-JUDGMENT-1993",
+        "S-APPEAL-1994"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 66,
+      "fim_s": 76,
+      "funcao": "hipotese",
+      "fala": "Era um mural de jogos. Quanto da vida de alguém cabia no disco que saía por aquela porta?",
+      "visual": "O Arquivista deixa a sombra e pousa a luva sobre um gabinete de cena. Corte para o compartimento do disco e, em contraplano, para um envelope liso, adereço de comparação sem texto.",
+      "som": "Respiração curta e pulsação baixa, sem som de mensagens ou vozes simuladas.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [
+        "C5"
+      ],
+      "referencias": [
+        "S-APPEAL-1994"
+      ]
+    },
+    {
+      "id": "B08",
+      "inicio_s": 76,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Viro para o baralho. Na próxima pasta, alguém pôs uma carta antiga ao lado de um atentado.",
+      "visual": "O Arquivista fecha a pasta da busca, vira para a lente e tira da gaveta um cartão liso com o título ‘Enough is Enough’. Corte antes de mostrar qualquer imagem do atentado.",
+      "som": "Batida da pasta. Deixe um intervalo antes do motivo de saída do perfil.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "claims_base": [],
+      "referencias": []
+    }
+  ],
+  "fontes_adicionais": [
+    {
+      "id": "S-APPEAL-1994",
+      "titulo": "Steve Jackson Games, Inc. v. United States Secret Service, 36 F.3d 457 (5th Cir. 1994)",
+      "url": "https://www.ca5.uscourts.gov/opinions/pub/93/93-08661.CV0.wpd.pdf",
+      "localizador": "Seção I, pp. 2–4 do PDF: funcionamento do Illuminati BBS, mensagens privadas, busca e apreensão. Nota 1: rascunho de GURPS Cyberpunk. O alcance do recurso é delimitado na introdução e na seção II."
+    }
+  ],
+  "preproducao": [
+    "Usar decisão distrital de 1993 para a indenização da editora sob o Privacy Protection Act. O recurso de 1994 se limita a se a apreensão de mensagens armazenadas configura interceptação. Evitar implicar que todos os pedidos prosperaram.",
+    "As fontes divergem no número de computadores. Trabalhar com a máquina do BBS sem fazer contagem em narração, arte ou legenda.",
+    "Consultar o snapshot local da página da editora de 04/11/2026. O site da editora retornou 403 na revisão V3. Para material público, parafrasear com crédito. Rotular a reconstituição de escritório e manter telas, adereços e áudio dramatizados distintos do material judicial."
+  ]
+}

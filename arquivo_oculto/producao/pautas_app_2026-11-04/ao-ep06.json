@@ -1,0 +1,140 @@
+{
+  "aberturaA": "Março de 1962. Um memorando chega à mesa do secretário de Defesa dos Estados Unidos.",
+  "cenas": [
+    {
+      "fala": "Março de 1962. Um memorando chega à mesa do secretário de Defesa dos Estados Unidos.",
+      "selo": "DOCUMENTADO",
+      "tela": "13·03·1962",
+      "tts": "Março de mil novecentos e sessenta e dois. Um memorando chega à mesa do secretário de Defesa dos Estados Unidos.",
+      "v": {
+        "sub": "PENTÁGONO",
+        "texto": "13·03·1962",
+        "tipo": "data"
+      }
+    },
+    {
+      "fala": "Assinado pela cúpula militar. Codinome: Operação Northwoods.",
+      "tela": "NORTHWOODS",
+      "tts": "Assinado pela cúpula militar. Codinome: Operação Nórtiuds.",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "A proposta: fabricar falsos ataques e culpar Cuba, para justificar uma guerra.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "PRETEXTO PARA UMA GUERRA",
+      "v": {
+        "cabecalho": "ESTADO-MAIOR CONJUNTO",
+        "carimbo": "TOP SECRET",
+        "linhas": [
+          "OPERAÇÃO NORTHWOODS",
+          "PRETEXTOS PARA INTERVIR EM CUBA",
+          "13 DE MARÇO DE 1962"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "O governo Kennedy rejeitou o plano. Ele nunca foi executado.",
+      "tela": "PLANEJADO NÃO É EXECUTADO",
+      "v": {
+        "a": [
+          "PLANEJADO",
+          "SIM"
+        ],
+        "b": [
+          "EXECUTADO",
+          "NÃO"
+        ],
+        "riscar": "b",
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "O documento ficou em segredo por décadas. Só foi liberado em 1997.",
+      "selo": "DOCUMENTADO",
+      "tela": "LIBERADO EM 1997",
+      "tts": "O documento ficou em segredo por décadas. Só foi liberado em mil novecentos e noventa e sete.",
+      "v": {
+        "pontos": [
+          [
+            "1962",
+            "PROPOSTA"
+          ],
+          [
+            "1962",
+            "REJEITADA"
+          ],
+          [
+            "1997",
+            "LIBERADA"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "O que assusta não é o que aconteceu. É o que chegou a ser escrito.",
+      "tela": "CHEGOU A SER ESCRITO",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Você leu o memorando... ou a versão aumentada?",
+      "tela": "LEU O DOCUMENTO?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-006",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "Memorando do Estado-Maior Conjunto a McNamara, 13/03/1962; rejeitado; liberado em 1997 pelo JFK Assassination Records Review Board.",
+  "data": "2026-11-03",
+  "fato": "Memorando do Estado-Maior Conjunto a McNamara, 13/03/1962; rejeitado; liberado em 1997 pelo JFK Assassination Records Review Board.",
+  "fontes": [
+    {
+      "nome": "nsarchive2.gwu.edu",
+      "url": "https://nsarchive2.gwu.edu/news/20010430/"
+    }
+  ],
+  "legenda": "O memorando da Operação Northwoods existe e foi liberado em 1997. Mas era uma proposta: foi rejeitada e nunca executada.\n\nComente NORTHWOODS para a análise completa.\n\nFonte: National Security Archive (GWU)\n\n#ArquivoOculto #Northwoods #GuerraFria #historia #conspiracao",
+  "nota": 4,
+  "ordem": 6,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Março de 1962. Um memorando chega à mesa do secretário de Defesa dos Estados Unidos.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "Assinado pela cúpula militar. Codinome: Operação Northwoods.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "A proposta: fabricar falsos ataques e culpar Cuba, para justificar uma guerra.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "O governo Kennedy rejeitou o plano. Ele nunca foi executado.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "O documento ficou em segredo por décadas. Só foi liberado em 1997.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "O que assusta não é o que aconteceu. É o que chegou a ser escrito.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Você leu o memorando... ou a versão aumentada?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Conspirações Documentadas",
+  "titulo": "Operação Northwoods: o plano que não aconteceu"
+}

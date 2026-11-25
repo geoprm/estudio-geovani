@@ -1,0 +1,147 @@
+{
+  "schema": "arquivo-oculto/roteiro-v3",
+  "episode_id": "AO-S01-E10",
+  "titulo": "2027: por que essa data aparece tanto?",
+  "formato": "investigacao_90",
+  "status_editorial": "revisado_narrativamente_pendente_preproducao",
+  "manifesto_base": "../v2/rascunhos/AO-S01-E10.v2.rascunho.json",
+  "proximo_episode_id": null,
+  "beats": [
+    {
+      "id": "B01",
+      "inicio_s": 0,
+      "fim_s": 8,
+      "funcao": "abertura",
+      "fala": "Dois mil e vinte e sete. O mesmo ano em duas pastas. O que cada documento promete entregar?",
+      "visual": "O Arquivista pousa uma pasta em cada ponta da mesa, com o mesmo ano em etiquetas do estúdio. Um travelling encurta a distância entre elas sem sobrepor as etiquetas.",
+      "som": "Dois impactos de papel, o segundo em silêncio de trilha.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "pergunta_investigativa",
+      "claims_base": [],
+      "referencias": []
+    },
+    {
+      "id": "B02",
+      "inicio_s": 8,
+      "fim_s": 21,
+      "funcao": "pista",
+      "fala": "Na pasta da ONU, setembro é o mês previsto para a próxima cúpula de revisão dos objetivos da Agenda.",
+      "visual": "Foco no trecho da consulta do relatório de 2027 que indica a cúpula. A data ganha uma marca discreta ao lado do texto, fora da página.",
+      "som": "Som de agenda aberta e uma nota longa que se apaga.",
+      "classe_visual": "documental",
+      "selo": "ONU · CÚPULA PREVISTA",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-UN-GSDR"
+      ]
+    },
+    {
+      "id": "B03",
+      "inicio_s": 21,
+      "fim_s": 35,
+      "funcao": "pista",
+      "fala": "A outra pasta vem de Pequim. O mesmo ano marca uma meta ligada ao centenário das forças armadas chinesas. O comunicado fala de reforma e modernização.",
+      "visual": "Cortar do cabeçalho da ONU para o cabeçalho chinês com transição seca. Destacar a expressão meta do centenário em tradução atribuída.",
+      "som": "Uma gaveta fecha antes do som da próxima página.",
+      "classe_visual": "documental",
+      "selo": "CHINA · META DO CENTENÁRIO",
+      "estado_evidencia": "documentado",
+      "claims_base": [],
+      "referencias": [
+        "S-CHINA-2024"
+      ]
+    },
+    {
+      "id": "B04",
+      "inicio_s": 35,
+      "fim_s": 48,
+      "funcao": "virada",
+      "fala": "Uma pasta traz uma reunião marcada. A outra traz uma meta militar. Ao olhar para Taiwan, a diferença passa a importar.",
+      "visual": "O Arquivista endireita as pastas em paralelo e abre entre elas uma terceira referência. A câmera acompanha o gesto de cima, com cada crédito separado.",
+      "som": "O pulso deixa espaço para o terceiro papel tocar a mesa.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "interpretacao",
+      "claims_base": [],
+      "referencias": [
+        "S-UN-GSDR",
+        "S-CHINA-2024",
+        "S-ODNI-2026"
+      ]
+    },
+    {
+      "id": "B05",
+      "inicio_s": 48,
+      "fim_s": 63,
+      "funcao": "virada",
+      "fala": "Na avaliação americana de dois mil e vinte e seis, Pequim não planejava naquele momento invadir Taiwan no ano seguinte.",
+      "visual": "No relatório autêntico, abrir a seção China–Taiwan. Realçar também o marcador temporal da avaliação para que o texto não soe como certeza sobre o futuro.",
+      "som": "Silêncio na entrada do trecho. Papel vira depois da pausa.",
+      "classe_visual": "documental",
+      "selo": "AVALIAÇÃO DE INTELIGÊNCIA DOS EUA · 2026",
+      "estado_evidencia": "avaliacao_atribuida",
+      "claims_base": [],
+      "referencias": [
+        "S-ODNI-2026"
+      ]
+    },
+    {
+      "id": "B06",
+      "inicio_s": 63,
+      "fim_s": 74,
+      "funcao": "hipotese",
+      "fala": "Na ONU, vou procurar o relatório. Sobre Taiwan, vou acompanhar decisões e movimentos declarados. Cada pergunta pede sua própria pista.",
+      "visual": "Em duas colunas distintas, aparecer apenas o que pode ser consultado de novo. Não usar imagens bélicas como anúncio de acontecimentos futuros.",
+      "som": "Retorno breve do motivo de papel da abertura.",
+      "classe_visual": "tipografia",
+      "selo": "CENÁRIOS · SINAIS A ACOMPANHAR",
+      "estado_evidencia": "criterio_de_observacao",
+      "claims_base": [],
+      "referencias": [
+        "S-UN-GSDR",
+        "S-ODNI-2026"
+      ]
+    },
+    {
+      "id": "B07",
+      "inicio_s": 74,
+      "fim_s": 85,
+      "funcao": "desfecho",
+      "fala": "Guardo as duas pastas. Deixo espaço para a próxima. Que documento faria você mudar de leitura antes de virar o calendário?",
+      "visual": "O Arquivista deixa uma terceira divisória sem data. A mão retira o calendário do quadro. Ele recua para a sombra e a luz se apaga.",
+      "som": "Trinco de metal e respiro final, sem chamada comercial.",
+      "classe_visual": "personagem",
+      "selo": "",
+      "estado_evidencia": "pergunta_investigativa",
+      "claims_base": [],
+      "referencias": []
+    }
+  ],
+  "fontes_adicionais": [
+    {
+      "id": "S-UN-GSDR",
+      "titulo": "ONU · Consulta do Global Sustainable Development Report 2027",
+      "url": "https://sdgs.un.org/sites/default/files/2025-11/GSDR%20Regional%20Consultation%205%20-%206%20November_2.pdf",
+      "localizador": "Introdução. Aponta setembro de 2027 para a cúpula de revisão sob a Assembleia Geral e explica a finalidade do relatório."
+    },
+    {
+      "id": "S-CHINA-2024",
+      "titulo": "Governo da China · comunicado da terceira plenária do XX Comitê Central",
+      "url": "https://english.www.gov.cn/news/202407/18/content_WS669906cdc6d0868f4e8e93db.html",
+      "localizador": "Parágrafo sobre as forças armadas. Estabelece o objetivo do centenário do Exército de Libertação Popular para 2027 no contexto das reformas e da modernização."
+    },
+    {
+      "id": "S-ODNI-2026",
+      "titulo": "ODNI · Annual Threat Assessment 2026",
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf",
+      "localizador": "Seção China–Taiwan, p. 22 impressa. A avaliação dos EUA não aponta plano chinês atual de invasão em 2027 nem cronograma fixo de unificação."
+    }
+  ],
+  "preproducao": [
+    "Revalidar o calendário da ONU e a avaliação mais recente antes de gravar. Setembro é previsão de agenda. A avaliação dos EUA se refere ao que a comunidade avaliava em 2026.",
+    "Mostrar a meta chinesa de modernização em seu contexto. Nenhuma das fontes liga essa meta à agenda da ONU ou confirma data de guerra. Não sobrepor as marcas institucionais para fabricar associação.",
+    "Confirmar direitos dos recortes e das traduções. Usar documentos e mapas rotulados; o arquivo aberto ao fim da temporada é um recurso de cena."
+  ]
+}

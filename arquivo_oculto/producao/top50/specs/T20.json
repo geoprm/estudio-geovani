@@ -1,0 +1,20 @@
+{
+ "titulo": "O exorcismo que terminou num tribunal",
+ "serie": "DOSSIÊ 20 · KLINGENBERG, 1976",
+ "fontes_texto": "Fontes: Tribunal Regional de Aschaffenburg, sentença de 21/04/1978; Diocese de Würzburg (autorização de 1975); laudo de necropsia (julho de 1976). Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "1976, Alemanha. Uma jovem passa dez meses por 67 sessões de exorcismo autorizadas pela Igreja. Ela morre pesando cerca de 30 quilos. Os pais e dois padres vão a julgamento. 🕯️\n\nDossiê 20 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #exorcismo #casosreais #historia #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"mov": "in"}, "tela": "67 SESSÕES", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu conto o caso real por trás de um dos filmes de terror mais famosos. E ele é pior que o filme.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Baviera, Alemanha. Uma jovem estudante, de família muito religiosa, começa a ter convulsões aos dezesseis anos. Os médicos diagnosticam epilepsia.", "img": "01", "visual": {"mov": "pan"}, "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Os remédios não resolvem. Ela começa a ter visões, a ouvir vozes, a recusar objetos religiosos. A família se convence: não é doença. É o demônio.", "img": "02", "visual": {"mov": "in"}, "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Em 1975, o bispo de Würzburg autoriza um exorcismo. Dois padres assumem o caso.", "img": "03", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "DOCUMENTADO", "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Em dez meses, sessenta e sete sessões. Muitas foram gravadas em fita. Gritos. Vozes graves. Nomes de demônios.", "visual": {"tipo": "cartao", "linhas": ["10 MESES", "67 SESSÕES"]}, "sfx": ["chiado"], "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Ela para de comer. Ajoelha até machucar os joelhos. Ninguém chama um médico.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 1.0},
+  {"voz": "arquivista", "fala": "Primeiro de julho de 1976. Ela morre no quarto. Desnutrida, desidratada. Pesava cerca de trinta quilos. Tinha vinte e três anos.", "img": "01", "visual": {"mov": "out"}, "sfx": ["batida"], "batida_em": 2.0, "carimbo": "DOCUMENTADO", "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Em 1978, os pais e os dois padres são condenados por homicídio culposo. A justiça entendeu que ela poderia ter sido salva.", "img": "04", "visual": {"mov": "in"}, "credito": "Fonte: Tribunal Regional de Aschaffenburg, 21/04/1978", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Possessão? Nenhuma prova. O que existe é uma doença sem tratamento e uma fé que ninguém ousou contrariar.", "img": "02", "visual": {"mov": "out"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 4], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "O demônio dessa história nunca apareceu, criancinhas. Mas alguém morreu de fome cercado de gente rezando. Isso é o que me assusta.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "O DEMÔNIO NUNCA APARECEU", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

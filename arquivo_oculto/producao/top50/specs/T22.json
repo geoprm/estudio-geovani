@@ -1,0 +1,21 @@
+{
+ "titulo": "A cifra do Zodíaco levou 51 anos para cair",
+ "serie": "DOSSIÊ 22 · A CIFRA Z340",
+ "fontes_texto": "Fontes: San Francisco Chronicle (cifra recebida em 08/11/1969); FBI, nota de 11/12/2020 confirmando a solução de David Oranchak, Sam Blake e Jarl Van Eycke. Imagens: Wikimedia Commons.",
+ "legenda_tiktok": "Em 1969, um assassino mandou a um jornal uma mensagem com 340 símbolos. Ninguém conseguiu ler. Em 2020, três amadores conseguiram. E o que estava escrito... 🔐\n\nDossiê 22 · O Arquivista é um personagem criado por IA.\n\n#arquivooculto #zodiaco #casosreais #codigo #misterio",
+ "blocos": [
+  {"voz": null, "dur": 2.4, "img": "01", "visual": {"modo": "contain", "mov": "in"}, "tela": "340 SÍMBOLOS", "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Olá, criancinhas... Hoje eu vou ler para vocês uma mensagem que um assassino escondeu por cinquenta e um anos.", "visual": {"tipo": "retrato", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "Norte da Califórnia, fim dos anos 1960. Um homem mata a tiros e a faca. E escreve aos jornais. Ele mesmo se apelida: Zodíaco.", "img": "02", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.3},
+  {"voz": "arquivista", "fala": "Oito de novembro de 1969. O San Francisco Chronicle recebe uma folha com trezentos e quarenta símbolos. Ninguém consegue ler.", "img": "01", "visual": {"modo": "contain", "mov": "pan"}, "tela": "8 DE NOVEMBRO DE 1969", "carimbo": "DOCUMENTADO", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "Décadas passam. Polícia, FBI, criptógrafos. Nada.", "visual": {"tipo": "preto"}, "sfx": ["silencio"], "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Dezembro de 2020. Três amadores, nos Estados Unidos, na Austrália e na Bélgica, descobrem o truque: o texto foi escrito na diagonal.", "img": "01", "visual": {"modo": "contain", "mov": "in"}, "pausa": 0.4},
+  {"voz": "arquivista", "fala": "E o FBI confirma. A mensagem dizia:", "img": "03", "visual": {"mov": "in"}, "credito": "Fonte: FBI, 11/12/2020", "carimbo": "DOCUMENTADO", "pausa": 0.4},
+  {"voz": "fita", "fala": "Espero que vocês estejam se divertindo tentando me pegar. Eu não tenho medo da câmara de gás. Ela vai me mandar para o paraíso mais cedo.", "img": "01", "visual": {"tipo": "crt"}, "sfx": ["chiado"], "credito": "Tradução do texto decifrado do Z340", "pausa": 0.8},
+  {"voz": "arquivista", "fala": "Cinquenta e um anos esperando. E ele não deixou o nome.", "img": "02", "visual": {"modo": "contain", "mov": "out"}, "sfx": ["batida"], "batida_em": 2.0, "pausa": 0.6},
+  {"voz": "arquivista", "fala": "Suspeitos foram apontados ao longo dos anos. Nenhum foi acusado formalmente. O caso continua aberto.", "img": "02", "visual": {"modo": "contain", "mov": "in"}, "carimbo": "SEM PROVA", "pausa": 0.5},
+  {"voz": "arquivista", "fala": "E ainda há duas cifras curtas dele que ninguém resolveu.", "visual": {"tipo": "cartao", "linhas": ["Z13", "Z32"], "papel": true}, "pausa": 0.5},
+  {"voz": null, "dur": 3.0, "visual": {"tipo": "placar", "contagem": [["DOCUMENTADO", 2], ["SEM PROVA", 1]], "titulo": "O ARQUIVO JULGA"}, "sfx": ["batida"]},
+  {"voz": "arquivista", "fala": "Treze símbolos, criancinhas. Talvez o nome dele esteja ali. Esperando alguém como você.", "visual": {"tipo": "retrato", "mov": "out", "fade_preto": true}, "tela": "O NOME PODE ESTAR NOS 13", "sfx": ["silencio"], "pausa": 1.4}
+ ]
+}

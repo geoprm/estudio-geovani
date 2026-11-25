@@ -1,0 +1,134 @@
+{
+  "aberturaA": "Todo fim de ano, uma revista britânica publica uma capa sobre o ano que vem.",
+  "cenas": [
+    {
+      "fala": "Todo fim de ano, uma revista britânica publica uma capa sobre o ano que vem.",
+      "tela": "CAPAS DO FUTURO?",
+      "v": {
+        "alvo": "mesa",
+        "tipo": "crop"
+      }
+    },
+    {
+      "fala": "A revista é a The Economist. A edição se chama The World Ahead.",
+      "tela": "THE WORLD AHEAD",
+      "tts": "A revista é a The Iconomist. A edição se chama The Uórld Arréd.",
+      "v": {
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Líderes, símbolos, enigmas. Na internet, cada detalhe vira código secreto.",
+      "selo": "ILUSTRAÇÃO",
+      "tela": "CÓDIGO SECRETO?",
+      "v": {
+        "cabecalho": "ANÁLISE DE CAPA",
+        "carimbo": "INTERPRETAÇÃO",
+        "linhas": [
+          "EDIÇÃO: THE WORLD AHEAD",
+          "ELEMENTOS: LÍDERES, SÍMBOLOS",
+          "LEITURA: EM ANÁLISE"
+        ],
+        "tipo": "doc"
+      }
+    },
+    {
+      "fala": "Mas a própria revista diz o que é: uma aposta em tendências de política, economia e riscos.",
+      "tela": "TENDÊNCIAS, NÃO PROFECIAS",
+      "v": {
+        "pontos": [
+          [
+            "CAPA",
+            "PUBLICAÇÃO"
+          ],
+          [
+            "ANO",
+            "EVENTOS"
+          ],
+          [
+            "BALANÇO",
+            "ACERTOS E ERROS"
+          ]
+        ],
+        "tipo": "timeline"
+      }
+    },
+    {
+      "fala": "E quem conta os acertos precisa contar também os erros.",
+      "tela": "ACERTOS E ERROS",
+      "v": {
+        "a": [
+          "ACERTOS",
+          "?"
+        ],
+        "b": [
+          "ERROS",
+          "?"
+        ],
+        "tipo": "split"
+      }
+    },
+    {
+      "fala": "Análise de tendência pode errar. Profecia, por definição, não pode.",
+      "tela": "ANÁLISE NÃO É PROFECIA",
+      "v": {
+        "close": true,
+        "tipo": "arq"
+      }
+    },
+    {
+      "fala": "Qual capa você quer que eu abra primeiro?",
+      "tela": "QUAL CAPA ABRIMOS?",
+      "v": {
+        "tipo": "pergunta"
+      }
+    }
+  ],
+  "codigo": "AO-REEL-007",
+  "criadoEm": "2026-11-03T22:10:00-03:00",
+  "cuidado": "The World Ahead é série editorial anual de tendências. Não reproduzir capas sem licença.",
+  "data": "2026-11-03",
+  "fato": "The World Ahead é série editorial anual de tendências. Não reproduzir capas sem licença.",
+  "fontes": [
+    {
+      "nome": "economistgroup.com",
+      "url": "https://www.economistgroup.com/"
+    }
+  ],
+  "legenda": "As capas anuais da The Economist antecipam temas, não eventos secretos. Para medir acertos, também é preciso olhar os erros.\n\nQual capa você quer que a gente investigue?\n\nFonte: The Economist Group, The World Ahead\n\n#ArquivoOculto #TheEconomist #Simbolos #Futuro #misterio",
+  "nota": 4,
+  "ordem": 7,
+  "perfil": "arquivo",
+  "roteiro": [
+    {
+      "fala": "Todo fim de ano, uma revista britânica publica uma capa sobre o ano que vem.",
+      "tempo": "Cena 1"
+    },
+    {
+      "fala": "A revista é a The Economist. A edição se chama The World Ahead.",
+      "tempo": "Cena 2"
+    },
+    {
+      "fala": "Líderes, símbolos, enigmas. Na internet, cada detalhe vira código secreto.",
+      "tempo": "Cena 3"
+    },
+    {
+      "fala": "Mas a própria revista diz o que é: uma aposta em tendências de política, economia e riscos.",
+      "tempo": "Cena 4"
+    },
+    {
+      "fala": "E quem conta os acertos precisa contar também os erros.",
+      "tempo": "Cena 5"
+    },
+    {
+      "fala": "Análise de tendência pode errar. Profecia, por definição, não pode.",
+      "tempo": "Cena 6"
+    },
+    {
+      "fala": "Qual capa você quer que eu abra primeiro?",
+      "tempo": "Cena 7"
+    }
+  ],
+  "serie": "Capas Sob Análise",
+  "titulo": "As capas da The Economist são profecias?"
+}
